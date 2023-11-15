@@ -1,0 +1,419 @@
+.header {
+    position: sticky;
+    height: 100px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 55;
+    overflow: hidden;
+    background: linear-gradient(
+        90deg,
+        rgba(81, 79, 177, 1) 0%,
+        rgba(76, 117, 183, 1) 24.304988980293274%,
+        rgba(53, 159, 173, 1) 77.56538987159729%,
+        rgba(44, 175, 168, 1) 98.4375%
+      );
+    opacity: 0.8999999761581421;
+}
+.header-bg{
+    background: linear-gradient(
+        90deg,
+        rgba(81, 79, 177, 1) 0%,
+        rgba(76, 117, 183, 1) 24.304988980293274%,
+        rgba(53, 159, 173, 1) 77.56538987159729%,
+        rgba(44, 175, 168, 1) 98.4375%
+      );
+    opacity: 0.8999999761581421;
+}
+
+
+
+
+.header .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1240px;
+    margin: auto;
+    height: 100%;
+    padding: 0 1rem;
+}
+
+.header .nav-menu a {
+    color: #ffffff;
+}
+
+
+
+.header .nav-menu {
+    display: none;
+    list-style-type: none;
+
+}
+
+.header .nav-item {
+    padding: 1.5rem;
+    font-weight: 700;
+    margin-right: 20%;
+}
+
+.header .nav-item a:hover {
+    padding-bottom: 12px;
+    border-bottom: 3px solid var(--secondary-color);
+}
+
+.hamburger {
+    display: none;
+}
+
+
+@media screen and (max-width:940px) {
+    .header {
+        max-width: 100%;
+            background: linear-gradient(
+        90deg,
+        rgba(81, 79, 177, 1) 0%,
+        rgba(76, 117, 183, 1) 24.304988980293274%,
+        rgba(53, 159, 173, 1) 77.56538987159729%,
+        rgba(44, 175, 168, 1) 98.4375%
+      );
+      opacity: 0.8999999761581421;
+    }
+
+    .header .navbar {
+        max-width: 100%;
+    }
+
+    .header .nav-menu {
+        display: flex;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .nav-menu {
+        position: fixed;
+        left: -200%; /* hides hamburger menu when not toggled */
+        top: 83px;
+        flex-direction: column;
+        background: linear-gradient(
+                    180deg, 
+                    #5B56BD 0%, 
+                    #293285 50%,
+                    #0A004A 100%);
+        width: 100%;
+        height: 90vh;
+        z-index: 20;
+        text-align: center;
+        transition: .3s;
+    }
+    
+    .nav-menu a {
+        text-decoration: none
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-item {
+        margin: 1.5rem 0;
+    }
+
+    .header .navbar img {
+        width: 150px;
+    }
+}
+
+
+
+.mainBox {
+    background: linear-gradient(
+        90deg,
+        rgba(81, 79, 177, 1) 0%,
+        rgba(76, 117, 183, 1) 24.304988980293274%,
+        rgba(53, 159, 173, 1) 77.56538987159729%,
+        rgba(44, 175, 168, 1) 98.4375%
+      );
+      opacity: 0.8999999761581421;
+      width: 100%;
+      height: 100px;
+      position: sticky;
+      left: 0px;
+      top: 0px;
+      backdrop-filter: blur(2px);
+      z-index: 40;
+}
+
+.headerBox {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    width: 77%;
+    gap: 110px;
+}
+
+.rightImg {
+    width: 30%;
+    height: 57px;
+    display: flex;
+    position: absolute;
+    left: 60px;
+}
+
+.topMenu {
+    display: flex;
+    flex-direction: row;
+    gap: 81px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 490px;
+    top: 42px;
+}
+
+.topMenuItem {
+    color: #ffffff;
+    text-align: center;
+    font: 500 16px "Poppins", sans-serif;
+    text-transform: uppercase;
+    position: relative;
+    text-decoration: none;
+}
+
+.headerTitle {
+    text-align: left;
+    font: 400 30px/0% "NordiquePro-Bold", sans-serif;
+    position: absolute;
+    left: 120px;
+    top: 22px;
+  }
+
+.headerTitleItem {
+    color: #FFF;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 10%;
+    display: flex;
+
+}
+
+.headerTitleItem2 {
+    color: #e0ff22;
+    font: 400 30px/0% "NordiquePro-Bold", sans-serif;
+    padding-top: 19%;
+    display: flex;
+}
+
+.topMenu:hover {
+    cursor: pointer;
+}
+
+.dropDown {
+    position: relative;
+    width: 132px;
+}
+
+.arrowDown{
+    padding-left: 5px;
+    width: 22px;
+    height: 10px;
+    transition: all 0.9s;
+}
+
+.dropDownBtn{
+    position: absolute;
+    width: 260px;
+    display: flex;
+    align-items: center;
+    background-color: #FFF;
+    justify-content: space-between;
+    transition: all 0.9s;
+}
+
+.dropDownBtn > ul {
+    list-style: none;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.dropDownBtn > ul :hover{
+    padding: 5px;
+    border: 0.5px solid rgb(240, 239, 239);
+    border-radius: 0 0 8px 8px ;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 2px;
+}
+
+.contact {
+    background: #e0ff22;
+    color: #130E5B;
+    border-radius: 4px;
+    width: 191px;
+    height: 45px;
+    position: absolute;
+    right: 5%;
+    top: 28px;
+}
+
+.mobileHamburgerMenu {
+    display: none;
+}
+
+.contact:hover {
+     cursor: pointer;
+     border-radius: 4px;
+     background: #BEE4FF;
+     color: #130E5B;
+ }
+
+
+
+.contactButton{
+    color: var(--Primary-Black-1, #1E1E1E);
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    position: absolute;
+    top: 27%;
+    left: auto;
+    right: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.header-logo {
+    position: absolute;
+    left: 73px;
+    top: 25px;
+    overflow: visible;
+  }
+
+
+
+/*MOBILE RESPONSIVENESS*/
+@media only screen and (max-width: 1130px) and (min-width: 320px){
+
+
+    .mainBox {
+        background: linear-gradient(
+                90deg,
+                rgba(81, 79, 177, 1) 0%,
+                rgba(76, 117, 183, 1) 24.304988980293274%,
+                rgba(53, 159, 173, 1) 77.56538987159729%,
+                rgba(44, 175, 168, 1) 98.4375%
+        );
+        opacity: 0.8999999761581421;
+        width: 100%;
+        height: 100px;
+        position: sticky;
+        left: 0px;
+        top: 0px;
+        backdrop-filter: blur(2px);
+        z-index: 40;
+        
+    }
+
+    .headerBox {
+        height: 100px;
+        width: 320px;
+        display: flex;
+    }
+
+    .right{
+        display: flex;
+        align-items: center;
+        height: 50px;
+        width: 152px;
+        gap: 110px;
+    }
+
+    .rightImg {
+        width: 33.1px;
+        height:38.4px;
+        display: flex;
+        position: absolute;
+        left: 19px;
+    }
+
+    .headerTitle {
+        width: 111.333px;
+        height: 42.667px;
+        flex-shrink: 0;
+        position: absolute;
+        left: 58px;
+        top: 20px;
+    }
+
+    .headerTitleItem {
+        color: var(--White, #FFF);
+        font-family: NordiquePro-Bold;
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 105.3%; /* 20.007px */
+    }
+
+    .headerTitleItem2 {
+        color: #E0FF22;
+        font-family: NordiquePro-Bold;
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 105.3%;
+        bottom: 20px;
+        position: absolute;
+        top: 10px;
+    }
+
+    .topMenu {
+        display: none;
+    }
+
+    .topMenuItem {
+        display: none;
+    }
+
+    .contact {
+        background: none;
+        width: 30px;
+        height: 30px;
+        flex-shrink: 0;
+        position: absolute;
+        right: 5%;
+        top: 35px;
+    }
+
+    .contact:hover {
+        background: none;
+    }
+
+    .mobileHamburgerMenu{
+        display: inline-block;
+    }
+
+    .mobileHamburgerMenu:hover {
+        cursor: pointer;
+    }
+
+    .contactButton{
+        display: none;
+    }
+
+
+
+}

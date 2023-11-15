@@ -1,0 +1,319 @@
+.backgroundImage {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    max-width: 1530px;
+    height: 617px;
+    margin: auto;
+    overflow-x: hidden;
+    margin-top: -200px;
+}
+a { text-decoration: none; color: #dbdad7}
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:focus { text-decoration: none; }
+a:hover, a:active { text-decoration: none; }
+
+.footerName {
+    align-items: flex-end;
+
+}
+
+.footerInfo {
+    position: absolute;
+    width: 100%;
+    height: 515px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.innerFooterInfo {
+    width: 1110px;
+    height: 515px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.TopFooterInfo {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rightFooterInfo {
+    width: 100%;
+    height: 100px;
+
+}
+
+.imgValuable {
+    width: 50%;
+    height: 70px;
+    display: flex;
+
+}
+
+.footerLogo {
+    width: 50px;
+    height: 58px;
+}
+
+.offerwallBox {
+    width: 220px;
+    height: 58px;
+    padding-left: 12px;
+
+}
+
+.offerwall {
+
+    color: var(--White, #FFF);
+    /*font-family: NordiquePro-Bold;*/
+    font: 400 30px/0% "NordiquePro-Bold", sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 30px;
+
+}
+
+.monetization {
+    color: #E0FF22;
+    font: 400 30px/0% "NordiquePro-Bold", sans-serif;
+    font-size: 30px;
+    font-style: bold;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.valuable {
+    width: 100%;
+    height: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 131.5%;
+    color: #FFF;
+}
+
+.leftFooterInfo {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+
+}
+
+.info {
+    width: 100%;
+    height: 20px;
+}
+
+.rightInfo {
+    display: flex;
+    justify-content: space-between;
+    color: var(--Modal-grey-1, #DBDAD7);
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+
+}
+
+.leftInfo {
+    width: 20%;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 5px;
+}
+
+
+.footerDivider {
+    height: 1px;
+    width: 1110px;
+
+}
+
+.footerDivider>hr {
+    border: 0.5px solid #DEDEDE
+}
+
+.downFooterInfo {
+    width: 100%;
+    height: 103px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: #DBDAD7;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+/*MOBILE RESPONSIVENESS*/
+@media only screen and (max-width: 1280px) and (min-width: 320px) {
+
+    .footerName {
+        display: flex;
+
+    }
+
+    .backgroundImage {
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 1550px;
+        height: 617px;
+        margin: auto;
+        overflow-x: hidden;
+        margin-top: -450px;
+        z-index: 50;
+    }
+
+
+    .innerFooterInfo {
+        margin: 20px;
+        height: 370px;
+        position: relative;
+        display: flex;
+        justify-content: flex-start;
+        top: 200px;
+
+    }
+
+    .TopFooterInfo {
+        height: 290px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        justify-content: flex-start;
+    }
+
+    .rightFooterInfo {
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        align-content: flex-start;
+        flex-direction: column;
+        flex-wrap: wrap;
+        position: relative;
+    }
+
+    .footerLogo {
+        width: 33.104px;
+        height: 38.4px;
+        display: flex;
+        position: relative;
+        margin-top: 10px;
+    }
+
+    .offerwallBox {
+        width: 220px;
+        height: 58px;
+        padding-left: 12px;
+        margin: 10px 5px;
+        position: relative;
+
+    }
+
+    .offerwall {
+        color: var(--White, #FFF);
+        font-family: NordiquePro-Bold, sans-serif;
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 105.3%;
+        position: absolute;
+
+    }
+
+    .monetization {
+        color: #E0FF22;
+        font-family: NordiquePro-Bold, sans-serif;
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 105.3%;
+
+        position: absolute;
+    }
+
+    .imgValuable {
+        width: 33.104px;
+        height: 38.4px;
+        position: absolute;
+
+    }
+
+    .valuable {
+        width: 100%;
+        height: 36px;
+        flex-shrink: 0;
+        font-size: 14px;
+        top: 65px;
+        position: relative;
+    }
+
+    .info {
+        width: 100%;
+        height: 140px;
+        margin-top: 60px;
+
+    }
+
+
+    .leftFooterInfo {
+        position: relative;
+        margin-top: 20px;
+
+    }
+
+
+    .rightInfo {
+        font-size: 14px;
+        height: 140px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .leftInfo {
+        width: 24px;
+        height: 24px;
+        top: 80px;
+        position: relative;
+    }
+
+
+    .footerDivider {
+        height: 0.7px;
+        width: 352px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .downFooterInfo {
+        width: 284px;
+        height: 81px;
+        text-align: center;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
