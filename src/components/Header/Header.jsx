@@ -11,6 +11,7 @@ const Header = () => {
     const [open, setOpen] = useState(false);
     const menuRef = useRef();
     const businessRef = useRef();
+    const mobileBusinessRef = useRef();
 
     const [click, setClick] = useState(false)
     const [color, setColor] = useState(false)
@@ -18,7 +19,7 @@ const Header = () => {
     const handleClick = () => setClick(!click)
 
     window.addEventListener("click", (e) => {
-        if (e.target !== menuRef.current && e.target !== businessRef.current) {
+        if (e.target !== menuRef.current && e.target !== businessRef.current && e.target !== mobileBusinessRef.current) {
             setOpen(false);
         }
     });
@@ -107,7 +108,7 @@ const Header = () => {
                                     <div onClick={closeMenu}>FOR BUSINESS</div>
                                     <div className={styles.dropDown}>
                                         <div
-                                            ref = {businessRef}
+                                            ref = {mobileBusinessRef}
                                             onClick = {() => setOpen(!open)}>
                                             FOR BUSINESS
 
