@@ -15,7 +15,7 @@ const Header = () => {
     const [click, setClick] = useState(false)
     const [color, setColor] = useState(false)
 
-    const handleClick = () => setClick(click)
+    const handleClick = () => setClick(!click)
 
     window.addEventListener("click", (e) => {
         if (e.target !== menuRef.current && e.target !== businessRef.current) {
