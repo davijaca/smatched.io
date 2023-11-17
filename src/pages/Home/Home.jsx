@@ -13,57 +13,40 @@ const Home = () => {
 
                 <div className={styles.topFirst}>
                     <div style={{ height: "982px", display: "flex", justifyContent: "center"}}>
-                            <div className={styles.gradientContainer}>
-
-                                
-                                <div className={styles.gradientContainerRight}></div>
-                                <div className={styles.gradientContainerLeft}>
-                                <svg class={styles.waves} xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 30 150 50" preserveAspectRatio="true" shape-rendering="auto">
-                                <defs>
-                                    <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v105h-352z" />
-                                    
-                                </defs>
-                                <g class={styles.parallax}>
-                                    <use xlinkHref="#gentle-wave" x="48" y="5" fill="rgba(58, 108, 222, 0.3)" />
-                                    <use xlinkHref="#gentle-wave" x="48" y="5" fill="rgba(100, 131, 201, 0.2)" />
-                                    <use xlinkHref="#gentle-wave" x="48" y="5" fill="rgba(46, 67, 141, 0.1)" />
-                                    <use xlinkHref="#gentle-wave" x="48" y="5" fill="rgba(77, 113, 184, 0.1)" />
-                                </g>
-                            </svg>
-                                </div>
-
-                            </div>
-
                             <div className={styles.mainFirst}>
                             <div className={styles.rightMain}>
                                 <h1 className={styles.text}>
-                                Offerwalls:
-                                    <br/>
-                                    A Valuable Tool for
+                                    Boost
                                     <br />
-                                    <h2 className={styles.M}>Monetizing</h2>
-                                    Mobile
-                                    Games
+                                    Monetization.
                                 </h1>
+                                <h2 className={styles.text2}>
+                                    Retain Users.
+                                </h2>
                                 <div className={styles.parag}>
-                                    <div className={styles.innerParag}> Offerwalls are a great monetization
-                                    tool primarily because they help gaming
-                                    publishers and developers reach a wider
-                                        audience which in turn…
+                                    <div className={styles.innerParag}> Metered paywalls have an average 
+                                    conversion rate of just 0.36%. Smatched builds customized
+                                     ‘earn to play’ offerwalls that boost monetization on your 
+                                     mobile app or website and helps you retain users by offering more choice.
                                     </div>
                                 </div>
                                 <div className={styles.buttonText}>
-                                    <div className={styles.buttonText1}>Increases retention</div>
-                                    <div className={styles.buttonText2}>Generates additional revenue</div>
+                                    <div className={styles.buttonText1}>BOOK A DEMO</div>
                                 </div>
-                                <div className={styles.downClickImg}>
-                                    <img src="./downClick.png" alt='A down arrow'
-                                    />
+                                <div className={styles.bottomHero}>
+                                    <h1 className={styles.bottomHero1}>+50%</h1>
+                                    <h2>Sales increase
+                                    <br />
+                                    through existing users</h2>
+                                    <h1 className={styles.bottomHero2}>1000+</h1>
+                                    <h2>New
+                                    <br />
+                                    subscriptions</h2>
                                 </div>
                             </div>
                             <div className={styles.leftMain}>
                                 <div className={styles.leftImgInfo}>
-                                    <img className={styles.leftImg} src="./iPhone_14%20_Pro.png" alt='An iPhone with an offerwall'/>
+                                    <img className={styles.leftImg} src="./heroImage.png" alt='An iPhone with an offerwall'/>
                                 </div>
                             </div>
                             </div>
@@ -73,57 +56,55 @@ const Home = () => {
             </div>
 
             <div className={styles.mobileFirstHomeContainer}>
-                {/* <div className={styles.hrLine}>
-                    <hr />
-                </div> */}
-                <div className={styles.mobileTopFirst}>
+            <div className={styles.topFirst}>
                     <div style={{ height: "982px", display: "flex", justifyContent: "center"}}>
-
+                        <div className={styles.mobileTopFirstBg}>
                             <div className={styles.mainFirstMobile}>
-
+                            <div className={styles.leftMainMobile}>
+                                <div className={styles.leftImgInfoMobile}>
+                                    <img className={styles.leftImgMobile} src="./heroImage.png" alt='An iPhone with an offerwall'/>
+                                </div>
+                            </div>
                             <div className={styles.rightMainMobile}>
                                 <h1 className={styles.textMobile}>
-                                    Offerwalls:
-                                    <br/>
-                                    A Valuable Tool for
+                                    Boost
                                     <br />
-                                    <h2 className={styles.M}>Monetizing</h2>
-                                    Mobile
-                                    Games
+                                    Monetization.
                                 </h1>
-
-                                <div className={styles.leftMainMobile}>
-                                    <div className={styles.leftImgInfoMobile}>
-                                        <img className={styles.leftImgMobile} src="./iPhone_14%20_Pro.png" alt='An iPhone with an offerwall'/>
+                                <h2 className={styles.text2Mobile}>
+                                    Retain Users.
+                                </h2>
+                                <div className={styles.paragMobile}>
+                                    <div className={styles.innerParagMobile}> Metered paywalls have an average 
+                                    conversion rate of just 0.36%. Smatched builds customized
+                                     ‘earn to play’ offerwalls that boost monetization on your 
+                                     mobile app or website and helps you retain users by offering more choice.
                                     </div>
                                 </div>
-                            
-                                <div className={styles.paragMobile}>
-                                    <div className={styles.innerParagMobile}> Offerwalls are a great monetization
-                                    tool primarily because they help gaming
-                                    publishers and developers reach a wider
-                                        audience which in turn…
+                                <div className={styles.bottomHeroMobile}>
+                                    <div className={styles.bottomHeroRightMobile}>
+                                        <h1 className={styles.bottomHero1Mobile}>+50%</h1>
+                                        <h2>Sales increase
+                                        <br />
+                                        through existing users</h2>
+                                    </div>
+                                    <div className={styles.bottomHeroLeftMobile}>
+                                        <h1 className={styles.bottomHero2Mobile}>1000+</h1>
+                                        <h2>New
+                                        subscriptions</h2>
                                     </div>
                                 </div>
                                 <div className={styles.buttonTextMobile}>
-                                    <div className={styles.buttonText1Mobile}>Increases retention</div>
-                                    <div className={styles.buttonText2Mobile}>Generates additional revenue</div>
+                                    <div className={styles.buttonText1Mobile}>BOOK A DEMO</div>
                                 </div>
-                                <div className={styles.downClickImgMobile}>
-                                    <img src="./downClick.png" alt='A down arrow'
-                                    />
-                                </div>
-                            </div>
 
                             </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-
-                {/*<ScrollDivider ref={ref} className={styles.scrollDivider } />*/}
-
-
             </div>
-
+{/* 
             <div className={styles.belowFirst}>
                 <div className={styles.innerBelowFirst1}>
                     <div className={styles.innerBelowBox1}>
@@ -173,10 +154,10 @@ const Home = () => {
                         <img className= {styles.image2} src="./mobileP_Hover.png" alt='A picture of a phone'/>
                     </div>
             </div>
-
+ */}
 
             {/*Second Home mobile responsiveness*/}
-
+{/* 
             <div className={styles.mobileSecondHomeContainer}>
                 <div className={styles.innerMobileSection3}>
                     <div className={styles.mobileWhat}>
@@ -214,10 +195,10 @@ const Home = () => {
                 </div>
 
             </div>
-
+ */}
 
                 {/*Third Home mobile Responsiveness*/}
-
+{/* 
             <div className={styles.mobileThirdHomeContainer}>
                     <div className={styles.mobileTh1} style={{ backgroundImage: "url(./Th1Mobile.png)"}}>
                         <div className={styles.innerMobileTh1}>
@@ -304,9 +285,10 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-
+ */}
 
             {/*MOBILE FOURTH HOME CONTAINER*/}
+{/* 
             <div className={styles.mobileFourthHomeContainer}>
                  <div className={styles.mobileSubFourthHomeContainer}>
 
@@ -417,10 +399,11 @@ const Home = () => {
 
                 </div>
             </div>
-
+ */}
 
             {/*MOBILE FIFTH HOME CONTAINER*/}
-            <div className={styles.mobileFifthHomeContainer}>
+{/* 
+            div className={styles.mobileFifthHomeContainer}>
                 <div className={styles.fifthHomeBackground}>
 
                     <div className={styles.innerFifthHomeContainer1}>
@@ -456,9 +439,10 @@ const Home = () => {
 
                 </div>
             </div>
-
+ */}
 
             {/*MOBILE SIXTH HOME CONTAINER*/}
+{/*             
             <div className={styles.mobileSixthHomeContainer}>
                 <div className={styles.sixthBox1}>
                     <div className={styles.offerwallSolves}>
@@ -646,10 +630,10 @@ const Home = () => {
 
           </div>
           </div>
-
+ */}
 
             {/*MOBILE SEVENTH HOME CONTAINER*/}
-
+{/* 
             <div className={styles.seventhMobileHomeContainer}>
                 <div style={{ background: "url(./rect_1203mobile.png)", width: "100vw", maxWidth: "393px", display: "flex", flexDirection: "column", justifyContent: "flex-end", alignItems: "center", margin:"auto", backgroundRepeat: "no-repeat"}}>
 
@@ -802,7 +786,7 @@ const Home = () => {
                 </div>
 
             </div>
-
+*/}
             </div>
 
 

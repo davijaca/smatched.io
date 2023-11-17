@@ -6,7 +6,7 @@ const Footer = () => {
     <>
       {/*<div className={styles.footerContainer}>*/}
       <div className={styles.footerName}>
-        <div
+        {/* <div
           className={styles.backgroundImage}
           style={{ backgroundImage: 'url(./footer_bg.png)' }}
         >
@@ -59,7 +59,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   );
