@@ -108,7 +108,7 @@ h2 {
 
 .M {
     color: var(--White, #E0FF22);
-    font-family: Poppins, sans-serif;
+    font-family: gotham-light, sans-serif;
     font-size: 55px;
     font-style: normal;
     font-weight: 700;
@@ -155,7 +155,7 @@ h2 {
     background-color: #FFFFFF;
     color: var(--Modal-grey-1, #000000);
     text-align: center;
-    font-family: Poppins, sans-serif;
+    font-family: gotham-light, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -176,6 +176,8 @@ h2 {
     align-items: center;
     z-index: 5;
 }
+
+
 
 @font-face{
     font-family: gotham-light;
@@ -226,23 +228,9 @@ h2 {
     letter-spacing: -2.25px;
 }
 
-.downClickImg {
-    width: 99.5%;
-    height: 190px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    z-index: 5;
-}
 
-.downClickImg > img {
-    width: 144px;
-    height: 144px;
-}
 
-/*.scrollDivider {*/
-/*    position: absolute;*/
-/*}*/
+
 
 .leftMain {
     width: 50%;
@@ -310,7 +298,7 @@ h2 {
 .percentage, .blog {
     color: #E0FF22;
     text-align: center;
-    font-family: Poppins, sans-serif;
+    font-family: gotham-light, sans-serif;
     font-size: 80px;
     font-style: normal;
     font-weight: 600;
@@ -321,7 +309,7 @@ h2 {
 
 .retention {
     color: var(--White, #FFF);
-    font-family: Poppins, sans-serif;
+    font-family: gotham-light, sans-serif;
     font-size: 25px;
     font-style: normal;
     font-weight: 600;
@@ -333,7 +321,7 @@ h2 {
 .study, .explore {
     color: var(--White, #FFF);
     text-align: center;
-    font-family: Poppins, sans-serif;
+    font-family: gotham-light, sans-serif;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -398,7 +386,7 @@ button {
     color: var(--White, #FFF);
     text-align: center;
     background: #1F1F1F;
-    font-family: Poppins;
+    font-family: gotham-light;
     font-size: 15px;
     font-style: normal;
     font-weight: 500;
@@ -451,7 +439,7 @@ button:hover {
     width: 78%;
     height: 85px;
     color: var(--Primary-Black-1, #1E1E1E);
-    font-family: Poppins, sans-serif;
+    font-family: gotham-light, sans-serif;
     font-size: 55px;
     font-style: normal;
     font-weight: 700;
@@ -463,7 +451,7 @@ button:hover {
     width: 78%;
     height: 70px;
     color: #8764E3;
-    font-family: Poppins, sans-serif;
+    font-family: gotham-light, sans-serif;
     font-size: 55px;
     font-style: normal;
     font-weight: 700;
@@ -483,7 +471,7 @@ button:hover {
 
 .anOfferwallParag {
     color: var(--Primary-Black-1, #1E1E1E);
-    font-family: Poppins;
+    font-family: gotham-light;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -569,7 +557,7 @@ button:hover {
 .mobileProblem1,
 .with {
     color: #E0FF22;
-    font-family: Poppins, sans-serif;
+    font-family: gotham-light, sans-serif;
     font-size: 55px;
     font-style: normal;
     font-weight: 700;
@@ -584,7 +572,7 @@ button:hover {
 
 .mobileProblem2 {
     color: var(--White, #FFF);
-    font-family: Poppins, sans-serif;
+    font-family: gotham-light, sans-serif;
     font-size: 55px;
     font-style: normal;
     font-weight: 700;
@@ -600,7 +588,7 @@ button:hover {
 
 .gameDeveloper1 {
     color: var(--White, #FFF);
-    font-family: Poppins, sans-serif;
+    font-family: gotham-light, sans-serif;
     width: 474px;
     font-size: 18px;
     font-style: normal;
@@ -639,7 +627,7 @@ button:hover {
     justify-content: center;
     color: var(--Primary-Black-1, #1E1E1E);
     text-align: center;
-    font-family: Poppins, sans-serif;
+    font-family: gotham-light, sans-serif;
     font-size: 50px;
     font-style: normal;
     font-weight: 700;
@@ -649,7 +637,7 @@ button:hover {
 .innerFourthHomeBox1 {
     color: var(--Primary-Black-1, #8764E3);
     text-align: center;
-    font-family: Poppins, sans-serif;
+    font-family: gotham-light, sans-serif;
     font-size: 50px;
     font-style: normal;
     font-weight: 700;
@@ -696,7 +684,7 @@ button:hover {
     padding-top: 10px;
     width: 297px;
     color: var(--Primary-Black-1, #1E1E1E);
-    font-family: Poppins, sans-serif;
+    font-family: gotham-light, sans-serif;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -711,7 +699,7 @@ button:hover {
 
 .fourth13Smatched {
     color: var(--Primary-Blue-1, #2A2AFF);
-    font-family: Poppins;
+    font-family: gotham-light;
     font-size: 15px;
     font-style: normal;
     font-weight: 500;
@@ -775,7 +763,7 @@ button:hover {
     width: 100%;
     color: var(--Primary-Black-1, #1E1E1E);
     text-align: center;
-    font-family: Poppins, sans-serif;
+    font-family: gotham-light, sans-serif;
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
@@ -836,7 +824,7 @@ button:hover {
 
 .innerFifthBox1, .highest {
     color: var(--White, #FFF);
-    font-family: Poppins, sans-serif;
+    font-family: gotham-light, sans-serif;
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
@@ -853,7 +841,7 @@ button:hover {
 
 .engagement {
     color: var(--White, #E0FF22);
-    font-family: Poppins, sans-serif;
+    font-family: gotham-light, sans-serif;
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
@@ -863,7 +851,7 @@ button:hover {
 
 .innerFifthMainBox2 {
     color: var(--White, #FFF);
-    font-family: Poppins;
+    font-family: gotham-light;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -893,7 +881,7 @@ button:hover {
     width: 176px;
     color: #E0FF22;
     text-align: center;
-    font-family: Poppins;
+    font-family: gotham-light;
     font-size: 80px;
     font-style: normal;
     font-weight: 500;
@@ -906,7 +894,7 @@ button:hover {
 .makeInApp {
     color: #BCBCBC;
     text-align: center;
-    font-family: Poppins, sans-serif;
+    font-family: gotham-light, sans-serif;
     font-size: 15px;
     font-style: normal;
     font-weight: 500;
@@ -947,7 +935,7 @@ button:hover {
 .offerwallSolves, .problems {
     color: var(--Primary-Black-1, #1E1E1E);
     text-align: center;
-    font-family: Poppins, sans-serif;
+    font-family: gotham-light, sans-serif;
     font-size: 55px;
     font-style: normal;
     font-weight: 700;
@@ -957,7 +945,7 @@ button:hover {
 
 .solves {
     color: #8764E3;
-    font-family: Poppins, sans-serif;
+    font-family: gotham-light, sans-serif;
     font-size: 55px;
     font-style: normal;
     font-weight: 700;
@@ -1014,7 +1002,7 @@ button:hover {
     height: 230px;
     color: var(--Primary-Black-1, #1E1E1E);
     text-align: center;
-    font-family: Poppins, sans-serif;
+    font-family: gotham-light, sans-serif;
     font-size: 23px;
     font-style: normal;
     font-weight: 600;
@@ -1056,7 +1044,7 @@ button:hover {
 .implementingSoln {
     display: flex;
     color: var(--Primary-Black-1, #1E1E1E);
-    font-family: Poppins, sans-serif;
+    font-family: gotham-light, sans-serif;
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
@@ -1067,7 +1055,7 @@ button:hover {
 .implementing {
     color: var(--Primary-Black-1, #8764E3);
     text-align: center;
-    font-family: Poppins, sans-serif;
+    font-family: gotham-light, sans-serif;
     font-size: 55px;
     font-style: normal;
     font-weight: 700;
@@ -1081,7 +1069,7 @@ button:hover {
 
 .avenue {
     color: var(--Primary-Black-1, #1E1E1E);
-    font-family: Poppins, sans-serif;
+    font-family: gotham-light, sans-serif;
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
@@ -1093,7 +1081,7 @@ button:hover {
 .priceEngage {
     display: flex;
     color: var(--Primary-Black-1, #1E1E1E);
-    font-family: Poppins, sans-serif;
+    font-family: gotham-light, sans-serif;
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
@@ -1109,7 +1097,7 @@ button:hover {
 .usersDecrease {
     display: flex;
     color: var(--Primary-Black-1, #1E1E1E);
-    font-family: Poppins, sans-serif;
+    font-family: gotham-light, sans-serif;
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
@@ -1142,7 +1130,7 @@ button:hover {
 
 .innerSevenBlog {
     color: var(--Primary-Black-1, #1E1E1E);
-    font-family: Poppins, sans-serif;
+    font-family: gotham-light, sans-serif;
     font-size: 52px;
     font-style: normal;
     font-weight: 700;
@@ -1153,7 +1141,7 @@ button:hover {
 .innerSevenArticles {
     color: var(--Primary-Blue-1, #2A2AFF);
     text-align: right;
-    font-family: Poppins, sans-serif;
+    font-family: gotham-light, sans-serif;
     font-size: 25px;
     font-style: normal;
     font-weight: 500;
@@ -1206,7 +1194,7 @@ button:hover {
 
 .exploring {
     color: var(--Primary-Black-1, #1E1E1E);
-    font-family: Poppins, sans-serif;
+    font-family: gotham-light, sans-serif;
     font-size: 30px;
     font-style: normal;
     font-weight: 700;
@@ -1222,7 +1210,7 @@ button:hover {
     justify-content: space-between;
     align-items: center;
     color: var(--Primary-Black-1, #1E1E1E);
-    font-family: Poppins, sans-serif;
+    font-family: gotham-light, sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -1245,7 +1233,7 @@ button:hover {
 
 .minRead {
     color: var(--Primary-Black-1, #1E1E1E);
-    font-family: Poppins, sans-serif;
+    font-family: gotham-light, sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -1271,7 +1259,7 @@ button:hover {
     border: 1px solid var(--Primary-Black-1, #1E1E1E);
     color: var(--Primary-Black-1, #1E1E1E);
     text-align: center;
-    font-family: Poppins, sans-serif;
+    font-family: gotham-light, sans-serif;
     font-size: 15px;
     font-style: normal;
     font-weight: 500;
@@ -1318,7 +1306,7 @@ button:hover {
     flex-shrink: 0;
     height: 80px;
     color: var(--Primary-Black-1, #1E1E1E);
-    font-family: Poppins, sans-serif;
+    font-family: gotham-light, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
@@ -1335,7 +1323,7 @@ button:hover {
     justify-content: space-between;
     align-items: center;
     color: var(--Primary-Black-1, #1E1E1E);
-    font-family: Poppins, sans-serif;
+    font-family: gotham-light, sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -1392,7 +1380,7 @@ button:hover {
 
 .getInTouch {
     color: var(--Primary-Black-1, #1E1E1E);
-    font-family: Poppins, sans-serif;
+    font-family: gotham-light, sans-serif;
     font-size: 52px;
     font-style: normal;
     font-weight: 700;
@@ -1404,7 +1392,7 @@ button:hover {
 
 .inTouch {
     color: var(--Primary-Black-1, #8764E3);
-    font-family: Poppins, sans-serif;
+    font-family: gotham-light, sans-serif;
     font-size: 52px;
     font-style: normal;
     font-weight: 700;
@@ -1413,7 +1401,7 @@ button:hover {
 
 .schedule {
     color: var(--Primary-Black-1, #1E1E1E);
-    font-family: Poppins, sans-serif;
+    font-family: gotham-light, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -1543,7 +1531,7 @@ button:hover {
 .valuable {
     width: 100%;
     height: 40px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'gotham-light', sans-serif;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -1568,7 +1556,7 @@ button:hover {
     display: flex;
     justify-content: space-between;
     color: var(--Modal-grey-1, #DBDAD7);
-    font-family: Poppins, sans-serif;
+    font-family: gotham-light, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -1601,7 +1589,7 @@ button:hover {
     width: 100%;
     height: 100px;
     font-size: 15px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'gotham-light', sans-serif;
     color: #FFFFFF;
     display: flex;
     justify-content: center;
@@ -1615,4 +1603,233 @@ button:hover {
 /*MOBILE RESPONSIVENESS*/
 
 
- 
+@media only screen and (max-width: 1130px) and (min-width: 320px){
+
+
+    .homeContainer {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100vw;
+        position: relative;
+        margin-top: -150px;
+    }
+
+    .waves {
+        display: none;
+    }
+
+    /*FIRST MOBILE SECTION*/
+
+
+    .firstHomeContainer {
+        display: none;
+    }
+
+   .mobileFirstHomeContainer {
+        background-color: #000000;
+        display: flex;
+        width: 100%;
+        height: 1100px;
+        position: relative;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+   }
+
+
+    .topFirstBg{
+        display: none;
+    }
+
+    .mobileTopFirstBg {
+        display: flex;
+        height: 1500px;
+        width: 100%;
+        background-repeat: no-repeat ;
+        justify-content: center;
+        background: url(/public/heroBackgroundMobile.svg) no-repeat right top 0;
+    }
+
+
+    .mainFirstMobile {
+        display: flex;
+        width: 352px;;
+        height: 1305px;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 100px;
+    }
+
+    .rightMainMobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-top: 20px;
+    }
+
+    .textMobile {
+        color: var(--White, #FFF);
+        font-family: gotham-light;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 131.5%; /* 72.325px */
+        z-index: 5;
+    }
+
+    .text2Mobile{
+        color: var(--White, #FFF);
+        font-family: gotham-light;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 131.5%; /* 72.325px */
+        z-index: 5;
+    }
+
+    .bottomHeroMobile{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .bottomHeroMobile h2 {
+        color: #FFF;
+        width: 200px;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: gotham-light;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px; /* 185.714% */
+    }
+
+    .bottomHeroRightMobile{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+
+    .bottomHero1Mobile {
+        color: #FFF;
+        font-family: gotham-light;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 30px; /* 60% */
+        letter-spacing: -2.25px;
+        margin-right: 35px;
+    }
+
+    .bottomHeroLeftMobile{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bottomHero2Mobile {
+        color: #FFF;
+        font-family: gotham-light;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 30px; /* 60% */
+        letter-spacing: -2.25px;
+        margin-right: 30px;
+    }
+    
+
+    .forMonetize {
+        display: flex;
+    }
+
+    .paragMobile {
+        width: 100%;
+        height: 90px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .innerParagMobile {
+        width: 352px;
+        height: 95px;
+        color: var(--White, #FFF);
+        font-family: gotham-light;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px; /* 157.143% */
+    }
+
+    .buttonTextMobile {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .buttonText1Mobile, .buttonText2Mobile{
+        border: 1px solid #FFF;
+        width: 220px;
+        height: 46px;
+        flex-shrink: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #FFFFFF;
+        color: var(--Modal-grey-1, #000000);
+        text-align: center;
+        font-family: gotham-light, sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        z-index: 5;
+    }
+
+    .buttonText2Mobile {
+        width: 320px;
+    }
+
+    .downClickImgMobile {
+        width: 99.5%;
+        height: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 60px;
+    }
+
+    .downClickImgMobile > img {
+        width: 144px;
+        height: 144px;
+    }
+
+
+    .leftMainMobile {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 5;
+    
+
+    }
+
+    .leftImgInfoMobile {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .leftImgMobile {
+        width: 350px;
+        height: 350px;
+        transition: all 2s ease;
+    }
+
+
+}

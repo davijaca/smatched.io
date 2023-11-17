@@ -13,16 +13,6 @@ const Home = () => {
 
                 <div className={styles.topFirst}>
                     <div style={{ height: "982px", display: "flex", justifyContent: "center"}}>
-                            <div className={styles.gradientContainer}>
-
-                                
-                                <div className={styles.gradientContainerRight}></div>
-                                <div className={styles.gradientContainerLeft}>
-
-                                </div>
-
-                            </div>
-
                             <div className={styles.mainFirst}>
                             <div className={styles.rightMain}>
                                 <h1 className={styles.text}>
@@ -66,55 +56,53 @@ const Home = () => {
             </div>
 
             <div className={styles.mobileFirstHomeContainer}>
-                {/* <div className={styles.hrLine}>
-                    <hr />
-                </div> */}
-                <div className={styles.mobileTopFirst}>
+            <div className={styles.topFirst}>
                     <div style={{ height: "982px", display: "flex", justifyContent: "center"}}>
-
+                        <div className={styles.mobileTopFirstBg}>
                             <div className={styles.mainFirstMobile}>
-
+                            <div className={styles.leftMainMobile}>
+                                <div className={styles.leftImgInfoMobile}>
+                                    <img className={styles.leftImgMobile} src="./heroImage.png" alt='An iPhone with an offerwall'/>
+                                </div>
+                            </div>
                             <div className={styles.rightMainMobile}>
                                 <h1 className={styles.textMobile}>
-                                    Offerwalls:
-                                    <br/>
-                                    A Valuable Tool for
+                                    Boost
                                     <br />
-                                    <h2 className={styles.M}>Monetizing</h2>
-                                    Mobile
-                                    Games
+                                    Monetization.
                                 </h1>
-
-                                <div className={styles.leftMainMobile}>
-                                    <div className={styles.leftImgInfoMobile}>
-                                        <img className={styles.leftImgMobile} src="./iPhone_14%20_Pro.png" alt='An iPhone with an offerwall'/>
+                                <h2 className={styles.text2Mobile}>
+                                    Retain Users.
+                                </h2>
+                                <div className={styles.paragMobile}>
+                                    <div className={styles.innerParagMobile}> Metered paywalls have an average 
+                                    conversion rate of just 0.36%. Smatched builds customized
+                                     ‘earn to play’ offerwalls that boost monetization on your 
+                                     mobile app or website and helps you retain users by offering more choice.
                                     </div>
                                 </div>
-                            
-                                <div className={styles.paragMobile}>
-                                    <div className={styles.innerParagMobile}> Offerwalls are a great monetization
-                                    tool primarily because they help gaming
-                                    publishers and developers reach a wider
-                                        audience which in turn…
+                                <div className={styles.bottomHeroMobile}>
+                                    <div className={styles.bottomHeroRightMobile}>
+                                        <h1 className={styles.bottomHero1Mobile}>+50%</h1>
+                                        <h2>Sales increase
+                                        <br />
+                                        through existing users</h2>
+                                    </div>
+                                    <div className={styles.bottomHeroLeftMobile}>
+                                        <h1 className={styles.bottomHero2Mobile}>1000+</h1>
+                                        <h2>New
+                                        subscriptions</h2>
                                     </div>
                                 </div>
                                 <div className={styles.buttonTextMobile}>
-                                    <div className={styles.buttonText1Mobile}>Increases retention</div>
-                                    <div className={styles.buttonText2Mobile}>Generates additional revenue</div>
+                                    <div className={styles.buttonText1Mobile}>BOOK A DEMO</div>
                                 </div>
-                                <div className={styles.downClickImgMobile}>
-                                    <img src="./downClick.png" alt='A down arrow'
-                                    />
-                                </div>
-                            </div>
 
                             </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-
-                {/*<ScrollDivider ref={ref} className={styles.scrollDivider } />*/}
-
-
             </div>
 {/* 
             <div className={styles.belowFirst}>
