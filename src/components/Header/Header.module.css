@@ -13,6 +13,12 @@
     margin: auto;
 }
 
+@font-face{
+    font-family: gotham-light;
+    src: url('/public/fonts/Gotham/Gotham-Light.otf');
+ }
+
+
 .headerBox {
     height: 70px;
     width: 90%;
@@ -54,7 +60,7 @@ img{
     height: 70px;
     color: #FFF;
     font-feature-settings: 'clig' off, 'liga' off;
-    font-family: Gotham;
+    font-family: gotham-light;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -112,7 +118,7 @@ img{
     background: #080503;
     color: var(--White, #FFF);
     font-feature-settings: 'clig' off, 'liga' off;
-    font-family: Gotham;
+    font-family: gotham-light;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -141,7 +147,7 @@ img{
     color: var(--White, #FFF);
     text-align: center;
     font-feature-settings: 'clig' off, 'liga' off;
-    font-family: Gotham;
+    font-family: gotham-light;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -281,7 +287,7 @@ img{
         color: var(--White, #FFF);
         text-align: center;
         font-feature-settings: 'clig' off, 'liga' off;
-        font-family: Gotham;
+        font-family: gotham-light;
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
