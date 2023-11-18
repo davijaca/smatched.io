@@ -12,44 +12,42 @@ const Home = () => {
             <div className={styles.firstHomeContainer}>
 
                 <div className={styles.topFirst}>
-                    <div style={{ height: "982px", display: "flex", justifyContent: "center"}}>
-                            <div className={styles.mainFirst}>
-                            <div className={styles.rightMain}>
-                                <h1 className={styles.text}>
-                                    Boost
-                                    <br />
-                                    Monetization.
-                                </h1>
-                                <h2 className={styles.text2}>
-                                    Retain Users.
-                                </h2>
-                                <div className={styles.parag}>
-                                    <div className={styles.innerParag}> Metered paywalls have an average 
-                                    conversion rate of just 0.36%. Smatched builds customized
-                                     ‘earn to play’ offerwalls that boost monetization on your 
-                                     mobile app or website and helps you retain users by offering more choice.
-                                    </div>
-                                </div>
-                                <div className={styles.buttonText}>
-                                    <div className={styles.buttonText1}>BOOK A DEMO</div>
-                                </div>
-                                <div className={styles.bottomHero}>
-                                    <h1 className={styles.bottomHero1}>+50%</h1>
-                                    <h2>Sales increase
-                                    <br />
-                                    through existing users</h2>
-                                    <h1 className={styles.bottomHero2}>1000+</h1>
-                                    <h2>New
-                                    <br />
-                                    subscriptions</h2>
-                                </div>
+                    <div className={styles.mainFirst}>
+                    <div className={styles.rightMain}>
+                        <h1 className={styles.text}>
+                            Boost
+                            <br />
+                            Monetization.
+                        </h1>
+                        <h2 className={styles.text2}>
+                            Retain Users.
+                        </h2>
+                        <div className={styles.parag}>
+                            <div className={styles.innerParag}> Metered paywalls have an average 
+                            conversion rate of just 0.36%. Smatched builds customized
+                                ‘earn to play’ offerwalls that boost monetization on your 
+                                mobile app or website and helps you retain users by offering more choice.
                             </div>
-                            <div className={styles.leftMain}>
-                                <div className={styles.leftImgInfo}>
-                                    <img className={styles.leftImg} src="./heroImage.png" alt='An iPhone with an offerwall'/>
-                                </div>
-                            </div>
-                            </div>
+                        </div>
+                        <div className={styles.buttonText}>
+                            <div className={styles.buttonText1}>BOOK A DEMO</div>
+                        </div>
+                        <div className={styles.bottomHero}>
+                            <h1 className={styles.bottomHero1}>+50%</h1>
+                            <h2>Sales increase
+                            <br />
+                            through existing users</h2>
+                            <h1 className={styles.bottomHero2}>1000+</h1>
+                            <h2>New
+                            <br />
+                            subscriptions</h2>
+                        </div>
+                    </div>
+                    <div className={styles.leftMain}>
+                        <div className={styles.leftImgInfo}>
+                            <img className={styles.leftImg} src="./heroImage.png" alt='An iPhone with an offerwall'/>
+                        </div>
+                    </div>
                     </div>
                 </div>
 
@@ -57,7 +55,7 @@ const Home = () => {
 
             <div className={styles.mobileFirstHomeContainer}>
             <div className={styles.topFirst}>
-                    <div style={{ height: "982px", display: "flex", justifyContent: "center"}}>
+                    <div>
                         <div className={styles.mobileTopFirstBg}>
                             <div className={styles.mainFirstMobile}>
                             <div className={styles.leftMainMobile}>
@@ -67,7 +65,7 @@ const Home = () => {
                             </div>
                             <div className={styles.rightMainMobile}>
                                 <h1 className={styles.textMobile}>
-                                    Boost
+                                    <b>Boost</b>
                                     <br />
                                     Monetization.
                                 </h1>
@@ -104,57 +102,52 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-{/* 
-            <div className={styles.belowFirst}>
-                <div className={styles.innerBelowFirst1}>
-                    <div className={styles.innerBelowBox1}>
-                        <div className={styles.percentage}>50 % </div>
-                        <div className={styles.retention}>retention increase</div>
-                        <div className={styles.study}>A study by App Annie found that adding Offerwalls to your existing monetization strategy increases retention by 50% - Why? The answer is…more choice for the user. </div>
-                    </div>
-                </div>
-
-                <div className={styles.innerBelowFirst2}>
-                    <div className={styles.innerBelowBox2}>
-                        <div className={styles.blog}>Blog</div>
-                        <div className={styles.explore}>Explore our blog for expert tips, success stories, and industry updates on maximizing your earnings through offerwall monetisation.</div>
-                        <div className={styles.readMore}>
-                            <button>
-                                Read more
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
             <div className={styles.secondHomeContainer}>
+                <div style={{ display: "flex", flexDirection: "row", alignItems: "flex-start"}}>
                     <div className= {styles.secondHomeContainerBox1}>
                         <div className={styles.whatOffer}>
-                            <div className={styles.what}>What Is an </div>&nbsp;
-                            <div className={styles.offerW}> Offerwall?</div>
+                            <div className={styles.secondLeft}>Monetize provides 
+                            an alternative Subscription Model </div>
                         </div>
 
-                        <div className={styles.anOfferwall}>
+                        <div className={styles.secondRight}>
                             <div className={styles.innerAnOfferwall}>
                                 <div className={styles.anOfferwallParag}>
-                                    An Offerwall is a type of in-app advertising
-                                    unit that allows users to earn rewards by completing
-                                    certain actions like downloading apps, signing up for
-                                    newsletters, or conducting surveys. The user earns
-                                    in-game currency and the gaming publisher earns revenue.
+                                Paywalls are a great revenue option for many businesses but unfortunately, making users pay means your revenue potential is capped. Businesses that offer more than one monetization model retain <b>50% more users.</b>
+                                <br/>
+                                <br/>
+                                What if your users could earn their way past a paywall without having to open their wallet?
                                 </div>
                             </div>
 
                         </div>
                     </div>
+                </div>
 
+                <div style={{height: "200px", display: "flex", flexDirection: "row"}}>
+                    <div className= {styles.secondHomeContainerBox3}>
+                            <div className={styles.firstImg}/>
+                            <div className={styles.secondImg}/>
+                            <div className={styles.thirdImg}/>
+                            <div className={styles.fourthImg}/>
+                    </div>
+                </div>
+
+                <div style={{ display: "flex", flexDirection: "row", alignItems: "flex-start"}}>
+                    <div className= {styles.secondHomeContainerBox4}>
+                            <div className={styles.firstImgText}>Optimized Offerwall </div>
+                            <div className={styles.secondImgText}>Users earn rewards </div>
+                            <div className={styles.thirdImgText}>Users can use rewards as in-app currency</div>
+                            <div className={styles.fourthImgText}>You increase revenue & retention</div>
+                    </div>
+                </div>
 
                     <div className= {styles.secondHomeContainerBox2}>
-                        <img className= {styles.image1} src="./mobileP.png" alt='A picture of a phone'/>
-                        <img className= {styles.image2} src="./mobileP_Hover.png" alt='A picture of a phone'/>
+                        <img className= {styles.image1} src="./section2img.svg" alt='A picture of a phone'/>
                     </div>
             </div>
- */}
+
 
             {/*Second Home mobile responsiveness*/}
 {/* 
@@ -170,32 +163,42 @@ const Home = () => {
                     <div className={styles.mobileInaPPAdd}>An Offerwall is a type of in-app advertising unit that allows users to earn rewards by completing certain actions like downloading apps, signing up for newsletters, or conducting surveys. The user earns in-game currency and the gaming publisher earns revenue. </div>
                 </div>
             </div>
-
+ */}
 
             <div className={styles.thirdHomeContainer}>
-                <div className={styles.imageThirdHomeContainer} style={{ backgroundImage: "url(./Th1.png)", }}>
+                <div className={styles.imageThirdHomeContainer}>
                     <div className={styles.thirdHomeContainerBox}>
-                        <div className={styles.mobileProblem}>
-                            <div className={styles.innerMobileProblem}>
-                                <div className={styles.mobileProblem1}>The Problem </div>&nbsp;&nbsp;
-                                <div className={styles.with}>With</div>
+                        <div className={styles.thirdHomeImage}>
+                            <img src="./thirdSectionImg.png" alt='A laptop and a phone with offerwall rewards'/>
+                        </div>
+                    </div>
+                    <div className={styles.thirdHomeContainerBox}>
+                        <div className={styles.thirdSectionRight}>
+                            <div className={styles.innerThirdSectionRight}>
+                                <div className={styles.thirdSectionRightH1}>Why partner<br/>with Monetize?</div>
                             </div>
-                            <div className={styles.mobileProblem2}> Modern Mobile Game Monetization</div>
+
+                        <div className={styles.thirdSectionRightH2}>
+                            <ul className={styles.thirdSectionRightList}>
+                                <li>Open up another revenue stream</li>
+                                <li>Our business model incentivizes us to provide better experiences for your customers</li>
+                                <li>Easy set-up: no set-up costs or integration work</li>
+                                <li>The Smatched web app is independent, GDPR-compliant and completely secure</li>
+                            </ul>
                         </div>
 
-                        <div className={styles.gameDeveloper}>
-                            <div className={styles.gameDeveloper1}>Many game developers struggle with understanding
-                            the best way to monetize a mobile game, resorting
-                            to flooding their users with ads that interrupt the
-                                user experience and cause their users to write negative reviews.
-                            </div>
+                        <div className={styles.buttonTextGold}>
+                            <div className={styles.buttonText1Gold}>BOOK A DEMO</div>
                         </div>
+                        </div>
+
+
 
                     </div>
                 </div>
 
             </div>
- */}
+
 
                 {/*Third Home mobile Responsiveness*/}
 {/* 
