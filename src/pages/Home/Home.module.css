@@ -16,10 +16,12 @@ h2 {
 
 .homeContainer {
     width: 100vw;
-    max-width: 1530px;
+    max-width: 1920px;
     margin: auto;
     margin-top: -100px;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 /*FIRST SECTION*/
@@ -63,7 +65,7 @@ h2 {
     width: 100%;
     display: flex;
     justify-content: center;
-    height: 734px;
+    height: 950px;
 }
 
 .topFirstBg {
@@ -94,7 +96,7 @@ h2 {
 .text {
     color: var(--White, #FFF);
     font-family: gotham-light;
-    font-size: 49.5px;
+    font-size: 55px;
     font-style: normal;
     font-weight: 700;
     line-height: 131.5%; /* 72.325px */
@@ -104,28 +106,18 @@ h2 {
 .text2{
     color: var(--White, #FFF);
     font-family: gotham-light;
-    font-size: 49.5px;
+    font-size: 55px;
     font-style: normal;
     font-weight: 400;
     line-height: 131.5%; /* 72.325px */
     z-index: 5;
 }
 
-.M {
-    color: var(--White, #E0FF22);
-    font-family: gotham-light, sans-serif;
-    font-size: 55px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 131.5%; /* 72.325px */
-    z-index: 5;
-
-}
 
 .parag {
     width: 100%;
-    padding-top: 27px;
-    padding-bottom: 54px;
+    padding-top: 30px;
+    padding-bottom: 60px;
 }
 
 .innerParag {
@@ -133,7 +125,7 @@ h2 {
     width: 80%;
     font-feature-settings: 'clig' off, 'liga' off;
     font-family: gotham-light;
-    font-size: 16.2px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 29px;
@@ -146,7 +138,7 @@ h2 {
     justify-content: space-between;
     align-items: flex-end;
     z-index: 5;
-    margin-bottom: 27px;
+    margin-bottom: 30px;
 }
 
 .buttonText1, .buttonText2{
@@ -161,7 +153,7 @@ h2 {
     color: var(--Modal-grey-1, #000000);
     text-align: center;
     font-family: gotham-light, sans-serif;
-    font-size: 16.2px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -207,7 +199,7 @@ h2 {
     color: #FFF;
     font-feature-settings: 'clig' off, 'liga' off;
     font-family: gotham-light;
-    font-size: 45px;
+    font-size: 50px;
     font-style: normal;
     font-weight: 500;
     line-height: 30px; /* 60% */
@@ -226,7 +218,7 @@ h2 {
     color: #FFF;
     font-feature-settings: 'clig' off, 'liga' off;
     font-family: gotham-light;
-    font-size: 45px;
+    font-size: 50px;
     font-style: normal;
     font-weight: 500;
     line-height: 24px; /* 48% */
@@ -256,8 +248,8 @@ h2 {
 }
 
 .leftImg {
-    width: 540px;
-    height: 540px;
+    width: 600px;
+    height: 600px;
     transition: all 2s ease;
 }
 /*
@@ -305,7 +297,7 @@ h2 {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    height: 734px;
+    height: 950px;
 }
 
 .mobileSecondHomeContainer{
@@ -363,12 +355,16 @@ h2 {
 }
 
 .secondHomeContainerBox2 {
-    max-width: 1530px;
-    margin-top: 300px;
+    width: 1920px;
+    margin-top: 450px;
     display: flex;
     justify-content: center;
     width: 100%;
     position: absolute;
+}
+
+.image1 {
+    width: 100%;
 }
 
 .secondHomeContainerBox3 {
@@ -476,8 +472,8 @@ h2 {
 /*THIRD SECTION*/
 
 .thirdHomeContainer {
-    width: 100%;
-    height: 734px;
+    width: 100%;    
+    height: 950px;
 
 }
 
@@ -486,7 +482,7 @@ h2 {
 }
 
 .imageThirdHomeContainer {
-    height: 734px;
+    height: 950px;
     width: 100vw;
     max-width: 1530px;
     display: flex;
@@ -497,7 +493,7 @@ h2 {
 
 .thirdHomeContainerBox {
     width: 750px;
-    height: 734px;
+    height: 950px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -548,7 +544,7 @@ h2 {
     color: var(--White, black);
     font-family: gotham-light, sans-serif;
     width: 474px;
-    font-size: 16.2px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -579,7 +575,7 @@ h2 {
     color: var(--Modal-grey-1, #fff);
     text-align: center;
     font-family: gotham-light, sans-serif;
-    font-size: 16.2px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -884,7 +880,7 @@ h2 {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    letter-spacing: 0.45px;
+    letter-spacing: 0.50px;
     width: 137px;
 }
 
@@ -1236,7 +1232,7 @@ h2 {
 .readMoreButton {
     display: flex;
     width: 192px;
-    height: 45px;
+    height: 50px;
     justify-content: center;
     align-items: center;
     flex-shrink: 0;

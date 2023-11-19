@@ -28,7 +28,7 @@ const Header = () => {
 
     return (
         <>
-            <div className={styles.mainBox} style={{ background: "transparent" }}>
+            <div className={styles.mainBox}>
                 <div className={styles.headerBox}>
                     <div className={styles.right}>
 

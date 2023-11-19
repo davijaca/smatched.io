@@ -104,7 +104,7 @@ const Home = () => {
             </div>
 
             <div className={styles.secondHomeContainer}>
-                <div style={{ display: "flex", flexDirection: "row", alignItems: "flex-start"}}>
+                <div style={{ display: "flex", flexDirection: "row", alignItems: "flex-start", marginTop: '100px' }}>
                     <div className= {styles.secondHomeContainerBox1}>
                         <div className={styles.whatOffer}>
                             <div className={styles.secondLeft}>Monetize provides 
@@ -125,7 +125,7 @@ const Home = () => {
                     </div>
                 </div>
 
-                <div style={{height: "200px", display: "flex", flexDirection: "row"}}>
+                <div style={{height: "200px", display: "flex", flexDirection: "row", marginTop: '100px'}}>
                     <div className= {styles.secondHomeContainerBox3}>
                             <div className={styles.firstImg}/>
                             <div className={styles.secondImg}/>
