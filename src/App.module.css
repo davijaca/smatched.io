@@ -17,7 +17,7 @@ body::-webkit-scrollbar-track {
 
 /* Handle */
 body::-webkit-scrollbar-thumb {
-  background: #5B56BD;
+  background: rgb(1, 7, 11)
 }
 
 /* Handle on hover */
