@@ -27,7 +27,7 @@ const Header = () => {
     const closeMenu = () => setClick(false)
 
     return (
-        <>
+        <div className={styles.header}>
             <div className={styles.mainBox}>
                 <div className={styles.headerBox}>
                     <div className={styles.right}>
@@ -133,7 +133,7 @@ const Header = () => {
                     </div>
                 </div>
             
-         </>
+         </div>
     )
 }
 
