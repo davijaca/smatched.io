@@ -1,51 +1,47 @@
 import React from "react";
-import styles from "./Home.module.css";
+import styles from "./Game.module.css";
 
 
-const Home = () => {
-
-    
-
+const Game = () => {
     
     return (
-        <div className={styles.homeContainer}>
-            <div className={styles.firstHomeContainer}>
+        <div className={styles.gameContainer}>
+            <div className={styles.firstGameContainer}>
 
                 <div className={styles.topFirst}>
                     <div className={styles.mainFirst}>
                     <div className={styles.rightMain}>
                         <h1 className={styles.text}>
-                            Boost
-                            <br />
-                            Monetization.
+                            Enhance
                         </h1>
                         <h2 className={styles.text2}>
-                            Retain Users.
+                            your game <br/> monetization <br/>model.
                         </h2>
                         <div className={styles.parag}>
-                            <div className={styles.innerParag}> Metered paywalls have an average 
-                            conversion rate of just 0.36%. Smatched builds customized
-                                ‘earn to play’ offerwalls that boost monetization on your 
-                                mobile app or website and helps you retain users by offering more choice.
+                            <div className={styles.innerParag}>
+                                Give players more choice when it comes to monetization.
+                                While gaming payment gateways are a necessary evil for
+                                many gaming companies, many gamers are not willing to pay
+                                for games upfront.
                             </div>
                         </div>
                         <div className={styles.buttonText}>
                             <div className={styles.buttonText1}>BOOK A DEMO</div>
                         </div>
-                        <div className={styles.bottomHero}>
-                            <h1 className={styles.bottomHero1}>+50%</h1>
-                            <h2>Sales increase
-                            <br />
-                            through existing users</h2>
-                            <h1 className={styles.bottomHero2}>1000+</h1>
-                            <h2>New
-                            <br />
-                            subscriptions</h2>
-                        </div>
+                        {/*<div className={styles.bottomHero}>*/}
+                        {/*    <h1 className={styles.bottomHero1}>+50%</h1>*/}
+                        {/*    <h2>Sales increase*/}
+                        {/*    <br />*/}
+                        {/*    through existing users</h2>*/}
+                        {/*    <h1 className={styles.bottomHero2}>1000+</h1>*/}
+                        {/*    <h2>New*/}
+                        {/*    <br />*/}
+                        {/*    subscriptions</h2>*/}
+                        {/*</div>*/}
                     </div>
                     <div className={styles.leftMain}>
                         <div className={styles.leftImgInfo}>
-                            <img className={styles.leftImg} src="./heroImage.png" alt='An iPhone with an offerwall'/>
+                            <img className={styles.gameLeftImg} src="./gameHeroImage.png" alt='An iPhone with an offerwall'/>
                         </div>
                     </div>
                     </div>
@@ -53,7 +49,7 @@ const Home = () => {
 
             </div>
 
-            <div className={styles.mobileFirstHomeContainer}>
+            <div className={styles.mobileFirstGameContainer}>
             <div className={styles.topFirst}>
                     <div>
                         <div className={styles.mobileTopFirstBg}>
@@ -103,12 +99,12 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className={styles.secondHomeContainer}>
+            <div className={styles.secondGameContainer}>
                 <div style={{ display: "flex", flexDirection: "row", alignItems: "flex-start", marginTop: '100px' }}>
                     <div className= {styles.secondHomeContainerBox1}>
                         <div className={styles.whatOffer}>
-                            <div className={styles.secondLeft}>Monetize provides 
-                            an alternative Subscription Model </div>
+                            <div className={styles.secondLeft}>Level up your in-
+                                <br/>game monetization <br/> strategy </div>
                         </div>
 
                         <div className={styles.secondRight}>
@@ -123,29 +119,33 @@ const Home = () => {
 
                         </div>
                     </div>
-                </div>
 
-                <div style={{height: "200px", display: "flex", flexDirection: "row", marginTop: '100px'}}>
-                    <div className= {styles.secondHomeContainerBox3}>
-                            <div className={styles.firstImg}/>
-                            <div className={styles.secondImg}/>
-                            <div className={styles.thirdImg}/>
-                            <div className={styles.fourthImg}/>
+                    <div className= {styles.secondHomeContainerBox2}>
+
                     </div>
                 </div>
 
-                <div style={{ display: "flex", flexDirection: "row", alignItems: "flex-start"}}>
-                    <div className= {styles.secondHomeContainerBox4}>
-                            <div className={styles.firstImgText}>Optimized Offerwall </div>
-                            <div className={styles.secondImgText}>Users earn rewards </div>
-                            <div className={styles.thirdImgText}>Users can use rewards as in-app currency</div>
-                            <div className={styles.fourthImgText}>You increase revenue & retention</div>
-                    </div>
-                </div>
+                {/*<div style={{height: "200px", display: "flex", flexDirection: "row", marginTop: '100px'}}>*/}
+                {/*    <div className= {styles.secondHomeContainerBox3}>*/}
+                {/*            <div className={styles.firstImg}/>*/}
+                {/*            <div className={styles.secondImg}/>*/}
+                {/*            <div className={styles.thirdImg}/>*/}
+                {/*            <div className={styles.fourthImg}/>*/}
+                {/*    </div>*/}
+                {/*</div>*/}
 
-                <div className= {styles.secondHomeContainerBox2}>
-                    <img className= {styles.image1} src="./section2img.svg" alt='A picture of a phone'/>
-                </div>
+                {/*<div style={{ display: "flex", flexDirection: "row", alignItems: "flex-start"}}>*/}
+                {/*    <div className= {styles.secondHomeContainerBox4}>*/}
+                {/*            <div className={styles.firstImgText}>Optimized Offerwall </div>*/}
+                {/*            <div className={styles.secondImgText}>Users earn rewards </div>*/}
+                {/*            <div className={styles.thirdImgText}>Users can use rewards as in-app currency</div>*/}
+                {/*            <div className={styles.fourthImgText}>You increase revenue & retention</div>*/}
+                {/*    </div>*/}
+                {/*</div>*/}
+
+                {/*<div className= {styles.secondHomeContainerBox2}>*/}
+                {/*    <img className= {styles.image1} src="./section2img.svg" alt='A picture of a phone'/>*/}
+                {/*</div>*/}
             </div>
 
 
@@ -810,5 +810,5 @@ const Home = () => {
 
     )}
 
-export default Home;
+export default Game;
 

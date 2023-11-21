@@ -6,11 +6,11 @@ import {
 import {AppRoutes} from "./common/routes/AppRoutes";
 import Header from "./components/Header/Header";
 import Home from "./pages/Home/Home";
-import Blog from "./pages/Blog/Blog";
 import Articles from "./pages/Articles/Articles";
 import BlogArticle from "./pages/BlogArticle/BlogArticle";
 import Contact from "./pages/Contact/Contact";
 import Footer from "./components/Footer/Footer";
+import Game from "./pages/Game/Game";
 
 function App() {
 
@@ -40,8 +40,8 @@ function App() {
               },
 
               {
-                  path: AppRoutes.BLOG,
-                  element: < Blog />,
+                  path: AppRoutes.GAME,
+                  element: < Game />,
                   errorElement: <h1> PAGE NOT FOUND 3</h1>
               },
 

@@ -1,6 +1,6 @@
 export const AppRoutes = {
     MAIN: '/',
-    BLOG: '/blog',
+    GAME: '/game',
     ARTICLES: '/articles',
     BLOGARTICLE: '/blogarticle',
     CONTACT: '/contact',
