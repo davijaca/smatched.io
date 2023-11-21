@@ -143,9 +143,9 @@ const Home = () => {
                     </div>
                 </div>
 
-                    <div className= {styles.secondHomeContainerBox2}>
-                        <img className= {styles.image1} src="./section2img.svg" alt='A picture of a phone'/>
-                    </div>
+                <div className= {styles.secondHomeContainerBox2}>
+                    <img className= {styles.image1} src="./section2img.svg" alt='A picture of a phone'/>
+                </div>
             </div>
 
 
@@ -166,34 +166,36 @@ const Home = () => {
  */}
 
             <div className={styles.thirdHomeContainer}>
-                <div className={styles.imageThirdHomeContainer}>
-                    <div className={styles.thirdHomeContainerBox}>
-                        <div className={styles.thirdHomeImage}>
-                            <img src="./thirdSectionImg.png" alt='A laptop and a phone with offerwall rewards'/>
+                <div className={styles.thirdHomeContainerBox}>
+                    <div className={styles.thirdSectionLeft}>
+                        <div className={styles.imageThirdHomeContainer}>
+                            <div className={styles.thirdSectionLeftBG}>
+                                <div className={styles.thirdHomeImage}>
+                                    <img src="./thirdSectionImg.png" alt='A laptop and a phone with offerwall rewards'/>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div className={styles.thirdHomeContainerBox}>
-                        <div className={styles.thirdSectionRight}>
+
+                    <div className={styles.thirdSectionRight}>
+                        <>
                             <div className={styles.innerThirdSectionRight}>
                                 <div className={styles.thirdSectionRightH1}>Why partner<br/>with Monetize?</div>
                             </div>
 
-                        <div className={styles.thirdSectionRightH2}>
-                            <ul className={styles.thirdSectionRightList}>
-                                <li>Open up another revenue stream</li>
-                                <li>Our business model incentivizes us to provide better experiences for your customers</li>
-                                <li>Easy set-up: no set-up costs or integration work</li>
-                                <li>The Smatched web app is independent, GDPR-compliant and completely secure</li>
-                            </ul>
-                        </div>
+                            <div className={styles.thirdSectionRightH2}>
+                                <ul className={styles.thirdSectionRightList}>
+                                    <li>Open up another revenue stream</li>
+                                    <li>Our business model incentivizes us to provide better experiences for your customers</li>
+                                    <li>Easy set-up: no set-up costs or integration work</li>
+                                    <li>The Smatched web app is independent, GDPR-compliant and completely secure</li>
+                                </ul>
+                            </div>
 
-                        <div className={styles.buttonTextGold}>
-                            <div className={styles.buttonText1Gold}>BOOK A DEMO</div>
-                        </div>
-                        </div>
-
-
-
+                            <div className={styles.buttonTextGold}>
+                                <div className={styles.buttonText1Gold}>BOOK A DEMO</div>
+                            </div>
+                        </>
                     </div>
                 </div>
 
@@ -217,13 +219,13 @@ const Home = () => {
                         </div>
                     </div>
             </div>
+    */}
+            
 
             <div className={styles.fourthHomeContainer}>
                 <div className={styles.SubFourthHomeContainer}>
                     <div className={styles.fourthHomeBox1}>
-                        <div>Why</div>&nbsp;
-                        <div className={styles.innerFourthHomeBox1}>Mobile </div> &nbsp;
-                        <div>Offerwall Monetization? </div>
+                        <div>How it works?</div>
                     </div>
 
                     <div className={styles.fourthHomeBox2}>
@@ -231,64 +233,48 @@ const Home = () => {
                             <div className={styles.fourth13}>
                                 <div className={styles.fourth13One}>
                                     <div className={styles.innerOne}>
-                                        <img src="./one.png" alt="A picture of a number one" />
+                                        <img className={styles.stepOneImg} src="./one.svg" alt="A picture of a number one" />
+                                        <h1>Step 1</h1>
                                         <div className={styles.fourth13Integration}>
-                                            Offerwall integration is seamless with existing ad monetization or paywall structures
+                                        We integrate via API into your mobile app or website to integrate seamlessly with your existing monetization model.
                                         </div>
                                     </div>
                                 </div>
                                 <div className={styles.fourth13Two}>
-                                    <div className={styles.innerOne}>
-                                        <img src="./three.png" alt="A picture of a number three" />
+                                    <div className={styles.innerThree}>
+                                        <img className={styles.stepThreeImg} src="./three.svg" alt="A picture of a number three" />
+                                        <h1>Step 3</h1>
                                         <div className={styles.fourth13Integration}>
-                                            At the point where users decline to pay
-                                            for premium content in your online shop you
-                                            can redirect them to an offerwall giving
-                                            them a different way to make the same payment                                    </div>
+                                        Users are funneled to Smatched as an option after not converting and are then given the opportunity to earn their reward through an offerwall – which includes multiple earning options.                                    </div>
                                     </div>
                                 </div>
                             </div>
 
-                            <div className={styles.fourthImg}>
-                                <img className={styles.fourthImg1} src="./phone01.png" alt="An iPhone gaining rewards through offerwalls"/>
-                                <img className={styles.fourthImg2} src="./phone02.png" alt="An iPhone gaining rewards through offerwalls"/>
-                            </div>
+
 
                             <div className={styles.fourth24}>
                                 <div className={styles.fourth24One}>
-                                    <div className={styles.innerOne}>
-                                        <img src="./two.png" alt="A picture of a number two" />
+                                    <div className={styles.innerTwo}>
+                                        <img className={styles.stepTwoImg} src="./two.svg" alt="A picture of a number two" />
+                                        <h1>Step 2</h1>
                                         <div className={styles.fourth13Integration}>
-                                            Offerwalls have a proven track record of increasing
-                                            customer lifetime value and monthly recurring revenue                                    </div>
+                                        We work with you to optimize and maximize conversions to improve the overall user experience – customization increases conversions by an average of 3x</div>
                                     </div>
                                 </div>
                                 <div className={styles.fourth24Two}>
-                                    <div className={styles.innerTwoSecond}>
-                                        <img src="./four.png" alt="A picture of a number four" />
+                                    <div className={styles.innerFour}>
+                                        <img className={styles.stepFourImg}src="./four.svg" alt="A picture of a number four" />
+                                        <h1>Step 4</h1>
                                         <div className={styles.fourth13Integration}>
-                                            There are offerwall solution providers
-                                            <div className={styles.likeSmatchedWork}>
-                                                <div>like</div>&nbsp;
-                                                <div className={styles.fourth13Smatched}>Smatched</div>&nbsp;
-                                                <div>that work with you to </div>
-                                            </div>
-                                            customise the service for a seamless integration
-                                            within your app to maximize the profit from your offerwall monetization                                   </div>
+                                        The user then completes the action to earn you more revenue and the added options increases returning users by 100% on average. </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div className={styles.fourthHomeBox3}>
-                        <div className={styles.innerFourthHomeBox3}>
-                            OK… But Do Offerwalls Work?
-                        </div>
-                    </div>
                 </div>
             </div>
- */}
 
             {/*MOBILE FOURTH HOME CONTAINER*/}
 {/* 
@@ -363,9 +349,38 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+    */}
+            <div className={styles.fifthHomeContainer}>
+                <div className={styles.fifthHomeBackground}>
 
+                    <div className={styles.innerFifthHomeContainer1}>
 
+                        <div className={styles.innerFifthLeft}>
+                        </div>
 
+                        <div className={styles.innerFifthRight}>
+                            <div className={styles.innerFifthMainBox1}>
+                                <div className={styles.innerFifthBox1}>
+                                    <div>Revenue Sharing Model</div>
+                                </div>
+                            </div>
+
+                            <div className={styles.innerFifthMainBox2}>
+                            We have a profit sharing model so there is no monthly cost. 
+                            This means there is no risk on your end because make our money<br/> the same way you do.<br/><br/>
+                            We are constantly working with our customers to optimize the user experience of their
+                            users and this model has proven very successful for increasing monetization and retention.
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div className={styles.bottomBG}></div>
+
+                </div>
+
+            </div>
+{/*
             <div className={styles.fifthHomeContainer}>
                 <div className={styles.fifthHomeBackground}>
 

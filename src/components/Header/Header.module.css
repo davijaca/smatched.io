@@ -6,23 +6,11 @@
     left: 0;
     z-index: 55;
     overflow: hidden;
-    background: linear-gradient(
-        90deg,
-        rgba(81, 79, 177, 1) 0%,
-        rgba(76, 117, 183, 1) 24.304988980293274%,
-        rgba(53, 159, 173, 1) 77.56538987159729%,
-        rgba(44, 175, 168, 1) 98.4375%
-      );
+    background: #080503;
     opacity: 0.8999999761581421;
 }
 .header-bg{
-    background: linear-gradient(
-        90deg,
-        rgba(81, 79, 177, 1) 0%,
-        rgba(76, 117, 183, 1) 24.304988980293274%,
-        rgba(53, 159, 173, 1) 77.56538987159729%,
-        rgba(44, 175, 168, 1) 98.4375%
-      );
+    background: #080503;
     opacity: 0.8999999761581421;
 }
 
@@ -70,14 +58,7 @@
 @media screen and (max-width:940px) {
     .header {
         max-width: 100%;
-            background: linear-gradient(
-        90deg,
-        rgba(81, 79, 177, 1) 0%,
-        rgba(76, 117, 183, 1) 24.304988980293274%,
-        rgba(53, 159, 173, 1) 77.56538987159729%,
-        rgba(44, 175, 168, 1) 98.4375%
-      );
-      opacity: 0.8999999761581421;
+        background: #080503;
     }
 
     .header .navbar {
@@ -129,16 +110,15 @@
 
 
 .mainBox {
-
-      width: 100%;
-      max-width: 1512px;
-      height: 100px;
-      position: sticky;
-      left: 0px;
-      top: 0px;
-      backdrop-filter: blur(2px);
-      z-index: 40;
-      margin: auto;
+    width: 100%;
+    max-width: 1512px;
+    height: 100px;
+    position: sticky;
+    left: 0px;
+    top: 0px;
+    backdrop-filter: blur(2px);
+    z-index: 40;
+    margin: auto;
 
 }
 
