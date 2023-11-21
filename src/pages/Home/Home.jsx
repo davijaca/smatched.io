@@ -149,7 +149,7 @@ const Home = () => {
             </div>
 
 
-            {/*Second Game mobile responsiveness*/}
+            {/*Second Home mobile responsiveness*/}
 {/* 
             <div className={styles.mobileSecondHomeContainer}>
                 <div className={styles.innerMobileSection3}>
@@ -202,7 +202,7 @@ const Home = () => {
             </div>
 
 
-                {/*Third Game mobile Responsiveness*/}
+                {/*Third Home mobile Responsiveness*/}
 {/* 
             <div className={styles.mobileThirdHomeContainer}>
                     <div className={styles.mobileTh1} style={{ backgroundImage: "url(./Th1Mobile.png)"}}>
