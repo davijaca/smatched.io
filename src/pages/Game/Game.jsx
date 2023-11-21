@@ -110,10 +110,16 @@ const Game = () => {
                         <div className={styles.secondRight}>
                             <div className={styles.innerAnOfferwall}>
                                 <div className={styles.anOfferwallParag}>
-                                Paywalls are a great revenue option for many businesses but unfortunately, making users pay means your revenue potential is capped. Businesses that offer more than one monetization model retain <b>50% more users.</b>
-                                <br/>
-                                <br/>
-                                What if your users could earn their way past a paywall without having to open their wallet?
+                                    <div>The gaming industry is currently facing several challenges</div>
+                                        <div>when it comes to monetization. One of the main issues is the</div>
+                                    <div className={styles.lowPercBox}>
+                                        <div className={styles.lowPerc}>low % of people </div>&nbsp;
+                                        <div>who are willing to pay to play games, </div>
+                                    </div>
+                                    <div>especially given the abundance of free options that are </div>
+                                     <div>available.</div>
+                                    <br/>
+                                    <div>In addition to this, there are many existing game monetization models that often negatively impact the user experience.</div>
                                 </div>
                             </div>
 
@@ -121,31 +127,11 @@ const Game = () => {
                     </div>
 
                     <div className= {styles.secondHomeContainerBox2}>
-
+                        <img src="./secondHomeImage.png" alt="Game monetization" />
                     </div>
                 </div>
 
-                {/*<div style={{height: "200px", display: "flex", flexDirection: "row", marginTop: '100px'}}>*/}
-                {/*    <div className= {styles.secondHomeContainerBox3}>*/}
-                {/*            <div className={styles.firstImg}/>*/}
-                {/*            <div className={styles.secondImg}/>*/}
-                {/*            <div className={styles.thirdImg}/>*/}
-                {/*            <div className={styles.fourthImg}/>*/}
-                {/*    </div>*/}
-                {/*</div>*/}
 
-                {/*<div style={{ display: "flex", flexDirection: "row", alignItems: "flex-start"}}>*/}
-                {/*    <div className= {styles.secondHomeContainerBox4}>*/}
-                {/*            <div className={styles.firstImgText}>Optimized Offerwall </div>*/}
-                {/*            <div className={styles.secondImgText}>Users earn rewards </div>*/}
-                {/*            <div className={styles.thirdImgText}>Users can use rewards as in-app currency</div>*/}
-                {/*            <div className={styles.fourthImgText}>You increase revenue & retention</div>*/}
-                {/*    </div>*/}
-                {/*</div>*/}
-
-                {/*<div className= {styles.secondHomeContainerBox2}>*/}
-                {/*    <img className= {styles.image1} src="./section2img.svg" alt='A picture of a phone'/>*/}
-                {/*</div>*/}
             </div>
 
 
@@ -165,37 +151,44 @@ const Game = () => {
             </div>
  */}
 
-            <div className={styles.thirdHomeContainer}>
-                <div className={styles.thirdHomeContainerBox}>
+            <div className={styles.thirdGameContainer}>
+                <div className={styles.thirdGameContainerBox}>
                     <div className={styles.thirdSectionLeft}>
-                        <div className={styles.imageThirdHomeContainer}>
-                            <div className={styles.thirdSectionLeftBG}>
-                                <div className={styles.thirdHomeImage}>
-                                    <img src="./thirdSectionImg.png" alt='A laptop and a phone with offerwall rewards'/>
-                                </div>
-                            </div>
-                        </div>
+                        <img src="./smartPhone.png" alt="man-using smart phone" />
                     </div>
 
                     <div className={styles.thirdSectionRight}>
-                        <>
-                            <div className={styles.innerThirdSectionRight}>
-                                <div className={styles.thirdSectionRightH1}>Why partner<br/>with Monetize?</div>
+                        <div className={styles.innerThirdSectionRight}>
+                            <div className={styles.innerThirdAddWalls}>
+                                Are addwalls the answer?
                             </div>
-
-                            <div className={styles.thirdSectionRightH2}>
-                                <ul className={styles.thirdSectionRightList}>
-                                    <li>Open up another revenue stream</li>
-                                    <li>Our business model incentivizes us to provide better experiences for your customers</li>
-                                    <li>Easy set-up: no set-up costs or integration work</li>
-                                    <li>The Smatched web app is independent, GDPR-compliant and completely secure</li>
-                                </ul>
+                            <div className={styles.innerThirdInGame}>
+                                <div>One major issue with existing in-game monetization</div>
+                                <div>models such as banner and video ads is that they often</div>
+                                <div className={styles.innerThirdCombined}>
+                                    <div className={styles.innerThirdBold}>interrupt the user experience</div>&nbsp;
+                                    <div>and can negatively impact</div>
+                                </div>
+                                <div>gameplay.</div>
+                                <br/>
+                                <div className={styles.innerThirdCombined}>
+                                    <div>According to a survey by AdColony,</div>&nbsp;
+                                    <div className={styles.innerThirdBold}>70% of mobile</div>
+                                </div>
+                                <div className={styles.innerThirdCombined}>
+                                    <div className={styles.innerThirdBold}>gamers</div>&nbsp;
+                                    <div>said that they would rather pay for a game</div>
+                                </div>
+                                <div className={styles.innerThirdCombined}>
+                                    <div>upfront than deal with ads, while</div>&nbsp;
+                                    <div className={styles.innerThirdBold}>64%</div>&nbsp;
+                                    <div>said that they had</div>
+                                </div>
+                                <div>
+                                    stopped playing a game because of ads.
+                                </div>
                             </div>
-
-                            <div className={styles.buttonTextGold}>
-                                <div className={styles.buttonText1Gold}>BOOK A DEMO</div>
-                            </div>
-                        </>
+                        </div>
                     </div>
                 </div>
 
