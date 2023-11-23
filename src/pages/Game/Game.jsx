@@ -101,8 +101,8 @@ const Game = () => {
 
             <div className={styles.secondGameContainer}>
                 <div style={{ display: "flex", flexDirection: "row", alignItems: "flex-start", marginTop: '100px' }}>
-                    <div className= {styles.secondHomeContainerBox1}>
-                        <div className={styles.whatOffer}>
+                    <div className= {styles.secondGameContainerBox1}>
+                        <div className={styles.levelUp}>
                             <div className={styles.secondLeft}>Level up your in-
                                 <br/>game monetization <br/> strategy </div>
                         </div>
@@ -111,10 +111,10 @@ const Game = () => {
                             <div className={styles.innerAnOfferwall}>
                                 <div className={styles.anOfferwallParag}>
                                     <div>The gaming industry is currently facing several challenges</div>
-                                        <div>when it comes to monetization. One of the main issues is the</div>
-                                    <div className={styles.lowPercBox}>
-                                        <div className={styles.lowPerc}>low % of people </div>&nbsp;
-                                        <div>who are willing to pay to play games, </div>
+                                    <div>when it comes to monetization. One of the main issues is the</div>
+                                    <div className={styles.lowBoxInfo}>
+                                        <div className={styles.lowPeople}>low % of people </div>
+                                        <div> who are willing to pay to play games,</div>
                                     </div>
                                     <div>especially given the abundance of free options that are </div>
                                      <div>available.</div>
@@ -126,7 +126,7 @@ const Game = () => {
                         </div>
                     </div>
 
-                    <div className= {styles.secondHomeContainerBox2}>
+                    <div className= {styles.secondGameContainerBox2}>
                         <img src="./secondHomeImage.png" alt="Game monetization" />
                     </div>
                 </div>
@@ -163,29 +163,29 @@ const Game = () => {
                                 Are addwalls the answer?
                             </div>
                             <div className={styles.innerThirdInGame}>
-                                <div>One major issue with existing in-game monetization</div>
-                                <div>models such as banner and video ads is that they often</div>
-                                <div className={styles.innerThirdCombined}>
-                                    <div className={styles.innerThirdBold}>interrupt the user experience</div>&nbsp;
-                                    <div>and can negatively impact</div>
-                                </div>
-                                <div>gameplay.</div>
-                                <br/>
-                                <div className={styles.innerThirdCombined}>
-                                    <div>According to a survey by AdColony,</div>&nbsp;
-                                    <div className={styles.innerThirdBold}>70% of mobile</div>
-                                </div>
-                                <div className={styles.innerThirdCombined}>
-                                    <div className={styles.innerThirdBold}>gamers</div>&nbsp;
-                                    <div>said that they would rather pay for a game</div>
-                                </div>
-                                <div className={styles.innerThirdCombined}>
-                                    <div>upfront than deal with ads, while</div>&nbsp;
-                                    <div className={styles.innerThirdBold}>64%</div>&nbsp;
-                                    <div>said that they had</div>
-                                </div>
-                                <div>
-                                    stopped playing a game because of ads.
+                                <div className={styles.inTimeGame}>
+                                    <div>One major issue with existing in-game monetization </div>
+                                    <div>models such as banner and video ads is that they often </div>
+                                    <div className={styles.majorModels}>
+                                        <div className={styles.interrupt}>interrupt the user experience</div>
+                                        <div>and can negatively impact</div>
+                                    </div>
+                                    <div>gameplay. </div>
+                                    <br/>
+                                    <div className={styles.surveyMobile}>
+                                        <div>According to a survey by AdColony, </div>
+                                        <div className={styles.interrupt}>70% of mobile </div>
+                                    </div>
+                                    <div className={styles.surveyMobile}>
+                                        <div className={styles.interrupt}>gamers</div>
+                                        <div>said that they would rather pay for a game</div>
+                                    </div>
+                                    <div className={styles.upfrontDeals}>
+                                        <div>upfront than deal with ads, while</div>
+                                        <div className={styles.interrupt}>64%</div>
+                                        <div>said that they had</div>
+                                    </div>
+                                   <div> stopped playing a game because of ads.</div>
                                 </div>
                             </div>
                         </div>
@@ -215,52 +215,49 @@ const Game = () => {
     */}
             
 
-            <div className={styles.fourthHomeContainer}>
-                <div className={styles.SubFourthHomeContainer}>
-                    <div className={styles.fourthHomeBox1}>
-                        <div>How it works?</div>
+            <div className={styles.fourthGameContainer}>
+                <div className={styles.SubFourthGameContainer}>
+                    <div className={styles.fourthGameBox1}>
+                        <div className={styles.growRevenue}>Grow your revenue. Monetize your game <br/> or app.</div>
+                        <div className={styles.uniqueOffers}>Smatched offers a unique solution to the monetization <br/> challenges faced by the gaming industry.</div>
                     </div>
 
-                    <div className={styles.fourthHomeBox2}>
+                    <div className={styles.fourthGameBox2}>
                         <div className={styles.fourthBox2Container}>
-                            <div className={styles.fourth13}>
-                                <div className={styles.fourth13One}>
-                                    <div className={styles.innerOne}>
-                                        <img className={styles.stepOneImg} src="./one.svg" alt="A picture of a number one" />
-                                        <h1>Step 1</h1>
-                                        <div className={styles.fourth13Integration}>
-                                        We integrate via API into your mobile app or website to integrate seamlessly with your existing monetization model.
-                                        </div>
+                            <div className={styles.fourthBox2Container1}>
+                                <div className={styles.innerFourthBox1}>
+                                    <img className={styles.like} src="/likeVector.png" alt="Like button" />
+                                    <div className={styles.verticalLike}>
+                                        <img className={styles.vertical} src="/verticalLikeVector.png" alt="Like button" />
                                     </div>
                                 </div>
-                                <div className={styles.fourth13Two}>
-                                    <div className={styles.innerThree}>
-                                        <img className={styles.stepThreeImg} src="./three.svg" alt="A picture of a number three" />
-                                        <h1>Step 3</h1>
-                                        <div className={styles.fourth13Integration}>
-                                        Users are funneled to Smatched as an option after not converting and are then given the opportunity to earn their reward through an offerwall – which includes multiple earning options.                                    </div>
+                                <div className={styles.innerFourthBox2}>
+                                    <div className={styles.innerFourthBox2details1}>
+                                        Add an offerwall to current subscription models of your users.
+                                    </div>
+                                    <div className={styles.innerFourthBox2details2}>
+                                        Players earn rewards and virtual currency by engaging with paid surveys and other offers.
+                                    </div>
+                                    <div className={styles.innerFourthBox2details3Players}>
+                                        <div>Players have more choice and flexibility for paying. </div>
+                                        <div className={styles.increasingRevenue}>You are increasing your revenue.</div>
                                     </div>
                                 </div>
                             </div>
-
-
-
-                            <div className={styles.fourth24}>
-                                <div className={styles.fourth24One}>
-                                    <div className={styles.innerTwo}>
-                                        <img className={styles.stepTwoImg} src="./two.svg" alt="A picture of a number two" />
-                                        <h1>Step 2</h1>
-                                        <div className={styles.fourth13Integration}>
-                                        We work with you to optimize and maximize conversions to improve the overall user experience – customization increases conversions by an average of 3x</div>
+                            <div className={styles.fourthBox2Container2}>
+                                <div className={styles.innerFourthBox1}>
+                                    <img className={styles.disLike} src="/dislikeVector.png" alt="dislike button" />
+                                    <div className={styles.verticalLike}>
+                                        <img className={styles.vertical} src="/verticalDislikeVector.png" alt="Like button" />
                                     </div>
                                 </div>
-                                <div className={styles.fourth24Two}>
-                                    <div className={styles.innerFour}>
-                                        <img className={styles.stepFourImg}src="./four.svg" alt="A picture of a number four" />
-                                        <h1>Step 4</h1>
-                                        <div className={styles.fourth13Integration}>
-                                        The user then completes the action to earn you more revenue and the added options increases returning users by 100% on average. </div>
-                                    </div>
+                                <div className={styles.innerFourthBox2}>
+                                    <div className={styles.innerFourthBox2details1}>
+                                        You are relying solely on subscriptions or intrusive ads.                                    </div>
+                                    <div className={styles.innerFourthBox2details2}>
+                                        Some players are unable to pay for your subscription, some of them are irritating by ads in it.                                    </div>
+                                    <div className={styles.innerFourthBox2details3}>
+                                        Players have not flexibility for paying. You are losing your existing users and revenue.                                    </div>
                                 </div>
                             </div>
                         </div>

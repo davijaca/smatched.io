@@ -184,6 +184,11 @@ h2 {
     src: url('/public/fonts/Gotham/Gotham-Light.otf');
 }
 
+@font-face {
+    font-family: gotham-bold;
+    src: url('/public/fonts/Gotham/Gotham-Bold.otf');
+}
+
 .bottomHero h2 {
     color: #FFF;
     width: 200px;
@@ -306,11 +311,11 @@ h2 {
     height: 950px;
 }
 
-.mobileSecondHomeContainer {
+.mobileSecondGameContainer {
     display: none;
 }
 
-.secondHomeContainerBox1 {
+.secondGameContainerBox1 {
     width: 465px;
     height: 480px;
     display: flex;
@@ -322,21 +327,28 @@ h2 {
     margin-top: 40px;
 }
 
-.whatOffer {
-    width: inherit;
+.levelUp {
+    width: 600px;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+
 }
 
 .secondLeft {
+    width: 600px;
     color: #07090A;
     font-feature-settings: 'clig' off, 'liga' off;
-    font-family: Gotham;
+    font-family: Gotham-bold;
     font-size: 53px;
     font-style: normal;
     font-weight: 500;
     line-height: 120%; /* 63.6px */
+}
+
+@font-face {
+    font-family: gotham-medium;
+    src: url('/public/fonts/Gotham/Gotham-Medium.otf');
 }
 
 .secondRight {
@@ -349,6 +361,7 @@ h2 {
 }
 
 .anOfferwallParag {
+    width: 600px;
     color: #07090A;
     font-feature-settings: 'clig' off, 'liga' off;
     font-family: Gotham;
@@ -361,12 +374,17 @@ h2 {
 
 }
 
-.lowPercBox {
+.lowBoxInfo {
+    width: 475px;
     display: flex;
-
+    justify-content: space-between;
 }
 
-.lowPerc {
+.willingPay {
+    background: grey;
+}
+
+.lowPeople {
     color: #07090A;
     font-feature-settings: 'clig' off, 'liga' off;
     font-family: Gotham;
@@ -377,7 +395,7 @@ h2 {
 
 }
 
-.secondHomeContainerBox2 {
+.secondGameContainerBox2 {
     width: 650px;
     height: 640px;
     flex-shrink: 0;
@@ -385,120 +403,15 @@ h2 {
     position: relative;
     z-index: 3;
     top: 70px;
-    right: 55px;
+
 
 }
 
 
-.secondHomeContainerBox2 > img {
+.secondGameContainerBox2 > img {
     width: 791.224px;
     height: 640px;
     flex-shrink: 0;
-}
-
-.secondHomeContainerBox3 {
-    display: flex;
-    flex-direction: row;
-    gap: 100px;
-    width: 100%;
-    height: 200px;
-}
-
-.firstImg {
-    background: url(/public/Sec2firstImg.svg) no-repeat;
-    color: #000000;
-    width: 200px;
-    height: 200px;
-    z-index: 5;
-}
-
-.secondImg {
-    background: url(/public/Sec2firstImg.svg) no-repeat;
-    color: #000000;
-    width: 200px;
-    height: 200px;
-    margin-top: 50px;
-    z-index: 5;
-}
-
-.thirdImg {
-    background: url(/public/Sec2firstImg.svg) no-repeat;
-    color: #000000;
-    width: 200px;
-    height: 200px;
-    margin-top: 50px;
-    z-index: 5;
-}
-
-.fourthImg {
-    background: url(/public/Sec2firstImg.svg) no-repeat;
-    color: #000000;
-    width: 200px;
-    height: 200px;
-    z-index: 5;
-}
-
-
-.secondHomeContainerBox4 {
-    display: inline-flex;
-    flex-direction: row;
-    gap: 100px;
-    width: 100%;
-    height: 100px;
-    margin-top: 50px;
-}
-
-
-.firstImgText {
-    color: #1E1E1E;
-    text-align: center;
-    font-feature-settings: 'clig'off, 'liga'off;
-    font-family: gotham-light;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 20.446px;
-    /* 127.785% */
-    width: 200px;
-}
-
-.secondImgText {
-    color: #1E1E1E;
-    text-align: center;
-    font-feature-settings: 'clig'off, 'liga'off;
-    font-family: gotham-light;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 20.446px;
-    /* 127.785% */
-    width: 200px;
-}
-
-.thirdImgText {
-    color: #1E1E1E;
-    text-align: center;
-    font-feature-settings: 'clig'off, 'liga'off;
-    font-family: gotham-light;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 20.446px;
-    /* 127.785% */
-    width: 200px;
-}
-
-.fourthImgText {
-    color: #1E1E1E;
-    text-align: center;
-    font-feature-settings: 'clig'off, 'liga'off;
-    font-family: gotham-light;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 20.446px;
-    /* 127.785% */
-    width: 200px;
 }
 
 
@@ -570,8 +483,8 @@ h2 {
 }
 
 .innerThirdSectionRight {
-    height: 450px;
-    width: 430px;
+    height: 460px;
+    width: 500px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -588,6 +501,8 @@ h2 {
 }
 
 .innerThirdInGame {
+    width: 513px;
+    height: 350px;
     color: #FFF;
     font-feature-settings: 'clig' off, 'liga' off;
     font-family: Gotham;
@@ -597,100 +512,48 @@ h2 {
     line-height: 30px; /* 166.667% */
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
 }
 
-.innerThirdCombined {
+.inTimeGame {
+    width: 513px;
+    height: 280px;
+}
+
+.majorModels {
     display: flex;
+    justify-content: space-between;
+    width: 500px;
 }
 
-.innerThirdBold {
+.interrupt {
     color: #FFF;
     font-feature-settings: 'clig' off, 'liga' off;
     font-family: Gotham;
     font-size: 18px;
     font-style: normal;
-    font-weight: Bold;
+    font-weight: bold;
     line-height: 30px;
 }
 
-
-
-
-
-.thirdSectionRightH1,
-.with {
-    color: #1E1E1E;
-
-    font-feature-settings: 'clig'off, 'liga'off;
-    font-family: gotham-light;
-    font-size: 47.7px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 120%;
-    /* 63.6px */
-}
-
-
-.thirdSectionRightH2 {
+.surveyMobile {
+    display: flex;
+    justify-content: space-between;
     width: 450px;
+}
+
+.upfrontDeals {
     display: flex;
-
-    margin-top: -20px;
+    justify-content: space-between;
+    width: 500px;
 }
 
-.thirdSectionRightList {
-    color: var(--White, black);
-    font-family: gotham-light, sans-serif;
-    width: 474px;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    height: 110px;
-}
 
-.thirdSectionRightList>li {
-    display: flex;
-    height: 50px;
-    background: url(/public/bulletListIcon.svg) left;
-    background-size: 2rem;
-    background-repeat: no-repeat;
-    padding-left: 50px;
-    align-items: center;
-    margin-top: 30px;
-    margin-left: -40px;
-}
-
-.buttonTextGold {
-    width: 100%;
-    display: flex;
-    z-index: 5;
-    margin-top: 230px;
-}
-
-.buttonText1Gold {
-    border: 1px solid #A18129;
-    background: #A18129;
-    width: 220px;
-    height: 46px;
-    flex-shrink: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--Modal-grey-1, #fff);
-    text-align: center;
-    font-family: gotham-light, sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    z-index: 5;
-}
 
 
 /*FOURTH SECTION*/
 
-.fourthHomeContainer {
+.fourthGameContainer {
     width: 100%;
     max-width: 1920px;
     height: 950px;
@@ -703,39 +566,51 @@ h2 {
     display: none;
 }
 
-.SubFourthHomeContainer {
+.SubFourthGameContainer {
     height: 950px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 
-.fourthHomeBox1 {
-    height: 100px;
+.fourthGameBox1 {
+    height: 300px;
     width: 100%;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--Primary-Black-1, #1E1E1E);
-    text-align: center;
-    font-family: gotham-light, sans-serif;
-    font-size: 50px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 32px;
+    align-items: flex-end;
+    justify-content: space-between;
 }
 
-.innerFourthHomeBox1 {
-    color: var(--Primary-Black-1, #8764E3);
-    text-align: center;
-    font-family: gotham-light, sans-serif;
-    font-size: 50px;
+.growRevenue {
+    width: 564px;
+    height: 200px;
+    color: #1E1E1E;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Gotham-medium;
+    font-size: 53px;
     font-style: normal;
-    font-weight: 700;
-    line-height: 32px;
+    font-weight: 500;
+    line-height: 108.5%; /* 57.505px */
 }
 
-.fourthHomeBox2 {
+@font-face {
+    font-family:Gotham-medium;
+    src: url('/public/fonts/Gotham/Gotham-Medium.otf');
+}
+
+.uniqueOffers {
+    width: 450px;
+    height: 190px;
+    color: #1E1E1E;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Gotham;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+
+
+.fourthGameBox2 {
     height: 670px;
     width: 1100px;
     display: flex;
@@ -744,265 +619,122 @@ h2 {
 }
 
 .fourthBox2Container {
+    width: inherit;
+    height: 650px;
     display: flex;
-    justify-content: right;
 }
 
-.fourth13, .fourth24 {
-    width: 100%;
-    height: 560px;
+.fourthBox2Container1 {
+    height: inherit;
+    width: 550px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
-.fourth13 {
-    margin-right: 25px;
-}
-
-.fourth24 {
-    margin-left: 25px;
-}
-
-.fourth13One, .fourth13Two, .fourth24One, .fourth24Two {
-    width: 542px;
-    height: 300px;
-    display: flex;
-    align-items: center;
-    border: #F8F8F8 1px solid;
-    box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.07);
-
-
-}
-
-.fourth13One, .fourth24One {
-    margin-bottom: 50px
-}
-
-.fourth13One, .fourth13Two {}
-
-.fourth24One, .fourth24Two {}
-
-.innerOne {
-    width: 100%;
-    height: 100px;
-    padding-left: 45px;
+.innerFourthBox1{
+    height: inherit;
+    width: 275px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+    align-items: flex-end;
 }
 
-.innerOne h1 {
-    color: var(--Primary-Black-1, #1E1E1E);
-    font-family: gotham-light;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 30px;
-    margin-bottom: 15px;
-}
-
-.stepOneImg {
-    margin-top: -10px;
-    margin-bottom: 25px;
-    height: 45px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.innerTwo {
-    width: 100%;
-    height: 100px;
-    padding-left: 45px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-}
-
-
-.innerTwo h1 {
-    color: var(--Primary-Black-1, #1E1E1E);
-    font-family: gotham-light;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 30px;
-    margin-bottom: 15px;
-}
-
-.stepTwoImg {
-    margin-top: 10px;
-    margin-bottom: 25px;
-    height: 45px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.innerThree {
-    width: 100%;
-    height: 100px;
-    padding-left: 45px;
-    margin-top: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-}
-
-.innerThree h1 {
-    color: var(--Primary-Black-1, #1E1E1E);
-    font-family: gotham-light;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 30px;
-    margin-bottom: 15px;
-}
-
-.stepThreeImg {
-    margin-top: -30px;
-    margin-bottom: 25px;
-    height: 45px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.innerFour {
-    width: 100%;
-    height: 100px;
-    padding-left: 45px;
-    margin-top: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-}
-
-.innerFour h1 {
-    color: var(--Primary-Black-1, #1E1E1E);
-    font-family: gotham-light;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 30px;
-    margin-bottom: 15px;
-}
-
-.stepFourImg {
-    margin-top: -60px;
-    margin-bottom: 25px;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-.fourth13Integration {
-    padding-top: 10px;
-    width: 447px;
-    color: var(--Primary-Black-1, #1E1E1E);
-    font-family: gotham-light;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-    display: flex;
-    flex-direction: column;
-    margin-top: -20px;
-}
-
-.likeSmatchedWork {
-    display: flex;
-}
-
-.fourth13Smatched {
-    color: var(--Primary-Blue-1, #2A2AFF);
-    font-family: gotham-light;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 32px;
-}
-
-.fourth13Two {
-    align-items: flex-start;
-}
-
-
-
-
-.fourthImg1 {
-    width: 490px;
-    height: 580px;
-    flex-shrink: 0;
+.like, .disLike {
+    width: 95px;
+    height: 95px;
     position: relative;
-    z-index: 1;
     top: 13px;
 }
 
-.fourthImg2 {
-    width: 490px;
-    height: 610px;
-    flex-shrink: 0;
-    transition: 1.5s ease;
-    position: absolute;
-    z-index: 2;
+.verticalLike {
+    width: 95px;
+    height: 420px;
+    display: flex;
+    justify-content: center;
+}
+
+.vertical {
+    width: 50px;
+    height: 420px;
+}
+
+.innerFourthBox2{
+    height: 900px;
+    width: 275px;
+    display: flex;
+    flex-direction: column;
 
 }
 
-.fourthImg2:hover {
-    transform: scale(1.2);
-
-}
-
-
-.fourth24 {
-    width: 100%;
-    height: 560px;
-}
-
-
-.innerTwo {
-    width: 100%;
-    height: 100px;
-}
-
-.fourth24Two {
-    justify-content: flex-start;
-    align-items: flex-start;
-}
-
-.fourthHomeBox3 {
-    height: 230px;
-    width: 100%;
-    color: var(--Primary-Black-1, #1E1E1E);
-    text-align: center;
-    font-family: gotham-light, sans-serif;
-    font-size: 40px;
+.innerFourthBox2details1 {
+    width: 214px;
+    height: 220px;
+    color: #1E1E1E;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Gotham-light;
+    font-size: 15px;
     font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+    font-weight: 500;
+    line-height: 24px; /* 160% */
     display: flex;
     align-items: flex-end;
-    justify-content: center;
+
 }
 
 
-.innerFourthHomeBox3 {
-    height: 120px;
-    width: 100%;
+@font-face {
+    font-family: Gotham;
+    src: url('/public/fonts/Gotham/Gotham-Light.otf');
+}
+
+.innerFourthBox2details2 {
+    width: 214px;
+    height: 240px;
+    color: #1E1E1E;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Gotham-light;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 160% */
     display: flex;
-    justify-content: center;
     align-items: center;
-
 }
+
+.innerFourthBox2details3, .innerFourthBox2details3Players {
+    width: 214px;
+    height: 220px;
+    color: #1E1E1E;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Gotham-light;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 160% */
+}
+
+.innerFourthBox2details3Players {
+    width: 200px;
+}
+
+.increasingRevenue {
+    color: #1E1E1E;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Gotham;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 24px;
+}
+
+.fourthBox2Container2 {
+    height: 500px;
+    width: 550px;
+    display: flex;
+}
+
+
+
+
 
 /*FIFTH SECTION*/
 
