@@ -253,11 +253,14 @@ const Game = () => {
                                 </div>
                                 <div className={styles.innerFourthBox2}>
                                     <div className={styles.innerFourthBox2details1}>
-                                        You are relying solely on subscriptions or intrusive ads.                                    </div>
+                                        You are relying solely on subscriptions or intrusive ads.
+                                    </div>
                                     <div className={styles.innerFourthBox2details2}>
-                                        Some players are unable to pay for your subscription, some of them are irritating by ads in it.                                    </div>
+                                        Some players are unable to pay for your subscription, some of them are irritating by ads in it.
+                                    </div>
                                     <div className={styles.innerFourthBox2details3}>
-                                        Players have not flexibility for paying. You are losing your existing users and revenue.                                    </div>
+                                        Players have not flexibility for paying. You are losing your existing users and revenue.
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -340,33 +343,39 @@ const Game = () => {
                 </div>
             </div>
     */}
-            <div className={styles.fifthHomeContainer}>
-                <div className={styles.fifthHomeBackground}>
-
-                    <div className={styles.innerFifthHomeContainer1}>
-
-                        <div className={styles.innerFifthLeft}>
-                        </div>
-
-                        <div className={styles.innerFifthRight}>
-                            <div className={styles.innerFifthMainBox1}>
-                                <div className={styles.innerFifthBox1}>
-                                    <div>Revenue Sharing Model</div>
-                                </div>
-                            </div>
-
-                            <div className={styles.innerFifthMainBox2}>
-                            We have a profit sharing model so there is no monthly cost. 
-                            This means there is no risk on your end because make our money<br/> the same way you do.<br/><br/>
-                            We are constantly working with our customers to optimize the user experience of their
-                            users and this model has proven very successful for increasing monetization and retention.
-                            </div>
-                        </div>
-
+            <div className={styles.fifthGameContainer}>
+                <div className={styles.fifthGameBackground}>
+                    <div className={styles.fifthGameLeft}>
+                        <img src="/MacBookPro17.png" />
                     </div>
-
-                    <div className={styles.bottomBG}></div>
-
+                    <div className={styles.fifthGameRight}>
+                        <div className={styles.innerFifthGameRight}>
+                            <div className={styles.fifthGameRightModel}>
+                                Enhance your web or mobile Game Business Model
+                            </div>
+                            <div className={styles.increaseSubscription}>
+                                <div className={styles.smatchInreaseOnline}>
+                                    <div>Smatched has been shown to</div>
+                                    <div className={styles.increaseRate}>increase subscription rates</div>
+                                    <div>in the online</div>
+                                </div>
+                                <div className={styles.industryNews}>
+                                    <div>news industry</div>
+                                    <div className={styles.increaseRate}>by 3x,</div>
+                                    <div>indicating the potential for significant growth</div>
+                                </div>
+                                <div>and revenue generation in the gaming industry as well.</div>
+                                <br/>
+                                <div>The gaming industry is facing significant challenges when it
+                                comes to monetization. Smatched’s offerwall provides a promising
+                                solution to this challenge and one that is likely to become increasingly
+                                    important as the gaming industry continues to evolve and grow.</div>
+                            </div>
+                            <div className={styles.buttonTextDemo}>
+                                <div className={styles.buttonTextDemo1}>BOOK A DEMO</div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
             </div>
