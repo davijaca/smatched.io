@@ -32,6 +32,11 @@
 
 }
 
+.footerContainerMobile {
+    display: none;
+
+}
+
 a {
     text-decoration: none;
     color: #dbdad7
@@ -290,299 +295,215 @@ a:hover, a:active {
     }
 
     .footerContainer {
-        width: 100vw;
-        height: auto;
-        flex-direction: column;
-        margin-top: 0px;
-        justify-content: space-between;
-        align-items: center;
-        padding-bottom: 250px;
-    }
-
-    .footerLeft {
-        box-sizing: border-box;
-        margin-top: 0px;
-        height: 520px;
-        width: 100vw;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-
-    .heroBackground {
         display: none;
-
-
     }
 
-    .heroBackgroundMobile {
-        position: absolute;
-        inset: 0;
-        text-align: center;
-        width: 100%;
-        display: block;
-        margin-top: 100px;
-    }
-
-    .heroH2 {
-        color: #1e1e1e;
-        text-align: left;
-        font: 400 14px "Poppins", sans-serif;
+    .footerContainerMobile {
         position: relative;
-        top: 375px;
-        width: 352px;
-    }
-
-    .heroGetInTouch {
-        text-align: center;
-    }
-
-    .getIn {
-        font: 700 24px "Poppins", sans-serif;
-    }
-
-    .touch {
-        font: 700 24px "Poppins", sans-serif;
-    }
-
-    .footerRight {
-        box-sizing: border-box;
-        margin-top: 0px;
+        background-color: #101010;
         width: 100vw;
-        height: 852px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .contactForm {
-        font: 400 14px "Poppins", sans-serif;
-        align-items: center;
-
-    }
-
-    .contactEmail {
-        display: flex;
-        position: relative;
-        flex-direction: column;
-        margin-top: 20px;
-        inset: 0;
-    }
-
-    .contactSubject {
-        display: flex;
-        position: relative;
-        flex-direction: column;
-        margin-top: 20px;
-        inset: 0;
-    }
-
-
-    .contactMessage {
-        display: flex;
-        position: relative;
-        flex-direction: column;
-        margin-top: 20px;
-        inset: 0;
-    }
-
-
-    .dataBox {
-        width: 352px;
-        margin-top: 10px;
-        position: relative;
-    }
-
-    .messageBox {
-        border-style: solid;
-        border-color: #1e1e1e;
-        border-width: 1px;
-        width: 352px;
-        height: 157px;
-        margin-top: 10px;
-        position: relative;
-        overflow: auto;
-        resize: none;
-    }
-
-    .errorMessage {
-        color: #ff0000;
-        font-size: 15px;
-    }
-
-
-    .sendGroup {
-        display: flex;
-        position: relative;
-        overflow: visible;
-        flex-direction: column;
-        margin-top: 50px;
-        margin-left: 1px;
-    }
-
-
-
-    .sendText {
-        position: relative;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-top: 20px;
-    }
-
-    .sendButton {
-        position: relative;
-        overflow: visible;
-    }
-
-    .backgroundImage {
-        position: relative;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        width: 1550px;
-        height: 617px;
+        height: 1386px;
         margin: auto;
         overflow-x: hidden;
-        margin-top: -450px;
-        z-index: 50;
-    }
-
-
-    .innerFooterInfo {
-        margin: 20px;
-        height: 370px;
-        position: relative;
-        display: flex;
-        justify-content: flex-start;
-        top: 200px;
-
-    }
-
-    .TopFooterInfo {
-        height: 290px;
-        display: flex;
-        flex-direction: column;
-        position: relative;
-        justify-content: flex-start;
-    }
-
-    .rightFooterInfo {
-        width: 100%;
-        display: flex;
-        align-items: flex-start;
-        align-content: flex-start;
-        flex-direction: column;
-        flex-wrap: wrap;
-        position: relative;
-    }
-
-    .footerLogo {
-        width: 33.104px;
-        height: 38.4px;
-        display: flex;
-        position: relative;
-        margin-top: 10px;
-    }
-
-    .offerwallBox {
-        width: 220px;
-        height: 58px;
-        padding-left: 12px;
-        margin: 10px 5px;
-        position: relative;
-
-    }
-
-    .offerwall {
-        color: var(--White, #FFF);
-        font-family: NordiquePro-Bold, sans-serif;
-        font-size: 19px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 105.3%;
-        position: absolute;
-
-    }
-
-    .monetization {
-        color: #E0FF22;
-        font-family: NordiquePro-Bold, sans-serif;
-        font-size: 19px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 105.3%;
-
-        position: absolute;
-    }
-
-    .imgValuable {
-        width: 33.104px;
-        height: 38.4px;
-        position: absolute;
-
-    }
-
-    .valuable {
-        width: 100%;
-        height: 36px;
-        flex-shrink: 0;
-        font-size: 14px;
-        top: 65px;
-        position: relative;
-    }
-
-    .info {
-        width: 100%;
-        height: 140px;
-        margin-top: 60px;
-
-    }
-
-
-    .leftFooterInfo {
-        position: relative;
-        margin-top: 20px;
-
-    }
-
-
-    .rightInfo {
-        font-size: 14px;
-        height: 140px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        align-items: flex-start;
+        align-items: center;
     }
 
-    .leftInfo {
-        width: 24px;
-        height: 24px;
-        top: 80px;
+
+
+
+    .topMobile {
+        display: flex;
         position: relative;
+        height: 300px;
+        flex-direction: column;
+        align-items: center;
     }
 
+    .spanJoinMobile {
+        font: 500 24px'gotham-medium', normal;
+        line-height: 38px;
+        color: #FFFFFF;
+        margin-top: 50px;
+    }
+
+
+    .formMobile {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        align-items: center;
+        height: 140px;
+        margin-top: 30px;
+    }
+
+
+
+    .subscribeBoxMobile {
+        display: flex;
+        position: relative;
+        justify-content: space-between;
+        box-sizing: border-box;
+        width: 325px;
+        height: 50px;
+        margin-bottom: 30px;
+
+    }
+
+    ::placeholder {
+        font: 400 14px'gotham-book', normal;
+        color: #BABCCE;
+        line-height: 24px;
+
+    }
+
+    .inputEMobile {
+        padding: 0px 15px;
+        width: 325px;
+        height: 50px;
+        border: 0.9375px solid #FFFFFF;
+        font: 400 14px'gotham-book', normal;
+        background-color: #101010;
+        line-height: 24px;
+        color: #BABCCE;
+    }
+
+    .alertMessageMobile {
+        color: #BABCCE;
+        font: 400 16px'gotham-book', normal;
+        margin: 15px 0px;
+    }
+
+    .submitMobile {
+        display: flex;
+        position: relative;
+        width: 210px;
+        height: 50px;
+
+    }
+
+    .submitButtonMobile {
+        position: relative;
+        width: 210px;
+        height: 50px;
+        background: #FFFFFF;
+        color: #1E1E1E;
+        font: 500 14px 'gotham-medium', normal;
+        line-height: 15px;
+        text-transform: uppercase;
+        border: 0.9375px solid #FFFFFF;
+    }
+
+    .bottomMobile {
+        display: flex;
+        position: relative;
+        height: 1086px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .topBottomMobile {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 141px;
+    }
+
+    .monetizeMobile {
+        position: relative;
+        display: flex;
+    }
+
+    .spanMonetizeMobile {
+        font: 400 14px'gotham-book', normal;
+        line-height: 12px;
+        color: #FFFFFF;
+    }
+
+    .socialMobile {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        position: relative;
+        width: 247px;
+        height: 30.3px;
+        justify-content: space-between;
+    }
+
+    .bottomDivMobile {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        align-items: center;
+        height: 772px;
+        justify-content: space-between;
+    }
+
+    .spanTitleBottomMobile {
+        font: 600 16px 'gotham-medium', normal;
+        line-height: 30px;
+        color: #FFFFFF;
+    }
+
+    .spanTextBottomMobile {
+        font: 400 14px 'gotham-book', normal;
+        line-height: 24px;
+        color: #FFFFFF;
+        margin-top: 16px;
+    }
+
+    .supportedByMobile {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        height: 239px;
+        justify-content: space-between;
+    }
+
+    .companyMobile {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        align-items: center;
+    }
+
+    .legalMobile {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        align-items: center;
+    }
+
+    .servicesMobile {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        align-items: center;
+    }
 
     .footerDivider {
-        height: 0.7px;
-        width: 352px;
-        margin-left: auto;
-        margin-right: auto;
-
+        width: 351px;
+        height: 0px;
+        border: 0.5px solid #dccfff6e;
     }
 
-    .downFooterInfo {
-        width: 284px;
-        height: 81px;
-        text-align: center;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 300;
-        line-height: normal;
-        margin-left: auto;
-        margin-right: auto;
+    .copyrightMobile {
+        position: relative;
+        width: 330px;
+        height: 24px;
+        margin-bottom: 20px;
     }
+
+    .spanCopyMobile {
+        font: 400 14px'gotham-book', normal;
+        line-height: 24px;
+        color: #FFFFFF;
+    }
+
 
 }
