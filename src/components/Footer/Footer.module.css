@@ -93,7 +93,7 @@ a:hover, a:active {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    position: relative;
+    /* position: relative; */
     width: 330px;
     height: 221px;
     justify-content: space-between;
@@ -104,6 +104,7 @@ a:hover, a:active {
     width: 330px;
     height: 30px;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .spanMonetize {
@@ -167,7 +168,6 @@ a:hover, a:active {
     width: 563px;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
 }
 
 
@@ -179,7 +179,7 @@ a:hover, a:active {
     box-sizing: border-box;
     width: 325px;
     height: 60px;
-
+    margin-bottom: 20px
 }
 
 ::placeholder {
@@ -291,12 +291,14 @@ a:hover, a:active {
 
     .footerContainer {
         width: 100vw;
-        height: auto;
+        height: 100%;
         flex-direction: column;
         margin-top: 0px;
         justify-content: space-between;
         align-items: center;
+        padding-top: 50px;
         padding-bottom: 250px;
+        text-align: center;
     }
 
     .footerLeft {
@@ -309,11 +311,38 @@ a:hover, a:active {
         align-items: center;
     }
 
+    .topLeft {
+        display: flex;
+        flex-direction: column;
+        align-items: normal;
+        position: initial;
+        margin-bottom: 0;
+        width: 330px;
+        height: 150px;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 250px;
+    }
+
+    .bottomLeft {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 330px;
+        height: 221px;
+        justify-content: space-between;
+    }
+
+    .copyright {
+        position: relative;
+        width: 330px;
+        height: 24px;
+        margin-top: 800px;
+    }
+
 
     .heroBackground {
         display: none;
-
-
     }
 
     .heroBackgroundMobile {
@@ -350,9 +379,43 @@ a:hover, a:active {
         box-sizing: border-box;
         margin-top: 0px;
         width: 100vw;
-        height: 852px;
+        height: 310px;
         display: flex;
         flex-direction: column;
+        align-items: center;
+    }
+
+    .topRight {
+        display: flex;
+        position: relative;
+        margin-bottom: 450px;
+    }
+    
+
+    .bottomRight {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 563px;
+        height: 215px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .spanTitleBottom {
+        font: 600 16px 'inter-semibold', normal;
+        line-height: 60px;
+        color: #FFFFFF;
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: -15px;
+    }
+    .form {
+        display: flex;
+        position: relative;
+        width: 563px;
+        flex-direction: column;
+        justify-content: flex-start;
         align-items: center;
     }
 

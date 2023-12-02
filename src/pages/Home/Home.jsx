@@ -380,431 +380,58 @@ const Home = () => {
                 </div>
 
             </div>
-{/*
-            <div className={styles.fifthHomeContainer}>
-                <div className={styles.fifthHomeBackground}>
+    
+                {/*MOBILE FIFTH HOME CONTAINER*/}   
 
-                    <div className={styles.innerFifthHomeContainer1}>
-                        <div className={styles.innerFifthMainBox1}>
-                            <div className={styles.innerFifthBox1}>
-                                <div>Offerwall</div>&nbsp;
-                                <div className={styles.engagement}>engagement</div>
-                                <div>is </div>
+                <div className={styles.mobileFifthHomeContainer}>
+                    <div className={styles.mobileFifthHomeBackground}>
+                        <div className={styles.mobileInnerFifthHomeContainer}>
+                            <div className={styles.mobileInnerFifthTop}>
+                            <div className={styles.mobileIcons}>
+                                <img
+                                src='./fifthIcon3.svg'
+                                alt='grafic icon'
+                                />
+                                <img
+                                src='./fifthIcon2.svg'
+                                alt='eye icon'
+                                />
+                                <img
+                                src='./fifthIcon3.svg'
+                                alt='grafic icon'
+                                />
+                                <img
+                                src='./fifthIcon1.svg'
+                                alt='grafic icon'
+                                />
                             </div>
-                            <div className={styles.highest}> highest among non- <br/>
-                                paying users.</div>
-                        </div>
-
-                        <div className={styles.innerFifthMainBox2}>
-                            The 2019 <u>Swrve Monetization Report</u> found that only 1.6% of all players
-                            make an in-app purchase and 72% of these only make one.<br />
-                            So what is a developer to do? Well, generally the answer is to slam your
-                            users with ads. But that is what has led the industry to have churn
-                            rates that average around <u>80% after 3 days.</u> That’s not great.
-                        </div>
-
-                        <div className={styles.appPurchase}>
-                                <div className={styles.noInAppPurchase}>
-                                    <div className={styles.appPerc}>1.6%</div>
-                                    <div className={styles.makeInApp}>make in-app purchase</div>
-                                </div>
-                                <div className={styles.onlyMakeOnePurchase}>
-                                    <div className={styles.appPerc}>72%</div>
-                                    <div className={styles.makeInApp}>only make one purchase</div>
-                                </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
- */}
-
-            {/*MOBILE FIFTH HOME CONTAINER*/}
-{/* 
-            div className={styles.mobileFifthHomeContainer}>
-                <div className={styles.fifthHomeBackground}>
-
-                    <div className={styles.innerFifthHomeContainer1}>
-                        <div className={styles.innerFifthMainBox1}>
-                            <div className={styles.innerFifthBox1}>
-                                <div>Offerwall</div>&nbsp;
-                                <div className={styles.engagement}>engagement</div>
-                                <div>is </div>
+                            <div className={styles.mobileBenefits}>
+                                <p>Increase new visitors</p>
+                                <p>1,355,900 Views</p>
+                                <p>Growth organic customers</p>
+                                <p>Increase your revenue</p>
                             </div>
-                            <div className={styles.highest}> highest among non-
-                                paying users.</div>
-                        </div>
-
-                        <div className={styles.innerFifthMainBox2}>
-                            The 2019 <u>Swrve Monetization Report</u> found that only 1.6% of all players
-                            make an in-app purchase and 72% of these only make one.<br />
-                            So what is a developer to do? Well, generally the answer is to slam your
-                            users with ads. But that is what has led the industry to have churn
-                            rates that average around <u>80% after 3 days.</u> That’s not great.
-                        </div>
-
-                        <div className={styles.appPurchase}>
-                            <div className={styles.noInAppPurchase}>
-                                <div className={styles.appPerc}>1.6%</div>
-                                <div className={styles.makeInApp}>make in-app purchase</div>
                             </div>
-                            <div className={styles.onlyMakeOnePurchase}>
-                                <div className={styles.appPerc}>72%</div>
-                                <div className={styles.makeInApp}>only make one purchase</div>
+
+                            <div className={styles.mobileInnerFifthBottom}>
+                            <div className={styles.mobileInnerFifthTitle}>
+                                Revenue Sharing Model
+                            </div>
+                            <div className={styles.mobileInnerFifthText}>
+                                We have a profit sharing model so there is no monthly cost. This
+                                means there is no risk on your end because make our money the
+                                same way you do.
+                                <br />
+                                <br />
+                                We are constantly working with our customers to optimize the
+                                user experience of their users and this model has proven very
+                                successful for increasing monetization and retention.
+                            </div>
                             </div>
                         </div>
                     </div>
-
                 </div>
-            </div>
- */}
-
-            {/*MOBILE SIXTH HOME CONTAINER*/}
-{/*             
-            <div className={styles.mobileSixthHomeContainer}>
-                <div className={styles.sixthBox1}>
-                    <div className={styles.offerwallSolves}>
-                        <div>Offerwalls</div>&nbsp;
-                        <div className={styles.solves}>solve </div>&nbsp;
-                        <div>two key</div>
-                    </div>
-
-                    <div className={styles.problems}>problems:</div>
-                </div>
-
-                <div className={styles.sixthBox2}>
-                    <div className={styles.innerSixthBox2}>
-                        <div className={styles.willingUsers}>
-                            <div className={styles.dollar}>
-                                <img src="./dollar_sign.png"  alt="A dollar sign" />
-                            </div>
-
-                            <div className={styles.pay}>
-                                Your users aren’t willing to pay to play
-                            </div>
-                        </div >
-
-                        <div className={styles.hateUsers}>
-                            <div className={styles.megaphone}>
-                                <img src="./mega_phone.png"  alt="A megaphone" />
-                            </div>
-
-                            <div className={styles.ads}>
-                                Your users hate ads and think they interrupt the user experience
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-            <div className={styles.seventhHomeContainer}>
-            <div style={{ background: "url(./rect_1203.png)", width: "100vw", maxWidth: "1512px", height: "2760px", display: "flex", flexDirection: "column", justifyContent: "flex-end", alignItems: "center"}}>
-
-                        <div className={styles.seventhHomeBox1}>
-                            <div className={styles.implementingSoln}>
-                                <div className={styles.implementing}>Implementing </div>&nbsp;
-                                <div className={styles.an}>an offerwall solution provides you </div>
-                            </div>
-
-                             <div className={styles.avenue}>
-                                 an avenue to offer premium content to your users
-                             </div>
-
-                             <div className={styles.priceEngage}>
-                                 <div> without making them pay the price,</div>&nbsp;
-                                 <div className={styles.engage}>engaging more </div>
-                             </div>
-
-                            <div className={styles.usersDecrease}>
-                                <div className={styles.users}>users</div>&nbsp;
-                                <div>and decreasing churn.</div>
-                            </div>
-                        </div>
-
-                        <div className={styles.seventhHomeBox2}>
-                            <div className={styles.innerSeventhBoxContainer}>
-                                <div className={styles.innerSeven1}>
-                                    <span className={styles.innerSevenBlog}>Blog</span>
-                                    <span className={styles.innerSevenArticles}>All articles</span>
-                                </div>
-
-                                <div className={styles.innerSeven2}>
-                                    <div className={styles.sevenRight}>
-                                        <div className={styles.topRightSeven}>
-                                            <img src="./img00001.png"  alt="A hand holding a phone with many icons emerging from it" />
-                                        </div>
-                                        <div className={styles.belowRightSeven}>
-                                            <div className={styles.innerBelowRightSeven}>
-                                                <div className={styles.exploring}>
-                                                    Exploring Offerwall Solutions for
-                                                    Monetization and Retention: a Comparative
-                                                    Analysis
-                                                </div>
-                                                <div className={styles.dateTime}>
-                                                    <div>July 19 2023</div>
-                                                    <div className={styles.imgTime}>
-                                                        <img src="./Time.png"  alt="A clock"/>
-                                                        <div className={styles.minRead}>8 min read</div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                                <div className={styles.readMoreExplore}>
-                                                    <div className={styles.readMoreButton}>
-                                                        Read More
-                                                    </div>
-                                                </div>
-
-                                        </div>
-                                    </div>
-                                    <div className={styles.sevenLeft}>
-                                        <div className={styles.topLeftSeven}>
-                                            <img src="./img0002.png" alt="A lightbuld with blue and yellow background"/>
-                                            <div className={styles.topLeftSevenBox1}>
-
-                                                <div className={styles.mastering}>
-                                                    Mastering Offerwall Monetisation: <br />
-                                                    Strategies to Boost Your Earnings
-                                                </div>
-
-                                                <div className={styles.leftDateTime}>
-                                                    <div>July 19 2023</div>
-                                                    <div className={styles.leftImgTime}>
-                                                        <img src="./Time.png"  alt="A clock"/>
-                                                        <div className={styles.minRead}>8 min read</div>
-                                                    </div>
-                                                </div>
-
-                                                <div className={styles.LeftReadMoreExplore}>
-                                                    <div className={styles.readMoreButton}>
-                                                        Read More
-                                                    </div>
-                                                </div>
-
-                                            </div>
-
-                                        </div>
-                                        <div className={styles.belowLeftSeven}>
-                                            <img src="./img0003.png" alt="A feminine hand holding an iPhone"/>
-                                            <div className={styles.topLeftSevenBox1}>
-
-                                                <div className={styles.mastering}>
-                                                    Behind the Scenes: How Advertisers <br />
-                                                    Create Irresistible Offerwall Campaigns
-                                                </div>
-
-                                                <div className={styles.leftDateTime}>
-                                                    <div>July 19 2023</div>
-                                                    <div className={styles.leftImgTime}>
-                                                        <img src="./Time.png"  alt="A clock"/>
-                                                        <div className={styles.minRead}>8 min read</div>
-                                                    </div>
-                                                </div>
-
-                                                <div className={styles.LeftReadMoreExplore}>
-                                                    <div className={styles.readMoreButton}>
-                                                        Read More
-                                                    </div>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <div className={styles.seventhHomeBox3}>
-                            <div className={styles.innerSeventhHome}>
-                                <div className={styles.rightSevenBox3}>
-                                    <div className={styles.getInTouch}>
-                                        <div> Get </div>&nbsp;
-                                        <div className={styles.inTouch}>in touch</div>
-                                    </div>
-                                    <div className={styles.schedule}>Learn more or schedule a call for advice
-                                        on how you can maximize the impact of offerwall
-                                        monetization on your own mobile games. </div>
-                                    <div>
-                                        <div className={styles.contactImg}>
-                                            <img src="./contact.png" alt="A mail icon"/>
-                                        </div>
-                                        <div className={styles.contactLayOut}>
-                                            <div className={styles.contactUs}>
-                                                contact us
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div  className={styles.leftSevenBox3}>
-                                    <div className={styles.mobile005}>
-                                        <img src="./mobile005.png" alt="An iPhone with offerwall monetization written on it with two young man playing on the phones on the background"/>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-
-          </div>
-          </div>
- */}
-
-            {/*MOBILE SEVENTH HOME CONTAINER*/}
-{/* 
-            <div className={styles.seventhMobileHomeContainer}>
-                <div style={{ background: "url(./rect_1203mobile.png)", width: "100vw", maxWidth: "393px", display: "flex", flexDirection: "column", justifyContent: "flex-end", alignItems: "center", margin:"auto", backgroundRepeat: "no-repeat"}}>
-
-                            <div className={styles.seventhHomeBox1Mobile}>
-                                <div className={styles.implementingSolnMobile}>
-                                    <div className={styles.implementingMobile}>Implementing </div>&nbsp;
-                                    <div className={styles.anMobile}>an</div>
-                                </div>
-
-                                <div className={styles.avenueMobile}>
-                                 offerwall solution provides you an avenue to offer premium content to your users without making them
-                                </div>
-
-                                <div className={styles.priceEngageMobile}>
-                                pay the price,
-                                    <div className={styles.engageMobile}>engaging </div>
-                                </div>
-
-                                <div className={styles.usersDecreaseMobile}>
-                                    <div className={styles.usersMobile}> more users</div>
-                                    <div>and decreasing</div>
-                                </div>
-                                <div className={styles.churnMobile}>churn.</div>
-                            </div>
-
-                            <div className={styles.seventhHomeBox2Mobile}>
-                                <div className={styles.innerSeventhBoxContainerMobile}>
-                                    <div className={styles.innerSeven1Mobile}>
-                                        <span className={styles.innerSevenBlogMobile}>Blog</span>
-                                        <span className={styles.innerSevenArticlesMobile}>All articles</span>
-                                    </div>
-
-                                    <div className={styles.innerSeven2Mobile}>
-                                        <div className={styles.sevenRightMobile}>
-
-                                            <div className={styles.topFirstSevenMobile}>
-                                            <img src="./img00001.png" alt="A hand holding a phone with many icons emerging from it"/>
-                                            <div className={styles.topLeftSevenBox1Mobile}>
-
-                                                <div className={styles.exploringMobile}>
-                                                    Exploring Offerwall Solutions for
-                                                    Monetization and Retention: a Comparative
-                                                    Analysis
-                                                </div>
-
-                                                <div className={styles.leftDateTimeMobile}>
-                                                    <div>July 19 2023</div>
-                                                    <div className={styles.leftImgTimeMobile}>
-                                                        <img src="./Time.png"  alt="A clock"/>
-                                                        <div className={styles.minReadMobile}>8 min read</div>
-                                                    </div>
-                                                </div>
-
-                                                <div className={styles.LeftReadMoreExploreMobile}>
-                                                    <div className={styles.readMoreButtonMobile}>
-                                                        Read More
-                                                    </div>
-                                                </div>
-
-                                            </div>
-
-                                            </div>
-                                            <div className={styles.topLeftSevenMobile}>
-                                            <img src="./img0002.png" alt="A lightbuld with blue and yellow background"/>
-                                            <div className={styles.topLeftSevenBox1Mobile}>
-
-                                                <div className={styles.exploringMobile}>
-                                                    Mastering Offerwall Monetisation: <br />
-                                                    Strategies to Boost Your Earnings
-                                                </div>
-
-                                                <div className={styles.leftDateTimeMobile}>
-                                                    <div>July 19 2023</div>
-                                                    <div className={styles.leftImgTimeMobile}>
-                                                        <img src="./Time.png"  alt="A clock"/>
-                                                        <div className={styles.minReadMobile}>8 min read</div>
-                                                    </div>
-                                                </div>
-
-                                                <div className={styles.LeftReadMoreExploreMobile}>
-                                                    <div className={styles.readMoreButtonMobile}>
-                                                        Read More
-                                                    </div>
-                                                </div>
-
-                                            </div>
-
-                                            </div>
-                                            <div className={styles.belowLeftSevenMobile}>
-                                                <img src="./img0003.png" alt="A feminine hand holding an iPhone"/>
-                                                <div className={styles.topLeftSevenBox1Mobile}>
-
-                                                    <div className={styles.exploringMobile}>
-                                                        Behind the Scenes: How Advertisers <br />
-                                                        Create Irresistible Offerwall Campaigns
-                                                    </div>
-
-                                                    <div className={styles.leftDateTimeMobile}>
-                                                        <div>July 19 2023</div>
-                                                        <div className={styles.leftImgTimeMobile}>
-                                                            <img src="./Time.png"  alt="A clock"/>
-                                                            <div className={styles.minReadMobile}>8 min read</div>
-                                                        </div>
-                                                    </div>
-
-                                                    <div className={styles.LeftReadMoreExploreMobile}>
-                                                        <div className={styles.readMoreButtonMobile}>
-                                                            Read More
-                                                        </div>
-                                                    </div>
-
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-
-                            <div className={styles.seventhHomeBox3Mobile}>
-                                <div className={styles.innerSeventhHomeMobile}>
-                                    <div className={styles.rightSevenBox3Mobile}>
-                                        <div className={styles.getInTouchMobile}>
-                                            <div> Get </div>&nbsp;
-                                            <div className={styles.inTouchMobile}>in touch</div>
-                                        </div>
-                                        <div className={styles.scheduleMobile}>Learn more or schedule a call for advice
-                                            on how you can maximize the impact of offerwall
-                                            monetization on your own mobile games.</div>
-                                        <div>
-                                            <div className={styles.contactImgMobile}>
-                                                <img src="./contact.png" alt="A mail icon"/>
-                                            </div>
-                                            <div className={styles.contactLayOutMobile}>
-                                                <div className={styles.contactUsMobile}>
-                                                    contact us
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                        <div className={styles.mobile005Mobile}>
-                                            <img src="./mobile005.png" alt="An iPhone with offerwall monetization written on it with two young man playing on the phones on the background"/>
-                                        </div>
-
-                                </div>
-                            </div>
-
-                </div>
-
-            </div>
-*/}
+            
             </div>
 
 

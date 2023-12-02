@@ -42,7 +42,7 @@ const Footer = () => {
               />
               <div className={styles.monetize}>
                 <span className={styles.spanMonetize}>
-                  Join Our Newsletter{' '}
+                  Monetize - Unleash your data's value{' '}
                 </span>
               </div>
             </div>
