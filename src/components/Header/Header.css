@@ -3,27 +3,12 @@
     height: 100px;
     width: 100%;
     top: 0;
-    left: 0;
     z-index: 55;
-    overflow: hidden;
-    background: linear-gradient(
-        90deg,
-        rgba(81, 79, 177, 1) 0%,
-        rgba(76, 117, 183, 1) 24.304988980293274%,
-        rgba(53, 159, 173, 1) 77.56538987159729%,
-        rgba(44, 175, 168, 1) 98.4375%
-      );
-    opacity: 0.8999999761581421;
+    background: transparent;
 }
 .header-bg{
-    background: linear-gradient(
-        90deg,
-        rgba(81, 79, 177, 1) 0%,
-        rgba(76, 117, 183, 1) 24.304988980293274%,
-        rgba(53, 159, 173, 1) 77.56538987159729%,
-        rgba(44, 175, 168, 1) 98.4375%
-      );
-    opacity: 0.8999999761581421;
+    background: url(../../../public/headerBg.svg) center center no-repeat;
+    background-size: cover;
 }
 
 
@@ -54,7 +39,7 @@
 .header .nav-item {
     padding: 1.5rem;
     font-weight: 700;
-    margin-right: 20%;
+    margin-right: 15%;
 }
 
 .header .nav-item a:hover {
@@ -66,89 +51,10 @@
     display: none;
 }
 
-
-@media screen and (max-width:940px) {
-    .header {
-        max-width: 100%;
-            background: linear-gradient(
-        90deg,
-        rgba(81, 79, 177, 1) 0%,
-        rgba(76, 117, 183, 1) 24.304988980293274%,
-        rgba(53, 159, 173, 1) 77.56538987159729%,
-        rgba(44, 175, 168, 1) 98.4375%
-      );
-      opacity: 0.8999999761581421;
-    }
-
-    .header .navbar {
-        max-width: 100%;
-    }
-
-    .header .nav-menu {
-        display: flex;
-    }
-
-    .hamburger {
-        display: block;
-    }
-
-    .nav-menu {
-        position: fixed;
-        left: -200%; /* hides hamburger menu when not toggled */
-        top: 83px;
-        flex-direction: column;
-        background: linear-gradient(
-                    180deg, 
-                    #5B56BD 0%, 
-                    #293285 50%,
-                    #0A004A 100%);
-        width: 100%;
-        height: 90vh;
-        z-index: 20;
-        text-align: center;
-        transition: .3s;
-    }
-    
-    .nav-menu a {
-        text-decoration: none
-    }
-
-    .nav-menu.active {
-        left: 0;
-    }
-
-    .nav-item {
-        margin: 1.5rem 0;
-    }
-
-    .header .navbar img {
-        width: 150px;
-    }
-}
-
-
-
-.mainBox {
-    background: linear-gradient(
-        90deg,
-        rgba(81, 79, 177, 1) 0%,
-        rgba(76, 117, 183, 1) 24.304988980293274%,
-        rgba(53, 159, 173, 1) 77.56538987159729%,
-        rgba(44, 175, 168, 1) 98.4375%
-      );
-      opacity: 0.8999999761581421;
-      width: 100%;
-      height: 100px;
-      position: sticky;
-      left: 0px;
-      top: 0px;
-      backdrop-filter: blur(2px);
-      z-index: 40;
-}
-
 .headerBox {
     height: 100px;
-    width: 100%;
+    max-width: 1530px;
+    margin: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -158,27 +64,21 @@
     display: flex;
     align-items: center;
     height: 70px;
-    width: 77%;
-    gap: 110px;
 }
 
 .rightImg {
-    width: 30%;
     height: 57px;
     display: flex;
-    position: absolute;
-    left: 60px;
+    position: relative;
 }
 
 .topMenu {
     display: flex;
     flex-direction: row;
-    gap: 81px;
+    gap: 80px;
     align-items: center;
     justify-content: center;
-    position: absolute;
-    left: 490px;
-    top: 42px;
+    margin-left: 400px;
 }
 
 .topMenuItem {
@@ -186,17 +86,9 @@
     text-align: center;
     font: 500 16px "Poppins", sans-serif;
     text-transform: uppercase;
-    position: relative;
     text-decoration: none;
 }
 
-.headerTitle {
-    text-align: left;
-    font: 400 30px/0% "NordiquePro-Bold", sans-serif;
-    position: absolute;
-    left: 120px;
-    top: 22px;
-  }
 
 .headerTitleItem {
     color: #FFF;
@@ -222,6 +114,7 @@
 .dropDown {
     position: relative;
     width: 132px;
+    color: #FFF;
 }
 
 .arrowDown{
@@ -236,33 +129,38 @@
     width: 260px;
     display: flex;
     align-items: center;
-    background-color: #FFF;
+    background-color: #080503;
+    opacity: 0.9999999761581421;
     justify-content: space-between;
     transition: all 0.9s;
+    left: -20px;
+    top: 60px
 }
 
 .dropDownBtn > ul {
     list-style: none;
     padding: 5px;
     font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+    margin: auto;
 }
 
-.dropDownBtn > ul :hover{
+/* .dropDownBtn > ul :hover{
     padding: 5px;
     border: 0.5px solid rgb(240, 239, 239);
     border-radius: 0 0 8px 8px ;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 2px;
-}
+} */
 
 .contact {
-    background: #e0ff22;
-    color: #130E5B;
-    border-radius: 4px;
+    background: transparent;
+    color: white;
+    border: 1px solid #FFFFFF;
     width: 191px;
     height: 45px;
-    position: absolute;
-    right: 5%;
-    top: 28px;
+    
 }
 
 .mobileHamburgerMenu {
@@ -271,15 +169,18 @@
 
 .contact:hover {
      cursor: pointer;
-     border-radius: 4px;
-     background: #BEE4FF;
-     color: #130E5B;
+     border-radius: 0px;
+     background: white;
  }
 
-
+ .contactButton:hover {
+    cursor: pointer;
+    color: black;
+    background: white;
+}
 
 .contactButton{
-    color: var(--Primary-Black-1, #1E1E1E);
+    color: WHITE;
     text-align: center;
     font-family: Poppins, sans-serif;
     font-size: 15px;
@@ -287,13 +188,14 @@
     font-weight: 500;
     line-height: normal;
     text-transform: uppercase;
-    position: absolute;
-    top: 27%;
+    position: relative;
     left: auto;
     right: auto;
+    height: 100%;
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .header-logo {
@@ -306,26 +208,56 @@
 
 
 /*MOBILE RESPONSIVENESS*/
-@media only screen and (max-width: 1130px) and (min-width: 320px){
 
 
-    .mainBox {
-        background: linear-gradient(
-                90deg,
-                rgba(81, 79, 177, 1) 0%,
-                rgba(76, 117, 183, 1) 24.304988980293274%,
-                rgba(53, 159, 173, 1) 77.56538987159729%,
-                rgba(44, 175, 168, 1) 98.4375%
-        );
+@media only screen and (max-width: 1530px) and (min-width: 320px){
+
+    .header {
+        max-width: 100%;
+        background: black;
         opacity: 0.8999999761581421;
+    }
+
+    .header .navbar {
+        max-width: 100%;
+    }
+
+    .header .nav-menu {
+        display: flex;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .nav-menu {
+        position: fixed;
+        left: -200%; /* hides hamburger menu when not toggled */
+        top: 83px;
+        flex-direction: column;
+        background: black;
         width: 100%;
-        height: 100px;
-        position: sticky;
-        left: 0px;
-        top: 0px;
-        backdrop-filter: blur(2px);
-        z-index: 40;
-        
+        height: 90vh;
+        z-index: 20;
+        text-align: center;
+        transition: .3s;
+        align-items: center
+    }
+    
+    .nav-menu a {
+        text-decoration: none
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-item {
+        margin: 1.5rem 0;
+    }
+
+    .header .navbar img {
+        width: 150px;
     }
 
     .headerBox {
@@ -396,6 +328,7 @@
         position: absolute;
         right: 5%;
         top: 35px;
+        border: none;
     }
 
     .contact:hover {
@@ -414,6 +347,42 @@
         display: none;
     }
 
+    .dropDown {
+        position: relative;
+        width: 132px;
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .dropDownBtn{
+        position:initial;
+        display: flex;
+        align-items: center;
+        background-color: black;
+        justify-content: space-between;
+        transition: all 0.9s;
+    }
+
+    .dropDownBtn > ul {
+        list-style: none;
+        padding: 5px;
+        font-size: 16px;
+        margin: auto;
+    }
+
+    .dropDownBtn li {
+        margin: 30px 0;
+    }
+
+    
+    .dropDownBtn > ul :hover{
+        padding: 5px;
+        border: 0.5px solid rgb(240, 239, 239);
+        border-radius: 0 0 8px 8px ;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 2px;
+    }
 
 
 }
