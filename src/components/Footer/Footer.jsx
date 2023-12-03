@@ -42,7 +42,7 @@ const Footer = () => {
               />
               <div className={styles.monetize}>
                 <span className={styles.spanMonetize}>
-                  Monetize - Unleash your data's value{' '}
+                  Monetize – Unleash your data’s value{' '}
                 </span>
               </div>
             </div>
@@ -140,67 +140,123 @@ const Footer = () => {
           </div>
         </div>
       </div>
+
+      <div className={styles.footerContainerMobile}>
+        <div className={styles.topMobile}>
+          <span className={styles.spanJoinMobile}>Join Our Newsletter </span>
+
+          <form
+            onSubmit={submitHandler}
+            className={styles.formMobile}
+          >
+            <div className={styles.subscribeBoxMobile}>
+              <input
+                className={styles.inputEMobile}
+                type='email'
+                onChange={inputHandler}
+                placeholder='Enter your email..'
+                value={input}
+              />
+            </div>
+            <div className={styles.submitMobile}>
+              <button
+                type='submit'
+                className={styles.submitButtonMobile}
+              >
+                subscribe
+              </button>
+            </div>
+          </form>
+        </div>
+        {message && <div className={styles.alertMessage}> {message} </div>}
+
+        <div className={styles.bottomMobile}>
+          <div className={styles.topBottomMobile}>
+            <img
+              src='./logo.svg'
+              alt=''
+            />
+            <div className={styles.monetizeMobile}>
+              <span className={styles.spanMonetizeMobile}>
+                Monetize – Unleash your data’s value{' '}
+              </span>
+            </div>
+            <div className={styles.socialMobile}>
+              <img
+                src='./facebook.svg'
+                alt=''
+              />
+              <img
+                src='./instagram.svg'
+                alt=''
+              />
+              <img
+                src='./linkedin.svg'
+                alt=''
+              />
+              <img
+                src='./tiktok.svg'
+                alt=''
+              />
+              <img
+                src='./youtube.svg'
+                alt=''
+              />
+            </div>
+          </div>
+          <div className={styles.bottomDivMobile}>
+            <div className={styles.supportedByMobile}>
+              <span className={styles.spanTitleBottomMobile}>
+                Supported by{' '}
+              </span>
+              <img
+                src='./srh.svg'
+                alt=''
+              />
+              <img
+                src='./innowerft.svg'
+                alt=''
+              />
+              <img
+                src='./startUp.svg'
+                alt=''
+              />
+            </div>
+            <div className={styles.companyMobile}>
+              <span className={styles.spanTitleBottomMobile}>Company </span>
+              <span className={styles.spanTextBottomMobile}>Our mission </span>
+            </div>
+            <div className={styles.legalMobile}>
+              <span className={styles.spanTitleBottomMobile}>Legal </span>
+              <span className={styles.spanTextBottomMobile}>Imprint </span>
+              <span className={styles.spanTextBottomMobile}>
+                Data Security{' '}
+              </span>
+              <span className={styles.spanTextBottomMobile}>ToC </span>
+              <span className={styles.spanTextBottomMobile}>Cookies</span>
+            </div>
+            <div className={styles.servicesMobile}>
+              <span className={styles.spanTitleBottomMobile}>Services </span>
+              <span className={styles.spanTextBottomMobile}>Product </span>
+              <span className={styles.spanTextBottomMobile}>
+                For influencer{' '}
+              </span>
+              <span className={styles.spanTextBottomMobile}>For Business </span>
+            </div>
+          </div>
+          <div className={styles.footerDivider}>
+            {' '}
+            <br />
+          </div>
+          <div className={styles.copyrightMobile}>
+            <span className={styles.spanCopyMobile}>
+              Copyright 2023 Smatched. All Rights Reserved.{' '}
+            </span>
+          </div>
+        </div>
+      </div>
     </>
   );
 };
 
 export default Footer;
-
-/*
-        <div className={styles.footerName}>
-          <div className={styles.backgroundImage}>
-            <div className={styles.footerInfo}>
-              <div className={styles.innerFooterInfo}>
-                <div className={styles.TopFooterInfo}>
-                  <div className={styles.rightFooterInfo}>
-                    <div className={styles.imgValuable}>
-                      <img
-                        className={styles.footerLogo}
-                        src='./header_logo.png'
-                        alt=''
-                      />
-                      <div className={styles.offerwallBox}>
-                        <span className={styles.offerwall}>offerwall</span>
-                        <br />
-                        <span className={styles.monetization}>
-                          monetization
-                        </span>
-                      </div>
-                    </div>
-                    <div className={styles.valuable}>
-                      <span> A Valuable Tool for Monetizing Mobile Games </span>
-                    </div>
-                  </div>
-
-                  <div className={styles.leftFooterInfo}>
-                    <div className={styles.info}>
-                      <div className={styles.rightInfo}>
-                        <span>FAQs</span>
-                        <a href='/#/blog'>BLOG</a>
-                        <span>PARTNERSHIPS</span>
-                        <span>PRIVACY POLICY</span>
-                      </div>
-                    </div>
-
-                    <div className={styles.leftInfo}>
-                      <img src='./lnkdn.svg' />
-                    </div>
-                  </div>
-                </div>
-
-                <div className={styles.footerDivider}>
-                  <hr />
-                </div>
-
-                <div className={styles.downFooterInfo}>
-                  <span>
-                    {' '}
-                    © Copyright 2023 Offerwall Monetization. All Rights
-                    Reserved.{' '}
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-*/
