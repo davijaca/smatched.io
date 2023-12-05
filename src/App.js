@@ -34,49 +34,49 @@ function App() {
           {
             path: AppRoutes.MAIN,
             element: <Home />,
-            errorElement: <h1>HOME PAGE NOT FOUND</h1>
+            errorElement: <h1>HOME PAGE NOT FOUND</h1>,
           },
 
           {
             path: AppRoutes.GAME,
             element: <Game />,
-            errorElement: <h1> PAGE NOT FOUND 2</h1>
+            errorElement: <h1> PAGE NOT FOUND 2</h1>,
           },
           {
             path: AppRoutes.NONPROFIT,
             element: <NonProfit />,
-            errorElement: <h1> PAGE NOT FOUND 3</h1>
+            errorElement: <h1> PAGE NOT FOUND 3</h1>,
           },
           {
             path: AppRoutes.WEBSITE,
             element: <Website />,
-            errorElement: <h1> PAGE NOT FOUND 8</h1>
+            errorElement: <h1> PAGE NOT FOUND 8</h1>,
           },
 
           {
             path: AppRoutes.ARTICLES,
             element: <Articles />,
-            errorElement: <h1> PAGE NOT FOUND 4</h1>
+            errorElement: <h1> PAGE NOT FOUND 4</h1>,
           },
 
           {
             path: AppRoutes.BLOGARTICLE,
             element: <BlogArticle />,
-            errorElement: <h1> PAGE NOT FOUND 5</h1>
+            errorElement: <h1> PAGE NOT FOUND 5</h1>,
           },
           {
             path: AppRoutes.NEWSPAPER,
             element: <Newspaper />,
-            errorElement: <h1> PAGE NOT FOUND 6</h1>
+            errorElement: <h1> PAGE NOT FOUND 6</h1>,
           },
 
           {
             path: AppRoutes.CONTACT,
             element: <Contact />,
-            errorElement: <h1> PAGE NOT FOUND 7</h1>
-          }
-        ]
-      }
+            errorElement: <h1> PAGE NOT FOUND 7</h1>,
+          },
+        ],
+      },
     ],
     { basename: '/' }
   );
