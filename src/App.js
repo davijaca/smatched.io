@@ -14,6 +14,7 @@ import HowItWorks from './pages/HowItWorks/HowItWorks';
 import Contact from './pages/Contact/Contact';
 import Mobile from './pages/Mobile/Mobile';
 import BlogAllArticles from './pages/BlogAllArticles/BlogAllArticles';
+import TapjoyVsSmatced from './pages/TapjoyVsSmatched/TapjoyVsSmatched';
 import Footer from './components/Footer/Footer';
 import { Helmet } from 'react-helmet';
 import ReactGA from 'react-ga';
@@ -25,7 +26,7 @@ function App() {
     return (
       <div className={styles.app}>
         <Header />
-        <Helmet/>
+        <Helmet />
         <Outlet />
         <Footer showFormFooter={showFormFooter} />
       </div>
@@ -101,6 +102,11 @@ function App() {
           {
             path: AppRoutes.BLOGALLARTICLES,
             element: <BlogAllArticles />,
+            errorElement: <h1>HOME PAGE NOT FOUND</h1>,
+          },
+          {
+            path: AppRoutes.TAPJOYVSSMATCHED,
+            element: <TapjoyVsSmatced />,
             errorElement: <h1>HOME PAGE NOT FOUND</h1>,
           },
         ],
