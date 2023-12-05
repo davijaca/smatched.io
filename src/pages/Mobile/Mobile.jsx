@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './Mobile.module.css';
-import { Link } from 'react-router-dom';
+import Button from '../../components/Button/Button';
+import ContentModOne from '../../components/ContentModOne/ContentModOne';
 
 const Mobile = () => {
   return (
@@ -16,7 +17,7 @@ const Mobile = () => {
             alt='Two smartphones'
           />
         </div>
-        <div className={styles.firstSectionContent}>
+        {/* <div className={styles.firstSectionContent}>
           <h1 className={styles.titleAllSections}>
             <span>Mobile app</span>
             <br />
@@ -30,10 +31,21 @@ const Mobile = () => {
             opportunities in exchange for access to premium content, vouchers or
             rewards.
           </p>
-          <Link className={styles.button} to=''>
-            <div className={styles.buttonText}>BOOK A DEMO</div>
-          </Link>
-        </div>
+          <Button />
+        </div> */}
+        <ContentModOne
+          header='Mobile app'
+          headerSpan='monetization.'
+          text1='Only around 10% of users remain active 1 week after installation,
+            offering users more choice is crucial for generating revenue.'
+          text2='One popular approach is leveraging mobile offerwalls, which provide
+            present users with a variety of offers, surveys or app testing
+            opportunities in exchange for access to premium content, vouchers or
+            rewards.'
+          containerWidth='555px'
+          paragraphWidht='437px'
+          containerMargin='-15px -454px 0px 200px'
+        />
       </div>
 
       {/* Second section */}
@@ -125,9 +137,7 @@ const Mobile = () => {
               Providing valuable content or services
             </li>
           </ul>
-          <Link className={styles.button} to=''>
-            <div className={styles.buttonText}>BOOK A DEMO</div>
-          </Link>
+          <Button />
         </div>
         <div className={styles.fourthSectionImage}>
           <img

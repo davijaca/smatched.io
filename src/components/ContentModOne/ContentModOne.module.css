@@ -1,0 +1,48 @@
+@font-face {
+  font-family: gotham-medium;
+  src: url('/public/fonts/Gotham/Gotham-Medium.otf');
+}
+
+@font-face {
+  font-family: gotham-book;
+  src: url('/public/fonts/Gotham/Gotham-Book.otf');
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 60px;
+}
+
+.container > h1 {
+  color: #fff;
+  font-family: gotham-medium;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 87px;
+  margin: 0;
+}
+
+.container > h1 > span {
+  font-family: gotham-book;
+  font-weight: 400;
+}
+
+.containerParagraph {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.containerText {
+  color: #fff;
+  font-family: gotham-book;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 0;
+}
