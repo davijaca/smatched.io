@@ -1,7 +1,10 @@
 export const AppRoutes = {
-    MAIN: '/',
-    BLOG: '/blog',
-    ARTICLES: '/articles',
-    BLOGARTICLE: '/blogarticle',
-    CONTACT: '/contact',
-}
+  MAIN: '/',
+  GAME: '/game',
+  ARTICLES: '/articles',
+  BLOGARTICLE: '/blogarticle',
+  WEBSITE: '/website',
+  NONPROFIT: '/nonprofit',
+  NEWSPAPER: '/newspaper',
+  CONTACT: '/contact'
+};

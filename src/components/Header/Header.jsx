@@ -1,5 +1,5 @@
 import React, {useRef, useState,} from "react";
-import styles from "./Header.module.css";
+import "./Header.css";
 import { AiOutlineUp, AiOutlineDown } from "react-icons/ai"
 import {lists} from "../../businessList.js";
 import {Link} from "react-router-dom";
@@ -14,10 +14,18 @@ const Header = () => {
     const mobileBusinessRef = useRef();
 
     const [click, setClick] = useState(false)
-    const [color, setColor] = useState(false)
-
     const handleClick = () => setClick(!click)
 
+    const [color, setColor] = useState(false)
+    const changeColor = () => {
+        if (window.scrollY >= 90) {
+            setColor(true)
+        } else {
+            setColor(false)
+        }
+    }
+
+    window.addEventListener('scroll', changeColor)
     window.addEventListener("click", (e) => {
         if (e.target !== menuRef.current && e.target !== businessRef.current && e.target !== mobileBusinessRef.current) {
             setOpen(false);
@@ -27,37 +35,33 @@ const Header = () => {
     const closeMenu = () => setClick(false)
 
     return (
-        <div className={styles.header}>
-            <div className={styles.mainBox}>
-                <div className={styles.headerBox}>
-                    <div className={styles.right}>
-
-                        <div className={styles.logo}>
-                            <img src="/Horizontal_container.png" alt='logo'/>
-                        </div>
-                    </div>
-
-                    <div className={styles.middle}>
-                        <div className={styles.topMenu}>
-                            <div className={styles.topMenuItem}>PRODUCT</div>
-                            <div className={styles.topMenuItem}>OUR MISSION</div>
-                            <div className={styles.topMenuItem}>INFLUENCER</div>
-                            <div className={styles.topMenuItem}>
-                                <div className={styles.dropDown}>
+        <>
+        <div className={color ? 'header header-bg' : 'header'}>
+                <div className='headerBox'>
+                    <div className='right'>
+                        <a href="/" className='rightImg'>
+                            <img src="./Horizontal_container.png" alt="Logo"/>
+                        </a>
+                        <nav className='topMenu'>
+                            <a className='topMenuItem' href="/">PRODUCT</a>
+                            {/*<a className={styles.topMenuItem}>How it Works</a>*/}
+                            <a className='topMenuItem' href="/#/blog">OUR MISSION</a>
+                            <a className='topMenuItem'>INFLUENCER</a>
+                            <a className='dropDown'>
                                     <div
                                         ref = {businessRef}
                                         onClick = {() => setOpen(!open)}>
                                         FOR BUSINESS
 
                                         {!open ? (
-                                            <AiOutlineDown className={styles.arrowDown} />
+                                            <AiOutlineDown className='arrowDown' />
                                         ) : (
-                                            <AiOutlineUp className={styles.arrowDown} />
+                                            <AiOutlineUp className='arrowDown' />
                                         )}
 
                                     </div>
                                     {open &&
-                                        <div ref={menuRef} className={styles.dropDownBtn}>
+                                        <div ref={menuRef} className='dropDownBtn'>
                                             <ul>
                                                 {lists.map((item) => (
                                                     <li onClick = {() =>setOpen(true)} >{item.title}</li>
@@ -66,50 +70,48 @@ const Header = () => {
                                         </div>
                                     }
 
-                                </div>
-                            </div>
-                            <div className={styles.topMenuItem}>BLOG</div>
-                            <div className={styles.howItWorks}>
-                                <button className={styles.btn}>How it works</button>
-                            </div>
+                                </a>
+                            <a className='topMenuItem' href="/#/blog">BLOG</a>
+
+                        </nav>
+                    </div>
+
+                    <div className='contact'>
+                        <a href="/#/contact">
+                        <div className='contactButton'>HOW IT WORKS</div>
+                        </a>
+                        <div className='hamburger' onClick={handleClick}>
+                            {click ? (<FaTimes size={30} style={{ color: '#ffffff' }} />)
+                                : (<FaBars size={30} style={{ color: '#ffffff' }} />)}
+
                         </div>
-
-                    </div>
-
-
-                    <div className={styles.hamburger}
-                        onClick={handleClick}
-                    >
-                        {click ? (<FaTimes size={30} style={{ color: '#ffffff' }} />)
-                            : (<FaBars size={30} style={{ color: '#ffffff' }} />)}
-
-                    </div>
-{/* 
-                        <div className={styles.navMenu}>
-                            <ul className={click ? "nav-menu active" : "nav-menu"}>
-                                <li className={styles["nav-item"]}>
-                                    <a href='/' onClick={closeMenu}>PRODUCT</a>
-                                </li>
-                                <li className={styles["nav-item"]}>
-                                    <a href='/#/blog' onClick={closeMenu}>OUR MISSION</a>
-                                </li>
-                                <li className={styles["nav-item"]}>
-                                    <div onClick={closeMenu}>FOR BUSINESS</div>
-                                    <div className={styles.dropDown}>
+                        <ul className={click ? "nav-menu active" : "nav-menu"}>
+                            <li className='nav-item'>
+                                <a href='/' onClick={closeMenu}>PRODUCT</a>
+                            </li>
+                            <li className='nav-item'>
+                                <a href='#about' onClick={closeMenu}>OUR MISSION</a>
+                            </li>
+                            <li className='nav-item'>
+                                <a href='#about' onClick={closeMenu}>INFLUENCER</a>
+                            </li>
+                            <li className='nav-item'>
+                                {/* <a href='/#/contact' onClick={closeMenu}>FOR BUSINESS</a> */}
+                                <div className='dropDown'>
                                         <div
                                             ref = {mobileBusinessRef}
                                             onClick = {() => setOpen(!open)}>
                                             FOR BUSINESS
 
                                             {!open ? (
-                                                <AiOutlineDown className={styles.arrowDown} />
+                                                <AiOutlineDown className='arrowDown' />
                                             ) : (
-                                                <AiOutlineUp className={styles.arrowDown} />
+                                                <AiOutlineUp className='arrowDown' />
                                             )}
 
                                         </div>
                                         {open &&
-                                            <div ref={menuRef} className={styles.dropDownBtn}>
+                                            <div ref={menuRef} className='dropDownBtn'>
                                                 <ul>
                                                     {lists.map((item) => (
                                                         <li onClick = {() =>setOpen(true)} >{item.title}</li>
@@ -118,22 +120,21 @@ const Header = () => {
                                             </div>
                                         }
 
-                                    </div>
-                                </li>
-                                <li className={styles["nav-item"]}>
-                                    <a href='/#/contact' onClick={closeMenu}>BLOG</a>
-                                </li>
-                                <li className={styles["nav-item"]}>
-                                    <button className={styles.mobileBtn}>How it works</button>
-                                </li>
-                            </ul>
-                        </div>
- */}
-
+                                </div>
+                            </li>
+                            <li className='nav-item'>
+                                <a href='/#/blog' onClick={closeMenu}>BLOG</a>
+                            </li>
+                        </ul>
                     </div>
+
                 </div>
-            
-         </div>
+        </div>
+
+                {/* Temporary solution for background opacity */}
+                <ul className={click ? "nav-menu active" : "nav-menu"}>
+                </ul>
+            </>
     )
 }
 

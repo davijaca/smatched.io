@@ -1,9 +1,9 @@
+
 .home,
 .home * {
-    box-sizing: border-box;
-
+  box-sizing: border-box;
+  
 }
-
 h1 {
     margin: 0;
 }
@@ -17,7 +17,7 @@ h2 {
     max-width: 1530px;
     margin: auto;
     margin-top: -120px;
-
+    
 }
 
 /*FIRST SECTION*/
@@ -38,7 +38,7 @@ h2 {
 }
 
 
-.gradientContainer {
+.gradientContainer{
     width: 100%;
     max-width: 1530px;
     position: absolute;
@@ -46,7 +46,7 @@ h2 {
 
 
 
-.gradientContainerLeft {
+.gradientContainerLeft{
     /* background-color: rgba(76, 175, 80, 0.4); */
     z-index: 3;
     position: absolute;
@@ -92,8 +92,7 @@ h2 {
     font-size: 55px;
     font-style: normal;
     font-weight: 700;
-    line-height: 131.5%;
-    /* 72.325px */
+    line-height: 131.5%; /* 72.325px */
     z-index: 5;
 }
 
@@ -103,8 +102,7 @@ h2 {
     font-size: 55px;
     font-style: normal;
     font-weight: 700;
-    line-height: 131.5%;
-    /* 72.325px */
+    line-height: 131.5%; /* 72.325px */
     z-index: 5;
 
 }
@@ -117,7 +115,7 @@ h2 {
 
 .innerParag {
     color: #FFF;
-    font-feature-settings: 'clig'off, 'liga'off;
+    font-feature-settings: 'clig' off, 'liga' off;
     font-family: gotham-light;
     font-size: 18px;
     font-style: normal;
@@ -135,7 +133,7 @@ h2 {
     margin-bottom: 100px;
 }
 
-.buttonText1, .buttonText2 {
+.buttonText1, .buttonText2{
     border: 1px solid #FFF;
     width: 220px;
     height: 46px;
@@ -168,10 +166,10 @@ h2 {
     z-index: 5;
 }
 
-@font-face {
+@font-face{
     font-family: gotham-light;
     src: url('/public/fonts/Gotham/Gotham-Light.otf');
-}
+ }
 
 .bottomHero h2 {
     width: 82%;
@@ -191,19 +189,18 @@ h2 {
     height: 34px;
     flex-shrink: 0;
     color: #FFF;
-    font-feature-settings: 'clig'off, 'liga'off;
+    font-feature-settings: 'clig' off, 'liga' off;
     font-family: gotham-light;
     font-size: 50px;
     font-style: normal;
     font-weight: 500;
-    line-height: 30px;
-    /* 60% */
+    line-height: 30px; /* 60% */
     letter-spacing: -2.25px;
 }
 
 
 
-.bottomHero2 {
+.bottomHero2{
     display: flex;
     width: 167.873px;
     height: 42px;
@@ -211,13 +208,12 @@ h2 {
     justify-content: center;
     flex-shrink: 0;
     color: #FFF;
-    font-feature-settings: 'clig'off, 'liga'off;
+    font-feature-settings: 'clig' off, 'liga' off;
     font-family: gotham-light;
     font-size: 50px;
     font-style: normal;
     font-weight: 500;
-    line-height: 24px;
-    /* 48% */
+    line-height: 24px; /* 48% */
     letter-spacing: -2.25px;
 }
 
@@ -230,7 +226,7 @@ h2 {
     z-index: 5;
 }
 
-.downClickImg>img {
+.downClickImg > img {
     width: 144px;
     height: 144px;
 }
@@ -264,7 +260,6 @@ h2 {
     transition: all 2s ease;
     margin-top: 70px;
 }
-
 /*
 .leftImg:hover {
     overflow: hidden;
@@ -287,10 +282,10 @@ h2 {
     height: inherit;
     background: #1F1F1F;
     display: flex;
-    align-items: center;
+    align-items:  center;
     border-width: 1px;
     border-style: solid;
-    border-image: linear-gradient(to bottom, rgba(33, 33, 33, 1) 0%, rgba(65, 61, 142, 1)) 1;
+    border-image: linear-gradient(to bottom, rgba(33,33,33,1) 0%, rgba(65,61,142,1)) 1;
     border-top: 0;
     border-left: 0;
     border-bottom: 0;
@@ -348,12 +343,12 @@ h2 {
     width: 50%;
     height: inherit;
     display: flex;
-    align-items: center;
+    align-items:  center;
     justify-content: flex-end;
     background: #1F1F1F;
     border-width: 1px;
     border-style: solid;
-    border-image: linear-gradient(to bottom, rgba(33, 33, 33, 1) 0%, rgba(65, 61, 142, 1)) 1;
+    border-image: linear-gradient(to bottom, rgba(33,33,33,1) 0%, rgba(65,61,142,1)) 1;
     border-top: 0;
     border-right: 0;
     border-bottom: 0;
@@ -421,11 +416,11 @@ button:hover {
     flex-direction: row;
 }
 
-.mobileSecondHomeContainer {
+.mobileSecondHomeContainer{
     display: none;
 }
 
-.secondHomeContainerBox1, .secondHomeContainerBox2 {
+.secondHomeContainerBox1,  .secondHomeContainerBox2 {
     width: 60%;
     height: 750px;
     display: flex;
@@ -516,7 +511,7 @@ button:hover {
 
 .image2:hover {
     overflow: hidden;
-    transform: scale(1.1);
+    transform:  scale(1.1);
 
 }
 
@@ -659,7 +654,7 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-}
+ }
 
 .fourthBox2Container {
     width: 74%;
@@ -677,7 +672,7 @@ button:hover {
 
 }
 
-.fourth13One, .fourth13Two, .fourth24One, .fourth24Two {
+.fourth13One, .fourth13Two, .fourth24One, .fourth24Two{
     width: 96%;
     height: 230px;
     display: flex;
@@ -746,7 +741,7 @@ button:hover {
 }
 
 .fourthImg2:hover {
-    transform: scale(1.2);
+    transform:  scale(1.2);
 
 }
 
@@ -801,16 +796,16 @@ button:hover {
 }
 
 .fifthHomeBackground {
-    width: 100vw;
-    max-width: 1530px;
-    height: 968px;
-    display: flex;
-    justify-content: flex-end;
+    width: 100vw; 
+    max-width: 1530px; 
+    height: 968px; 
+    display: flex; 
+    justify-content: flex-end; 
     align-items: flex-end;
-    background-image: url(../../../public/rect01.png);
+    background-image: url( ../../../public/rect01.png);
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: cover;
+    background-size:cover;
 }
 
 .mobileFifthHomeContainer {
@@ -968,7 +963,6 @@ button:hover {
     justify-content: center;
 
 }
-
 .innerSixthBox2 {
     display: flex;
     justify-content: space-between;
@@ -1033,7 +1027,7 @@ button:hover {
     z-index: 1;
 }
 
-.seventhMobileHomeContainer {
+.seventhMobileHomeContainer{
     display: none;
 }
 
@@ -1179,7 +1173,7 @@ button:hover {
     border-radius: 10px 10px 0 0;
 }
 
-.topRightSeven>img {
+.topRightSeven > img {
     width: 100%;
     height: 330px;
 }
@@ -1236,7 +1230,7 @@ button:hover {
 
 }
 
-.imgTime>img {
+.imgTime > img {
     width: 24px;
     height: 24px;
 }
@@ -1299,7 +1293,7 @@ button:hover {
     background: #DFDFDE;
 }
 
-.topLeftSeven>img {
+.topLeftSeven > img {
     width: 100%;
 }
 
@@ -1311,7 +1305,7 @@ button:hover {
     align-items: center;
 }
 
-.mastering {
+.mastering{
     width: 382px;
     flex-shrink: 0;
     height: 80px;
@@ -1363,7 +1357,7 @@ button:hover {
     background: #E7CAA2;
 }
 
-.belowLeftSeven>img {
+.belowLeftSeven > img {
     width: 100%;
 }
 
@@ -1470,11 +1464,9 @@ button:hover {
 .footerName {
     display: flex;
     align-items: flex-end;
-    background-color: #F7F8FC;
-    ;
+    background-color: #F7F8FC;;
 
 }
-
 .footerInfo {
     position: absolute;
     width: 100%;
@@ -1525,7 +1517,7 @@ button:hover {
 
 .offerwallBox {
     color: #FFF;
-    font: 400 30px/0% "NordiquePro", sans-serif;
+    font: 400 30px/0%  "NordiquePro", sans-serif;
     font-size: 28px;
     font-weight: 700;
     line-height: 30px;
@@ -1593,7 +1585,7 @@ button:hover {
 
 }
 
-.footerDivider>hr {
+.footerDivider > hr {
     border: 0.5px solid #DEDEDE
 }
 
@@ -1615,11 +1607,11 @@ button:hover {
 /*MOBILE RESPONSIVENESS*/
 
 
-@media only screen and (max-width: 1130px) and (min-width: 320px) {
+@media only screen and (max-width: 1130px) and (min-width: 320px){
 
 
     .homeContainer {
-        display: flex;
+        display:flex;
         flex-direction: column;
         justify-content: center;
         width: 100vw;
@@ -1639,23 +1631,25 @@ button:hover {
         display: none;
     }
 
-    .mobileFirstHomeContainer {
+   .mobileFirstHomeContainer {
         display: flex;
         width: 100%;
         height: 1500px;
         position: relative;
         flex-direction: column;
-        background: linear-gradient(180deg,
-                rgba(91, 86, 189, 1) 0%,
-                rgba(41, 50, 133, 1) 52.08333134651184%,
-                rgba(10, 0, 74, 1) 100%);
-    }
+        background: linear-gradient(
+            180deg,
+            rgba(91, 86, 189, 1) 0%,
+            rgba(41, 50, 133, 1) 52.08333134651184%,
+            rgba(10, 0, 74, 1) 100%
+          );
+   }
 
     .hrLine {
         display: none;
     }
 
-    .topFirstBg {
+    .topFirstBg{
         display: none;
     }
 
@@ -1663,15 +1657,14 @@ button:hover {
         display: flex;
         height: 1500px;
         width: 100%;
-        background-repeat: no-repeat;
+        background-repeat: no-repeat ;
         justify-content: center;
     }
 
 
     .mainFirstMobile {
         display: flex;
-        width: 352px;
-        ;
+        width: 352px;;
         height: 1305px;
         flex-direction: column;
         align-items: center;
@@ -1723,8 +1716,7 @@ button:hover {
         font-size: 14px;
         font-style: normal;
         font-weight: 400;
-        line-height: 22px;
-        /* 157.143% */
+        line-height: 22px; /* 157.143% */
     }
 
     .buttonTextMobile {
@@ -1738,7 +1730,7 @@ button:hover {
         gap: 20px;
     }
 
-    .buttonText1Mobile, .buttonText2Mobile {
+    .buttonText1Mobile, .buttonText2Mobile{
         width: 220px;
         height: 46px;
         flex-shrink: 0;
@@ -1769,7 +1761,7 @@ button:hover {
         padding-top: 60px;
     }
 
-    .downClickImgMobile>img {
+    .downClickImgMobile > img {
         width: 144px;
         height: 144px;
     }
@@ -1820,7 +1812,7 @@ button:hover {
         width: 100%;
         height: 270px;
         display: flex;
-        align-items: center;
+        align-items:  center;
         justify-content: center;
         border-bottom: 1px solid #212121;
     }
@@ -1873,7 +1865,7 @@ button:hover {
         width: 100%;
         height: 270px;
         display: flex;
-        align-items: center;
+        align-items:  center;
         justify-content: center;
         border: none;
     }
@@ -1944,7 +1936,7 @@ button:hover {
 
     /*SECOND MOBILE SECTION*/
 
-    .secondHomeContainer {
+    .secondHomeContainer{
         display: none;
     }
 
@@ -1995,7 +1987,7 @@ button:hover {
     }
 
 
-    .mobilePImage>img {
+    .mobilePImage > img {
         width: 400px;
         height: 400px;
         flex-shrink: 0;
@@ -2118,10 +2110,9 @@ button:hover {
         font-size: 24px;
         font-style: normal;
         font-weight: 700;
-        line-height: 32px;
-        /* 133.333% */
+        line-height: 32px; /* 133.333% */
         display: flex;
-        justify-content: center;
+       justify-content: center;
     }
 
     .mobileInnerFourthHomeBox1 {
@@ -2152,16 +2143,18 @@ button:hover {
     }
 
     .mobileFourth13,
-    .mobileFourth24 {
+    .mobileFourth24
+    {
         width: 100%;
         height: 500px;
         display: flex;
-        flex-direction: column;
+        flex-direction: column;   
         align-items: center;
     }
 
     .mobileFourth13One, .mobileFourth13Two,
-    .mobileFourth24One, .mobileFourth24Two {
+    .mobileFourth24One, .mobileFourth24Two
+    {
         align-items: flex-start;
         display: flex;
         height: 150px;
@@ -2182,8 +2175,7 @@ button:hover {
         font-size: 14px;
         font-style: normal;
         font-weight: 400;
-        line-height: 32px;
-        /* 228.571% */
+        line-height: 32px; /* 228.571% */
     }
 
     .mobileLikeSmatchedWork {
@@ -2251,162 +2243,137 @@ button:hover {
 
 
 
-    /* FIFTH MOBILE SECTION */
+    /*FIFTH MOBILE SECTION*/
 
-    .FifthHomeContainer {
-        display: none;
+    .fifthHomeContainer {
+       display: none;
     }
 
     .mobileFifthHomeContainer {
-        background-color: #F0F0F0;
-        width: 100%;
         display: flex;
         flex-direction: column;
-        align-items: center;
-    }
-
-    .mobileFifthHomeBackground {
         width: 100%;
-        height: 80%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-top: 0;
-        z-index: 5;
+        margin-top: 550px;
+
     }
 
-    .mobileBottomBG {
-        margin-top: -160px;
-        z-index: -5;
-    }
-
-
-    .mobileInnerFifthHomeContainer1 {
-        width: 1365px;
-        height: 200px;
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        background-image: url(/public/fifthHomeImage.svg);
-        background-repeat: no-repeat;
-        background-position: top center;
+    .fifthHomeBackground {
+        width: 100%;
         background-size: cover;
-
-    }
-
-    .mobileInnerFifthLeft {
-        width: 55%;
-        height: 100%;
+        background-repeat: no-repeat;
         display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
+        align-items: flex-end;
+        background-image: url( ../../../public/rect01mobile.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size:contain;
     }
-
-    .mobileInnerFifthRight {
-        width: 45%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
-    }
-
-    .mobileInnerFifthMainBox1 {
-        width: 555px;
-        height: 100px;
-        margin-top: 100px;
-
-    }
-
-    .mobileInnerFifthBox1, .highest {
-        color: var(--White, #FFF);
-        font-family: gotham-light, sans-serif;
-        font-size: 40px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
+    
+    
+    .innerFifthHomeContainer1 {
         width: 100%;
-        display: flex;
-
-    }
-
-    .mobileInnerFifthMainBox2 {
-        width: 500px;
-
-    }
-
-    .mobileEngagement {
-        color: var(--White, #E0FF22);
-        font-family: gotham-light, sans-serif;
-        font-size: 40px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        width: 50%;
-    }
-
-    .mobileInnerFifthMainBox2 {
-        color: var(--White, #FFF);
-        font-family: gotham-light;
-        font-size: 15px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 30px;
-    }
-
-    .mobileNoInAppPurchase {
-        width: 50%;
-        height: 150px;
+        height: 400px;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-between;
+    
     }
+    
+    .innerFifthMainBox1 {
+        width: 352px;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .innerFifthBox1{
+        color: var(--White, #FFF);
+        font-family: Poppins;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
 
-    .mobileAppPerc {
-        width: 176px;
+    }
+    
+    .highest {
+        color: var(--White, #FFF);
+        font-family: Poppins;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .innerFifthMainBox2 {
+        width: 100%;
+        height: 200px;
+    }
+    
+    .engagement {
         color: #E0FF22;
         text-align: center;
-        font-family: gotham-light;
-        font-size: 80px;
+        font-family: Poppins;
+        font-size: 24px;
         font-style: normal;
-        font-weight: 500;
+        font-weight: 700;
         line-height: normal;
-        letter-spacing: -2.4px;
-        height: 88px;
-        flex-shrink: 0;
+        
     }
-
-    .mobileMakeInApp {
-        color: #BCBCBC;
-        text-align: center;
-        font-family: gotham-light, sans-serif;
-        font-size: 15px;
+    
+    .innerFifthMainBox2 {
+        width: 352px;
+        color: var(--White, #FFF);
+        font-family: Poppins;
+        font-size: 14px;
         font-style: normal;
-        font-weight: 500;
+        font-weight: 400;
         line-height: normal;
-        letter-spacing: 0.50px;
-        width: 137px;
+        margin-top: 50px;
     }
-
-    .mobileOnlyMakeOnePurchase {
-        width: 50%;
+    
+    .appPurchase {
+        width: 100%;
+        height: 220px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .noInAppPurchase {
+        width: 100%;
         height: 150px;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
+    }
+    
+    .appPerc {
+        display: none;
+    }
+    
+    .makeInApp {
+        display: none;
+    }
+    
+    .onlyMakeOnePurchase {
+        display: none;
     }
 
     /*SIXTH MOBILE SECTION*/
 
-    .sixthHomeContainer {
+    .sixthHomeContainer{
         display: none;
     }
 
-    .mobileSixthHomeContainer {
+    .mobileSixthHomeContainer{
         width: 100%;
         height: 840px;
         display: flex;
@@ -2414,7 +2381,7 @@ button:hover {
         justify-content: space-between;
 
     }
-
+    
     .sixthBox1 {
         width: 100%;
         height: 280px;
@@ -2424,7 +2391,7 @@ button:hover {
         align-items: center;
         margin-top: -150px;
     }
-
+    
     .offerwallSolves, .problems {
         color: var(--Primary-Black-1, #1E1E1E);
         text-align: center;
@@ -2435,7 +2402,7 @@ button:hover {
         line-height: normal;
         display: flex;
     }
-
+    
     .solves {
         color: #8764E3;
         font-family: Poppins, sans-serif;
@@ -2444,16 +2411,15 @@ button:hover {
         font-weight: 700;
         line-height: normal;
     }
-
+    
     .sixthBox2 {
         width: 100%;
         display: flex;
         align-items: center;
+        
 
-
-
+    
     }
-
     .innerSixthBox2 {
         width: 352px;
         display: inline-block;
@@ -2461,8 +2427,8 @@ button:hover {
         line-height: 1;
         margin-top: -250px
     }
-
-
+    
+    
     .willingUsers {
         background: #9ad3cc;
         border-radius: 10px;
@@ -2471,7 +2437,7 @@ button:hover {
         position: relative;
         margin-bottom: 20px;
     }
-
+    
     .hateUsers {
         background: #5c59c0;
         border-radius: 10px;
@@ -2479,7 +2445,7 @@ button:hover {
         height: 370px;
         position: relative;
     }
-
+    
     .dollar, .megaphone {
         width: 100%;
         height: 200px;
@@ -2488,7 +2454,7 @@ button:hover {
         justify-content: center;
         padding-top: 20px;
     }
-
+    
     .pay, .ads {
         width: 75%;
         height: 230px;
@@ -2500,560 +2466,557 @@ button:hover {
         font-weight: 600;
         line-height: normal;
         padding-top: 20px;
-
+    
     }
-
+    
     .ads {
         color: #FFFF;
     }
 
 
-    /*SEVENTH MOBILE SECTION*/
+/*SEVENTH MOBILE SECTION*/
 
-    .seventhHomeContainer {
-        display: none;
+.seventhHomeContainer {
+    display: none;
+    
+}
 
-    }
-
-    .seventhMobileHomeContainer {
-        width: 100%;
-        z-index: 1;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        margin: auto;
-        margin-top: 170px;
-
-    }
+.seventhMobileHomeContainer{
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 170px;
+    
+}
 
 
-    .innerSeventhHomeContainerMobile {
-        height: 2000px;
-        width: 100%;
-    }
+.innerSeventhHomeContainerMobile {
+    height: 2000px;
+    width: 100%;
+}
 
-    .seventhHomeBox1Mobile {
-        width: 90%;
-        height: 500px;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-        margin: auto;
-        margin-top: 0px;
-        flex-shrink: 1;
+.seventhHomeBox1Mobile {
+    width: 90%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: auto;
+    margin-top: 0px;
+    flex-shrink: 1;
 
-    }
+}
 
+.implementingSolnMobile {
+    display: flex;
+    color: var(--Primary-Black-1, #1E1E1E);
+    font-family: Poppins, sans-serif;
+    font-size: 6vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    justify-content: center;
+}
+
+.implementingMobile {
+    color: var(--Primary-Black-1, #8764E3);
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-size: 7vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 8px;
+}
+
+.anMobile {
+    padding-top: 13px;
+}
+
+.avenueMobile {
+    color: var(--Primary-Black-1, #1E1E1E);
+    font-family: Poppins, sans-serif;
+    font-size: 6vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.priceEngageMobile {
+    display: flex;
+    color: var(--Primary-Black-1, #1E1E1E);
+    font-family: Poppins, sans-serif;
+    font-size: 6vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    justify-content: center;
+    text-align: center;
+}
+.engageMobile{
+    margin-left: 8px;
+}
+
+.usersMobile{
+    margin-right: 8px;
+}
+.engageMobile, .usersMobile {
+    color: var(--Primary-Black-1, #8764E3);
+}
+.churnMobile {
+    display: flex;
+    color: var(--Primary-Black-1, #1E1E1E);
+    font-family: Poppins, sans-serif;
+    font-size: 6vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    justify-content: center;
+    text-align: center;
+}
+
+.usersDecreaseMobile {
+    display: flex;
+    color: var(--Primary-Black-1, #1E1E1E);
+    font-family: Poppins, sans-serif;
+    font-size: 6vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    justify-content: center;
+    text-align: center;
+}
+
+.seventhHomeBox2Mobile {
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    background-color: #F7F8FC;
+    justify-content: center;
+}
+
+.innerSeventhBoxContainerMobile {
+    max-width: 363px;
+    height: 3150px;
+
+}
+
+.innerSeven1Mobile {
+    width: 100%;
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.innerSevenBlogMobile {
+    color: var(--Primary-Black-1, #1E1E1E);
+    font-family: Poppins, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.65px;
+}
+
+.innerSevenArticlesMobile {
+    color: var(--Primary-Blue-1, #2A2AFF);
+    text-align: right;
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.innerSeven2Mobile {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.sevenRightMobile {
+    width: 100%;
+    height: 660px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.topRightSevenMobile {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    padding-bottom: 50px;
+    height: 595px;
+}
+
+.topRightSevenMobile > img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+
+}
+
+.belowRightSevenMobile {
+    width: 100%;
+    height: 500px;
+    border-radius: 0 0 10px 10px;
+    background: #9AD3CC;
+}
+
+.innerBelowRightSevenMobile {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-top: -50px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px
+}
+
+.belowLeftSevenMobile {
+    width: 100%;
+    height: 595px;
+    border-radius: 10px;
+    background: #E7CAA2;
+    margin-top: 25px;
+}
+
+.belowLeftSevenMobile > img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.exploringMobile {
+    color: var(--Primary-Black-1, #1E1E1E);
+    font-family: Poppins, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+
+}
+
+.dateTimeMobile {
+    width: 80%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--Primary-Black-1, #1E1E1E);
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+
+}
+
+.imgTimeMobile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 25%;
+
+}
+
+.imgTimeMobile > img {
+    width: 24px;
+    height: 24px;
+}
+
+.minReadMobile {
+    color: var(--Primary-Black-1, #1E1E1E);
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: contents;
+}
+
+.readMoreExploreMobile {
+    width: 92%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;    
+}
+
+.readMoreButtonMobile {
+    display: flex;
+    width: 192px;
+    height: 45px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid var(--Primary-Black-1, #1E1E1E);
+    color: var(--Primary-Black-1, #1E1E1E);
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: -20%;
+    
+}
+
+.readMoreButtonMobile:hover {
+    background-color: black;
+    color: white;
+}
+
+
+
+.sevenLeftMobile {
+    width: 44%;
+    height: 785px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.topFirstSevenMobile {
+    width: 100%;
+    height: 595px;
+    border-radius: 10px;
+    background: #9AD3CC;
+    margin-bottom: 25px;
+}
+
+.topFirstSevenMobile > img {
+    width: 100%;
+}
+
+.topLeftSevenMobile {
+    width: 100%;
+    height: 595px;
+    border-radius: 10px;
+    background: #DFDFDE;
+    
+}
+
+.topLeftSevenMobile > img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.topLeftSevenBox1Mobile {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px
+}
+
+
+
+.masteringMobile{
+    width: 382px;
+    flex-shrink: 0;
+    height: 80px;
+    color: var(--Primary-Black-1, #1E1E1E);
+    font-family: Poppins, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.leftDateTimeMobile {
+    width: 95%;
+    flex-shrink: 0;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--Primary-Black-1, #1E1E1E);
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 50px;
+    padding-right: 20px;
+}
+
+.leftImgTimeMobile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 29%;
+}
+
+.LeftReadMoreExploreMobile {
+    width: 85%;
+    height: 90px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.seventhHomeBox3Mobile {
+    width: 100%;
+    height: 0px;
+    margin-top: -1100px;
+    position: relative;
+}
+
+
+.innerSeventhHomeMobile {
+    width: 100%;
+    padding-top: 50px;
+
+}
+
+.rightSevenBox3Mobile {
+    width: 90%;
+    height: 550px;
+    margin: auto;
+
+    
+}
+
+.getInTouchMobile {
+    color: var(--Primary-Black-1, #1E1E1E);
+    font-family: Poppins, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    height: 50px;
+    width: 533px;
+}
+
+.inTouchMobile {
+    color: var(--Primary-Black-1, #8764E3);
+    font-family: Poppins, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.scheduleMobile {
+    color: var(--Primary-Black-1, #1E1E1E);
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.contactImgMobile {
+    width: 100%;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+.contactLayOutMobile {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.contactUsMobile {
+    color: var(--Primary-Black-1, #1E1E1E);
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+
+
+}
+
+
+
+.leftSevenBox3Mobile {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.mobile005Mobile {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 20;
+    position: absolute;
+    margin-top: -100px;
+}
+
+
+
+/* THIS SECTION FIXES THE FONT SIZING ISSUES ON SECTION SEVEN */
+
+
+@media only screen and (max-width: 1400px) and (min-width: 400px){
+
+    
     .implementingSolnMobile {
         display: flex;
         color: var(--Primary-Black-1, #1E1E1E);
         font-family: Poppins, sans-serif;
-        font-size: 6vw;
+        font-size: 24px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
         justify-content: center;
     }
-
+    
     .implementingMobile {
-        color: var(--Primary-Black-1, #8764E3);
-        text-align: center;
-        font-family: Poppins, sans-serif;
-        font-size: 7vw;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        padding-top: 8px;
+        font-size: 30px;
     }
-
-    .anMobile {
-        padding-top: 13px;
-    }
-
+    
     .avenueMobile {
-        color: var(--Primary-Black-1, #1E1E1E);
-        font-family: Poppins, sans-serif;
-        font-size: 6vw;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        justify-content: center;
-        text-align: center;
-
+        font-size: 24px; 
     }
-
+    
     .priceEngageMobile {
-        display: flex;
-        color: var(--Primary-Black-1, #1E1E1E);
-        font-family: Poppins, sans-serif;
-        font-size: 6vw;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        justify-content: center;
-        text-align: center;
-    }
+        font-size: 24px;
 
-    .engageMobile {
-        margin-left: 8px;
-    }
-
-    .usersMobile {
-        margin-right: 8px;
-    }
-
-    .engageMobile, .usersMobile {
-        color: var(--Primary-Black-1, #8764E3);
     }
 
     .churnMobile {
-        display: flex;
-        color: var(--Primary-Black-1, #1E1E1E);
-        font-family: Poppins, sans-serif;
-        font-size: 6vw;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        justify-content: center;
-        text-align: center;
+        font-size: 24px;
     }
 
     .usersDecreaseMobile {
-        display: flex;
-        color: var(--Primary-Black-1, #1E1E1E);
-        font-family: Poppins, sans-serif;
-        font-size: 6vw;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        justify-content: center;
-        text-align: center;
-    }
-
-    .seventhHomeBox2Mobile {
-        display: flex;
-        align-items: flex-end;
-        width: 100%;
-        background-color: #F7F8FC;
-        justify-content: center;
-    }
-
-    .innerSeventhBoxContainerMobile {
-        max-width: 363px;
-        height: 3150px;
-
-    }
-
-    .innerSeven1Mobile {
-        width: 100%;
-        height: 85px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding-top: 100px;
-    }
-
-    .innerSevenBlogMobile {
-        color: var(--Primary-Black-1, #1E1E1E);
-        font-family: Poppins, sans-serif;
         font-size: 24px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        letter-spacing: 1.65px;
     }
-
-    .innerSevenArticlesMobile {
-        color: var(--Primary-Blue-1, #2A2AFF);
-        text-align: right;
-        font-family: Poppins, sans-serif;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
-        text-transform: uppercase;
-    }
-
-    .innerSeven2Mobile {
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
-    }
-
-    .sevenRightMobile {
-        width: 100%;
-        height: 660px;
-        border-radius: 10px 10px 0px 0px;
-    }
-
-    .topRightSevenMobile {
-        width: 100%;
-        border-radius: 10px 10px 0 0;
-        padding-bottom: 50px;
-        height: 595px;
-    }
-
-    .topRightSevenMobile>img {
-        width: 100%;
-        height: 200px;
-        object-fit: contain;
-
-    }
-
-    .belowRightSevenMobile {
-        width: 100%;
-        height: 500px;
-        border-radius: 0 0 10px 10px;
-        background: #9AD3CC;
-    }
-
-    .innerBelowRightSevenMobile {
-        width: 100%;
-        height: 300px;
-        display: flex;
-        flex-direction: column;
-        margin-top: -50px;
-        align-items: center;
-        justify-content: center;
-        margin-left: 10px
-    }
-
-    .belowLeftSevenMobile {
-        width: 100%;
-        height: 595px;
-        border-radius: 10px;
-        background: #E7CAA2;
-        margin-top: 25px;
-    }
-
-    .belowLeftSevenMobile>img {
-        width: 100%;
-        height: 200px;
-        object-fit: cover;
-        border-radius: 10px 10px 0 0;
-    }
-
-    .exploringMobile {
-        color: var(--Primary-Black-1, #1E1E1E);
-        font-family: Poppins, sans-serif;
-        font-size: 24px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-
-
-    }
-
-    .dateTimeMobile {
-        width: 80%;
-
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        color: var(--Primary-Black-1, #1E1E1E);
-        font-family: Poppins, sans-serif;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        display: flex;
-
-    }
-
-    .imgTimeMobile {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        width: 25%;
-
-    }
-
-    .imgTimeMobile>img {
-        width: 24px;
-        height: 24px;
-    }
-
-    .minReadMobile {
-        color: var(--Primary-Black-1, #1E1E1E);
-        font-family: Poppins, sans-serif;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        display: contents;
-    }
-
-    .readMoreExploreMobile {
-        width: 92%;
-        display: flex;
-        justify-content: flex-end;
-        align-items: flex-end;
-    }
-
-    .readMoreButtonMobile {
-        display: flex;
-        width: 192px;
-        height: 45px;
-        justify-content: center;
-        align-items: center;
-        flex-shrink: 0;
-        border-radius: 4px;
-        border: 1px solid var(--Primary-Black-1, #1E1E1E);
-        color: var(--Primary-Black-1, #1E1E1E);
-        text-align: center;
-        font-family: Poppins, sans-serif;
-        font-size: 15px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
-        text-transform: uppercase;
-        margin-bottom: -20%;
-
-    }
-
-    .readMoreButtonMobile:hover {
-        background-color: black;
-        color: white;
-    }
-
-
-
-    .sevenLeftMobile {
-        width: 44%;
-        height: 785px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-
-    .topFirstSevenMobile {
-        width: 100%;
-        height: 595px;
-        border-radius: 10px;
-        background: #9AD3CC;
-        margin-bottom: 25px;
-    }
-
-    .topFirstSevenMobile>img {
-        width: 100%;
-    }
-
-    .topLeftSevenMobile {
-        width: 100%;
-        height: 595px;
-        border-radius: 10px;
-        background: #DFDFDE;
-
-    }
-
-    .topLeftSevenMobile>img {
-        width: 100%;
-        height: 200px;
-        object-fit: cover;
-        border-radius: 10px 10px 0 0;
-    }
-
-    .topLeftSevenBox1Mobile {
-        width: 100%;
-        height: 300px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin-left: 10px
-    }
-
-
-
-    .masteringMobile {
-        width: 382px;
-        flex-shrink: 0;
-        height: 80px;
-        color: var(--Primary-Black-1, #1E1E1E);
-        font-family: Poppins, sans-serif;
-        font-size: 24px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        display: flex;
-        align-items: center;
-        margin-top: 50px;
-    }
-
-    .leftDateTimeMobile {
-        width: 95%;
-        flex-shrink: 0;
-        height: 30px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        color: var(--Primary-Black-1, #1E1E1E);
-        font-family: Poppins, sans-serif;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        margin-top: 50px;
-        padding-right: 20px;
-    }
-
-    .leftImgTimeMobile {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        width: 29%;
-    }
-
-    .LeftReadMoreExploreMobile {
-        width: 85%;
-        height: 90px;
-        display: flex;
-        justify-content: flex-end;
-        align-items: flex-end;
-    }
-
-    .seventhHomeBox3Mobile {
-        width: 100%;
-        height: 0px;
-        margin-top: -1100px;
-        position: relative;
-    }
-
-
-    .innerSeventhHomeMobile {
-        width: 100%;
-        padding-top: 50px;
-
-    }
-
-    .rightSevenBox3Mobile {
-        width: 90%;
-        height: 550px;
-        margin: auto;
-
-
-    }
-
-    .getInTouchMobile {
-        color: var(--Primary-Black-1, #1E1E1E);
-        font-family: Poppins, sans-serif;
-        font-size: 24px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        display: flex;
-        height: 50px;
-        width: 533px;
-    }
-
-    .inTouchMobile {
-        color: var(--Primary-Black-1, #8764E3);
-        font-family: Poppins, sans-serif;
-        font-size: 24px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-    }
-
-    .scheduleMobile {
-        color: var(--Primary-Black-1, #1E1E1E);
-        font-family: Poppins, sans-serif;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-    }
-
-    .contactImgMobile {
-        width: 100%;
-        height: 220px;
-        display: flex;
-        justify-content: center;
-        align-items: flex-end;
-    }
-
-
-    .contactLayOutMobile {
-        display: flex;
-        width: 100%;
-        height: 80px;
-        flex-direction: column;
-        justify-content: center;
-        flex-shrink: 0;
-    }
-
-    .contactUsMobile {
-        color: var(--Primary-Black-1, #1E1E1E);
-        text-align: center;
-        font-family: Inter;
-        font-size: 30px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
-        text-transform: uppercase;
-
-
-    }
-
-
-
-    .leftSevenBox3Mobile {
-        width: 100%;
-        height: 550px;
-        display: flex;
-        justify-content: flex-end;
-
-    }
-
-    .mobile005Mobile {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        z-index: 20;
-        position: absolute;
-        margin-top: -100px;
-    }
-
-
-
-    /* THIS SECTION FIXES THE FONT SIZING ISSUES ON SECTION SEVEN */
-
-
-    @media only screen and (max-width: 1400px) and (min-width: 400px) {
-
-
-        .implementingSolnMobile {
-            display: flex;
-            color: var(--Primary-Black-1, #1E1E1E);
-            font-family: Poppins, sans-serif;
-            font-size: 24px;
-            font-style: normal;
-            font-weight: 700;
-            line-height: normal;
-            justify-content: center;
-        }
-
-        .implementingMobile {
-            font-size: 30px;
-        }
-
-        .avenueMobile {
-            font-size: 24px;
-        }
-
-        .priceEngageMobile {
-            font-size: 24px;
-
-        }
-
-        .churnMobile {
-            font-size: 24px;
-        }
-
-        .usersDecreaseMobile {
-            font-size: 24px;
-        }
-    }
+  }
 
 }
