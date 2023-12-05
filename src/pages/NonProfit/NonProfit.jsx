@@ -32,6 +32,8 @@ const NonProfit = () => {
                   converting potential supporters into paying donors. By
                   exploring creative revenue streams, you can differentiate your
                   organization and motivate people to donate in impactful ways.
+                  <br />
+                  <br />
                   Diversifying your donation options can significantly increase
                   engagement and donor acquisition rates.
                 </div>
@@ -59,8 +61,8 @@ const NonProfit = () => {
               <div className={styles.leftImgInfo}>
                 <img
                   className={styles.leftImg}
-                  src="./nonprofitHero.svg"
-                  alt="revenue image"
+                  src='./images/nonprofitHero.png'
+                  alt='Three people donating'
                 />
               </div>
             </div>
@@ -99,27 +101,40 @@ const NonProfit = () => {
                   <br />
                   Diversifying your donation options can significantly increase
                   engagement and donor acquisition rates.
+        <div className={styles.mobileTopFirst}>
+          <div className={styles.mobileMainFirst}>
+            <div className={styles.mobileTopMain}>
+              <div className={styles.mobileImgInfo}>
+                <img
+                  className={styles.mobileImg}
+                  src='./images/nonprofitHero_mobile.png'
+                  alt='Three people donating'
+                />
+              </div>
+            </div>
+            <div className={styles.mobileBottomMain}>
+              <h1 className={styles.text}>
+                Creative <br />
+                Revenue Streams
+              </h1>
+              <h2 className={styles.text2}> for Nonprofits</h2>
+              <div className={styles.parag}>
+                <div className={styles.innerParag}>
+                  {' '}
+                  The nonprofit industry is faced with the challenge of
+                  converting potential supporters into paying donors. By
+                  exploring creative revenue streams, you can differentiate your
+                  organization and motivate people to donate in impactful ways.
+                  <br />
+                  <br />
+                  Diversifying your donation options can significantly increase
+                  engagement and donor acquisition rates.
                 </div>
               </div>
             </div>
-            <button className={styles.buttonText2}>
-                <div className={styles.buttonText1} onClick={() => setShowBookingForm(true)}>
-                  BOOK A DEMO
-                </div>
-              </button>
-              {showBookingForm && (
-                <div className={styles.bookingFormPopup}>
-                  <div className={styles.bookingFormContent}>
-                    <span
-                      className={styles.closeButton}
-                      onClick={toggleBookingForm}
-                    >
-                      &times;
-                    </span>
-                    <Booking />
-                  </div>
-                </div>
-              )}
+            <button className={styles.buttonText}>
+              <div className={styles.buttonText1}>BOOK A DEMO</div>
+            </button>
           </div>
         </div>
       </div>
@@ -149,6 +164,7 @@ const NonProfit = () => {
                 className={styles.bottomEmote}
                 src='./emoteSad.svg'
                 alt='Emoji negative smile'
+                alt='Emoji negative smile'
               />
               <div className={styles.secondBottomTextContainer}>
                 <span className={styles.spanBottom}>
@@ -163,10 +179,16 @@ const NonProfit = () => {
               src='./images/nonprofit_sec2_arrow.svg'
               alt='A arrow pointing to the right'
             />
+            <img
+              className={styles.arrow}
+              src='./images/nonprofit_sec2_arrow.svg'
+              alt='A arrow pointing to the right'
+            />
             <div className={styles.secondBottomRight}>
               <img
                 className={styles.bottomEmote}
                 src='./emoteHappy.svg'
+                alt='Emoji positive smile'
                 alt='Emoji positive smile'
               />
               <div className={styles.secondBottomTextContainer}>
@@ -216,7 +238,52 @@ const NonProfit = () => {
                   monetarily is that they{' '}
                   <span>may not have the financial means</span> to give.
                 </p>
+        <div className={styles.mobileSecondNonprofitTopContainer}>
+          <div className={styles.mobileSecondNonprofitContainerBox1}>
+            <div className={styles.whatOffer}>
+              <div className={styles.secondLeft}>
+                Motivating people to donate. Strategies that make a difference.
               </div>
+            </div>
+
+            <div className={styles.secondRight}>
+              We have found that implementing alternative monetary donor
+              acquisition strategies increases donor conversion by 3x.
+            </div>
+          </div>
+        </div>
+
+        <div className={styles.mobileSecondNonprofitBottomContainer}>
+          <div className={styles.mobileSecondNonprofitContainerBox2}>
+            <div className={styles.mobileSecondBottomLeft}>
+              <img
+                className={styles.bottomEmote}
+                src='./emoteSad.svg'
+                alt='Emoji negative smile'
+              />
+              <div className={styles.mobileSecondBottomTextContainer}>
+                <p className={styles.spanBottom}>
+                  One of the reasons why potential donors may not give
+                  monetarily is that they{' '}
+                  <span>may not have the financial means</span> to give.
+                </p>
+              </div>
+            </div>
+            <div className={styles.mobileSecondBottomMiddle}>
+              <img className={styles.arrowEmote} src='./elipse.svg' alt='' />
+            </div>
+            <div className={styles.mobileSecondBottomRight}>
+              <img
+                className={styles.bottomEmote}
+                src='./emoteHappy.svg'
+                alt='Emoji positive smile'
+              />
+              <div className={styles.mobileSecondBottomTextContainer}>
+                <p className={styles.spanBottom}>
+                  Supporters may be willing to{' '}
+                  <span>donate their time, skills or knowledge </span>instead of
+                  or in addition to a monetary donation.
+                </p>
             </div>
             <div className={styles.mobileSecondBottomMiddle}>
               <img className={styles.arrowEmote} src='./elipse.svg' alt='' />
@@ -274,10 +341,44 @@ const NonProfit = () => {
       {/*MOBILE THIRD NONPROFIT CONTAINER*/}
 
       <div className={styles.mobileThirdNonprofitContainer}>
+        <div className={styles.thirdSectionLeft}>
+          <div className={styles.imageThirdNonprofitContainer}>
+            <img
+              src='./images/thirdNonprofitImg.png'
+              alt='A post with arrows to different directions'
+            />
+          </div>
+        </div>
+
+        <div className={styles.thirdSectionRight}>
+          <div className={styles.innerThirdSectionRight}>
+            <div className={styles.thirdSectionRightH1}>
+              Donor Retention
+              <br />
+              Strategies
+            </div>
+
+            <div className={styles.thirdSectionRightP}>
+              Effective donor retention strategies are based on providing more
+              choices to your supporters. To foster lasting relationships with
+              your supporters, give them the option to earn your organization
+              donations by carrying out surveys via your weekly or monthly
+              newsletter – rather than just encouraging them to give with their
+              own money.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/*MOBILE THIRD NONPROFIT CONTAINER*/}
+
+      <div className={styles.mobileThirdNonprofitContainer}>
         <div className={styles.thirdNonprofitContainerBox}>
           <div className={styles.thirdSectionLeft}>
             <div className={styles.imageThirdNonprofitContainer}>
               <img
+                src='./mobileThirdNonprofitImg.svg'
+                alt='A post with arrows to different directions'
                 src='./mobileThirdNonprofitImg.svg'
                 alt='A post with arrows to different directions'
               />
@@ -288,6 +389,7 @@ const NonProfit = () => {
             <>
               <div className={styles.innerThirdSectionRight}>
                 <div className={styles.thirdSectionRightH1}>
+                  Donor Retention Strategies
                   Donor Retention Strategies
                 </div>
 
@@ -316,6 +418,7 @@ const NonProfit = () => {
               </div>
               <div className={styles.innerFourthText}>
                 <p>
+                <p>
                   Smatched provides free resources for nonprofits looking to
                   increase monetization for their organization and a
                   comprehensive offer wall web-app solution customized for each
@@ -324,6 +427,11 @@ const NonProfit = () => {
                   <br />
                   <br />
                   Unlock with Smatched a completely new donor audience – the{' '}
+                  <span>77% of supporters</span> who don’t donate monetarily.
+                  Just by offering alternative ways to contribute, nonprofits
+                  can engage more supporters and increase the impact of their
+                  mission.
+                </p>
                   <span>77% of supporters</span> who don’t donate monetarily.
                   Just by offering alternative ways to contribute, nonprofits
                   can engage more supporters and increase the impact of their
@@ -355,6 +463,8 @@ const NonProfit = () => {
             <img
               src='./images/fourthNonprofitImg.png'
               alt='Women using a smartphone'
+              src='./images/fourthNonprofitImg.png'
+              alt='Women using a smartphone'
             />
           </div>
         </div>
@@ -374,7 +484,22 @@ const NonProfit = () => {
               </div>
             </div>
           </div>
+        <div className={styles.mobileFourthNonprofitContainerBox}>
+          <div className={styles.mobileFourthSectionLeft}>
+            <div className={styles.imageMobileFourthNonprofitContainer}>
+              <div className={styles.mobileFourthNonprofitImage}>
+                <img
+                  src='./images/fourthNonprofitImgMobile.png'
+                  alt='Women using a smartphone'
+                />
+              </div>
+            </div>
+          </div>
 
+          <div className={styles.mobileFourthSectionRight}>
+            <div className={styles.mobileFourthSectionRightH1}>
+              Unlocking free resources for Nonprofits
+            </div>
           <div className={styles.mobileFourthSectionRight}>
             <div className={styles.mobileFourthSectionRightH1}>
               Unlocking free resources for Nonprofits
@@ -395,24 +520,9 @@ const NonProfit = () => {
               </p>
             </div>
             <div className={styles.buttonFourthDiv}>
-            <button className={styles.buttonText2}>
-                <div className={styles.buttonText1} onClick={() => setShowBookingForm(true)}>
-                  BOOK A DEMO
-                </div>
+              <button className={styles.buttonText}>
+                <div className={styles.buttonText1}>BOOK A DEMO</div>
               </button>
-              {showBookingForm && (
-                <div className={styles.bookingFormPopup}>
-                  <div className={styles.bookingFormContent}>
-                    <span
-                      className={styles.closeButton}
-                      onClick={toggleBookingForm}
-                    >
-                      &times;
-                    </span>
-                    <Booking />
-                  </div>
-                </div>
-              )}
             </div>
           </div>
         </div>

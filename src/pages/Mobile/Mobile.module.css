@@ -60,30 +60,10 @@
   justify-content: flex-start;
 }
 
-.button {
-  display: flex;
-  width: 210px;
-  height: 60px;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid #fff;
-  background: #fff;
-}
-
-.buttonText {
-  color: #0a0a0a;
-  text-align: center;
-  font-feature-settings: 'clig' off, 'liga' off;
-  font-family: gotham-medium;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 38px;
-}
-
 .titleAllSections {
   color: #fff;
   font-family: gotham-medium;
+  font-size: 53px;
   font-size: 53px;
   font-style: normal;
   font-weight: 500;
@@ -95,6 +75,7 @@
   color: #fff;
   font-family: gotham-book;
   font-size: 18px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 30px;
@@ -103,6 +84,8 @@
 
 /*FIRST SECTION*/
 
+.firstSection {
+  max-height: 1026px;
 .firstSection {
   max-height: 1026px;
   background: url(/public/heroBackground.svg) no-repeat;
@@ -116,8 +99,35 @@
 .firstSectionContent {
   width: 449px;
   display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+.firstSectionContent {
+  width: 449px;
+  display: flex;
+  flex-direction: column;
   flex-direction: column;
   justify-content: center;
+  gap: 60px;
+  margin: -15px -342px 0px 200px;
+}
+
+.firstSectionContent > h1 {
+  font-family: gotham-book;
+  font-size: 80px;
+  font-weight: 400;
+  line-height: 87px;
+}
+
+.firstSectionContent > h1 > span {
+  font-family: gotham-medium;
+  font-weight: 500;
+}
+
+.firstSectionImage {
+  margin-top: 240px;
   gap: 60px;
   margin: -15px -342px 0px 200px;
 }
@@ -172,7 +182,62 @@
   font-weight: 500;
 }
 
+.secondSection {
+  min-height: 1010px;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.secondSectionContent {
+  width: 648px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 48px;
+}
+
+.secondSectionContent > h2 {
+  color: #1e1e1e;
+  line-height: 64px;
+}
+
+.secondSectionContent > p {
+  color: #1e1e1e;
+  font-size: 16px;
+}
+
+.secondSectionContent > p > span {
+  font-family: gotham-medium;
+  font-weight: 500;
+}
+
 /*THIRD SECTION*/
+
+.thirdSection {
+  min-height: 1034px;
+  background-color: #1e1e1e;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.thirdSectionContent {
+  width: 520px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+  margin: 0px 263px 0px 114px;
+}
+
+.thirdSectionContent > h2 {
+  line-height: 64px;
+}
 
 .thirdSection {
   min-height: 1034px;
@@ -273,49 +338,78 @@
   margin: -822px 0px -197px 376px;
 }
 
+.fourthSection {
+  min-height: 1512px;
+  background: url(/public/images/mobile_sec4_bg_web.png) no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
-.bookingFormPopup {
-  position: fixed;
-  top: 0;
-  left: 0;
+.fourthSectionContent {
+  width: 921px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+}
+
+.fourthSectionContent > h2 {
+  line-height: 64px;
+  text-align: center;
+}
+
+.fourthSectionContent > p {
+  font-size: 16px;
+  text-align: center;
+}
+
+.fourthSectionContent > ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  gap: 20px;
+}
+
+.fourthSectionContent > ul > li {
+  color: #fff;
+  font-family: gotham-book;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  width: 48%;
+}
+
+.fourthSectionContent > ul > li > img {
+  width: 32px;
+  margin: 6px 20px -6px 0;
+}
+
+.fourthSectionImage {
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.groupSmartphones {
   width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  z-index: 1000;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow-y: auto;
+  margin-bottom: -218px;
 }
 
-.bookingFormContent {
-  position: relative;
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-  overflow: hidden;
+.bottomBand {
+  background-color: #101010;
+  min-height: 197px;
 }
 
-.closeButton {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  cursor: pointer;
-  font-size: 24px;
-  width: 40px; 
-  height: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%; 
-  background-color: #ffffff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: background-color 0.3s ease; 
-}
-
-.closeButton:hover {
-  background-color: #f0f0f0;
+.oneSmartphone {
+  width: 25%;
+  margin: -822px 0px -197px 376px;
 }
 
 /*MOBILE RESPONSIVENESS*/
@@ -367,15 +461,6 @@
     font-size: 14px;
   }
 
-  .button {
-    margin: 0 auto;
-    height: 50px;
-  }
-
-  .buttonText {
-    font-size: 14px;
-  }
-
   /* SECOND MOBILE SECTION*/
 
   .secondSection {
@@ -396,9 +481,12 @@
   .secondSectionContent > h2 {
     font-size: 24px;
     line-height: 36px;
+    font-size: 24px;
+    line-height: 36px;
   }
 
   .secondSectionContent > p {
+    font-size: 14px;
     font-size: 14px;
     line-height: 24px;
   }
@@ -431,9 +519,19 @@
     font-size: 14px;
   }
 
+  .thirdSectionContent > h2 {
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .thirdSectionContent > p {
+    font-size: 14px;
+  }
+
   /* FOURTH MOBILE SECTION*/
 
   .fourthSection {
+    min-height: 1212px;
     min-height: 1212px;
     background: url(/public/images/mobile_sec4_bg_mobile.png) no-repeat;
     background-size: cover;
@@ -448,9 +546,12 @@
   .fourthSectionContent > h2 {
     font-size: 24px;
     line-height: 29px;
+    font-size: 24px;
+    line-height: 29px;
   }
 
   .fourthSectionContent > p {
+    font-size: 14px;
     font-size: 14px;
   }
 
@@ -462,21 +563,15 @@
   .fourthSectionContent > ul > li {
     font-size: 14px;
     width: 100%;
+    width: 100%;
   }
 
   .fourthSectionContent > ul > li > img {
     width: 25px;
   }
 
-  .button {
-    margin: 0 auto;
-    height: 50px;
-  }
-
-  .buttonText {
-    font-size: 14px;
-  }
-
+  .fourthSectionImage {
+    margin-top: 54px;
   .fourthSectionImage {
     margin-top: 54px;
   }
@@ -484,11 +579,21 @@
   .groupSmartphones {
     width: 933px;
     margin-bottom: -139px;
+  
+  .groupSmartphones {
+    width: 933px;
+    margin-bottom: -139px;
   }
+  
   
   .bottomBand {
     min-height: 118px;
+    min-height: 118px;
   }
+  
+  .oneSmartphone {
+    width: 226px;
+    margin: -482px 0px 0px 232px;
   
   .oneSmartphone {
     width: 226px;

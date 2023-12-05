@@ -22,7 +22,7 @@ const Mobile = () => {
             alt='Two smartphones'
           />
         </div>
-        <div className={styles.firstSectionContent}>
+        {/* <div className={styles.firstSectionContent}>
           <h1 className={styles.titleAllSections}>
             <span>Mobile app</span>
             <br />

@@ -33,7 +33,7 @@ function App() {
     return (
       <div className={styles.app}>
         <Header />
-        <Helmet/>
+        <Helmet />
         <Outlet />
         <Footer showFormFooter={showFormFooter} />
       </div>
@@ -97,7 +97,7 @@ function App() {
           {
             path: AppRoutes.HOWITWORKS,
             element: <HowItWorks />,
-            errorElement: <h1> PAGE NOT FOUND 8</h1>
+            errorElement: <h1> PAGE NOT FOUND 8</h1>,
           },
 
           {
@@ -112,7 +112,7 @@ function App() {
             errorElement: <h1>HOME PAGE NOT FOUND</h1>,
           },
 
-                    // DISABLED PATHS THAT WILL BE RENDERED DYNAMICALLY BY THE 'ARTICLE' PATH
+          // DISABLED PATHS THAT WILL BE RENDERED DYNAMICALLY BY THE 'ARTICLE' PATH
           // {
           //   path: AppRoutes.EXPLORINGOFFERWALL,
           //   element: <ExploringOfferwallSolutions />,

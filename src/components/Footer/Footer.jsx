@@ -17,7 +17,7 @@ const Footer = ({ showFormFooter }) => {
       //add to firebase
       await addDoc(collection(db, 'emails'), {
         email: input,
-        time: serverTimestamp()
+        time: serverTimestamp(),
       });
       setInput('');
       setMessage('Thank you for signing up to our news');
