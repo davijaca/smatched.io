@@ -63,9 +63,21 @@ const Header = () => {
                                     {open &&
                                         <div ref={menuRef} className='dropDownBtn'>
                                             <ul>
-                                                {lists.map((item) => (
-                                                    <li onClick = {() =>setOpen(true)} >{item.title}</li>
-                                                ))}
+                                                <li>
+                                                <a href='/#/game' onClick={closeMenu}>Game Industry</a>
+                                                </li>
+                                                <li>
+                                                <a href='/#/nonprofit' onClick={closeMenu}>Nonprofit Companies</a>
+                                                </li>
+                                                <li>
+                                                <a href='/#/newspaper' onClick={closeMenu}>Newspaper Publishing Industry</a>
+                                                </li>
+                                                <li>
+                                                <a href='/#/mobile' onClick={closeMenu}>Mobile App Monetization</a>
+                                                </li>
+                                                <li>
+                                                <a href='/#/website' onClick={closeMenu}>Website Monetization</a>
+                                                </li>
                                             </ul>
                                         </div>
                                     }
@@ -111,13 +123,25 @@ const Header = () => {
 
                                         </div>
                                         {open &&
-                                            <div ref={menuRef} className='dropDownBtn'>
-                                                <ul>
-                                                    {lists.map((item) => (
-                                                        <li onClick = {() =>setOpen(true)} >{item.title}</li>
-                                                    ))}
-                                                </ul>
-                                            </div>
+                                        <div ref={menuRef} className='dropDownBtn'>
+                                        <ul>
+                                            <li>
+                                            <a href='/#/game' onClick={closeMenu}>Game Industry</a>
+                                            </li>
+                                            <li>
+                                            <a href='/#/nonprofit' onClick={closeMenu}>Nonprofit Companies</a>
+                                            </li>
+                                            <li>
+                                            <a href='/#/newspaper' onClick={closeMenu}>Newspaper Publishing Industry</a>
+                                            </li>
+                                            <li>
+                                            <a href='/#/mobile' onClick={closeMenu}>Mobile App Monetization</a>
+                                            </li>
+                                            <li>
+                                            <a href='/#/website' onClick={closeMenu}>Website Monetization</a>
+                                            </li>
+                                        </ul>
+                                    </div>
                                         }
 
                                 </div>
