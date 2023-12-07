@@ -1,3 +1,30 @@
+@font-face {
+    font-family: gotham-light;
+    src: url('/public/fonts/Gotham/Gotham-Light.otf');
+}
+
+@font-face {
+    font-family: gotham-medium;
+    src: url('/public/fonts/Gotham/Gotham-Medium.otf');
+}
+
+@font-face {
+    font-family: gotham-book;
+    src: url('/public/fonts/Gotham/Gotham-Book.otf');
+}
+
+@font-face {
+    font-family: inter-semibold;
+    src: url('/public/fonts/Inter/Inter-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: inter-regular;
+    src: url('/public/fonts/Inter/Inter-Regular.ttf');
+}
+
+
+/* I did not find class home in the jsx doc to be changed to website (?) */
 .home,
 .home * {
     box-sizing: border-box;
@@ -15,7 +42,7 @@ h2 {
     margin: 0;
 }
 
-.homeContainer {
+.websiteContainer {
     width: 100vw;
     max-width: 1920px;
     margin: auto;
@@ -27,7 +54,7 @@ h2 {
 
 /*FIRST SECTION*/
 
-.firstHomeContainer {
+.firstWebsiteContainer {
     width: 100vw;
     position: relative;
     left: calc(-50vw + 50%);
@@ -36,19 +63,18 @@ h2 {
     margin: auto;
 }
 
-.mobileFirstHomeContainer {
+.mobileFirstWebsiteContainer {
     display: none;
 }
 
-
+/* The foollowing class does not exist in the jsx file */
 .gradientContainer {
     width: 100%;
     max-width: 1530px;
     position: absolute;
 }
 
-
-
+/* The foollowing class does not exist in the jsx file */
 .gradientContainerLeft {
     /* background-color: rgba(76, 175, 80, 0.4); */
     z-index: 3;
@@ -56,9 +82,7 @@ h2 {
     width: 70%;
     float: right;
     margin-left: 33%;
-
 }
-
 
 .topFirst {
     background: url(/public/heroBackground.svg) no-repeat;
@@ -69,6 +93,7 @@ h2 {
     height: 950px;
 }
 
+/* The foollowing class does not exist in the jsx file */
 .topFirstBg {
     width: 100vw;
     max-width: 1530px;
@@ -84,23 +109,23 @@ h2 {
 .mainFirst {
     width: 1110px;
     display: flex;
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 .rightMain {
     width: 65%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    margin-top: 50px;
 }
 
 .text {
     color: var(--White, #FFF);
-    font-family: gotham-light;
-    font-size: 55px;
+    font-family: gotham-book;
+    font-size: 80px;
     font-style: normal;
     font-weight: 700;
-    line-height: 131.5%;
+    line-height: 87px;
     /* 72.325px */
     z-index: 5;
 }
@@ -108,31 +133,29 @@ h2 {
 .text2 {
     color: var(--White, #FFF);
     font-family: gotham-light;
-    font-size: 55px;
+    font-size: 80px;
     font-style: normal;
     font-weight: 400;
-    line-height: 131.5%;
+    line-height: 87px;
     /* 72.325px */
     z-index: 5;
 }
 
-
 .parag {
     width: 100%;
-    padding-top: 30px;
+    padding-top: 60px;
     padding-bottom: 60px;
 }
 
 .innerParag {
     color: #FFF;
-    width: 80%;
+    width: 88%;
     font-feature-settings: 'clig'off, 'liga'off;
     font-family: gotham-light;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 29px;
-
 }
 
 .buttonText {
@@ -165,98 +188,29 @@ h2 {
 
 .buttonText2 {
     width: 320px;
-
 }
-
-.bottomHero {
-    width: 100%;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 5;
-}
-
-
-
-@font-face {
-    font-family: gotham-light;
-    src: url('/public/fonts/Gotham/Gotham-Light.otf');
-}
-
-.bottomHero h2 {
-    color: #FFF;
-    width: 200px;
-    font-feature-settings: 'clig'off, 'liga'off;
-    font-family: gotham-light;
-    font-size: 12.6px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 26px;
-    /* 185.714% */
-}
-
-.bottomHero1 {
-    width: 156.035px;
-    height: 34px;
-    flex-shrink: 0;
-    color: #FFF;
-    font-feature-settings: 'clig'off, 'liga'off;
-    font-family: gotham-light;
-    font-size: 50px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 30px;
-    /* 60% */
-    letter-spacing: -2.25px;
-}
-
-
-
-.bottomHero2 {
-    display: flex;
-    width: 167.873px;
-    height: 42px;
-    flex-direction: column;
-    justify-content: center;
-    flex-shrink: 0;
-    color: #FFF;
-    font-feature-settings: 'clig'off, 'liga'off;
-    font-family: gotham-light;
-    font-size: 50px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 24px;
-    /* 48% */
-    letter-spacing: -2.25px;
-}
-
-
-
-
 
 .leftMain {
     width: 50%;
+    margin-left: 30px;
     display: flex;
     align-items: center;
-    justify-content: left;
+    justify-content: center;
     z-index: 5;
-
-
 }
 
-.leftImgInfo {
+/* .leftImgInfo {
     width: 70%;
     height: 650px;
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 
 .leftImg {
-    width: 600px;
-    height: 600px;
-    transition: all 2s ease;
+    width: 743px;
+    height: 569px;
+    /* transition: all 2s ease; */
 }
 
 /*
@@ -266,33 +220,6 @@ h2 {
     transition: all 2s ease-in-out;
 }
 */
-
-
-
-.blog {
-    font-size: 55px;
-    width: 68%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.explore {
-    height: 80px;
-    width: 68%;
-    display: flex;
-    align-items: flex-start;
-}
-
-.readMore {
-    height: 60px;
-    width: 68%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 
 /*SECOND SECTION*/
 

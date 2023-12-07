@@ -3,56 +3,39 @@ import styles from './Website.module.css';
 
 const Website = () => {
   return (
-    <div className={styles.homeContainer}>
-      {/* First Home */}
+    <div className={styles.websiteContainer}>
+      {/* First Website */}
 
-      <div className={styles.firstHomeContainer}>
+      <div className={styles.firstWebsiteContainer}>
         <div className={styles.topFirst}>
           <div className={styles.mainFirst}>
             <div className={styles.rightMain}>
-              <h1 className={styles.text}>
-                Revolutionizing
-                <br />
+              <h1 className={styles.text}>Revolutionizing</h1>
+              <h2 className={styles.text2}>
                 website
                 <br />
                 monetization.
-              </h1>
-              <h2 className={styles.text2}></h2>
+              </h2>
               <div className={styles.parag}>
                 <div className={styles.innerParag}>
-                  {' '}
-                  Metered paywalls have an average conversion rate of just
-                  0.36%. Smatched builds customized ‘earn to play’ offerwalls
-                  that boost monetization on your mobile app or website and
-                  helps you retain users by offering more choice.
+                  Give players more choice when it comes to monetization. While
+                  gaming payment gateways are a necessary evil for many gaming
+                  companies, many gamers are not willing to pay for games
+                  upfront.
                 </div>
               </div>
               <div className={styles.buttonText}>
                 <div className={styles.buttonText1}>BOOK A DEMO</div>
               </div>
-              <div className={styles.bottomHero}>
-                <h1 className={styles.bottomHero1}>+50%</h1>
-                <h2>
-                  Sales increase
-                  <br />
-                  through existing users
-                </h2>
-                <h1 className={styles.bottomHero2}>1000+</h1>
-                <h2>
-                  New
-                  <br />
-                  subscriptions
-                </h2>
-              </div>
             </div>
             <div className={styles.leftMain}>
-              <div className={styles.leftImgInfo}>
-                <img
-                  className={styles.leftImg}
-                  src='./heroImage.png'
-                  alt='An iPhone with an offerwall'
-                />
-              </div>
+              {/* <div className={styles.leftImgInfo}> */}
+              <img
+                className={styles.leftImg}
+                src='./images/website_top.png'
+                alt='A monitor and a laptop screen'
+              />
+              {/* </div> */}
             </div>
           </div>
         </div>
@@ -60,54 +43,50 @@ const Website = () => {
 
       {/* First Home mobile responsiveness */}
 
-      <div className={styles.mobileFirstHomeContainer}>
+      <div className={styles.mobileFirstWebsiteContainer}>
         <div className={styles.topFirst}>
-          <div>
-            <div className={styles.mobileTopFirstBg}>
-              <div className={styles.mainFirstMobile}>
-                <div className={styles.leftMainMobile}>
-                  <div className={styles.leftImgInfoMobile}>
-                    <img
-                      className={styles.leftImgMobile}
-                      src='./heroImage.png'
-                      alt='An iPhone with an offerwall'
-                    />
+          <div className={styles.mobileTopFirstBg}>
+            <div className={styles.mainFirstMobile}>
+              <div className={styles.leftMainMobile}>
+                <div className={styles.leftImgInfoMobile}>
+                  <img
+                    className={styles.leftImgMobile}
+                    src='./heroImage.png'
+                    alt='An iPhone with an offerwall'
+                  />
+                </div>
+              </div>
+              <div className={styles.rightMainMobile}>
+                <h1 className={styles.textMobile}>
+                  <b>Boost</b>
+                  <br />
+                  Monetization.
+                </h1>
+                <h2 className={styles.text2Mobile}>Retain Users.</h2>
+                <div className={styles.paragMobile}>
+                  <div className={styles.innerParagMobile}>
+                    Metered paywalls have an average conversion rate of just
+                    0.36%. Smatched builds customized ‘earn to play’ offerwalls
+                    that boost monetization on your mobile app or website and
+                    helps you retain users by offering more choice.
                   </div>
                 </div>
-                <div className={styles.rightMainMobile}>
-                  <h1 className={styles.textMobile}>
-                    <b>Boost</b>
-                    <br />
-                    Monetization.
-                  </h1>
-                  <h2 className={styles.text2Mobile}>Retain Users.</h2>
-                  <div className={styles.paragMobile}>
-                    <div className={styles.innerParagMobile}>
-                      {' '}
-                      Metered paywalls have an average conversion rate of just
-                      0.36%. Smatched builds customized ‘earn to play’
-                      offerwalls that boost monetization on your mobile app or
-                      website and helps you retain users by offering more
-                      choice.
-                    </div>
+                <div className={styles.bottomHeroMobile}>
+                  <div className={styles.bottomHeroRightMobile}>
+                    <h1 className={styles.bottomHero1Mobile}>+50%</h1>
+                    <h2>
+                      Sales increase
+                      <br />
+                      through existing users
+                    </h2>
                   </div>
-                  <div className={styles.bottomHeroMobile}>
-                    <div className={styles.bottomHeroRightMobile}>
-                      <h1 className={styles.bottomHero1Mobile}>+50%</h1>
-                      <h2>
-                        Sales increase
-                        <br />
-                        through existing users
-                      </h2>
-                    </div>
-                    <div className={styles.bottomHeroLeftMobile}>
-                      <h1 className={styles.bottomHero2Mobile}>1000+</h1>
-                      <h2>New subscriptions</h2>
-                    </div>
+                  <div className={styles.bottomHeroLeftMobile}>
+                    <h1 className={styles.bottomHero2Mobile}>1000+</h1>
+                    <h2>New subscriptions</h2>
                   </div>
-                  <div className={styles.buttonTextMobile}>
-                    <div className={styles.buttonText1Mobile}>BOOK A DEMO</div>
-                  </div>
+                </div>
+                <div className={styles.buttonTextMobile}>
+                  <div className={styles.buttonText1Mobile}>BOOK A DEMO</div>
                 </div>
               </div>
             </div>
