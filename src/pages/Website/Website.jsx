@@ -96,80 +96,46 @@ const Website = () => {
 
       {/* Second Home */}
 
-      <div className={styles.secondHomeContainer}>
-        <div
-          style={{
-            display: 'flex',
-            flexDirection: 'row',
-            alignItems: 'flex-start',
-            marginTop: '100px',
-          }}
-        >
-          <div className={styles.secondHomeContainerBox1}>
-            <div className={styles.whatOffer}>
-              <div className={styles.secondLeft}>
-                Monetize provides an alternative Subscription Model{' '}
-              </div>
-            </div>
-
-            <div className={styles.secondRight}>
-              <div className={styles.innerAnOfferwall}>
-                <div className={styles.anOfferwallParag}>
-                  Paywalls are a great revenue option for many businesses but
-                  unfortunately, making users pay means your revenue potential
-                  is capped. Businesses that offer more than one monetization
-                  model retain <b>50% more users.</b>
-                  <br />
-                  <br />
-                  What if your users could earn their way past a paywall without
-                  having to open their wallet?
-                </div>
-              </div>
-            </div>
-          </div>
+      <div className={styles.secondWebsiteContainer}>
+        <div className={styles.secondWebsiteContainerBox1}>
+          <h3 className={styles.secondLeft}>
+            How to monetize Web Traffic more effectively with Smatched?
+          </h3>
+          <p className={styles.secondRight}>
+            Our platform is the answer for users who have low willingness to pay
+            upfront, providing them with an opportunity to earn their way to
+            valuable content without the need for credit cards while you still
+            make money from website traffic.
+          </p>
         </div>
 
-        <div
-          style={{
-            height: '200px',
-            display: 'flex',
-            flexDirection: 'row',
-            marginTop: '100px',
-          }}
-        >
-          <div className={styles.secondHomeContainerBox3}>
-            <div className={styles.firstImg} />
-            <div className={styles.secondImg} />
-            <div className={styles.thirdImg} />
-            <div className={styles.fourthImg} />
-          </div>
+        <div className={styles.imageSec2Bow}>
+          <img src='./images/website_sec2_bow.png' alt='' />
         </div>
 
-        <div
-          style={{
-            display: 'flex',
-            flexDirection: 'row',
-            alignItems: 'flex-start',
-          }}
-        >
-          <div className={styles.secondHomeContainerBox4}>
-            <div className={styles.firstImgText}>Optimized Offerwall </div>
-            <div className={styles.secondImgText}>Users earn rewards </div>
-            <div className={styles.thirdImgText}>
-              Users can use rewards as in-app currency
-            </div>
-            <div className={styles.fourthImgText}>
-              You increase revenue & retention
-            </div>
+        <div className={styles.secondWebsiteContainerBox2}>
+          <div className={styles.secondWebsiteContainerBox2Content}>
+            <img
+              className={styles.imageSec2}
+              src='./images/website_sec2_1.png'
+              alt=''
+            />
+            <p className={styles.textImgSec2}>
+              Smatched offers a solution that empowers users to access your
+              premium content by completing surveys and sharing their opinions.
+            </p>
           </div>
-        </div>
-
-        <div className={styles.secondHomeContainerBox2}>
-          <img
-            className={styles.image1}
-            src='./section2img.svg'
-            alt='A picture of a phone'
-          />
+          <div className={styles.secondWebsiteContainerBox2Content}>
+            <img
+              className={styles.imageSec2}
+              src='./images/website_sec2_2.png'
+              alt=''
+            />
+            <p className={styles.textImgSec2}>
+              Users receive rewards, vouchers, tokens and exclusive access to
+              your premium content, in return
+            </p>
+          </div>
         </div>
       </div>
 
