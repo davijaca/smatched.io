@@ -123,10 +123,8 @@ h2 {
     color: var(--White, #FFF);
     font-family: gotham-book;
     font-size: 80px;
-    font-style: normal;
     font-weight: 700;
     line-height: 87px;
-    /* 72.325px */
     z-index: 5;
 }
 
@@ -134,10 +132,8 @@ h2 {
     color: var(--White, #FFF);
     font-family: gotham-light;
     font-size: 80px;
-    font-style: normal;
     font-weight: 400;
     line-height: 87px;
-    /* 72.325px */
     z-index: 5;
 }
 
@@ -223,190 +219,84 @@ h2 {
 
 /*SECOND SECTION*/
 
-.secondHomeContainer {
+.secondWebsiteContainer {
     width: 100%;
     background-color: #F0F0F0;
     min-height: 950px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
     align-items: center;
-    height: 950px;
 }
 
 .mobileSecondHomeContainer{
     display: none;
 }
 
-.secondHomeContainerBox1 {
-    width: 1100px;
+.secondWebsiteContainerBox1 {
+    width: 1273px;
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
     position: relative;
     z-index: 2;
-    align-items: flex-start;
     margin-top: 150px;
 }
 
-.whatOffer {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
 .secondLeft {
+    max-width: 711px;
     color: #1E1E1E;
-
-    font-feature-settings: 'clig'off, 'liga'off;
-    font-family: gotham-light;
-    font-size: 47.7px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 120%;
-    /* 63.6px */
-    letter-spacing: -0.265px;
+    font-family: gotham-book;
+    font-size: 53px;
+    font-weight: 700;
+    line-height: 64px;
+    margin: 0px;
 }
 
 .secondRight {
-    width: 92%;
-    display: flex;
-    justify-content: flex-end;
-}
-
-.innerAnOfferwall {
-    width: 76%;
-}
-
-.anOfferwallParag {
-    color: var(--Primary-Black-1, #1E1E1E);
+    max-width: 562px;
+    color: #1E1E1E;
     font-family: gotham-light;
     font-size: 18px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
+    font-weight: 400;
+    line-height: 30px;
     text-align: left;
+    margin: 0px;
 }
 
-.secondHomeContainerBox2 {
-    margin-top: 450px;
+.imageSec2Bow {
+    margin-top: 100px;
+    max-width: 610px;
+}
+
+.secondWebsiteContainerBox2 {
+    margin-top: -40px;
     display: flex;
     justify-content: center;
+    gap: 300px;    
     width: 100%;
-    position: absolute;
 }
 
-.image1 {
-    min-width: 1920px;
-    max-width: 1920px;
-}
-
-.secondHomeContainerBox3 {
+.secondWebsiteContainerBox2Content {
     display: flex;
-    flex-direction: row;
-    gap: 100px;
-    width: 100%;
-    height: 200px;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
 }
 
-.firstImg {
-    background: url(/public/Sec2firstImg.svg) no-repeat;
-    color: #000000;
-    width: 200px;
-    height: 200px;
+.imageSec2 {
+    width: 108px;
+    height: 108px;
     z-index: 5;
 }
 
-.secondImg {
-    background: url(/public/Sec2firstImg.svg) no-repeat;
-    color: #000000;
-    width: 200px;
-    height: 200px;
-    margin-top: 50px;
-    z-index: 5;
-}
-
-.thirdImg {
-    background: url(/public/Sec2firstImg.svg) no-repeat;
-    color: #000000;
-    width: 200px;
-    height: 200px;
-    margin-top: 50px;
-    z-index: 5;
-}
-
-.fourthImg {
-    background: url(/public/Sec2firstImg.svg) no-repeat;
-    color: #000000;
-    width: 200px;
-    height: 200px;
-    z-index: 5;
-}
-
-
-.secondHomeContainerBox4 {
-    display: inline-flex;
-    flex-direction: row;
-    gap: 100px;
-    width: 100%;
-    height: 100px;
-    margin-top: 50px;
-}
-
-
-.firstImgText {
+.textImgSec2 {
     color: #1E1E1E;
     text-align: center;
-    font-feature-settings: 'clig'off, 'liga'off;
     font-family: gotham-light;
     font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 20.446px;
-    /* 127.785% */
-    width: 200px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 315px;
+    padding-top: 20px;
 }
-
-.secondImgText {
-    color: #1E1E1E;
-    text-align: center;
-    font-feature-settings: 'clig'off, 'liga'off;
-    font-family: gotham-light;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 20.446px;
-    /* 127.785% */
-    width: 200px;
-}
-
-.thirdImgText {
-    color: #1E1E1E;
-    text-align: center;
-    font-feature-settings: 'clig'off, 'liga'off;
-    font-family: gotham-light;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 20.446px;
-    /* 127.785% */
-    width: 200px;
-}
-
-.fourthImgText {
-    color: #1E1E1E;
-    text-align: center;
-    font-feature-settings: 'clig'off, 'liga'off;
-    font-family: gotham-light;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 20.446px;
-    /* 127.785% */
-    width: 200px;
-}
-
 
 /*THIRD SECTION*/
 
@@ -1963,7 +1853,7 @@ h2 {
 /*SECOND MOBILE SECTION*/
 
 
-    .secondHomeContainer{
+    .secondWebsiteContainer {
         display: none;
     }
 
