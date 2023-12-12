@@ -179,51 +179,30 @@ const Website = () => {
 
       {/* Third Home */}
 
-      <div className={styles.thirdHomeContainer}>
-        <div className={styles.thirdHomeContainerBox}>
-          <div className={styles.thirdSectionLeft}>
-            <div className={styles.imageThirdHomeContainer}>
-              <div className={styles.thirdSectionLeftBG}>
-                <div className={styles.thirdHomeImage}>
-                  <img
-                    src='./thirdSectionImg.png'
-                    alt='A laptop and a phone with offerwall rewards'
-                  />
-                </div>
-              </div>
-            </div>
+      <div className={styles.thirdWebsiteContainer}>
+        <div className={styles.thirdLeft}>
+          <img
+            className={styles.imageSec3Monitor}
+            src='./images/website_sec3_monitor.png'
+            alt='A monitor'
+          />
+          <div className={styles.imageSec3Screen}>
+            <img src='./images/website_sec3_screen.png' alt='A screen game' />
           </div>
-
-          <div className={styles.thirdSectionRight}>
-            <>
-              <div className={styles.innerThirdSectionRight}>
-                <div className={styles.thirdSectionRightH1}>
-                  Why partner
-                  <br />
-                  with Monetize?
-                </div>
-              </div>
-
-              <div className={styles.thirdSectionRightH2}>
-                <ul className={styles.thirdSectionRightList}>
-                  <li>Open up another revenue stream</li>
-                  <li>
-                    Our business model incentivizes us to provide better
-                    experiences for your customers
-                  </li>
-                  <li>Easy set-up: no set-up costs or integration work</li>
-                  <li>
-                    The Smatched web app is independent, GDPR-compliant and
-                    completely secure
-                  </li>
-                </ul>
-              </div>
-
-              <div className={styles.buttonTextGold}>
-                <div className={styles.buttonText1Gold}>BOOK A DEMO</div>
-              </div>
-            </>
-          </div>
+        </div>
+        <div className={styles.thirdRight}>
+          <h3 className={styles.titleSec3}>
+            Why choose Smatched for Website Monetization?
+          </h3>
+          <p className={styles.textSec3}>
+            We don’t interrupt your existing business model — we complement it.
+            Smatched seamlessly integrates with your monetization strategy,
+            offering an additional avenue for revenue generation.
+          </p>
+          <p className={styles.textSec3}>
+            With our innovative approach, you can engage a broader audience,
+            unlock new streams of revenue and enhance user satisfaction.
+          </p>
         </div>
       </div>
 

@@ -222,7 +222,7 @@ h2 {
 .secondWebsiteContainer {
     width: 100%;
     background-color: #F0F0F0;
-    min-height: 950px;
+    min-height: 1010px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -300,152 +300,69 @@ h2 {
 
 /*THIRD SECTION*/
 
-.thirdHomeContainer {
-    width: 100%;
-    min-height: 950px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    height: 950px;
+.thirdWebsiteContainer {
+    background-color: #1E1E1E;
+    min-height: 1010px;
+    display: flex;    
 }
 
 .mobileThirdHomeContainer {
     display: none;
 }
 
-.thirdHomeContainerBox {
-    height: 950px;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
+.thirdLeft {
+    width: 798px;
+    min-height: 801px;
+    background-image: url('/public/images/website_sec3_bg_left.png');
     background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.imageThirdHomeContainer {
-    width: 100%;
-    height: 950px;
+    background-size: contain;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-end;
-
-}
-
-.thirdSectionLeft {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    justify-content: flex-start;
-
-}
-
-.thirdSectionLeftBG {
-    display: block;
-    width: 860px;
-    height: 640px;
-    margin-right: 100px;
-    border-radius: 0px 0px 120px 0px;
-    background: #1E1E1E;
-    box-shadow: -147px -139px 120px 20px rgba(0, 0, 0, 0.48) inset;
-}
-
-.thirdHomeImage {
-    width: 100%;
-    height: 700px;
-    display: flex;
-    justify-content: flex-end;
-    margin: auto;
-    margin-left: 150px;
-    margin-top: 100px;
-}
-
-.thirdSectionRight {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    margin-top: 170px;
-    margin-left: 100px;
-
-}
-
-.innerThirdSectionRight {
-    display: flex;
-    width: 585px;
-
-}
-
-.thirdSectionRightH1,
-.with {
-    color: #1E1E1E;
-
-    font-feature-settings: 'clig'off, 'liga'off;
-    font-family: gotham-light;
-    font-size: 47.7px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 120%;
-    /* 63.6px */
-}
-
-
-.thirdSectionRightH2 {
-    width: 450px;
-    display: flex;
-
-    margin-top: -20px;
-}
-
-.thirdSectionRightList {
-    color: var(--White, black);
-    font-family: gotham-light, sans-serif;
-    width: 474px;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    height: 110px;
-}
-
-.thirdSectionRightList>li {
-    display: flex;
-    height: 50px;
-    background: url(/public/bulletListIcon.svg) left;
-    background-size: 2rem;
-    background-repeat: no-repeat;
-    padding-left: 50px;
-    align-items: center;
-    margin-top: 30px;
-    margin-left: -40px;
-}
-
-.buttonTextGold {
-    width: 100%;
-    display: flex;
-    z-index: 5;
-    margin-top: 230px;
-}
-
-.buttonText1Gold {
-    border: 1px solid #A18129;
-    background: #A18129;
-    width: 220px;
-    height: 46px;
-    flex-shrink: 0;
-    display: flex;
-    align-items: center;
     justify-content: center;
-    color: var(--Modal-grey-1, #fff);
-    text-align: center;
-    font-family: gotham-light, sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    z-index: 5;
+    align-items: center;
+    padding-top: 120px;
 }
 
+.imageSec3Monitor {
+    width: 606px;
+    margin-bottom: 70px;
+    position: relative;
+}
+
+.imageSec3Screen {
+    width: 555px;
+    position: absolute;   
+    margin-bottom: 160px;
+}
+
+.imageSec3Screen > img {
+    width: 530px;
+}
+
+.thirdRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 150px;    
+}
+
+.titleSec3 {
+    max-width: 538px;
+    color: #FFFFFF;
+    font-family: gotham-book;
+    font-size: 53px;
+    font-weight: 700;
+    line-height: 64px;
+}
+
+.textSec3 {
+    max-width: 538px;
+    color: #FFFFFF;
+    font-family: gotham-light;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 0;
+}
 
 /*FOURTH SECTION*/
 
