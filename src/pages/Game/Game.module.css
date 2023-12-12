@@ -40,14 +40,11 @@ h2 {
     display: none;
 }
 
-
 .gradientContainer {
     width: 100%;
     max-width: 1530px;
     position: absolute;
 }
-
-
 
 .gradientContainerLeft {
     /* background-color: rgba(76, 175, 80, 0.4); */
@@ -56,9 +53,7 @@ h2 {
     width: 70%;
     float: right;
     margin-left: 33%;
-
 }
-
 
 .topFirst {
     background: url(/public/heroBackground.svg) no-repeat;
@@ -97,7 +92,7 @@ h2 {
 .text {
     color: var(--White, #FFF);
     font-family: gotham-light;
-    font-size: 55px;
+    font-size: 80px;
     font-style: normal;
     font-weight: 700;
     line-height: 131.5%;
@@ -108,7 +103,7 @@ h2 {
 .text2 {
     color: var(--White, #FFF);
     font-family: gotham-light;
-    font-size: 55px;
+    font-size: 80px;
     font-style: normal;
     font-weight: 400;
     line-height: 131.5%;
@@ -274,7 +269,7 @@ h2 {
 
 
 .blog {
-    font-size: 55px;
+    font-size: 80px;
     width: 68%;
     display: flex;
     justify-content: center;
@@ -339,7 +334,7 @@ h2 {
     width: 600px;
     color: #07090A;
     font-feature-settings: 'clig'off, 'liga'off;
-    font-family: Gotham-bold;
+    font-family: gotham-medium;
     font-size: 53px;
     font-style: normal;
     font-weight: 500;
@@ -429,7 +424,7 @@ h2 {
     height: 950px;
 }
 
-.mobileThirdHomeContainer {
+.mobileThirdGameContainer {
     display: none;
 }
 
@@ -465,7 +460,7 @@ h2 {
     box-shadow: -147px -139px 120px 20px rgba(0, 0, 0, 0.48) inset;
 }
 
-.thirdHomeImage {
+.thirdGameImage {
     width: 100%;
     height: 700px;
     display: flex;
@@ -567,7 +562,7 @@ h2 {
     background-color: #F0F0F0
 }
 
-.mobileFourthHomeContainer {
+.mobileFourthGameContainer {
     display: none;
 }
 
@@ -781,7 +776,6 @@ h2 {
 
 .fifthGameLeft img {
     margin-left: 250px;
-
 }
 
 .fifthGameRight {
@@ -886,7 +880,7 @@ h2 {
     justify-content: center;
 }
 
-.mobileFifthHomeContainer {
+.mobileFifthGameContainer {
     display: none;
 }
 
@@ -896,7 +890,7 @@ h2 {
 
 /*SIXTH SECTION*/
 
-.sixthHomeContainer {
+.sixthGameContainer {
     width: 100%;
     height: 840px;
     display: flex;
@@ -917,7 +911,7 @@ h2 {
     color: var(--Primary-Black-1, #1E1E1E);
     text-align: center;
     font-family: gotham-light, sans-serif;
-    font-size: 55px;
+    font-size: 80px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -927,7 +921,7 @@ h2 {
 .solves {
     color: #8764E3;
     font-family: gotham-light, sans-serif;
-    font-size: 55px;
+    font-size: 80px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -1000,21 +994,21 @@ h2 {
 
 /*SEVENTH SECTION*/
 
-.seventhHomeContainer {
+.seventhGameContainer {
     width: 100%;
     z-index: 1;
 }
 
-.seventhMobileHomeContainer {
+.seventhMobileGameContainer {
     display: none;
 }
 
-.innerSeventhHomeContainer {
+.innerSeventhGameContainer {
 
     width: 80%;
 }
 
-.seventhHomeBox1 {
+.seventhGameBox1 {
     width: 80%;
     height: 500px;
     display: flex;
@@ -1038,7 +1032,7 @@ h2 {
     color: var(--Primary-Black-1, #8764E3);
     text-align: center;
     font-family: gotham-light, sans-serif;
-    font-size: 55px;
+    font-size: 80px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -1088,7 +1082,7 @@ h2 {
     text-align: center;
 }
 
-.seventhHomeBox2 {
+.seventhGameBox2 {
     width: 74%;
     height: 1300px;
     display: flex;
@@ -1339,7 +1333,7 @@ h2 {
     width: 100%;
 }
 
-.seventhHomeBox3 {
+.seventhGameBox3 {
     width: 100%;
     height: 800px;
     display: flex;
@@ -1348,7 +1342,7 @@ h2 {
 }
 
 
-.innerSeventhHome {
+.innerSeventhGame {
     width: 74%;
     height: 720px;
     display: flex;
@@ -1590,34 +1584,21 @@ h2 {
 @media only screen and (max-width: 1130px) and (min-width: 320px) {
 
 
-    .homeContainer {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: 100vw;
-        position: relative;
-        margin-top: -150px;
-    }
-
-    .waves {
-        display: none;
-    }
-
     /*FIRST MOBILE SECTION*/
 
 
-    .firstHomeContainer {
+    .firstGameContainer {
         display: none;
     }
 
-    .mobileFirstHomeContainer {
+    .mobileFirstGameContainer {
         background-color: #000000;
         display: flex;
         width: 100%;
-        height: 1100px;
+        height: 1050px;
         position: relative;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-end;
         align-items: center;
     }
 
@@ -1632,7 +1613,8 @@ h2 {
         width: 100%;
         background-repeat: no-repeat;
         justify-content: center;
-        background: url(/public/heroBackgroundMobile.svg) no-repeat right top 0;
+        margin-top: 50px ;
+        /* background: url(/public/heroBackgroundMobile.svg) no-repeat right top 0; */
     }
 
 
@@ -1643,7 +1625,7 @@ h2 {
         height: 1305px;
         flex-direction: column;
         align-items: center;
-        padding-top: 100px;
+        /* padding-top: 100px; */
     }
 
     .rightMainMobile {
@@ -1754,6 +1736,7 @@ h2 {
     }
 
     .buttonTextMobile {
+        margin-top: 20px;
         display: inline-flex;
         flex-direction: column;
         align-items: center;
@@ -1762,8 +1745,8 @@ h2 {
 
     .buttonText1Mobile, .buttonText2Mobile {
         border: 1px solid #FFF;
-        width: 220px;
-        height: 46px;
+        width: 210px;
+        height: 50px;
         flex-shrink: 0;
         display: flex;
         align-items: center;
@@ -1771,10 +1754,10 @@ h2 {
         background-color: #FFFFFF;
         color: var(--Modal-grey-1, #000000);
         text-align: center;
-        font-family: gotham-light, sans-serif;
-        font-size: 18px;
+        font-family: gotham-medium, sans-serif;
+        font-size: 14px;
         font-style: normal;
-        font-weight: 600;
+        font-weight: 500;
         line-height: normal;
         z-index: 5;
     }
@@ -1818,9 +1801,351 @@ h2 {
 
     .leftImgMobile {
         width: 350px;
-        height: 350px;
+        height: 400px;
         transition: all 2s ease;
     }
 
+
+    /*SECOND MOBILE SECTION*/
+
+
+    .secondGameContainer{
+        display: none;
+    }
+
+    .mobileSecondGameContainer {
+        background: #F0F0F0;
+        display: flex;
+        width: 100%;
+        height: 650px;
+        position: relative;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .mainSecondMobile{
+        display: flex;
+        width: 352px;
+        /* height: 1105px; */
+        flex-direction: column;
+        align-items: center;
+        /* padding-top: 100px; */
+    }
+
+    .textSecondMobile {
+        color: var(--White, black);
+        font-family: gotham-light;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: bold;
+        line-height: 36px;
+    }
+
+
+    .innerParagSecondMobile {
+        width: 352px;
+        height: 95px;
+        color: var(--White, black);
+        font-family: gotham-light;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px;
+        /* 157.143% */
+    }
+
+
+    .leftMainMobile {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 5;
+    }
+
+    .secondImgMobile {
+        width: 350px;
+        height: 300px;
+        transition: all 2s ease;
+    }
+    
+    /* THIRD MOBILE SECTION */
+
+    .thirdGameContainer {
+        display: none;
+    }
+    
+    .mobileThirdGameContainer {
+        width: 100%;
+        min-height: 1000px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        height: 950px;
+        background: #1E1E1E;
+    }
+    
+    .mobileThirdGameContainerBox {
+        height: 400px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-repeat: no-repeat;
+        background-size: cover;
+        align-items: center;
+        justify-content: flex-start
+    }
+    
+    .imageMobileThirdGameContainer {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    .mobileThirdSectionLeft {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    
+    }
+    
+    .mobileThirdSectionLeftBG {
+        display: block;
+        width: 1060px;
+        height: 350px;
+        margin-right: 100px;
+        border-radius: 0px 0px 120px 0px;
+        background: #1E1E1E;
+        box-shadow: -147px -139px 120px 20px rgba(0, 0, 0, 0.48) inset;
+    }
+    
+    .mobileThirdGameImage {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .mobileThirdGameImage img {
+        height: 540px;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+
+    
+    .mobileThirdSectionRight {
+        margin-top: 200px;
+        width: 393px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mobileThirdSectionRightH1 {
+        color: #FFF;
+        font-feature-settings: 'clig'off, 'liga'off;
+        font-family: gotham-light;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: bold;
+        line-height: 120%;
+    }
+
+    .bottomThirdMobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-top: 20px;
+    }
+
+    .paragThirdMobile {
+        width: 100%;
+        height: 90px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .innerParagThirdMobile {
+        width: 350px;
+        height: 95px;
+        color: var(--White, #FFF);
+        font-family: gotham-light;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px; 
+        /* 157.143% */
+    }
+
+    /* FOURTH MOBILE SECTION */
+
+    .fourthGameContainer {
+        display: none;
+    }
+
+    .mobileFourthGameContainer {
+        background: #F0F0F0;
+        display: flex;
+        width: 100%;
+        height: 1000px;
+        position: relative;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .mainFourthMobile{
+        margin-top: 50px;
+        display: flex;
+        width: 352px;
+        /* height: 1105px; */
+        flex-direction: column;
+        align-items: center;
+        /* padding-top: 100px; */
+    }
+
+    .textFourthMobile {
+        color: var(--White, black);
+        font-family: gotham-light;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: bold;
+        line-height: 36px;
+    }
+
+
+    .innerParagFourthMobile {
+        width: 352px;
+        height: 95px;
+        color: var(--White, black);
+        font-family: gotham-light;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px;
+        /* 157.143% */
+    }
+
+
+    .bottomFourthMobile {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 5;
+    }
+
+    .fourthImgMobile {
+        width:350px;
+        height: 100%;
+        transition: all 2s ease;
+    }
+
+    /* FIFTH MOBILE SECTION */
+
+    .fifthGameContainer {
+        display: none;
+    }
+    
+    .mobileFifthGameContainer {
+        width: 100%;
+        min-height: 950px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        height: 950px;
+    }
+    
+    .mobileFifthGameContainerBox {
+        height: 400px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-repeat: no-repeat;
+        background-size: cover;
+        align-items: center;
+        justify-content: flex-start
+    }
+
+    
+    .mobileFifthGameImage {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        margin-top: 50px;
+    }
+    
+    .mobileFifthSectionRight {
+        width: 393px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        margin-top: 50px;
+    }
+    
+    .mobileFifthSectionRightH1 {
+        margin-left: 20px;
+        margin-bottom: 30px;
+        color: #1E1E1E;
+        font-feature-settings: 'clig'off, 'liga'off;
+        font-family: gotham-light;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: bold;
+        line-height: 120%;
+    }
+    
+
+    .paragMobile {
+        width: 100%;
+        height: 90px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .innerParagMobile {
+        width: 352px;
+        height: 95px;
+        color: var(--White, #FFF);
+        font-family: gotham-light;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px;
+        /* 157.143% */
+    }
+
+    
+    .mobileButtonTextGold {
+        margin-top: 230px;
+    }
+    
+    .mobileButtonText1Gold {
+        border: 1px solid #A18129;
+        background: #A18129;
+        width: 220px;
+        height: 46px;
+        flex-shrink: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--Modal-grey-1, #fff);
+        text-align: center;
+        font-family: gotham-light, sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        z-index: 5;
+    }
 
 }
