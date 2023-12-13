@@ -7,87 +7,66 @@ const Website = () => {
       {/* First Website */}
 
       <div className={styles.firstWebsiteContainer}>
-        <div className={styles.topFirst}>
-          <div className={styles.mainFirst}>
-            <div className={styles.rightMain}>
-              <h1 className={styles.text}>Revolutionizing</h1>
-              <h2 className={styles.text2}>
+        {/* <div className={styles.topFirst}> */}
+        {/* <div className={styles.mainFirst}> */}
+        <div className={styles.rightMain}>
+          <h1 className={styles.text}>Revolutionizing</h1>
+          <h2 className={styles.text2}>
+            website
+            <br />
+            monetization.
+          </h2>
+          <div className={styles.parag}>
+            <div className={styles.innerParag}>
+              Give players more choice when it comes to monetization. While
+              gaming payment gateways are a necessary evil for many gaming
+              companies, many gamers are not willing to pay for games upfront.
+            </div>
+          </div>
+          <div className={styles.buttonText}>
+            <div className={styles.buttonText1}>BOOK A DEMO</div>
+          </div>
+        </div>
+        <div className={styles.leftMain}>
+          <img
+            className={styles.leftImg}
+            src='./images/website_top.png'
+            alt='A monitor and a laptop screen'
+          />
+        </div>
+        {/* </div> */}
+        {/* </div> */}
+      </div>
+
+      {/* First Website mobile responsiveness */}
+
+      <div className={styles.mobileFirstWebsiteContainer}>
+        <div className={styles.mobileTopFirstBg}>
+          <div className={styles.mainFirstMobile}>
+            <div className={styles.leftMainMobile}>
+              <img
+                className={styles.leftImgMobile}
+                src='./images/website_top.png'
+                alt='A monitor and a laptop screen'
+              />
+            </div>
+            <div className={styles.rightMainMobile}>
+              <h1 className={styles.textMobile}>Revolutionizing</h1>
+              <h2 className={styles.text2Mobile}>
                 website
                 <br />
                 monetization.
               </h2>
-              <div className={styles.parag}>
-                <div className={styles.innerParag}>
+              <div className={styles.paragMobile}>
+                <div className={styles.innerParagMobile}>
                   Give players more choice when it comes to monetization. While
                   gaming payment gateways are a necessary evil for many gaming
                   companies, many gamers are not willing to pay for games
                   upfront.
                 </div>
               </div>
-              <div className={styles.buttonText}>
-                <div className={styles.buttonText1}>BOOK A DEMO</div>
-              </div>
-            </div>
-            <div className={styles.leftMain}>
-              {/* <div className={styles.leftImgInfo}> */}
-              <img
-                className={styles.leftImg}
-                src='./images/website_top.png'
-                alt='A monitor and a laptop screen'
-              />
-              {/* </div> */}
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* First Home mobile responsiveness */}
-
-      <div className={styles.mobileFirstWebsiteContainer}>
-        <div className={styles.topFirst}>
-          <div className={styles.mobileTopFirstBg}>
-            <div className={styles.mainFirstMobile}>
-              <div className={styles.leftMainMobile}>
-                <div className={styles.leftImgInfoMobile}>
-                  <img
-                    className={styles.leftImgMobile}
-                    src='./heroImage.png'
-                    alt='An iPhone with an offerwall'
-                  />
-                </div>
-              </div>
-              <div className={styles.rightMainMobile}>
-                <h1 className={styles.textMobile}>
-                  <b>Boost</b>
-                  <br />
-                  Monetization.
-                </h1>
-                <h2 className={styles.text2Mobile}>Retain Users.</h2>
-                <div className={styles.paragMobile}>
-                  <div className={styles.innerParagMobile}>
-                    Metered paywalls have an average conversion rate of just
-                    0.36%. Smatched builds customized ‘earn to play’ offerwalls
-                    that boost monetization on your mobile app or website and
-                    helps you retain users by offering more choice.
-                  </div>
-                </div>
-                <div className={styles.bottomHeroMobile}>
-                  <div className={styles.bottomHeroRightMobile}>
-                    <h1 className={styles.bottomHero1Mobile}>+50%</h1>
-                    <h2>
-                      Sales increase
-                      <br />
-                      through existing users
-                    </h2>
-                  </div>
-                  <div className={styles.bottomHeroLeftMobile}>
-                    <h1 className={styles.bottomHero2Mobile}>1000+</h1>
-                    <h2>New subscriptions</h2>
-                  </div>
-                </div>
-                <div className={styles.buttonTextMobile}>
-                  <div className={styles.buttonText1Mobile}>BOOK A DEMO</div>
-                </div>
+              <div className={styles.buttonTextMobile}>
+                <div className={styles.buttonText1Mobile}>BOOK A DEMO</div>
               </div>
             </div>
           </div>
@@ -139,40 +118,47 @@ const Website = () => {
         </div>
       </div>
 
-      {/*Second Home mobile responsiveness*/}
+      {/*Second Website mobile responsiveness*/}
 
-      <div className={styles.mobileSecondHomeContainer}>
-        <div>
-          <div className={styles.mobileTopSecondBg}>
-            <div className={styles.mainFirstMobile}>
-              <div className={styles.leftMainMobile}>
-                <div className={styles.leftImgInfoSecondMobile}>
-                  <img
-                    className={styles.leftImgMobile}
-                    src='./secondHomeImg.png'
-                    alt='An iPhone with an offerwall'
-                  />
-                </div>
-              </div>
-              <div className={styles.rightMainMobile}>
-                <h2 className={styles.textSecondMobile}>
-                  Smatched provides an alternative Subscription Model
-                </h2>
-                <div className={styles.paragMobile}>
-                  <div className={styles.innerParagSecondMobile}>
-                    {' '}
-                    Paywalls are a great revenue option for many businesses but
-                    unfortunately, making users pay means your revenue potential
-                    is capped. Businesses that offer more than one monetization
-                    model retain <b>50% more users</b>.
-                    <br />
-                    <br />
-                    What if your users could earn their way past a paywall
-                    without having to open their wallet?
-                  </div>
-                </div>
-              </div>
-            </div>
+      <div className={styles.secondWebsiteContainer}>
+        <div className={styles.secondWebsiteContainerBox1}>
+          <h3 className={styles.secondLeft}>
+            How to monetize Web Traffic more effectively with Smatched?
+          </h3>
+          <p className={styles.secondRight}>
+            Our platform is the answer for users who have low willingness to pay
+            upfront, providing them with an opportunity to earn their way to
+            valuable content without the need for credit cards while you still
+            make money from website traffic.
+          </p>
+        </div>
+
+        <div className={styles.imageSec2Bow}>
+          <img src='./images/website_sec2_bow.png' alt='' />
+        </div>
+
+        <div className={styles.secondWebsiteContainerBox2}>
+          <div className={styles.secondWebsiteContainerBox2Content}>
+            <img
+              className={styles.imageSec2}
+              src='./images/website_sec2_1.png'
+              alt=''
+            />
+            <p className={styles.textImgSec2}>
+              Smatched offers a solution that empowers users to access your
+              premium content by completing surveys and sharing their opinions.
+            </p>
+          </div>
+          <div className={styles.secondWebsiteContainerBox2Content}>
+            <img
+              className={styles.imageSec2}
+              src='./images/website_sec2_2.png'
+              alt=''
+            />
+            <p className={styles.textImgSec2}>
+              Users receive rewards, vouchers, tokens and exclusive access to
+              your premium content, in return
+            </p>
           </div>
         </div>
       </div>
@@ -206,51 +192,32 @@ const Website = () => {
         </div>
       </div>
 
-      {/*Third Home mobile Responsiveness*/}
+      {/*Third Website mobile Responsiveness*/}
 
-      <div className={styles.mobileThirdHomeContainer}>
-        <div className={styles.mobileThirdHomeContainerBox}>
-          <div className={styles.mobileThirdSectionLeft}>
-            <div className={styles.imageMobileThirdHomeContainer}>
-              <div className={styles.mobileThirdSectionLeftBG}>
-                <div className={styles.mobileThirdHomeImage}>
-                  <img
-                    src='./thirdSectionImg.png'
-                    alt='A laptop and a phone with offerwall rewards'
-                  />
-                </div>
-              </div>
-            </div>
+      <div className={styles.thirdWebsiteContainer}>
+        <div className={styles.thirdLeft}>
+          <img
+            className={styles.imageSec3Monitor}
+            src='./images/website_sec3_monitor.png'
+            alt='A monitor'
+          />
+          <div className={styles.imageSec3Screen}>
+            <img src='./images/website_sec3_screen.png' alt='A screen game' />
           </div>
-
-          <div className={styles.mobileThirdSectionRight}>
-            <>
-              <div className={styles.innerMobileThirdSectionRight}>
-                <div className={styles.mobileThirdSectionRightH1}>
-                  Why partner with Monetize?
-                </div>
-              </div>
-
-              <div className={styles.mobileThirdSectionRightH2}>
-                <ul className={styles.mobileThirdSectionRightList}>
-                  <li>Open up another revenue stream</li>
-                  <li>
-                    Our business model incentivizes us to provide better
-                    experiences for your customers
-                  </li>
-                  <li>Easy set-up: no set-up costs or integration work</li>
-                  <li>
-                    The Smatched web app is independent, GDPR-compliant and
-                    completely secure
-                  </li>
-                </ul>
-              </div>
-
-              <div className={styles.mobileButtonTextGold}>
-                <div className={styles.mobileButtonText1Gold}>BOOK A DEMO</div>
-              </div>
-            </>
-          </div>
+        </div>
+        <div className={styles.thirdRight}>
+          <h3 className={styles.titleSec3}>
+            Why choose Smatched for Website Monetization?
+          </h3>
+          <p className={styles.textSec3}>
+            We don’t interrupt your existing business model — we complement it.
+            Smatched seamlessly integrates with your monetization strategy,
+            offering an additional avenue for revenue generation.
+          </p>
+          <p className={styles.textSec3}>
+            With our innovative approach, you can engage a broader audience,
+            unlock new streams of revenue and enhance user satisfaction.
+          </p>
         </div>
       </div>
 
@@ -283,84 +250,32 @@ const Website = () => {
         </div>
       </div>
 
-      {/*MOBILE FOURTH HOME CONTAINER*/}
+      {/*Fourth Website mobile Responsiveness*/}
 
-      <div className={styles.mobileFourthHomeContainer}>
-        <div className={styles.subMobileFourthHomeContainer}>
-          <div className={styles.mobileFourthHomeBox1}>
-            <div>How it works?</div>
+      <div className={styles.fourthWebsiteContainer}>
+        <div className={styles.fourthLeft}>
+          <h3 className={styles.titleSec4}>
+            Discover the best offerwall Website Solution
+          </h3>
+          <p className={styles.textSec4}>
+            We build custom web-apps for our clients that build directly into
+            their website architecture and integrate seamlessly into their
+            current monetization approach.
+          </p>
+          <p className={styles.textSec4}>
+            You can seamlessly incorporate a way for your users to earn their
+            way past your paywalls by answering surveys or testing apps on our
+            customized offerwall.
+          </p>
+          <div className={styles.buttonSec4}>
+            <div>BOOK A DEMO</div>
           </div>
-
-          <div className={styles.mobileFourthHomeBox2}>
-            <div className={styles.mobileFourthBox2Container}>
-              <div className={styles.mobileFourth1234}>
-                <div className={styles.mobileFourthOne}>
-                  <div className={styles.mobileFourthInner12}>
-                    <img
-                      className={styles.mobileFourthStepOneImg}
-                      src='./one.svg'
-                      alt='A picture of a number one'
-                    />
-                    <h1>Step 1</h1>
-                    <div className={styles.mobileFourth12Integration}>
-                      We integrate via API into your mobile app or website to
-                      integrate seamlessly with your existing monetization
-                      model.
-                    </div>
-                  </div>
-                </div>
-
-                <div className={styles.mobileFourthTwo}>
-                  <div className={styles.mobileFourthInner12}>
-                    <img
-                      className={styles.mobileFourthStepTwoImg}
-                      src='./two.svg'
-                      alt='A picture of a number two'
-                    />
-                    <h1>Step 2</h1>
-                    <div className={styles.mobileFourth12Integration}>
-                      We work with you to optimize and maximize conversions to
-                      improve the overall user experience – customization
-                      increases conversions by an average of 3x
-                    </div>
-                  </div>
-                </div>
-
-                <div className={styles.mobileFourthThree}>
-                  <div className={styles.mobileFourthInner34}>
-                    <img
-                      className={styles.mobileFourthStepThreeImg}
-                      src='./three.svg'
-                      alt='A picture of a number three'
-                    />
-                    <h1>Step 3</h1>
-                    <div className={styles.mobileFourth12Integration}>
-                      Users are funneled to Smatched as an option after not
-                      converting and are then given the opportunity to earn
-                      their reward through an offerwall – which includes
-                      multiple earning options.
-                    </div>
-                  </div>
-                </div>
-
-                <div className={styles.mobileFourthFour}>
-                  <div className={styles.mobileFourthInner34}>
-                    <img
-                      className={styles.stepFourImg}
-                      src='./four.svg'
-                      alt='A picture of a number four'
-                    />
-                    <h1>Step 4</h1>
-                    <div className={styles.mobileFourth12Integration}>
-                      The user then completes the action to earn you more
-                      revenue and the added options increases returning users by
-                      100% on average.
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+        </div>
+        <div className={styles.fourthRight}>
+          <img
+            src='./images/website_sec4.png'
+            alt='A graph with an arrow to the top '
+          />
         </div>
       </div>
     </div>
