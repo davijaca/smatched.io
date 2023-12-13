@@ -161,7 +161,7 @@ const Home = () => {
 
                     <div>
                         <div className={styles.mobileTopSecondBg}>
-                            <div className={styles.mainFirstMobile}>
+                            <div className={styles.mainSecondMobile}>
                             <div className={styles.leftMainMobile}>
                                 <div className={styles.leftImgInfoSecondMobile}>
                                     <img className={styles.leftImgMobile} src="./secondHomeImg.png" alt='An iPhone with an offerwall'/>

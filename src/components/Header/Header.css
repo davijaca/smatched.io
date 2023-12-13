@@ -214,6 +214,7 @@
 
     .header {
         max-width: 100%;
+        height: 50px;
         background: black;
         opacity: 0.8999999761581421;
     }
@@ -233,11 +234,11 @@
     .nav-menu {
         position: fixed;
         left: -200%; /* hides hamburger menu when not toggled */
-        top: 83px;
+        top: 33px;
         flex-direction: column;
         background: black;
         width: 100%;
-        height: 90vh;
+        height: 100vh;
         z-index: 20;
         text-align: center;
         transition: .3s;
@@ -261,7 +262,7 @@
     }
 
     .headerBox {
-        height: 100px;
+        height: 50px;
         width: 320px;
         display: flex;
     }
@@ -327,7 +328,6 @@
         flex-shrink: 0;
         position: absolute;
         right: 5%;
-        top: 35px;
         border: none;
     }
 

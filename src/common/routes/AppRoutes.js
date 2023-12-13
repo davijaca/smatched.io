@@ -6,5 +6,6 @@ export const AppRoutes = {
   WEBSITE: '/website',
   NONPROFIT: '/nonprofit',
   NEWSPAPER: '/newspaper',
-  CONTACT: '/contact'
+  CONTACT: '/contact',
+  MOBILE: '/mobile'
 };

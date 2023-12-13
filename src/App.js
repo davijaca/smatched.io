@@ -40,7 +40,7 @@ function App() {
           {
             path: AppRoutes.GAME,
             element: <Game />,
-            errorElement: <h1> PAGE NOT FOUND 3</h1>
+            errorElement: <h1> PAGE NOT FOUND 2</h1>
           },
           {
             path: AppRoutes.NONPROFIT,
@@ -50,7 +50,7 @@ function App() {
           {
             path: AppRoutes.WEBSITE,
             element: <Website />,
-            errorElement: <h1> PAGE NOT FOUND 3</h1>
+            errorElement: <h1> PAGE NOT FOUND 8</h1>
           },
 
           {
