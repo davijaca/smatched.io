@@ -94,7 +94,7 @@ const Website = () => {
         </div>
       </div>
 
-      {/* Second Home */}
+      {/* Second Website */}
 
       <div className={styles.secondWebsiteContainer}>
         <div className={styles.secondWebsiteContainerBox1}>
@@ -177,7 +177,7 @@ const Website = () => {
         </div>
       </div>
 
-      {/* Third Home */}
+      {/* Third Website */}
 
       <div className={styles.thirdWebsiteContainer}>
         <div className={styles.thirdLeft}>
@@ -254,84 +254,32 @@ const Website = () => {
         </div>
       </div>
 
-      {/* Fourth Home */}
+      {/* Fourth Website */}
 
-      <div className={styles.fourthHomeContainer}>
-        <div className={styles.SubFourthHomeContainer}>
-          <div className={styles.fourthHomeBox1}>
-            <div>How it works?</div>
+      <div className={styles.fourthWebsiteContainer}>
+        <div className={styles.fourthLeft}>
+          <h3 className={styles.titleSec4}>
+            Discover the best offerwall Website Solution
+          </h3>
+          <p className={styles.textSec4}>
+            We build custom web-apps for our clients that build directly into
+            their website architecture and integrate seamlessly into their
+            current monetization approach.
+          </p>
+          <p className={styles.textSec4}>
+            You can seamlessly incorporate a way for your users to earn their
+            way past your paywalls by answering surveys or testing apps on our
+            customized offerwall.
+          </p>
+          <div className={styles.buttonSec4}>
+            <div>BOOK A DEMO</div>
           </div>
-
-          <div className={styles.fourthHomeBox2}>
-            <div className={styles.fourthBox2Container}>
-              <div className={styles.fourth13}>
-                <div className={styles.fourth13One}>
-                  <div className={styles.innerOne}>
-                    <img
-                      className={styles.stepOneImg}
-                      src='./one.svg'
-                      alt='A picture of a number one'
-                    />
-                    <h1>Step 1</h1>
-                    <div className={styles.fourth13Integration}>
-                      We integrate via API into your mobile app or website to
-                      integrate seamlessly with your existing monetization
-                      model.
-                    </div>
-                  </div>
-                </div>
-                <div className={styles.fourth13Two}>
-                  <div className={styles.innerThree}>
-                    <img
-                      className={styles.stepThreeImg}
-                      src='./three.svg'
-                      alt='A picture of a number three'
-                    />
-                    <h1>Step 3</h1>
-                    <div className={styles.fourth13Integration}>
-                      Users are funneled to Smatched as an option after not
-                      converting and are then given the opportunity to earn
-                      their reward through an offerwall – which includes
-                      multiple earning options.{' '}
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className={styles.fourth24}>
-                <div className={styles.fourth24One}>
-                  <div className={styles.innerTwo}>
-                    <img
-                      className={styles.stepTwoImg}
-                      src='./two.svg'
-                      alt='A picture of a number two'
-                    />
-                    <h1>Step 2</h1>
-                    <div className={styles.fourth13Integration}>
-                      We work with you to optimize and maximize conversions to
-                      improve the overall user experience – customization
-                      increases conversions by an average of 3x
-                    </div>
-                  </div>
-                </div>
-                <div className={styles.fourth24Two}>
-                  <div className={styles.innerFour}>
-                    <img
-                      className={styles.stepFourImg}
-                      src='./four.svg'
-                      alt='A picture of a number four'
-                    />
-                    <h1>Step 4</h1>
-                    <div className={styles.fourth13Integration}>
-                      The user then completes the action to earn you more
-                      revenue and the added options increases returning users by
-                      100% on average.{' '}
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+        </div>
+        <div className={styles.fourthRight}>
+          <img
+            src='./images/website_sec4.png'
+            alt='A graph with an arrow to the top '
+          />
         </div>
       </div>
 
@@ -410,76 +358,6 @@ const Website = () => {
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Fifth Home */}
-
-      <div className={styles.fifthHomeContainer}>
-        <div className={styles.fifthHomeBackground}>
-          <div className={styles.innerFifthHomeContainer1}>
-            <div className={styles.innerFifthLeft}></div>
-
-            <div className={styles.innerFifthRight}>
-              <div className={styles.innerFifthMainBox1}>
-                <div className={styles.innerFifthBox1}>
-                  <div>Revenue Sharing Model</div>
-                </div>
-              </div>
-
-              <div className={styles.innerFifthMainBox2}>
-                We have a profit sharing model so there is no monthly cost. This
-                means there is no risk on your end because make our money
-                <br /> the same way you do.
-                <br />
-                <br />
-                We are constantly working with our customers to optimize the
-                user experience of their users and this model has proven very
-                successful for increasing monetization and retention.
-              </div>
-            </div>
-          </div>
-
-          <div className={styles.bottomBG}></div>
-        </div>
-      </div>
-
-      {/*MOBILE FIFTH HOME CONTAINER*/}
-
-      <div className={styles.mobileFifthHomeContainer}>
-        <div className={styles.mobileFifthHomeBackground}>
-          <div className={styles.mobileInnerFifthHomeContainer}>
-            <div className={styles.mobileInnerFifthTop}>
-              <div className={styles.mobileIcons}>
-                <img src='./fifthIcon3.svg' alt='grafic icon' />
-                <img src='./fifthIcon2.svg' alt='eye icon' />
-                <img src='./fifthIcon3.svg' alt='grafic icon' />
-                <img src='./fifthIcon1.svg' alt='grafic icon' />
-              </div>
-              <div className={styles.mobileBenefits}>
-                <p>Increase new visitors</p>
-                <p>1,355,900 Views</p>
-                <p>Growth organic customers</p>
-                <p>Increase your revenue</p>
-              </div>
-            </div>
-
-            <div className={styles.mobileInnerFifthBottom}>
-              <div className={styles.mobileInnerFifthTitle}>
-                Revenue Sharing Model
-              </div>
-              <div className={styles.mobileInnerFifthText}>
-                We have a profit sharing model so there is no monthly cost. This
-                means there is no risk on your end because make our money the
-                same way you do.
-                <br />
-                <br />
-                We are constantly working with our customers to optimize the
-                user experience of their users and this model has proven very
-                successful for increasing monetization and retention.
               </div>
             </div>
           </div>
