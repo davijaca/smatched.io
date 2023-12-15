@@ -8,7 +8,7 @@ import Game from './pages/Game/Game';
 import NonProfit from './pages/NonProfit/NonProfit';
 import Website from './pages/Website/Website';
 import Newspaper from './pages/Newspaper/Newspaper';
-import Articles from './pages/Articles/Articles';
+import ExploringOfferwall from './pages/Articles/ExploringOfferwall';
 import BlogArticle from './pages/BlogArticle/BlogArticle';
 import Contact from './pages/Contact/Contact';
 import Footer from './components/Footer/Footer';
@@ -54,8 +54,8 @@ function App() {
           },
 
           {
-            path: AppRoutes.ARTICLES,
-            element: <Articles />,
+            path: AppRoutes.EXPLORINGOFFERWALL,
+            element: <ExploringOfferwall />,
             errorElement: <h1> PAGE NOT FOUND 4</h1>
           },
 
