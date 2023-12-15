@@ -116,12 +116,12 @@ const Website = () => {
 
       {/*Second Website mobile responsiveness*/}
 
-      <div className={styles.secondWebsiteContainer}>
-        <div className={styles.secondWebsiteContainerBox1}>
-          <h3 className={styles.secondLeft}>
+      <div className={styles.mobileSecondWebsiteContainer}>
+        <div className={styles.secondWebsiteContainerBox1Mobile}>
+          <h3 className={styles.secondLeftMobile}>
             How to monetize Web Traffic more effectively with Smatched?
           </h3>
-          <p className={styles.secondRight}>
+          <p className={styles.secondRightMobile}>
             Our platform is the answer for users who have low willingness to pay
             upfront, providing them with an opportunity to earn their way to
             valuable content without the need for credit cards while you still
@@ -129,31 +129,36 @@ const Website = () => {
           </p>
         </div>
 
-        <div className={styles.imageSec2Bow}>
-          <img src='./images/website_sec2_bow.png' alt='' />
-        </div>
-
-        <div className={styles.secondWebsiteContainerBox2}>
-          <div className={styles.secondWebsiteContainerBox2Content}>
+        <div className={styles.secondWebsiteContainerBox2Mobile}>
+          <div className={styles.secondWebsiteContainerBox2ContentMobile}>
             <img
-              className={styles.imageSec2}
+              className={styles.imageSec2Mobile}
               src='./images/website_sec2_1.png'
               alt=''
             />
-            <p className={styles.textImgSec2}>
+            <p className={styles.textImgSec2Mobile}>
               Smatched offers a solution that empowers users to access your
               premium content by completing surveys and sharing their opinions.
             </p>
           </div>
-          <div className={styles.secondWebsiteContainerBox2Content}>
+
+          <div>
             <img
-              className={styles.imageSec2}
+              className={styles.imageSec2BowMobile}
+              src='./images/website_sec2_bow_mobile.png'
+              alt=''
+            />
+          </div>
+
+          <div className={styles.secondWebsiteContainerBox2ContentMobile}>
+            <img
+              className={styles.imageSec2Mobile}
               src='./images/website_sec2_2.png'
               alt=''
             />
-            <p className={styles.textImgSec2}>
+            <p className={styles.textImgSec2Mobile}>
               Users receive rewards, vouchers, tokens and exclusive access to
-              your premium content, in return
+              your premium content, in return.
             </p>
           </div>
         </div>

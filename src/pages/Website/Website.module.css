@@ -171,7 +171,7 @@ h2 {
   align-items: center;
 }
 
-.mobileSecondHomeContainer {
+.mobileSecondWebsiteContainer {
   display: none;
 }
 
@@ -497,85 +497,86 @@ h2 {
     z-index: 5;
   }
 
-  /*SECOND SECTION*/
+  /*SECOND MOBILE SECTION*/
 
   .secondWebsiteContainer {
-    width: 100%;
-    background-color: #f0f0f0;
-    min-height: 1010px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .mobileSecondHomeContainer {
     display: none;
   }
 
-  .secondWebsiteContainerBox1 {
-    width: 1273px;
+  .mobileSecondWebsiteContainer {
+    background-color: #f0f0f0;
     display: flex;
-    position: relative;
-    z-index: 2;
-    margin-top: 150px;
-  }
-
-  .secondLeft {
-    max-width: 711px;
-    color: #1e1e1e;
-    font-family: gotham-book;
-    font-size: 53px;
-    font-weight: 700;
-    line-height: 64px;
-    margin: 0px;
-  }
-
-  .secondRight {
-    max-width: 562px;
-    color: #1e1e1e;
-    font-family: gotham-light;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
-    text-align: left;
-    margin: 0px;
-  }
-
-  .imageSec2Bow {
-    margin-top: 100px;
-    max-width: 610px;
-  }
-
-  .secondWebsiteContainerBox2 {
-    margin-top: -40px;
-    display: flex;
-    justify-content: center;
-    gap: 300px;
     width: 100%;
+    height: 969px;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
-  .secondWebsiteContainerBox2Content {
+  .secondWebsiteContainerBox1Mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    gap: 24px
+  }
+
+  .secondLeftMobile {
+    width: 90%;
+    color: #07090A;
+    font-family: gotham-book;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    margin: 0;
+  }
+
+  .secondRightMobile {
+    width: 89%;
+    color: #07090A;
+    font-family: gotham-light;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin: 0;
+  }
+
+  .secondWebsiteContainerBox2Mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 55px;
+  }
+
+  .secondWebsiteContainerBox2ContentMobile {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 20px;
+    padding: 0 36px;
   }
 
-  .imageSec2 {
-    width: 108px;
-    height: 108px;
+  .imageSec2Mobile {
+    width: 90px;
+    height: 90px;
     z-index: 5;
   }
 
-  .textImgSec2 {
+  .textImgSec2Mobile {
     color: #1e1e1e;
     text-align: center;
     font-family: gotham-light;
-    font-size: 16px;
+    font-size: 9px;
     font-weight: 400;
-    line-height: 24px;
-    width: 315px;
-    padding-top: 20px;
+    line-height: 20px;
+    width: 90%;
+    margin-top: 20px;
+  }
+
+  .imageSec2BowMobile {    
+    margin: -112px 0 -26px 30px ;
+    width: 86px;
   }
 
   /*THIRD SECTION*/
