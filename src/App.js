@@ -36,7 +36,6 @@ function App() {
             element: <Home />,
             errorElement: <h1>HOME PAGE NOT FOUND</h1>,
           },
-
           {
             path: AppRoutes.GAME,
             element: <Game />,
