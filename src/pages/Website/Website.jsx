@@ -7,9 +7,7 @@ const Website = () => {
       {/* First Website */}
 
       <div className={styles.firstWebsiteContainer}>
-        {/* <div className={styles.topFirst}> */}
-        {/* <div className={styles.mainFirst}> */}
-        <div className={styles.rightMain}>
+        <div className={styles.firstLeft}>
           <h1 className={styles.text}>Revolutionizing</h1>
           <h2 className={styles.text2}>
             website
@@ -27,30 +25,28 @@ const Website = () => {
             <div className={styles.buttonText1}>BOOK A DEMO</div>
           </div>
         </div>
-        <div className={styles.leftMain}>
+        <div className={styles.firstRight}>
           <img
-            className={styles.leftImg}
+            className={styles.rigthImg}
             src='./images/website_top.png'
             alt='A monitor and a laptop screen'
           />
         </div>
-        {/* </div> */}
-        {/* </div> */}
       </div>
 
       {/* First Website mobile responsiveness */}
 
       <div className={styles.mobileFirstWebsiteContainer}>
         <div className={styles.mobileTopFirstBg}>
-          <div className={styles.mainFirstMobile}>
-            <div className={styles.leftMainMobile}>
+          <div className={styles.firstMobile}>
+            <div className={styles.firstRightMobile}>
               <img
-                className={styles.leftImgMobile}
+                className={styles.rigthImg}
                 src='./images/website_top.png'
                 alt='A monitor and a laptop screen'
               />
             </div>
-            <div className={styles.rightMainMobile}>
+            <div className={styles.firstLeftMobile}>
               <h1 className={styles.textMobile}>Revolutionizing</h1>
               <h2 className={styles.text2Mobile}>
                 website
