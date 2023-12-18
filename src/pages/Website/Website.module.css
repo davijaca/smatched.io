@@ -648,46 +648,49 @@ h2 {
   /*FOURTH SECTION*/
 
   .fourthWebsiteContainer {
-    background-color: #f0f0f0;
-    min-height: 1010px;
-    display: flex;
-    justify-content: center;
-  }
-
-  .mobileFourthHomeContainer {
     display: none;
   }
 
-  .fourthLeft {
+  .mobileFourthWebsiteContainer {
+    background-color: #f0f0f0;
+    width: 100%;
+    min-height: 858px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .fourthLeftMobile {
     max-width: 577px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 24px;
+    gap: 30px;
   }
 
-  .titleSec4 {
+  .titleSec4Mobile {
     color: #1e1e1e;
     font-family: gotham-book;
-    font-size: 53px;
+    font-size: 22px;
     font-weight: 700;
-    line-height: 64px;
+    line-height: 36px;
+    margin: 0 10px;
   }
 
-  .textSec4 {
+  .textSec4Mobile {
     color: #1e1e1e;
     font-family: gotham-light;
-    font-size: 18px;
+    font-size: 12px;
     font-weight: 400;
-    line-height: 30px;
-    margin: 0;
+    line-height: 24px;
+    margin: 0 10px;
   }
 
-  .buttonSec4 {
-    margin-top: 20px;
+  .buttonSec4Mobile {
     background: #a18129;
-    width: 220px;
-    height: 60px;
+    width: 210px;
+    height: 50px;
     flex-shrink: 0;
     display: flex;
     align-items: center;
@@ -695,18 +698,22 @@ h2 {
     color: var(--Modal-grey-1, #fff);
     text-align: center;
     font-family: gotham-light, sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
     line-height: normal;
     z-index: 5;
+    margin: auto;
   }
 
-  .fourthRight {
-    width: 50%;
+  .fourthRightMobile {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 80px;
+  }
+
+  .fourthRightMobile > img {
+    width: 95%;
+    margin-left: 10px;
   }
 }

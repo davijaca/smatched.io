@@ -195,7 +195,7 @@ const Website = () => {
 
       {/*Third Website mobile Responsiveness*/}
 
-      <div className={styles.thirdWebsiteContainer}>
+      {/* <div className={styles.thirdWebsiteContainer}>
         <div className={styles.thirdLeft}>
           <img
             className={styles.imageSec3Monitor}
@@ -220,7 +220,7 @@ const Website = () => {
             unlock new streams of revenue and enhance user satisfaction.
           </p>
         </div>
-      </div>
+      </div> */}
 
       {/* Fourth Website */}
 
@@ -253,30 +253,30 @@ const Website = () => {
 
       {/*Fourth Website mobile Responsiveness*/}
 
-      <div className={styles.fourthWebsiteContainer}>
-        <div className={styles.fourthLeft}>
-          <h3 className={styles.titleSec4}>
-            Discover the best offerwall Website Solution
-          </h3>
-          <p className={styles.textSec4}>
-            We build custom web-apps for our clients that build directly into
-            their website architecture and integrate seamlessly into their
-            current monetization approach.
-          </p>
-          <p className={styles.textSec4}>
-            You can seamlessly incorporate a way for your users to earn their
-            way past your paywalls by answering surveys or testing apps on our
-            customized offerwall.
-          </p>
-          <div className={styles.buttonSec4}>
-            <div>BOOK A DEMO</div>
-          </div>
-        </div>
-        <div className={styles.fourthRight}>
+      <div className={styles.mobileFourthWebsiteContainer}>
+        <div className={styles.fourthRightMobile}>
           <img
             src='./images/website_sec4.png'
             alt='A graph with an arrow to the top '
           />
+        </div>
+        <div className={styles.fourthLeftMobile}>
+          <h3 className={styles.titleSec4Mobile}>
+            Discover the best offerwall Website Solution
+          </h3>
+          <p className={styles.textSec4Mobile}>
+            We build custom web-apps for our clients that build directly into
+            their website architecture and integrate seamlessly into their
+            current monetization approach.
+          </p>
+          <p className={styles.textSec4Mobile}>
+            You can seamlessly incorporate a way for your users to earn their
+            way past your paywalls by answering surveys or testing apps on our
+            customized offerwall.
+          </p>
+          <div className={styles.buttonSec4Mobile}>
+            <div>BOOK A DEMO</div>
+          </div>
         </div>
       </div>
     </div>
