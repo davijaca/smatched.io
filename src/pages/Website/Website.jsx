@@ -195,32 +195,30 @@ const Website = () => {
 
       {/*Third Website mobile Responsiveness*/}
 
-      {/* <div className={styles.thirdWebsiteContainer}>
-        <div className={styles.thirdLeft}>
-          <img
-            className={styles.imageSec3Monitor}
-            src='./images/website_sec3_monitor.png'
-            alt='A monitor'
-          />
-          <div className={styles.imageSec3Screen}>
+      <div className={styles.mobileThirdWebsiteContainer}>
+        <div className={styles.thirdLeftMobile}>
+          <div className={styles.imageSec3MonitorMobile}>
+            <img src='./images/website_sec3_monitor.png' alt='A monitor' />
+          </div>
+          <div className={styles.imageSec3ScreenMobile}>
             <img src='./images/website_sec3_screen.png' alt='A screen game' />
           </div>
         </div>
-        <div className={styles.thirdRight}>
-          <h3 className={styles.titleSec3}>
+        <div className={styles.thirdRightMobile}>
+          <h3 className={styles.titleSec3Mobile}>
             Why choose Smatched for Website Monetization?
           </h3>
-          <p className={styles.textSec3}>
+          <p className={styles.textSec3Mobile}>
             We don’t interrupt your existing business model — we complement it.
             Smatched seamlessly integrates with your monetization strategy,
             offering an additional avenue for revenue generation.
           </p>
-          <p className={styles.textSec3}>
+          <p className={styles.textSec3Mobile}>
             With our innovative approach, you can engage a broader audience,
             unlock new streams of revenue and enhance user satisfaction.
           </p>
         </div>
-      </div> */}
+      </div>
 
       {/* Fourth Website */}
 
