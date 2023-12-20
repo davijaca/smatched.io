@@ -214,7 +214,10 @@
 
     .header {
         max-width: 100%;
+<<<<<<< HEAD
         height: 50px;
+=======
+>>>>>>> a49078f70837312358d802646a7773b43a305a05
         background: black;
         opacity: 0.8999999761581421;
     }
@@ -234,11 +237,19 @@
     .nav-menu {
         position: fixed;
         left: -200%; /* hides hamburger menu when not toggled */
+<<<<<<< HEAD
         top: 33px;
         flex-direction: column;
         background: black;
         width: 100%;
         height: 100vh;
+=======
+        top: 83px;
+        flex-direction: column;
+        background: black;
+        width: 100%;
+        height: 90vh;
+>>>>>>> a49078f70837312358d802646a7773b43a305a05
         z-index: 20;
         text-align: center;
         transition: .3s;
@@ -262,7 +273,11 @@
     }
 
     .headerBox {
+<<<<<<< HEAD
         height: 50px;
+=======
+        height: 100px;
+>>>>>>> a49078f70837312358d802646a7773b43a305a05
         width: 320px;
         display: flex;
     }
@@ -328,6 +343,10 @@
         flex-shrink: 0;
         position: absolute;
         right: 5%;
+<<<<<<< HEAD
+=======
+        top: 35px;
+>>>>>>> a49078f70837312358d802646a7773b43a305a05
         border: none;
     }
 

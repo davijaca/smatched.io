@@ -1,4 +1,5 @@
 export const AppRoutes = {
+<<<<<<< HEAD
   MAIN: '/',
   GAME: '/game',
   ARTICLES: '/articles',
@@ -9,3 +10,11 @@ export const AppRoutes = {
   CONTACT: '/contact',
   MOBILE: '/mobile'
 };
+=======
+    MAIN: '/',
+    BLOG: '/blog',
+    ARTICLES: '/articles',
+    BLOGARTICLE: '/blogarticle',
+    CONTACT: '/contact',
+}
+>>>>>>> a49078f70837312358d802646a7773b43a305a05
