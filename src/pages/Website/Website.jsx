@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './Website.module.css';
+import { Link } from 'react-router-dom';
 
 const Website = () => {
   return (
@@ -7,64 +8,74 @@ const Website = () => {
       {/* First Website */}
 
       <div className={styles.firstWebsiteContainer}>
-        <div className={styles.firstLeft}>
-          <h1 className={styles.text}>Revolutionizing</h1>
-          <h2 className={styles.text2}>
-            website
-            <br />
-            monetization.
-          </h2>
-          <div className={styles.parag}>
-            <div className={styles.innerParag}>
-              Give players more choice when it comes to monetization. While
-              gaming payment gateways are a necessary evil for many gaming
-              companies, many gamers are not willing to pay for games upfront.
+        <div className={styles.containerToMatchDesign}>
+          <div className={styles.firstLeft}>
+            <div>
+              <h1 className={styles.firstLeftTitle1}>Revolutionizing</h1>
+              <h2 className={styles.firstLeftTitle2}>
+                website
+                <br />
+                monetization.
+              </h2>
             </div>
+            <div>
+              <p className={styles.firstLeftText}>
+                Subscription-based business models have become the standard way
+                to drive user-generated revenue.
+              </p>
+              <p className={styles.firstLeftText}>
+                However, implementing a paywall introduces a barrier between
+                your product or service and the consumer – with only about 10%
+                of users on average willing to pay for what’s behind your wall.
+              </p>
+            </div>
+            <Link className={styles.firstLeftButton} to=''>
+              <div className={styles.firstLeftButtonText}>BOOK A DEMO </div>
+            </Link>
           </div>
-          <div className={styles.buttonText}>
-            <div className={styles.buttonText1}>BOOK A DEMO</div>
+          <div className={styles.firstRight}>
+            <img
+              src='./images/website_top.png'
+              alt='A monitor and a laptop screen'
+            />
           </div>
-        </div>
-        <div className={styles.firstRight}>
-          <img
-            className={styles.rigthImg}
-            src='./images/website_top.png'
-            alt='A monitor and a laptop screen'
-          />
         </div>
       </div>
 
       {/* First Website mobile responsiveness */}
 
       <div className={styles.mobileFirstWebsiteContainer}>
-        <div className={styles.mobileTopFirstBg}>
-          <div className={styles.firstMobile}>
-            <div className={styles.firstRightMobile}>
-              <img
-                className={styles.rigthImg}
-                src='./images/website_top.png'
-                alt='A monitor and a laptop screen'
-              />
-            </div>
-            <div className={styles.firstLeftMobile}>
-              <h1 className={styles.textMobile}>Revolutionizing</h1>
-              <h2 className={styles.text2Mobile}>
+        <div className={styles.mobileFirstWebsiteContainerBg}>
+          <div className={styles.firstMobileTopImg}>
+            <img
+              className={styles.firstMobileImg}
+              src='./images/website_top.png'
+              alt='A monitor and a laptop screen'
+            />
+          </div>
+          <div className={styles.firstMobileBottomContent}>
+            <div>
+              <h1 className={styles.firstMobileTitle1}>Revolutionizing</h1>
+              <h2 className={styles.firstMobileTitle2}>
                 website
                 <br />
                 monetization.
               </h2>
-              <div className={styles.paragMobile}>
-                <div className={styles.innerParagMobile}>
-                  Give players more choice when it comes to monetization. While
-                  gaming payment gateways are a necessary evil for many gaming
-                  companies, many gamers are not willing to pay for games
-                  upfront.
-                </div>
-              </div>
-              <div className={styles.buttonTextMobile}>
-                <div className={styles.buttonText1Mobile}>BOOK A DEMO</div>
-              </div>
             </div>
+            <div>
+              <p className={styles.firstMobileText}>
+                Subscription-based business models have become the standard way
+                to drive user-generated revenue.
+              </p>
+              <p className={styles.firstMobileText}>
+                However, implementing a paywall introduces a barrier between
+                your product or service and the consumer – with only about 10%
+                of users on average willing to pay for what’s behind your wall.
+              </p>
+            </div>
+            <Link className={styles.firstMobileButton} to=''>
+              <div className={styles.firstMobileButtonText}>BOOK A DEMO</div>
+            </Link>
           </div>
         </div>
       </div>

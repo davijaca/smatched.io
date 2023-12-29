@@ -50,113 +50,95 @@ h2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  position: relative;
 }
 
 /*FIRST SECTION*/
 
 .firstWebsiteContainer {
-  left: calc(-50vw + 50%);
-  overflow: visible;
-  display: inline-block;
-  margin: auto;
   background: url(/public/heroBackground.svg) no-repeat;
   background-size: cover;
   display: flex;
   justify-content: center;
-  min-height: 1026px;
+  height: 1026px;
 }
 
 .mobileFirstWebsiteContainer {
   display: none;
 }
 
-.mobileTopFirstBg {
+.mobileFirstBg {
   display: none;
 }
 
-.firstLeft {
-  width: 30%;
+.containerToMatchDesign {
+  width: 1512px;
   display: flex;
-  flex-direction: column;
-  margin-top: 190px;
+  justify-content: center;
 }
 
-.text {
+.firstLeft {
+  width: 37%;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  margin-top: 216px;
+}
+
+.firstLeftTitle1 {
+  color: var(--White, #fff);
+  font-family: gotham-medium;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 108.5%;
+}
+
+.firstLeftTitle2 {
   color: var(--White, #fff);
   font-family: gotham-book;
   font-size: 80px;
-  font-weight: 700;
-  line-height: 87px;
-  z-index: 5;
-}
-
-.text2 {
-  color: var(--White, #fff);
-  font-family: gotham-light;
-  font-size: 80px;
+  font-style: normal;
   font-weight: 400;
-  line-height: 87px;
-  z-index: 5;
+  line-height: 108.5%;
 }
 
-.parag {
-  width: 105%;
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-
-.innerParag {
+.firstLeftText {
   color: #fff;
-  width: 88%;
   font-feature-settings: 'clig' off, 'liga' off;
-  font-family: gotham-light;
+  font-family: gotham-book;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 29px;
 }
 
-.buttonText {
-  width: 90%;
+.firstLeftButton {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  z-index: 5;
-  margin-bottom: 30px;
+  width: 210px;
+  height: 60px;
+  /* padding: 24px 64px; */
+  justify-content: center;
+  align-items: center;
+  /* gap: 24px; */
+  border: 1px solid #fff;
+  background: #fff;
 }
 
-.buttonText1 {
-  border: 1px solid #fff;
-  width: 220px;
-  height: 60px;
-  flex-shrink: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #ffffff;
-  color: var(--Modal-grey-1, #000000);
+.firstLeftButtonText {
+  color: #0a0a0a;
   text-align: center;
-  font-family: gotham-book, sans-serif;
-  font-size: 18px;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: gotham-medium;
+  font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: normal;
-  z-index: 5;
+  line-height: 38px;
+  /* text-transform: uppercase; */
 }
 
 .firstRight {
-  margin-top: 90px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 5;
-}
-
-.rigthImg {
-  width: 743px;
-  height: 569px;
-  /* transition: all 2s ease; */
+  width: 50%;
+  margin-top: 297px;
 }
 
 /*SECOND SECTION*/
@@ -382,7 +364,6 @@ h2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    position: relative;
   }
 
   /* FIRST MOBILE SECTION */
@@ -394,106 +375,92 @@ h2 {
   .mobileFirstWebsiteContainer {
     background-color: #000000;
     display: flex;
-    width: 100%;
-    height: 1026px;
-    position: relative;
+    min-height: 1026px;
+  }
+
+  .mobileFirstWebsiteContainerBg {
+    /* In the design, this background seems wider */
+    background: url(/public/heroBackgroundMobile.svg) no-repeat fixed right;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
 
-  .mobileTopFirstBg {
+  .firstMobileTopImg {
     display: flex;
-    height: inherit;
-    width: 100vw;
-    background-repeat: no-repeat;
     justify-content: center;
-    background: url(/public/heroBackgroundMobile.svg) no-repeat right top 0;
-  }
-
-  .firstMobile {
-    display: flex;
-    width: 70%;
-    flex-direction: column;
     align-items: center;
-    margin-top: 227px;
+    margin-top: 169px;
   }
 
-  .firstRightMobile {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 5;
+  .firstMobileImg {
+    width: 86%;
+    /* width: 335px;
+    height: 257px; */
   }
 
-  .rigthImg {
-    width: 284px;
-    height: 222px;
-  }
-
-  .firstLeftMobile {
+  .firstMobileBottomContent {
     display: flex;
     flex-direction: column;
-    margin-top: 40px;
+    justify-content: center;
+    gap: 30px;
+    margin: 43px 22px 112px 22px;
   }
 
-  .textMobile {
+  .firstMobileTitle1 {
+    color: var(--White, #fff);
+    font-family: gotham-medium;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+  }
+
+  .firstMobileTitle2 {
     color: var(--White, #fff);
     font-family: gotham-book;
     font-size: 40px;
-    font-weight: 700;
-    line-height: 48px;
-    z-index: 5;
-  }
-
-  .text2Mobile {
-    color: var(--White, #fff);
-    font-family: gotham-light;
-    font-size: 40px;
+    font-style: normal;
     font-weight: 400;
-    line-height: 48px;
-    z-index: 5;
+    line-height: 120%;
   }
 
-  .paragMobile {
-    margin-top: 40px;
-  }
-
-  .innerParagMobile {
+  /* In the design, the font seem thinner */
+  .firstMobileText {
     color: #ffffff;
     font-feature-settings: 'clig' off, 'liga' off;
-    font-family: gotham-light;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: gotham-book;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
   }
 
-  .buttonTextMobile {
+  .firstMobileButton {
+    margin: 0 auto;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 5;
-    margin-top: 30px;
-  }
-
-  .buttonText1Mobile {
-    border: 1px solid #fff;
     width: 210px;
     height: 50px;
-    flex-shrink: 0;
-    display: flex;
-    align-items: center;
+    /* padding: 24px 64px; */
     justify-content: center;
-    background-color: #ffffff;
-    color: var(--Modal-grey-1, #000000);
+    align-items: center;
+    /* gap: 24px; */
+    border: 1px solid #fff;
+    background: #fff;
+  }
+
+  .firstMobileButtonText {
+    color: #0a0a0a;
     text-align: center;
-    font-family: gotham-light, sans-serif;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: gotham-medium;
     font-size: 14px;
     font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    z-index: 5;
+    font-weight: 500;
+    line-height: 38px;
+    /* text-transform: uppercase; */
   }
 
   /*SECOND MOBILE SECTION*/
