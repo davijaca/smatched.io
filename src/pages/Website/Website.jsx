@@ -234,29 +234,31 @@ const Website = () => {
       {/* Fourth Website */}
 
       <div className={styles.fourthWebsiteContainer}>
-        <div className={styles.fourthLeft}>
-          <h3 className={styles.titleSec4}>
-            Discover the best offerwall Website Solution
-          </h3>
-          <p className={styles.textSec4}>
-            We build custom web-apps for our clients that build directly into
-            their website architecture and integrate seamlessly into their
-            current monetization approach.
-          </p>
-          <p className={styles.textSec4}>
-            You can seamlessly incorporate a way for your users to earn their
-            way past your paywalls by answering surveys or testing apps on our
-            customized offerwall.
-          </p>
-          <div className={styles.buttonSec4}>
-            <div>BOOK A DEMO</div>
+        <div className={styles.containerToMatchDesign}>
+          <div className={styles.fourthLeft}>
+            <h3 className={styles.titleSec4}>
+              Discover the best offerwall Website Solution
+            </h3>
+            <p className={styles.textSec4}>
+              We build custom web-apps for our clients that build directly into
+              their website architecture and integrate seamlessly into their
+              current monetization approach.
+              <br />
+              <br />
+              You can seamlessly incorporate a way for your users to earn their
+              way past your paywalls by answering surveys or testing apps on our
+              customized offerwall.
+            </p>
+            <Link className={styles.buttonSec4} to=''>
+              <div className={styles.buttonSec4Text}>BOOK A DEMO </div>
+            </Link>
           </div>
-        </div>
-        <div className={styles.fourthRight}>
-          <img
-            src='./images/website_sec4.png'
-            alt='A graph with an arrow to the top '
-          />
+          <div className={styles.fourthRight}>
+            <img
+              src='./images/website_sec4.png'
+              alt='A graph with an arrow to the top '
+            />
+          </div>
         </div>
       </div>
 
@@ -270,22 +272,22 @@ const Website = () => {
           />
         </div>
         <div className={styles.fourthLeftMobile}>
-          <h3 className={styles.titleSec4Mobile}>
+          <h1 className={styles.titleSec4Mobile}>
             Discover the best offerwall Website Solution
-          </h3>
+          </h1>
           <p className={styles.textSec4Mobile}>
             We build custom web-apps for our clients that build directly into
             their website architecture and integrate seamlessly into their
             current monetization approach.
-          </p>
-          <p className={styles.textSec4Mobile}>
+            <br />
+            <br />
             You can seamlessly incorporate a way for your users to earn their
             way past your paywalls by answering surveys or testing apps on our
             customized offerwall.
           </p>
-          <div className={styles.buttonSec4Mobile}>
-            <div>BOOK A DEMO</div>
-          </div>
+          <Link className={styles.buttonSec4Mobile} to=''>
+            <div className={styles.buttonSec4MobileText}>BOOK A DEMO </div>
+          </Link>
         </div>
       </div>
     </div>
