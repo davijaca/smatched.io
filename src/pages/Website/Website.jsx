@@ -35,7 +35,7 @@ const Website = () => {
           </div>
           <div className={styles.firstRight}>
             <img
-              src='./images/website_top.png'
+              src='./images/website_sec1.png'
               alt='A monitor and a laptop screen'
             />
           </div>
@@ -49,7 +49,7 @@ const Website = () => {
           <div className={styles.firstMobileTopImg}>
             <img
               className={styles.firstMobileImg}
-              src='./images/website_top.png'
+              src='./images/website_sec1.png'
               alt='A monitor and a laptop screen'
             />
           </div>
@@ -179,14 +179,7 @@ const Website = () => {
 
       <div className={styles.thirdWebsiteContainer}>
         <div className={styles.thirdLeft}>
-          <img
-            className={styles.imageSec3Monitor}
-            src='./images/website_sec3_monitor.png'
-            alt='A monitor'
-          />
-          <div className={styles.imageSec3Screen}>
-            <img src='./images/website_sec3_screen.png' alt='A screen game' />
-          </div>
+          <img src='./images/website_sec3.png' alt='A monitor' />
         </div>
         <div className={styles.thirdRight}>
           <h3 className={styles.titleSec3}>
@@ -196,8 +189,8 @@ const Website = () => {
             We don’t interrupt your existing business model — we complement it.
             Smatched seamlessly integrates with your monetization strategy,
             offering an additional avenue for revenue generation.
-          </p>
-          <p className={styles.textSec3}>
+            <br />
+            <br />
             With our innovative approach, you can engage a broader audience,
             unlock new streams of revenue and enhance user satisfaction.
           </p>
@@ -208,12 +201,7 @@ const Website = () => {
 
       <div className={styles.mobileThirdWebsiteContainer}>
         <div className={styles.thirdLeftMobile}>
-          <div className={styles.imageSec3MonitorMobile}>
-            <img src='./images/website_sec3_monitor.png' alt='A monitor' />
-          </div>
-          <div className={styles.imageSec3ScreenMobile}>
-            <img src='./images/website_sec3_screen.png' alt='A screen game' />
-          </div>
+          <img src='./images/website_sec3.png' alt='A monitor' />
         </div>
         <div className={styles.thirdRightMobile}>
           <h3 className={styles.titleSec3Mobile}>
@@ -223,8 +211,8 @@ const Website = () => {
             We don’t interrupt your existing business model — we complement it.
             Smatched seamlessly integrates with your monetization strategy,
             offering an additional avenue for revenue generation.
-          </p>
-          <p className={styles.textSec3Mobile}>
+            <br />
+            <br />
             With our innovative approach, you can engage a broader audience,
             unlock new streams of revenue and enhance user satisfaction.
           </p>

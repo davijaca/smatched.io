@@ -240,58 +240,42 @@ h2 {
   display: none;
 }
 
-.thirdLeft {
-  width: 798px;
-  min-height: 801px;
-  background-image: url('/public/images/website_sec3_bg_left.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 120px;
-}
-
-.imageSec3Monitor {
-  width: 606px;
-  margin-bottom: 70px;
-  position: relative;
-}
-
-.imageSec3Screen {
-  width: 555px;
-  position: absolute;
-  margin-bottom: 160px;
-}
-
-.imageSec3Screen > img {
-  width: 530px;
+.thirdLeft > img {
+  /* width: 729px; is for screen 1512px, for screen 1920px I adjusted to:*/
+  width: 800px;
 }
 
 .thirdRight {
+  margin-left: 130px;
+  width: 850px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: 150px;
+  gap: 48px;
 }
 
 .titleSec3 {
   max-width: 538px;
-  color: #ffffff;
-  font-family: gotham-book;
+  margin: 0;
+  color: #fff;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: gotham-medium;
   font-size: 53px;
-  font-weight: 700;
-  line-height: 64px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
 }
 
+/* in the design it seems thinner */
 .textSec3 {
-  max-width: 538px;
-  color: #ffffff;
-  font-family: gotham-light;
+  max-width: 532px;
+  color: #fff;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: gotham-book;
   font-size: 18px;
+  font-style: normal;
   font-weight: 400;
   line-height: 30px;
-  margin-top: 0;
 }
 
 /*FOURTH SECTION*/
@@ -564,7 +548,7 @@ h2 {
   }
 
   .imageSec2BowMobile {
-    margin: -112px 0 -26px 30px;
+    margin: -133px 0 -26px 30px;
     width: 86px;
   }
 
@@ -585,65 +569,41 @@ h2 {
   }
 
   .thirdLeftMobile {
-    background-image: url('/public/images/website_sec3_bg_left.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 100%;
-    min-height: 396px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: -118px;
-    margin-left: -57px;
+   margin-left: -32px;
   }
 
-  .imageSec3MonitorMobile {
-    width: 64%;
-    margin-bottom: -27px;
-    position: relative;
-  }
-
-  .imageSec3MonitorMobile > img {
-    width: 255px;
-  }
-
-  .imageSec3ScreenMobile {
-    width: 54%;
-    position: absolute;
-    margin-bottom: 14px;
-    margin-left: -14px;
-  }
-
-  .imageSec3ScreenMobile > img {
-    width: 224px;
+  .thirdLeftMobile > img {
+    width: 361px;
   }
 
   .thirdRightMobile {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     gap: 24px;
-    margin-top: 35px;
+    margin: 56px 21px 75px 18px;
   }
 
   .titleSec3Mobile {
-    color: #ffffff;
-    font-family: gotham-book;
+    color: #fff;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: gotham-medium;
     font-size: 24px;
-    font-weight: 700;
+    font-style: normal;
+    font-weight: 500;
     line-height: 36px;
-    margin: 0 10px;
+    margin: 0;
   }
 
+  /* in the design it seems thinner */
   .textSec3Mobile {
-    color: #ffffff;
-    font-family: gotham-light;
+    color: #fff;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: gotham-book;
     font-size: 14px;
+    font-style: normal;
     font-weight: 400;
     line-height: 24px;
-    margin: 0 10px;
   }
 
   /*FOURTH SECTION*/
@@ -703,7 +663,7 @@ h2 {
     border: 1px solid #a18129;
     background: #a18129;
   }
-  
+
   /* in the design it seems thinner */
   .buttonSec4TextMobile {
     color: #fff;
