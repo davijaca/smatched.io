@@ -158,7 +158,7 @@ h2 {
 
   .mobileFirstTapjoyVsSmatchedContainer {
     background-color: #f0f0f0;
-    min-height: 966px; /* 1010px -44 Smartphne statusBar */
+    min-height: 966px; /* it is not especified, so I kept the same as the first section */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -166,7 +166,7 @@ h2 {
   }
 
   .firstMobileTopImage {
-    margin-top: 137px ;
+    margin-top: 137px;
   }
 
   .firstMobileBottom {
@@ -205,21 +205,51 @@ h2 {
 
   /* SECOND MOBILE SECTION*/
 
-  /* .secondTapjoyVsSmatchedContainer {
-      display: none;
-    }
-  
-    .mobileSecondTapjoyVsSmatchedContainer {
-      background-color: #f0f0f0;
-      display: flex;
-      width: 100%;
-      height: 969px;
-      position: relative;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    } */
+  .secondTapjoyVsSmatchedContainer {
+    display: none;
+  }
 
+  .mobileSecondTapjoyVsSmatchedContainer {
+    background-color:  #FDFDFF;
+    min-height: 966px; /* 1010px -44 Smartphne statusBar */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .secondMobileBottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin: 21px 22px 76px 21px;
+  }
+
+  .secondMobileBottom > h1 {
+    width: 350px;
+    color: #1E1E1E;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: gotham-medium;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+  }
+
+  .secondMobileBottom > p {
+    width: 350px;
+    /* height: 249px; */
+    flex-shrink: 0;
+    color: #1e1e1e;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: gotham-book;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%; /* 23.8px */
+  }
   /* THIRD SECTION*/
 
   /* .thirdTapjoyVsSmatchedContainer {

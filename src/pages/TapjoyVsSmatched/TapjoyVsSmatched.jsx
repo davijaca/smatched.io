@@ -33,7 +33,25 @@ const TapjoyVsSmatched = () => {
 
       {/* Second Tapjoy mobile responsiveness */}
 
-      <div className={styles.mobileSecondTapjoyVsSmatchedContainer}></div>
+      <div className={styles.mobileSecondTapjoyVsSmatchedContainer}>
+        <div className={styles.secondMobileTopImage}>
+          <img src='./images/tapVsSmat_sec2_mobile.png' alt='A smartphone' />
+        </div>
+        <div className={styles.secondMobileBottom}>
+          <h1>What Is Tapjoy and How Does It Work?</h1>
+          <p>
+            Tapjoy is a versatile advertising and monetization platform designed
+            to assist mobile app developers in effectively monetizing their user
+            base, especially those who may not typically make in-app purchases.
+            Central to Tapjoy's approach is its offer wall solution, which
+            presents users with a curated selection of tasks in exchange for
+            virtual currencies. These virtual currencies can later be redeemed
+            for premium in-app content. Additionally, Tapjoy excels in
+            distributing applications seamlessly and capturing real-time data
+            for strategic advertising campaigns.
+          </p>
+        </div>
+      </div>
 
       {/* Third Pros and Cons */}
 
