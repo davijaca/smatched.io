@@ -12,6 +12,7 @@ import Articles from './pages/Articles/Articles';
 import BlogArticle from './pages/BlogArticle/BlogArticle';
 import Contact from './pages/Contact/Contact';
 import Footer from './components/Footer/Footer';
+import TapjoyVsSmatched from './pages/TapjoyVsSmatched/TapjoyVsSmatched';
 
 function App() {
   const Layout = () => {
@@ -72,6 +73,11 @@ function App() {
           {
             path: AppRoutes.CONTACT,
             element: <Contact />,
+            errorElement: <h1> PAGE NOT FOUND 7</h1>,
+          },
+          {
+            path: AppRoutes.TAPJOYVSSMATCHED,
+            element: <TapjoyVsSmatched />,
             errorElement: <h1> PAGE NOT FOUND 7</h1>,
           },
         ],

@@ -8,4 +8,5 @@ export const AppRoutes = {
   NEWSPAPER: '/newspaper',
   CONTACT: '/contact',
   MOBILE: '/mobile',
+  TAPJOYVSSMATCHED: '/tapjoyvssmatched',
 };
