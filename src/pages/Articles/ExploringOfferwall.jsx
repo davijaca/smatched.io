@@ -3,7 +3,9 @@ import styles from './ExploringOfferwall.module.css';
 import { db } from '../../firebase';
 import { addDoc, collection, serverTimestamp } from 'firebase/firestore';
 
-const ExploringOfferwall = () => {
+const ExploringOfferwall = ({ setShowFormFooter }) => {
+  setShowFormFooter(false);
+
   const [input, setInput] = useState('');
   const [message, setMessage] = useState('');
 
@@ -17,7 +19,7 @@ const ExploringOfferwall = () => {
       //add to firebase
       await addDoc(collection(db, 'emails'), {
         email: input,
-        time: serverTimestamp()
+        time: serverTimestamp(),
       });
       setInput('');
       setMessage('Thank you for signing up to our news');
@@ -175,11 +177,7 @@ const ExploringOfferwall = () => {
         <div className={styles.mobileSecondNonprofitBottomContainer}>
           <div className={styles.mobileSecondNonprofitContainerBox2}>
             <div className={styles.mobileSecondBottomLeft}>
-              <img
-                className={styles.bottomEmote}
-                src='./emoteSad.svg'
-                alt=''
-              />
+              <img className={styles.bottomEmote} src='./emoteSad.svg' alt='' />
               <div className={styles.mobileSecondBottomTextContainer}>
                 <span className={styles.spanBottom}>
                   One of the reasons why potential <br />
@@ -189,11 +187,7 @@ const ExploringOfferwall = () => {
               </div>
             </div>
             <div className={styles.mobileSecondBottomMiddle}>
-              <img
-                className={styles.arrowEmote}
-                src='./elipse.svg'
-                alt=''
-              />
+              <img className={styles.arrowEmote} src='./elipse.svg' alt='' />
             </div>
             <div className={styles.mobileSecondBottomRight}>
               <img
@@ -618,10 +612,7 @@ const ExploringOfferwall = () => {
               <div className={styles.stayU2D}> Stay up to date</div>
               <div className={styles.join}> Join Our Newsletter</div>
               <div className={styles.subscribe}>
-                <form
-                  onSubmit={submitHandler}
-                  className={styles.form}
-                >
+                <form onSubmit={submitHandler} className={styles.form}>
                   <div className={styles.subscribeBox}>
                     <input
                       className={styles.inputE}
@@ -632,10 +623,7 @@ const ExploringOfferwall = () => {
                     />
                   </div>
                   <div className={styles.submit}>
-                    <button
-                      type='submit'
-                      className={styles.submitButton}
-                    >
+                    <button type='submit' className={styles.submitButton}>
                       subscribe
                     </button>
                   </div>
@@ -644,10 +632,7 @@ const ExploringOfferwall = () => {
               {message && (
                 <div className={styles.alertMessage}> {message} </div>
               )}
-              <div
-                div
-                className={styles.unsubscribe}
-              >
+              <div div className={styles.unsubscribe}>
                 *You can unsubscribe anytime
               </div>
             </div>
@@ -664,22 +649,10 @@ const ExploringOfferwall = () => {
           <div className={styles.mobileInnerFifthHomeContainer}>
             <div className={styles.mobileInnerFifthTop}>
               <div className={styles.mobileIcons}>
-                <img
-                  src='./fifthIcon3.svg'
-                  alt='grafic icon'
-                />
-                <img
-                  src='./fifthIcon2.svg'
-                  alt='eye icon'
-                />
-                <img
-                  src='./fifthIcon3.svg'
-                  alt='grafic icon'
-                />
-                <img
-                  src='./fifthIcon1.svg'
-                  alt='grafic icon'
-                />
+                <img src='./fifthIcon3.svg' alt='grafic icon' />
+                <img src='./fifthIcon2.svg' alt='eye icon' />
+                <img src='./fifthIcon3.svg' alt='grafic icon' />
+                <img src='./fifthIcon1.svg' alt='grafic icon' />
               </div>
               <div className={styles.mobileBenefits}>
                 <p>Increase new visitors</p>
