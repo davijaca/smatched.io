@@ -38,7 +38,7 @@ const TapjoyVsSmatched = () => {
           <img src='./images/tapVsSmat_sec2_mobile.png' alt='A smartphone' />
         </div>
         <div className={styles.secondMobileBottom}>
-          <h1>What Is Tapjoy and How Does It Work?</h1>
+          <h2>What Is Tapjoy and How Does It Work?</h2>
           <p>
             Tapjoy is a versatile advertising and monetization platform designed
             to assist mobile app developers in effectively monetizing their user
@@ -59,7 +59,65 @@ const TapjoyVsSmatched = () => {
 
       {/* Third Pros and Cons mobile Responsiveness */}
 
-      <div className={styles.mobileThirdTapjoyVsSmatchedContainer}></div>
+      <div className={styles.mobileThirdTapjoyVsSmatchedContainer}>
+        <div className={styles.thirdMobileCardGreen}>
+          <h2 className={styles.thirdMobileTitle}>
+            <span className={styles.thirdMobileSpanGreen}>Pros </span>of Using
+            Tapjoy
+          </h2>
+          <ul className={styles.thirdMobileList}>
+            <li className={styles.thirdMobileListItem}>
+              <span className={styles.thirdMobileSpanBold}>Ad Variety: </span>
+              Tapjoy offers a wide range of ad types, including full-page
+              integrated ads, banners, videos, and direct responses.
+            </li>
+            <li className={styles.thirdMobileListItem}>
+              <span className={styles.thirdMobileSpanBold}>
+                Diverse App Portfolio:{' '}
+              </span>
+              As part of Iron Source, Tapjoy provides access to a vast array of
+              apps for in-app rewards and content.
+            </li>
+            <li className={styles.thirdMobileListItem}>
+              <span className={styles.thirdMobileSpanBold}>
+                Fast Feedback:{' '}
+              </span>
+              Real-time reporting facilitates better insights into user
+              engagement and app performance.
+            </li>
+          </ul>
+        </div>
+        <div className={styles.thirdMobileCardRed}>
+          <h2 className={styles.thirdMobileTitle}>
+            <span className={styles.thirdMobileSpanRed}>Cons </span>of Using
+            Tapjoy
+          </h2>
+          <ul className={styles.thirdMobileList}>
+            <li className={styles.thirdMobileListItem}>
+              <span className={styles.thirdMobileSpanBold}>
+                Unsatisfactory Customer Support:{' '}
+              </span>
+              Some users have reported issues with missing rewards and
+              registration problems, leading to negative reviews.
+            </li>
+            <li className={styles.thirdMobileListItem}>
+              <span className={styles.thirdMobileSpanBold}>
+                Confusing Branding:{' '}
+              </span>
+              Tapjoy's marketing targets both customers and users, resulting in
+              unclear branding and messaging.
+            </li>
+            <li className={styles.thirdMobileListItem}>
+              <span className={styles.thirdMobileSpanBold}>
+                User Security Concerns:{' '}
+              </span>
+              Certain Tapjoy apps have been flagged as unsafe by consumer
+              protection agencies due to user data tracking and deceptive
+              practices.
+            </li>
+          </ul>
+        </div>
+      </div>
 
       {/* Fourth Smatched */}
 
