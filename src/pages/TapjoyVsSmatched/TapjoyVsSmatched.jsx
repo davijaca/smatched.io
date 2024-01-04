@@ -125,7 +125,31 @@ const TapjoyVsSmatched = () => {
 
       {/* Fourth Smatched mobile Responsiveness */}
 
-      <div className={styles.mobileFourthTapjoyVsSmatchedContainer}></div>
+      <div className={styles.mobileFourthTapjoyVsSmatchedContainer}>
+        <div className={styles.fourthMobileImages}>
+          <div>
+            <img src='./images/tapVsSmat_sec4_logo.png' alt='Smatched logo' />
+          </div>
+          <div>
+            <img
+              src='./images/tapVsSmat_sec4_mobile_phone.png'
+              alt='A smartphone'
+            />
+          </div>
+        </div>
+        <div className={styles.fourthMobileContent}>
+          <h2>How Does Smatched Compare to Tapjoy?</h2>
+          <p>
+            Smatched offers an innovative ad monetization solution that
+            prioritizes user and developer satisfaction. Users can earn rewards
+            by engaging in customizable tasks like surveys and video-watching.
+            Smatched operates on a revenue-sharing model, with 70% allocated to
+            your organization and 30% to Smatched. This pricing structure
+            highlights Smatched's commitment to your success, as we tailor offer
+            walls uniquely for each partner.
+          </p>
+        </div>
+      </div>
 
       {/* Fifth Offering cards */}
 
