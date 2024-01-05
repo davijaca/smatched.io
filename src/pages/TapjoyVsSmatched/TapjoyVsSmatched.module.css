@@ -385,20 +385,100 @@ h2 {
   }
 
   /* FIFTH SECTION*/
-  /*   
-    .fifthTapjoyVsSmatchedContainer {
-        display: none;
-      }
-    
-      .mobileFifthTapjoyVsSmatchedContainer {
-        background-color: #f0f0f0;
-        width: 100%;
-        min-height: 858px;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-      }    */
+
+  .fifthTapjoyVsSmatchedContainer {
+    display: none;
+  }
+
+  .mobileFifthTapjoyVsSmatchedContainer {
+    background-color: #fdfdff;
+    min-height: 1500px; /* it was not especified, I set by summing the boxes height and margins*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mobileFifthTapjoyVsSmatchedContainer > h2 {
+    width: 350px;
+    color: #1e1e1e;
+    text-align: center;
+    font-family: gotham-medium;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 67px;
+  }
+
+  /* talvez precise desse box so no web */
+  /* .fifthMobileCardsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  } */
+
+  .fifthMobileCard {
+    width: 350px;
+    height: 383px;
+    flex-shrink: 0;
+    background: #fff;
+    box-shadow: 0px 0px 29px 0px rgba(0, 0, 0, 0.13);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center active so no need to especify margin margin top to the icons */
+    justify-content: center; 
+    align-items: center;
+    margin-bottom: 30px;
+  }
+
+  .fifthMobileCard > h3 {
+    color: #1e1e1e;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: gotham-medium;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 170%;
+    margin: 0;
+  }
+
+  .fifthMobileCard > p {
+    width: 300px;
+    /* height: 216px; */
+    text-align: center;
+    flex-shrink: 0;
+    color: #1e1e1e;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: gotham-book;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%;
+  }
+
+  .fifthMobileCardIconOne {
+    width: 60px;
+    height: 60px;
+    /* margin-top: 59px; */
+    margin-bottom: 40px;
+  }
+
+  .fifthMobileCardIconTwo {
+    width: 60px;
+    height: 71px;
+    /* margin-top: 53px; */
+    margin-bottom: 35px;
+  }
+
+  .fifthMobileCardIconThree {
+    width: 60px;
+    height: 58px;
+    /* margin-top: 61px; */
+    margin-bottom: 40px;
+  }
 
   /* SIXTH SECTION*/
 

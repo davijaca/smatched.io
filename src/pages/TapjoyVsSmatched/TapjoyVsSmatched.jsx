@@ -157,7 +157,45 @@ const TapjoyVsSmatched = () => {
 
       {/* Fifth Offering cards mobile Responsiveness */}
 
-      <div className={styles.mobileFifthTapjoyVsSmatchedContainer}></div>
+      <div className={styles.mobileFifthTapjoyVsSmatchedContainer}>
+        <h2>Smatched stands out by offering:</h2>
+        <div className={styles.fifthMobileCard}>
+          <img
+            className={styles.fifthMobileCardIconOne}
+            src='./images/tapVsSmat_sec5_icon1.png'
+            alt='A icon'
+          />
+          <h3>No Upfront Costs</h3>
+          <p>
+            We do not impose any upfront fees and provide free demonstrations
+            for a risk-free engagement.
+          </p>
+        </div>
+        <div className={styles.fifthMobileCard}>
+          <img
+            className={styles.fifthMobileCardIconTwo}
+            src='./images/tapVsSmat_sec5_icon2.png'
+            alt='A icon'
+          />
+          <h3>Insights and Customer Support</h3>
+          <p>
+            Smatched offers user engagement insights and top-notch customer
+            support.
+          </p>
+        </div>
+        <div className={styles.fifthMobileCard}>
+          <img
+            className={styles.fifthMobileCardIconThree}
+            src='./images/tapVsSmat_sec5_icon3.png'
+            alt='A icon'
+          />
+          <h3>Data Integrity and Transparency</h3>
+          <p>
+            Our platform is designed for accessibility and transparency,
+            ensuring data integrity and value.
+          </p>
+        </div>
+      </div>
 
       {/* Sixth Conclusion */}
 
