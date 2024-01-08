@@ -203,7 +203,33 @@ const TapjoyVsSmatched = () => {
 
       {/* Sixth Conclusion mobile Responsiveness */}
 
-      <div className={styles.mobileSixthTapjoyVsSmatchedContainer}></div>
+      <div className={styles.mobileSixthTapjoyVsSmatchedContainer}>
+        <div className={styles.sixthMobileContent}>
+          <h2>
+            Conclusion: <br />
+            Tapjoy vs. Smatched
+          </h2>
+          <p>
+            While both Tapjoy and Smatched offer unique ad monetization
+            solutions, Smatched distinguishes itself with its revenue-sharing
+            model, commitment to customization, and focus on data integrity and
+            transparency. Smatched's risk-free engagement approach and
+            user-centric features make it a compelling alternative to Tapjoy in
+            2023.
+            <br />
+            <br />
+            <br />
+            Choose Smatched today for a seamless experience for developers,
+            advertisers, and users.
+          </p>
+        </div>
+        <div className={styles.sixthMobileTable}>
+          <img
+            src='./images/tapVsSmat_sec6_mobile.png'
+            alt='A table comparing Tapjoy and Smatched features'
+          />
+        </div>
+      </div>
     </div>
   );
 };
