@@ -63,7 +63,6 @@ const Header = () => {
                                     {open &&
                                         <div ref={menuRef} className='dropDownBtn'>
                                             <ul>
-<<<<<<< HEAD
                                                 <li>
                                                 <a href='/#/game' onClick={closeMenu}>Game Industry</a>
                                                 </li>
@@ -79,11 +78,6 @@ const Header = () => {
                                                 <li>
                                                 <a href='/#/website' onClick={closeMenu}>Website Monetization</a>
                                                 </li>
-=======
-                                                {lists.map((item) => (
-                                                    <li onClick = {() =>setOpen(true)} >{item.title}</li>
-                                                ))}
->>>>>>> a49078f70837312358d802646a7773b43a305a05
                                             </ul>
                                         </div>
                                     }
@@ -129,7 +123,6 @@ const Header = () => {
 
                                         </div>
                                         {open &&
-<<<<<<< HEAD
                                         <div ref={menuRef} className='dropDownBtn'>
                                         <ul>
                                             <li>
@@ -149,15 +142,6 @@ const Header = () => {
                                             </li>
                                         </ul>
                                     </div>
-=======
-                                            <div ref={menuRef} className='dropDownBtn'>
-                                                <ul>
-                                                    {lists.map((item) => (
-                                                        <li onClick = {() =>setOpen(true)} >{item.title}</li>
-                                                    ))}
-                                                </ul>
-                                            </div>
->>>>>>> a49078f70837312358d802646a7773b43a305a05
                                         }
 
                                 </div>

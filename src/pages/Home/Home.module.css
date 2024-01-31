@@ -97,11 +97,7 @@ h2 {
 .text {
     color: var(--White, #FFF);
     font-family: gotham-light;
-<<<<<<< HEAD
     font-size: 80px;
-=======
-    font-size: 55px;
->>>>>>> a49078f70837312358d802646a7773b43a305a05
     font-style: normal;
     font-weight: 700;
     line-height: 131.5%;
@@ -112,11 +108,7 @@ h2 {
 .text2 {
     color: var(--White, #FFF);
     font-family: gotham-light;
-<<<<<<< HEAD
     font-size: 80px;
-=======
-    font-size: 55px;
->>>>>>> a49078f70837312358d802646a7773b43a305a05
     font-style: normal;
     font-weight: 400;
     line-height: 131.5%;
@@ -278,11 +270,7 @@ h2 {
 
 
 .blog {
-<<<<<<< HEAD
     font-size: 80px;
-=======
-    font-size: 55px;
->>>>>>> a49078f70837312358d802646a7773b43a305a05
     width: 68%;
     display: flex;
     justify-content: center;
@@ -1131,11 +1119,7 @@ h2 {
     color: var(--Primary-Black-1, #1E1E1E);
     text-align: center;
     font-family: gotham-light, sans-serif;
-<<<<<<< HEAD
     font-size: 80px;
-=======
-    font-size: 55px;
->>>>>>> a49078f70837312358d802646a7773b43a305a05
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -1145,11 +1129,7 @@ h2 {
 .solves {
     color: #8764E3;
     font-family: gotham-light, sans-serif;
-<<<<<<< HEAD
     font-size: 80px;
-=======
-    font-size: 55px;
->>>>>>> a49078f70837312358d802646a7773b43a305a05
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -1260,11 +1240,7 @@ h2 {
     color: var(--Primary-Black-1, #8764E3);
     text-align: center;
     font-family: gotham-light, sans-serif;
-<<<<<<< HEAD
     font-size: 80px;
-=======
-    font-size: 55px;
->>>>>>> a49078f70837312358d802646a7773b43a305a05
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -2074,35 +2050,15 @@ h2 {
         justify-content: flex-start;
         align-items: center;
     }
-<<<<<<< HEAD
     .mainSecondMobile{
         display: flex;
         width: 352px;
         /* height: 1105px; */
-=======
-
-
-    .mainFirstMobile {
-        display: flex;
-        width: 352px;
-        
-        height: 1305px;
->>>>>>> a49078f70837312358d802646a7773b43a305a05
         flex-direction: column;
         align-items: center;
         padding-top: 100px;
     }
 
-<<<<<<< HEAD
-=======
-    .rightMainMobile {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        margin-top: 20px;
-    }
-
->>>>>>> a49078f70837312358d802646a7773b43a305a05
     .textSecondMobile {
         color: var(--White, black);
         font-family: gotham-light;
@@ -2112,74 +2068,6 @@ h2 {
         line-height: 36px;
     }
 
-<<<<<<< HEAD
-=======
-    .bottomHeroMobile {
-        margin-top: 30px;
-        margin-bottom: 30px;
-    }
-
-    .bottomHeroMobile h2 {
-        color: #FFF;
-        width: 200px;
-        font-feature-settings: 'clig'off, 'liga'off;
-        font-family: gotham-light;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 26px;
-        /* 185.714% */
-    }
-
-    .bottomHeroRightMobile {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 15px;
-    }
-
-    .bottomHero1Mobile {
-        color: #FFF;
-        font-family: gotham-light;
-        font-size: 30px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 30px;
-        /* 60% */
-        letter-spacing: -2.25px;
-        margin-right: 35px;
-    }
-
-    .bottomHeroLeftMobile {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .bottomHero2Mobile {
-        color: #FFF;
-        font-family: gotham-light;
-        font-size: 30px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 30px;
-        /* 60% */
-        letter-spacing: -2.25px;
-        margin-right: 30px;
-    }
-
-
-    .forMonetize {
-        display: flex;
-    }
-
-    .paragMobile {
-        width: 100%;
-        height: 90px;
-        margin-top: 30px;
-        margin-bottom: 30px;
-    }
->>>>>>> a49078f70837312358d802646a7773b43a305a05
 
     .innerParagSecondMobile {
         width: 352px;
@@ -2193,53 +2081,6 @@ h2 {
         /* 157.143% */
     }
 
-<<<<<<< HEAD
-=======
-    .buttonTextMobile {
-        display: inline-flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .buttonText1Mobile, .buttonText2Mobile {
-        border: 1px solid #FFF;
-        width: 220px;
-        height: 46px;
-        flex-shrink: 0;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color: #FFFFFF;
-        color: var(--Modal-grey-1, #000000);
-        text-align: center;
-        font-family: gotham-light, sans-serif;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: normal;
-        z-index: 5;
-    }
-
-    .buttonText2Mobile {
-        width: 320px;
-    }
-
-    .downClickImgMobile {
-        width: 99.5%;
-        height: 250px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-top: 60px;
-    }
-
-    .downClickImgMobile>img {
-        width: 144px;
-        height: 144px;
-    }
-
->>>>>>> a49078f70837312358d802646a7773b43a305a05
 
     .leftMainMobile {
         width: 100%;
@@ -2247,28 +2088,8 @@ h2 {
         align-items: center;
         justify-content: center;
         z-index: 5;
-<<<<<<< HEAD
     }
 
-=======
-
-
-    }
-
-    .leftImgInfoSecondMobile {
-
-        margin-top: -50px;
-        margin-bottom: 100px;
-    }
-
-    .leftImgMobile {
-        width: 350px;
-        height: 350px;
-        transition: all 2s ease;
-    }
-
-
->>>>>>> a49078f70837312358d802646a7773b43a305a05
     /* THIRD MOBILE SECTION */
 
     .thirdHomeContainer {

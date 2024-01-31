@@ -22,10 +22,7 @@
     position: relative;
     background-color: #101010;
     width: 100vw;
-<<<<<<< HEAD
     max-width: 1920px;
-=======
->>>>>>> a49078f70837312358d802646a7773b43a305a05
     height: 754px;
     margin: auto;
     overflow-x: hidden;
@@ -289,11 +286,7 @@ a:hover, a:active {
 
 
 /*MOBILE RESPONSIVENESS*/
-<<<<<<< HEAD
 @media only screen and (max-width: 1130px) and (min-width: 323px) {
-=======
-@media only screen and (max-width: 1130px) and (min-width: 393px) {
->>>>>>> a49078f70837312358d802646a7773b43a305a05
 
 
     .footer,

@@ -1,5 +1,4 @@
 export const AppRoutes = {
-<<<<<<< HEAD
   MAIN: '/',
   GAME: '/game',
   ARTICLES: '/articles',
@@ -8,13 +7,6 @@ export const AppRoutes = {
   NONPROFIT: '/nonprofit',
   NEWSPAPER: '/newspaper',
   CONTACT: '/contact',
-  MOBILE: '/mobile'
+  MOBILE: '/mobile',
+  HOWITWORKS: '/howitworks'
 };
-=======
-    MAIN: '/',
-    BLOG: '/blog',
-    ARTICLES: '/articles',
-    BLOGARTICLE: '/blogarticle',
-    CONTACT: '/contact',
-}
->>>>>>> a49078f70837312358d802646a7773b43a305a05
