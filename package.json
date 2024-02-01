@@ -2,7 +2,7 @@
   "name": "offerwallmonetization",
   "version": "0.1.0",
   "homepage": "https://davijaca.github.io/smatched.io/",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.16.7",
     "@emailjs/browser": "^3.11.0",

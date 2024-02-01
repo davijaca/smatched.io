@@ -82,7 +82,7 @@ function App() {
         ],
       },
     ],
-    { basename: '/' }
+    { basename: 'process.env.PUBLIC_URL' }
   );
 
   return (
