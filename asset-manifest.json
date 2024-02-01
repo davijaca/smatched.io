@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/smatched.io/static/css/main.efd1fac8.css",
-    "main.js": "/smatched.io/static/js/main.7ab8301f.js",
+    "main.js": "/smatched.io/static/js/main.eb17f593.js",
     "static/js/787.cf18fb00.chunk.js": "/smatched.io/static/js/787.cf18fb00.chunk.js",
     "static/media/heroExplore.png": "/smatched.io/static/media/heroExplore.de8ec6d057a1c94670ae.png",
     "static/media/headerBg.svg": "/smatched.io/static/media/headerBg.76791009dbfb8fcd0385.svg",
@@ -23,11 +23,11 @@
     "static/media/bulletListIcon.svg": "/smatched.io/static/media/bulletListIcon.c222ba38e4d020388bec.svg",
     "index.html": "/smatched.io/index.html",
     "main.efd1fac8.css.map": "/smatched.io/static/css/main.efd1fac8.css.map",
-    "main.7ab8301f.js.map": "/smatched.io/static/js/main.7ab8301f.js.map",
+    "main.eb17f593.js.map": "/smatched.io/static/js/main.eb17f593.js.map",
     "787.cf18fb00.chunk.js.map": "/smatched.io/static/js/787.cf18fb00.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.efd1fac8.css",
-    "static/js/main.7ab8301f.js"
+    "static/js/main.eb17f593.js"
   ]
 }
