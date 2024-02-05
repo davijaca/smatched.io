@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import styles from './App.module.css';
-import { createHashRouter, RouterProvider, Outlet } from 'react-router-dom';
+import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom';
 import { AppRoutes } from './common/routes/AppRoutes';
 import Header from './components/Header/Header';
 import Home from './pages/Home/Home';
@@ -14,6 +14,8 @@ import Contact from './pages/Contact/Contact';
 import Mobile from './pages/Mobile/Mobile';
 import BlogAllArticles from './pages/BlogAllArticles/BlogAllArticles';
 import Footer from './components/Footer/Footer';
+import { Helmet } from 'react-helmet';
+import ReactGA from 'react-ga';
 
 function App() {
   const [showFormFooter, setShowFormFooter] = useState(true);
@@ -22,13 +24,14 @@ function App() {
     return (
       <div className={styles.app}>
         <Header />
+        <Helmet/>
         <Outlet />
         <Footer showFormFooter={showFormFooter} />
       </div>
     );
   };
 
-  const router = createHashRouter(
+  const router = createBrowserRouter(
     [
       {
         path: AppRoutes.MAIN,
@@ -105,5 +108,7 @@ function App() {
     </div>
   );
 }
+
+ReactGA.initialize('G-QZV34VEC5N');
 
 export default App;
