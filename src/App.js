@@ -11,6 +11,7 @@ import Newspaper from './pages/Newspaper/Newspaper';
 import ExploringOfferwall from './pages/Articles/ExploringOfferwall';
 import BlogArticle from './pages/BlogArticle/BlogArticle';
 import Contact from './pages/Contact/Contact';
+import BlogAllArticles from './pages/BlogAllArticles/BlogAllArticles';
 import Footer from './components/Footer/Footer';
 
 function App() {
@@ -79,10 +80,16 @@ function App() {
             element: <Contact />,
             errorElement: <h1> PAGE NOT FOUND 7</h1>,
           },
+
+          {
+            path: AppRoutes.BLOGALLARTICLES,
+            element: <BlogAllArticles />,
+            errorElement: <h1>HOME PAGE NOT FOUND</h1>,
+          },
         ],
       },
     ],
-    { basename: 'process.env.PUBLIC_URL' }
+    { basename: '/' }
   );
 
   return (
