@@ -19,7 +19,7 @@ const Home = () => {
         <div className={styles.homeContainer}>
             <Helmet>
                 <meta charSet="utf-8" />
-                <title>HOME PAGE</title>
+                <title>HOME PAGE22</title>
                 <link rel="canonical" href="https://www.smatched.io/" />
                 <link rel="canonical" href="https://www.offerwallmonetization.com/" />
 
