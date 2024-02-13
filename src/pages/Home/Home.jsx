@@ -19,9 +19,11 @@ const Home = () => {
         <div className={styles.homeContainer}>
             <Helmet>
                 <meta charSet="utf-8" />
-                <title>My Title</title>
+                <title>HOME PAGE</title>
                 <link rel="canonical" href="https://www.smatched.io/" />
                 <link rel="canonical" href="https://www.offerwallmonetization.com/" />
+
+                
             </Helmet>
 
             {/* First Home */}

@@ -37,6 +37,10 @@ button {
   padding: 20px;
 }
 
+.headerAllArticles_Title {
+  font-weight: 600;
+}
+
 .introColorsContainer {
   position: absolute;
   top: -120px;
@@ -63,10 +67,9 @@ button {
   .headerAllArticles {
     /* grid-template-columns: 2fr 4fr; */
     padding: 100px 60px 40px;
-
     .headerAllArticlesGrid {
       grid-template-columns: 2fr 4fr;
-      max-width: 1420px; /* 1530px(nav content width) - 60px(logo width)*/
+      width: 1100px; /* size to wrapp content of the page */
       margin: 0 auto;
     }
 
@@ -77,7 +80,6 @@ button {
     .headerAllArticles_Title {
       text-transform: uppercase;
       font-size: 68px;
-      font-weight: 500;
     }
 
     .headerAllArticles_Paragraph {
@@ -129,16 +131,22 @@ button {
 
 /* Desktop bodyAllArticles style */
 @media only screen and (min-width: 769px) {
+  .bodyAllArticles {
+    width: 1100px; /* size to wrapp content of the page */
+    margin: 0 auto;
+  }
+
   .bodyAllArticlesWrapper {
     max-width: 1470px;
     margin: 0 auto;
-    padding: 50px 45px 0px;
+    padding: 30px 45px 0px;
   }
 
   .bodyAllArticles_Title {
     display: block;
     line-height: 60px;
-    margin-left: 24px;
+    font-weight: 600;
+    padding-top: 80px;
   }
 }
 /* End of bodyAllArticles style */

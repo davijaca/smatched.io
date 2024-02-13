@@ -146,7 +146,10 @@ const BlogAllArticles = ({
             <h2 className={styles.subContentOfheaderAllArticles_Title}>
               All articles{' '}
             </h2>
-            <p className={styles.headerAllArticles_Paragraph}>
+            <p
+              ref={headerSectionRef}
+              className={styles.headerAllArticles_Paragraph}
+            >
               Here's what we've been up to recently.
             </p>
           </div>
@@ -154,10 +157,8 @@ const BlogAllArticles = ({
       </div>
 
       <div className={styles.bodyAllArticles}>
+        <h1 className={styles.bodyAllArticles_Title}>More Articles</h1>
         <div className={styles.bodyAllArticlesWrapper}>
-          <h1 ref={headerSectionRef} className={styles.bodyAllArticles_Title}>
-            More Articles
-          </h1>
           <div className={styles.articlesCardsGrid}>
             {displayedArticlesList.map(function (article) {
               return (
