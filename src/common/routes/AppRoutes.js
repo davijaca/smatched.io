@@ -1,11 +1,12 @@
 export const AppRoutes = {
   MAIN: '/',
   GAME: '/game',
-  ARTICLES: '/articles',
+  EXPLORINGOFFERWALL: '/exploringofferwall',
   BLOGARTICLE: '/blogarticle',
   WEBSITE: '/website',
   NONPROFIT: '/nonprofit',
   NEWSPAPER: '/newspaper',
   CONTACT: '/contact',
-  MOBILE: '/mobile'
+  MOBILE: '/mobile',
+  BLOGALLARTICLES: '/blog/all',
 };

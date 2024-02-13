@@ -1,14 +1,30 @@
 import React from "react";
 import styles from "./Home.module.css";
+import { Helmet } from "react-helmet";
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
+import ReactGA from 'react-ga';
 
 
 const Home = () => {
 
-    
+    const location = useLocation();
+    useEffect(() => {
+      ReactGA.pageview(location.pathname + location.search);
+    }, [location]);
 
-    
+
     return (
+
         <div className={styles.homeContainer}>
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>HOME PAGE</title>
+                <link rel="canonical" href="https://www.smatched.io/" />
+                <link rel="canonical" href="https://www.offerwallmonetization.com/" />
+
+                
+            </Helmet>
 
             {/* First Home */}
 
@@ -465,7 +481,10 @@ const Home = () => {
             </div>
             
         </div>
+        
     )}
+
+    
 
 export default Home;
 

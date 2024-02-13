@@ -23,7 +23,7 @@
     background-color: #101010;
     width: 100vw;
     max-width: 1920px;
-    height: 754px;
+    height: 600px;
     margin: auto;
     overflow-x: hidden;
     display: flex;
@@ -73,7 +73,7 @@ a:hover, a:active {
     align-content: flex-start;
     justify-content: flex-end;
     align-items: flex-start;
-    margin-bottom: 100px;
+    margin-bottom: 120px;
 }
 
 .topLeft {

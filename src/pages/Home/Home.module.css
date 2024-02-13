@@ -966,10 +966,14 @@ h2 {
     align-items: center;
     margin-top: 0;
     z-index: 5;
+
 }
 
 .bottomBG {
-    margin-top: -160px;
+    background-color: #101010;
+    height: 150px;
+    width: 100vw;
+    margin-top: -150px;
     z-index: -5;
 }
 
