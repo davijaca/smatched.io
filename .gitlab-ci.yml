@@ -43,11 +43,3 @@ prod:deploy:
   environment:
     name: production
     url: https://www.offerwallmonetization.com
-  before_script:
-    - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
-    - eval $(ssh-agent -s)
-    - echo "$DEPLOY_SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add - > /dev/null
-    - '[ -d ~/.ssh ] || ( mkdir -p ~/.ssh && chmod 700 ~/.ssh )'
-  script:
-    - LC_GL_TOKEN=$DEPLOY_API_TOKEN LC_GL_PROJECT_ID=$CI_PROJECT_ID LC_GL_PIPELINE_ID=$CI_PIPELINE_ID LC_GL_COMMIT_SHORT_SHA=$CI_COMMIT_SHORT_SHA ssh -o SendEnv=LC_* -o 'StrictHostKeyChecking no' -tt $DEPLOY_SSH_TARGET
-    - ssh-agent -k
