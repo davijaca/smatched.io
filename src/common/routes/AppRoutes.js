@@ -8,5 +8,5 @@ export const AppRoutes = {
   NEWSPAPER: '/newspaper',
   CONTACT: '/contact',
   MOBILE: '/mobile',
-  BLOGALLARTICLES: '/blog/all',
+  BLOGALLARTICLES: '/blog-all',
 };

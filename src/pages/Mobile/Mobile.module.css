@@ -1,436 +1,293 @@
 @font-face {
-    font-family: gotham-light;
-    src: url('/public/fonts/Gotham/Gotham-Light.otf');
-  }
-  
-  @font-face {
-    font-family: gotham-medium;
-    src: url('/public/fonts/Gotham/Gotham-Medium.otf');
-  }
-  
-  @font-face {
-    font-family: gotham-book;
-    src: url('/public/fonts/Gotham/Gotham-Book.otf');
-  }
-  
-  @font-face {
-    font-family: inter-semibold;
-    src: url('/public/fonts/Inter/Inter-SemiBold.ttf');
-  }
-  
-  @font-face {
-    font-family: inter-regular;
-    src: url('/public/fonts/Inter/Inter-Regular.ttf');
-  }
+  font-family: inter-regular;
+  src: url('/public/fonts/Inter/Inter-Regular.ttf');
+}
 
-   .Mobile .Mobile * {
-    box-sizing: border-box;
-  }
-  
-  *,
-  *:before,
-  *:after {
-    box-sizing: inherit;
-  }
-  
-  h1,
-  h2,
-  h3,
-  p {
-    margin: 0;
-  }
-  
-  /* Added 'page' or 'Page' in front of 'Mobile' to not get confused when we are reffering to mobile design */
+@font-face {
+  font-family: gotham-medium;
+  src: url('/public/fonts/Gotham/Gotham-Medium.otf');
+}
 
-  .pageMobileContainer {
-    width: 100vw;
-    max-width: 1920px;
-    margin: auto;
-    margin-top: -120px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-    
-  .containerToMatchDesign {
-    /* This container is used when the section has a left and a right box.
+@font-face {
+  font-family: gotham-book;
+  src: url('/public/fonts/Gotham/Gotham-Book.otf');
+}
+
+.Mobile,
+.Mobile * {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* Added 'page' or 'Page' in front of 'Mobile' to not get confused when we
+  are reffering to mobile design */
+
+.pageMobileContainer {
+  width: 100vw;
+  max-width: 1920px;
+  margin: auto;
+  margin-top: -120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.containerToMatchDesign {
+  /* This container is used when the section has a left and a right box.
   width: 1512px is the current(Jan/2024) design on Figma, so using this container
   makes easier to position boxes into the section and matches the design.
   justify-content: flex-start, instead of center is easier to align
   the boxes from margin left. */
-  
-    width: 1512px;
+
+  width: 1512px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.button {
+  margin: 0 auto;
+  display: flex;
+  width: 210px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #fff;
+  background: #fff;
+}
+
+.buttonText {
+  color: #0a0a0a;
+  text-align: center;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: gotham-medium;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 38px;
+}
+
+.titleAllSections {
+  color: #fff;
+  font-family: gotham-medium;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+  margin: 0;
+}
+
+.paragraphAllSections {
+  color: #fff;
+  font-family: gotham-book;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 0;
+}
+
+/*FIRST SECTION*/
+
+.firstSection{
+  background: url(/public/heroBackground.svg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 950px;
+
+
+}
+
+/*SECOND SECTION*/
+
+/*THIRD SECTION*/
+
+/*FOURTH SECTION*/
+
+/*MOBILE RESPONSIVENESS*/
+
+@media only screen and (max-width: 1130px) and (min-width: 320px) {
+  /* FIRST MOBILE SECTION */
+
+  .firstSection {
+    min-height: 964px;
+    background: url(/public/images/mobile_sec1_bg_mobile.png) no-repeat fixed
+      right;
+    background-color: #000000;
     display: flex;
-    justify-content: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
-  
-  /*FIRST SECTION*/
-  
-  .firstPageMobileContainer {
+
+  .firstSectionImage {
+    margin-top: 80px;
+  }
+
+  .firstSectionImage > img {
+    margin-left: -80px;
+  }
+
+  .firstSectionContent {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    margin: -70px 19px 85px 19px;
+  }
+
+  .firstSectionContent > h1 {
+    font-family: gotham-book;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 43px;
+  }
+
+  .firstSectionContent > h1 > span {
+    font-family: gotham-medium;
+    font-weight: 500;
+  }
+
+  .firstSectionContent > p {
+    /* this is the only font-family inter-regular, maybe it was wrong in the design!; */
+    /* In the design it seems thinner then the current result */
+    font-family: inter-regular;
+  }
+
+  /* SECOND MOBILE SECTION*/
+
+  .secondSection {
+    min-height: 964px;
     background-color: #f0f0f0;
-    min-height: 1010px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .mobileFirstPageMobileContainer {
-    display: none;
-  }
-  
-  .firstContent {
-    width: 605px;
-    height: 492px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 60px;
-    margin: 0 73px 0 118px;
   }
-  
-  .firstContent > h1 {
-    color: #07090a;
-    font-feature-settings: 'clig' off, 'liga' off;
-    font-family: gotham-medium;
-    font-size: 53px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 120%;
+
+  .secondSectionImage {
+    margin-top: 70px;
   }
-  
-  .firstContent > p {
-    overflow: hidden;
-    color: #07090a;
-    font-feature-settings: 'clig' off, 'liga' off;
-    text-overflow: ellipsis;
-    font-family: gotham-book;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 170%;
-  }
-  
-  .firstImage {
-    width: 636px;
-    height: 663px;
-    flex-shrink: 0;
-  }
-  
-  /*SECOND SECTION*/
-  
-  .secondPageMobileContainer {
-    background-color: #fdfdff;
-    min-height: 726px; /* it was not especified, I set by summing the boxes heigth and margins*/
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .mobileSecondPageMobileContainer {
-    display: none;
-  }
-  
-  .secondContent {
-    width: 526px;
-    height: 425px;
+
+  .secondSectionContent {
+    width: 350px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 48px;
-    margin: 176px 35px 0px 118px;
+    gap: 30px;
+    margin: 10px 23px 70px 19px;
   }
-  
-  .secondContent > h2 {
-    color: #1e1e1e;
+
+  .secondSectionContent > h2 {
+    color: #07090a;
+  }
+
+  .secondSectionContent > p {
+    line-height: 24px;
+    color: #07090a;
+  }
+
+  .secondSectionContent > p > span {
     font-family: gotham-medium;
-    font-size: 53px;
-    font-style: normal;
     font-weight: 500;
-    line-height: 120%;
   }
-  
-  .secondContent > p {
-    color: #1e1e1e;
-    font-feature-settings: 'clig' off, 'liga' off;
-    font-family: gotham-book;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 170%;
+
+  /* THIRD MOBILE SECTION*/
+
+  .thirdSection {
+    min-height: 968px;
+    background-color: #1e1e1e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
-  
-  /*THIRD SECTION*/
-  
-  /*FOURTH SECTION*/
-  
-  .fourthPageMobileContainer {
-    background: url(/public/images/tapVsSmat_sec4_web_bg.png) no-repeat;
+
+  .thirdSectionContent {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 60px 24px 70px 21px;
+  }
+
+  /* FOURTH MOBILE SECTION*/
+
+  .fourthSection {
+    min-height: 1134px;
+    background: url(/public/images/mobile_sec4_bg_mobile.png) no-repeat;
     background-size: cover;
-    min-height: 887px; /* it was not especified, I set by summing the boxes heigth and margins*/
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .mobileFourthPageMobileContainer {
-    display: none;
-  }
-  
-  .fourthImages {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 35px;
-    margin: 136px 127px -13px 282px;
   }
-  
-  .fourthContent {
-    width: 561px;
-    height: 365px;
+
+  .fourthSectionContent {
+    width: 350px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 60px;
-    margin: 261px 131px 0px 0px;
+    gap: 30px;
+    margin: 50px 24px 80px 21px;
   }
-  
-  /* The fontes in the design title and paragraph seems thinner then here! */
-  .fourthContent > h2 {
-    width: 558px;
-    color: #fff;
-    font-feature-settings: 'clig' off, 'liga' off;
-    font-family: gotham-medium;
-    font-size: 53px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 120%;
+
+  .fourthSectionContent > h2 {
+    text-align: center;
   }
-  
-  .fourthContent > p {
-    width: 561px;
-    flex-shrink: 0;
+
+  .fourthSectionContent > p {
+    text-align: center;
+  }
+
+  .fourthSectionContent > ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .fourthSectionContent > ul > li {
     color: #fff;
-    font-feature-settings: 'clig' off, 'liga' off;
     font-family: gotham-book;
-    font-size: 16px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 170%;
-  }  
-  
-  /*MOBILE RESPONSIVENESS*/
-  
-  @media only screen and (max-width: 1130px) and (min-width: 320px) {
-    .pageMobileContainer {
-      width: 100vw;
-      max-width: 1920px;
-      margin: auto;
-      margin-top: -120px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-    }
-  
-    /* FIRST MOBILE SECTION */
-  
-    .firstPageMobileContainer {
-      display: none;
-    }
-  
-    .mobileFirstPageMobileContainer {
-      background-color: #000000;
-      display: flex;
-      min-height: 1026px;
-    }
- /* trying to undersstando why this bq does not work like Webiste page */
-    .mobileFirstContainerBg {
-      background: url(/public/heroBackgroundMobile.svg) no-repeat fixed right;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
-  
-    /* this margin is not specified in the design, but since the image block is big,
-    it got to down from the top */
-    .firstMobileImage {
-      width: 86%;
-      margin-top: 80px;
-    }
-  
-    .firstMobileContent {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      gap: 30px;
-      /* this negative margin-top is much bigger than the design, but since the image block
-      is so big, it got to up from the title */
-      margin: -70px 24px 112px 21px;
-    }
-  
-    .firstMobileContent > h1 {
-      width: 350px;
-      color: #FFF;
-      font-feature-settings: 'clig' off, 'liga' off;
-      font-family: gotham-book;
-      font-size: 40px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 108.5%;
-    }
-
-    .firstSpanBold {
-      font-family: gotham-medium;
-      font-weight: 500;
-    }
-  
-    .firstMobileContent > p {
-      width: 350px;
-      /* height: 116px; */
-      color: #FFF;
-      font-feature-settings: 'clig' off, 'liga' off;
-      font-family: gotham-book;
-      font-size: 14px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 29px;
-    }
-
-    .firstMobileButton {
-      margin: 0 auto;
-      display: flex;
-      width: 210px;
-      height: 50px;
-      /* padding: 24px 64px; this padding is from the design, but did not fit here*/ 
-      justify-content: center;
-      align-items: center;
-      /* gap: 24px; */
-      border: 1px solid #fff;
-      background: #fff;
-    }
-  
-    .firstMobileButtonText {
-      color: #0a0a0a;
-      text-align: center;
-      font-feature-settings: 'clig' off, 'liga' off;
-      font-family: gotham-medium;
-      font-size: 14px;
-      font-style: normal;
-      font-weight: 500;
-      line-height: 38px;
-      /* text-transform: uppercase; */
-    }
-  
-    /* SECOND MOBILE SECTION*/
-  
-    .secondPageMobileContainer {
-      display: none;
-    }
-  
-    .mobileSecondPageMobileContainer {
-      background-color: #fdfdff;
-      min-height: 966px; /* it is not especified, so I kept the same as the first section */
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
-  
-    .secondMobileContent {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      gap: 24px;
-      margin: 21px 22px 76px 21px;
-    }
-  
-    .secondMobileContent > h2 {
-      width: 350px;
-      color: #1e1e1e;
-      font-feature-settings: 'clig' off, 'liga' off;
-      font-family: gotham-medium;
-      font-size: 24px;
-      font-style: normal;
-      font-weight: 500;
-      line-height: 120%;
-    }
-  
-    .secondMobileContent > p {
-      width: 350px;
-      /* height: 249px; */
-      flex-shrink: 0;
-      color: #1e1e1e;
-      font-feature-settings: 'clig' off, 'liga' off;
-      font-family: gotham-book;
-      font-size: 14px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 170%; /* 23.8px */
-    }
-  
-    /* THIRD SECTION*/
-  
-    /* FOURTH SECTION*/
-  
-    .fourthPageMobileContainer {
-      display: none;
-    }
-  
-    .mobileFourthPageMobileContainer {
-      background: url(/public/images/tapVsSmat_sec4_mobile_bg.png) no-repeat;
-      background-size: cover;
-      min-height: 1065px; /* it was not especified, I set by summing the boxes heigth and margins*/
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
-  
-    .fourthMobileImages {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      margin-top: 89px;
-    }
-  
-    .fourthMobileContent {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      gap: 30px;
-      margin: 30px 22px 76px 21px;
-    }
-  
-    /* The fontes in the design title and paragraph seems thinner then here! */
-    .fourthMobileContent > h2 {
-      width: 350px;
-      color: #fff;
-      font-feature-settings: 'clig' off, 'liga' off;
-      font-family: gotham-medium;
-      font-size: 24px;
-      font-style: normal;
-      font-weight: 500;
-      line-height: 120%;
-    }
-  
-    .fourthMobileContent > p {
-      width: 350px;
-      flex-shrink: 0;
-      color: #fff;
-      font-feature-settings: 'clig' off, 'liga' off;
-      font-family: gotham-book;
-      font-size: 14px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 170%;
-    }
   }
-  
+
+  .fourthSectionContent > ul > li > img {
+    margin: 6px 20px -6px 0;
+  }
+
+  .fourthSectionImageMobile {
+    margin-top: 80px;
+  }
+
+  .fourthSectionImageMobile > img {
+    margin: -13px 0px -4px 551px;
+  }
+
+  .bottomBand {
+    background-color: #101010;
+    min-height: 65px;
+  }
+
+  .bottomBand > img {
+    width: 224px;
+    height: 413px;
+    margin: -354px 555px 0px 309px;
+  }
+}

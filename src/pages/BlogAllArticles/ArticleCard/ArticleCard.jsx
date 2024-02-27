@@ -1,8 +1,16 @@
 import React from 'react';
 import TextTruncate from 'react-text-truncate';
 import styles from './ArticleCard.module.css';
+import { Link } from 'react-router-dom';
 
-const ArticleCard = ({ image, title, readTime, publishedDate, text }) => {
+const ArticleCard = ({
+  image,
+  title,
+  readTime,
+  publishedDate,
+  text,
+  readMoreUrl,
+}) => {
   return (
     <article className={styles.articleCard} data-testid="article-card">
       <div className={styles.cardImage} alt="article-image">
@@ -14,11 +22,14 @@ const ArticleCard = ({ image, title, readTime, publishedDate, text }) => {
             {title}
           </h1>
           <div className={styles.articlesInfo}>
-            <div>{readTime}</div> <div>{publishedDate}</div>
+            <div>{readTime} read</div> <div>{publishedDate}</div>
           </div>
+          {/* You can change how many lines the cards will display at line=() below */}
           <TextTruncate line={3} element="p" text={text} />
         </div>
-        <button className={styles.btnReadMore}>READ MORE</button>
+        <Link to={readMoreUrl}>
+          <button className={styles.btnReadMore}>READ MORE</button>
+        </Link>
       </div>
     </article>
   );

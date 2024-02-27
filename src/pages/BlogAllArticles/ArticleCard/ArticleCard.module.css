@@ -47,6 +47,7 @@
   max-width: 210px;
   margin: 0 auto;
   font-weight: bold;
+  cursor: pointer;
 }
 
 /* Desktop ArticleCard style */
@@ -78,4 +79,3 @@
     margin: unset;
   }
 }
-/* End of ArticleCard style */

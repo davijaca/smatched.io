@@ -1,82 +1,12 @@
 import React, { useEffect, useRef } from 'react';
 import { useState } from 'react';
+import { articlesData } from './utils/articlesData';
+import { Helmet } from "react-helmet";
 import ArticleCard from './ArticleCard/ArticleCard';
-import styles from './BlogAllArticles.module.css';
 import Pagination from './Pagination/Pagination';
 
-// use a Fetch to get all data from the backend server in the future
-const articlesData = [
-  {
-    _id: 1,
-    image: 'allArticleleft2.png',
-    title: 'Article 1',
-    infos: {
-      readTime: '8 min',
-      publishedDate: 'Jul 18 2023',
-    },
-    article: `Offerwalls provide a unique opportunity to engage users, drive revenue, and enhance user retention. In the realm of mobile app monetization, offerwalls have emerged as a popular and effective strategy for app monetization and retention...`,
-  },
-  {
-    _id: 2,
-    image: 'allArticleleft2.png',
-    title: 'Article 2',
-    infos: {
-      readTime: '8 min',
-      publishedDate: 'Jul 18 2023',
-    },
-    article: `Offerwalls provide a unique opportunity to engage users, drive revenue, and enhance user retention. In the realm of mobile app monetization, offerwalls have emerged as a popular and effective strategy for app monetization and retention...`,
-  },
-  {
-    _id: 3,
-    image: 'allArticleleft2.png',
-    title: 'Article 3',
-    infos: {
-      readTime: '8 min',
-      publishedDate: 'Jul 18 2023',
-    },
-    article: `Offerwalls provide a unique opportunity to engage users, drive revenue, and enhance user retention. In the realm of mobile app monetization, offerwalls have emerged as a popular and effective strategy for app monetization and retention...`,
-  },
-  {
-    _id: 4,
-    image: 'allArticleleft2.png',
-    title: 'Article 4',
-    infos: {
-      readTime: '8 min',
-      publishedDate: 'Jul 18 2023',
-    },
-    article: `Offerwalls provide a unique opportunity to engage users, drive revenue, and enhance user retention. In the realm of mobile app monetization, offerwalls have emerged as a popular and effective strategy for app monetization and retention...`,
-  },
-  {
-    _id: 5,
-    image: 'allArticleleft2.png',
-    title: 'Article 5',
-    infos: {
-      readTime: '8 min',
-      publishedDate: 'Jul 18 2023',
-    },
-    article: `Offerwalls provide a unique opportunity to engage users, drive revenue, and enhance user retention. In the realm of mobile app monetization, offerwalls have emerged as a popular and effective strategy for app monetization and retention...`,
-  },
-  {
-    _id: 6,
-    image: 'llArticleleft2.png',
-    title: 'Article 6',
-    infos: {
-      readTime: '8 min',
-      publishedDate: 'Jul 18 2023',
-    },
-    article: `Offerwalls provide a unique opportunity to engage users, drive revenue, and enhance user retention. In the realm of mobile app monetization, offerwalls have emerged as a popular and effective strategy for app monetization and retention...`,
-  },
-  {
-    _id: 7,
-    image: 'allArticleleft2.png',
-    title: 'Article 7',
-    infos: {
-      readTime: '8 min',
-      publishedDate: 'Jul 18 2023',
-    },
-    article: `Offerwalls provide a unique opportunity to engage users, drive revenue, and enhance user retention. In the realm of mobile app monetization, offerwalls have emerged as a popular and effective strategy for app monetization and retention...`,
-  },
-];
+// import heroFrameColours from './../../images/blogAllArticlesIntroFrameColors.svg';
+import styles from './BlogAllArticles.module.css';
 
 // This function slices the list of articles to a list hanging on the number of
 function getArticlesForPage(allArticles, pageNumber, articlesPerPage) {
@@ -128,9 +58,12 @@ const BlogAllArticles = ({
   return (
     <>
       <div className={styles.headerAllArticles}>
+      <Helmet>
+          <title>All Articles</title>
+      </Helmet>
         <div className={styles.introColorsContainer}>
           <img
-            src="/blogAllArticlesIntroFrameColors.svg"
+            src="/images/blogAllArticlesIntroFrameColors.svg"
             className={styles.introColorsImg}
             alt="colourfull-background"
           />
@@ -146,7 +79,10 @@ const BlogAllArticles = ({
             <h2 className={styles.subContentOfheaderAllArticles_Title}>
               All articles{' '}
             </h2>
-            <p className={styles.headerAllArticles_Paragraph}>
+            <p
+              ref={headerSectionRef}
+              className={styles.headerAllArticles_Paragraph}
+            >
               Here's what we've been up to recently.
             </p>
           </div>
@@ -154,12 +90,10 @@ const BlogAllArticles = ({
       </div>
 
       <div className={styles.bodyAllArticles}>
+        <h1 className={styles.bodyAllArticles_Title}>More Articles</h1>
         <div className={styles.bodyAllArticlesWrapper}>
-          <h1 ref={headerSectionRef} className={styles.bodyAllArticles_Title}>
-            More Articles
-          </h1>
           <div className={styles.articlesCardsGrid}>
-            {displayedArticlesList.map(function (article) {
+            {displayedArticlesList.map((article) => {
               return (
                 <ArticleCard
                   key={article._id}
@@ -168,14 +102,19 @@ const BlogAllArticles = ({
                   readTime={article.infos.readTime}
                   publishedDate={article.infos.publishedDate}
                   text={article.article}
+                  readMoreUrl={article.readMoreUrl}
                 />
               );
             })}
           </div>
           <Pagination
-            currentPage={currentPage}
-            numberOfPages={numberOfPages}
-            onPaginationChange={handlePaginationChange}
+
+          //  DISABLED TEMPORARILY UNTIL MORE ARTICLES ARE PUBLISHED
+
+            // currentPage={currentPage}
+            // numberOfPages={numberOfPages}
+            // onPaginationChange={handlePaginationChange}
+            
           />
         </div>
       </div>

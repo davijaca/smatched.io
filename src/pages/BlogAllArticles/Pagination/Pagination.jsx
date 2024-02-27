@@ -31,7 +31,10 @@ const Pagination = ({ currentPage, numberOfPages, onPaginationChange }) => {
   return (
     <div className={styles.navPageArticlesGrid}>
       <div className={styles.pagination}>
-        <button
+
+         {/* DISABLED TEMPORARILY UNTIL MORE ARTICLES ARE PUBLISHED */}
+         
+        {/* <button
           className={styles.btnLeft}
           onClick={handleBtnLeft}
           aria-label="go-to-previous-page"
@@ -51,7 +54,7 @@ const Pagination = ({ currentPage, numberOfPages, onPaginationChange }) => {
               fill="#1E1E1E"
             />
           </svg>
-        </button>
+        </button> */}
         {paginationNumbers.map((pageNumber) => {
           return (
             <button
@@ -69,7 +72,10 @@ const Pagination = ({ currentPage, numberOfPages, onPaginationChange }) => {
             </button>
           );
         })}
-        <button
+
+
+        {/* DISABLED TEMPORARILY UNTIL MORE ARTICLES ARE PUBLISHED */}
+        {/* <button
           className={styles.btnRight}
           onClick={handleBtnRight}
           aria-label="go-to-next-page"
@@ -89,7 +95,7 @@ const Pagination = ({ currentPage, numberOfPages, onPaginationChange }) => {
               fill="#1E1E1E"
             />
           </svg>
-        </button>
+        </button> */}
       </div>
     </div>
   );
