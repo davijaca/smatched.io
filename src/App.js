@@ -8,15 +8,17 @@ import Game from './pages/Game/Game';
 import NonProfit from './pages/NonProfit/NonProfit';
 import Website from './pages/Website/Website';
 import Newspaper from './pages/Newspaper/Newspaper';
-import ExploringOfferwall from './pages/Articles/ExploringOfferwall';
 import BlogArticle from './pages/BlogArticle/BlogArticle';
 import HowItWorks from './pages/HowItWorks/HowItWorks';
 import Contact from './pages/Contact/Contact';
 import Mobile from './pages/Mobile/Mobile';
 import BlogAllArticles from './pages/BlogAllArticles/BlogAllArticles';
+import WhatIsAnOfferwall from './pages/BlogAllArticles/Articles/WhatIsAnOfferwall/WhatIsAnOfferwall';
 import Footer from './components/Footer/Footer';
 import { Helmet } from 'react-helmet';
 import ReactGA from 'react-ga';
+import ExploringOfferwallSolutions from './pages/BlogAllArticles/Articles/ExploringOfferwallSolutions/ExploringOfferwallSolutions';
+import MaximizingOfferwall from './pages/BlogAllArticles/Articles/MaximizingOfferwall/MaximizingOfferwall';
 
 function App() {
   const [showFormFooter, setShowFormFooter] = useState(true);
@@ -25,7 +27,7 @@ function App() {
     return (
       <div className={styles.app}>
         <Header />
-        <Helmet/>
+        <Helmet />
         <Outlet />
         <Footer showFormFooter={showFormFooter} />
       </div>
@@ -63,9 +65,7 @@ function App() {
 
           {
             path: AppRoutes.EXPLORINGOFFERWALL,
-            element: (
-              <ExploringOfferwall setShowFormFooter={setShowFormFooter} />
-            ),
+            element: <ExploringOfferwallSolutions />,
             errorElement: <h1> PAGE NOT FOUND 4</h1>,
           },
 
@@ -101,6 +101,18 @@ function App() {
           {
             path: AppRoutes.BLOGALLARTICLES,
             element: <BlogAllArticles />,
+            errorElement: <h1>HOME PAGE NOT FOUND</h1>,
+          },
+
+          {
+            path: AppRoutes.WHATISANOFFERWALL,
+            element: <WhatIsAnOfferwall />,
+            errorElement: <h1>HOME PAGE NOT FOUND</h1>,
+          },
+
+          {
+            path: AppRoutes.MAXIMIZINGOFFERWALL,
+            element: <MaximizingOfferwall />,
             errorElement: <h1>HOME PAGE NOT FOUND</h1>,
           },
         ],
