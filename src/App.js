@@ -8,7 +8,6 @@ import Game from './pages/Game/Game';
 import NonProfit from './pages/NonProfit/NonProfit';
 import Website from './pages/Website/Website';
 import Newspaper from './pages/Newspaper/Newspaper';
-import ExploringOfferwall from './pages/Articles/ExploringOfferwall';
 import BlogArticle from './pages/BlogArticle/BlogArticle';
 import HowItWorks from './pages/HowItWorks/HowItWorks';
 // import Contact from './pages/Contact/Contact';
@@ -25,6 +24,8 @@ import DataPrivacy from './pages/DataPrivacy/DataPrivacy';
 import Footer from './components/Footer/Footer';
 import { Helmet } from 'react-helmet';
 import ReactGA from 'react-ga';
+import ExploringOfferwallSolutions from './pages/BlogAllArticles/Articles/ExploringOfferwallSolutions/ExploringOfferwallSolutions';
+import MaximizingOfferwall from './pages/BlogAllArticles/Articles/MaximizingOfferwall/MaximizingOfferwall';
 
 function App() {
   const [showFormFooter, setShowFormFooter] = useState(true);
@@ -33,7 +34,7 @@ function App() {
     return (
       <div className={styles.app}>
         <Header />
-        <Helmet/>
+        <Helmet />
         <Outlet />
         <Footer showFormFooter={showFormFooter} />
       </div>
@@ -71,9 +72,7 @@ function App() {
 
           {
             path: AppRoutes.EXPLORINGOFFERWALL,
-            element: (
-              <ExploringOfferwall setShowFormFooter={setShowFormFooter} />
-            ),
+            element: <ExploringOfferwallSolutions />,
             errorElement: <h1> PAGE NOT FOUND 4</h1>,
           },
 
@@ -97,7 +96,7 @@ function App() {
           {
             path: AppRoutes.HOWITWORKS,
             element: <HowItWorks />,
-            errorElement: <h1> PAGE NOT FOUND 8</h1>
+            errorElement: <h1> PAGE NOT FOUND 8</h1>,
           },
 
           {
@@ -112,7 +111,7 @@ function App() {
             errorElement: <h1>HOME PAGE NOT FOUND</h1>,
           },
 
-                    // DISABLED PATHS THAT WILL BE RENDERED DYNAMICALLY BY THE 'ARTICLE' PATH
+          // DISABLED PATHS THAT WILL BE RENDERED DYNAMICALLY BY THE 'ARTICLE' PATH
           // {
           //   path: AppRoutes.EXPLORINGOFFERWALL,
           //   element: <ExploringOfferwallSolutions />,
