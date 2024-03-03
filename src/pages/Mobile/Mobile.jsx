@@ -1,8 +1,13 @@
-import React from 'react';
+import React, { useState } from "react";
 import styles from './Mobile.module.css';
 import { Link } from 'react-router-dom';
+import Booking from '../../pages/Booking/Booking.jsx';
 
 const Mobile = () => {
+  const [showBookingForm, setShowBookingForm] = useState(false);
+  const toggleBookingForm = () => {
+    setShowBookingForm(!showBookingForm);
+};
   return (
     <div className={styles.pageMobileContainer}>
       {/* First Mobile page - desktop */}
@@ -31,8 +36,16 @@ const Mobile = () => {
               vouchers or rewards.
             </p>
             <Link className={styles.firstMobileButton} to=''>
-              <div className={styles.firstMobileButtonText}>BOOK A DEMO</div>
+            <div className={styles.firstMobileButtonText} onClick={toggleBookingForm}>BOOK A DEMO</div>
             </Link>
+                            {showBookingForm && (
+                                <div className={styles.bookingFormPopup}>
+                                    <div className={styles.bookingFormContent}>
+                                        <span className={styles.closeButton} onClick={toggleBookingForm}>&times;</span>
+                                        <Booking />
+                                    </div>
+                                </div>
+                            )}
           </div>
         </div>
       </div>

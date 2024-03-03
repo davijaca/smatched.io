@@ -1,10 +1,14 @@
 import React from "react";
 import styles from "./Articles.module.css";
-
-
+import Booking from '../../pages/Booking/Booking.jsx';
 
 
 const Blog = ({ ...props }) => {
+    const [showBookingForm, setShowBookingForm] = useState(false);
+    const toggleBookingForm = () => {
+        setShowBookingForm(!showBookingForm);
+    };
+
   return (
     <div className={styles.homeContainer}>
 
@@ -67,9 +71,16 @@ const Blog = ({ ...props }) => {
                                 </div>
                             </div>
                             <div className={styles.buttonTextMobile}>
-                                <div className={styles.buttonText1Mobile}>BOOK A DEMO</div>
+                                <div className={styles.buttonText1Mobile} onClick={toggleBookingForm}>BOOK A DEMO</div>
                             </div>
-
+                            {showBookingForm && (
+                                <div className={styles.bookingFormPopup}>
+                                    <div className={styles.bookingFormContent}>
+                                        <span className={styles.closeButton} onClick={toggleBookingForm}>&times;</span>
+                                        <Booking />
+                                    </div>
+                                </div>
+                            )}
                         </div>
                         </div>
                     </div>

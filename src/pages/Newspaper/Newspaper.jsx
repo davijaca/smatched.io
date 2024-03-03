@@ -1,7 +1,13 @@
-import React from 'react';
+import React, { useState } from "react";
 import styles from './Newspaper.module.css';
+import Booking from '../../pages/Booking/Booking.jsx';
 
 const Newspaper = () => {
+    const [showBookingForm, setShowBookingForm] = useState(false);
+    const toggleBookingForm = () => {
+        setShowBookingForm(!showBookingForm);
+    };
+
   return (
     <div className={styles.newspaperContainer}>
 
@@ -14,8 +20,6 @@ const Newspaper = () => {
                 <div className={styles.rightMain}>
                 <h1 className={styles.text}>
                         Newspaper
-                        <br />
-                      
                     </h1>
                     <h2 className={styles.text2}>
                         Publishing <br/> Industry
@@ -29,9 +33,16 @@ const Newspaper = () => {
                         </div>
                     </div>
                     <div className={styles.buttonText}>
-                        <div className={styles.buttonText1}>BOOK A DEMO</div>
+                    <div className={styles.buttonText1} onClick={toggleBookingForm}>BOOK A DEMO</div>
                     </div>
-                    
+                            {showBookingForm && (
+                                <div className={styles.bookingFormPopup}>
+                                    <div className={styles.bookingFormContent}>
+                                        <span className={styles.closeButton} onClick={toggleBookingForm}>&times;</span>
+                                        <Booking />
+                                    </div>
+                                </div>
+                            )}
                 </div>
                 <div className={styles.leftMain}>
                     <div className={styles.leftImgInfo}>
@@ -72,7 +83,7 @@ const Newspaper = () => {
                             </div>
                           
                             <div className={styles.buttonTextMobile}>
-                                <div className={styles.buttonText1Mobile}>BOOK A DEMO</div>
+                                <div className={styles.buttonText1Mobile} onClick={toggleBookingForm}>BOOK A DEMO</div>
                             </div>
 
                         </div>
@@ -296,7 +307,7 @@ Embracing this strategy enables online news publishers to monetize their content
                         </div>
                 
                         <div className={styles.buttonTextGold}>
-                            <div className={styles.buttonText1Gold}>BOOK A DEMO</div>
+                            <div className={styles.buttonText1Gold} onClick={toggleBookingForm}>BOOK A DEMO</div>
                         </div>
                     </>
                 </div>
@@ -336,7 +347,7 @@ Embracing this strategy enables online news publishers to monetize their content
                     </div>
 
                     <div className={styles.mobileButtonTextGold}>
-                        <div className={styles.mobileButtonText1Gold}>BOOK A DEMO</div>
+                        <div className={styles.mobileButtonText1Gold} onClick={toggleBookingForm}>BOOK A DEMO</div>
                     </div>
                 </>
             </div>

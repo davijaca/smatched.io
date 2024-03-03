@@ -1,7 +1,13 @@
-import React from 'react';
-import styles from './NonProfit.module.css';
+import React, { useState } from "react";
+import styles from "./NonProfit.module.css";
+import Booking from "../../pages/Booking/Booking.jsx";
 
 const NonProfit = () => {
+  const [showBookingForm, setShowBookingForm] = useState(false);
+  const toggleBookingForm = () => {
+    setShowBookingForm(!showBookingForm);
+  };
+
   return (
     <div className={styles.nonprofitContainer}>
       {/* FIRST NONPROFIT CONTAINER */}
@@ -19,7 +25,7 @@ const NonProfit = () => {
               <h2 className={styles.text2}>Nonprofits</h2>
               <div className={styles.parag}>
                 <div className={styles.innerParag}>
-                  {' '}
+                  {" "}
                   The nonprofit industry is faced with the challenge of
                   converting potential supporters into paying donors. By
                   exploring creative revenue streams, you can differentiate your
@@ -29,15 +35,30 @@ const NonProfit = () => {
                 </div>
               </div>
               <button className={styles.buttonText}>
-                <div className={styles.buttonText1}>BOOK A DEMO</div>
+                <div className={styles.buttonText1} onClick={toggleBookingForm}>
+                  BOOK A DEMO
+                </div>
               </button>
+              {showBookingForm && (
+                <div className={styles.bookingFormPopup}>
+                  <div className={styles.bookingFormContent}>
+                    <span
+                      className={styles.closeButton}
+                      onClick={toggleBookingForm}
+                    >
+                      &times;
+                    </span>
+                    <Booking />
+                  </div>
+                </div>
+              )}
             </div>
             <div className={styles.leftMain}>
               <div className={styles.leftImgInfo}>
                 <img
                   className={styles.leftImg}
-                  src='./nonprofitHero.svg'
-                  alt='revenue image'
+                  src="./nonprofitHero.svg"
+                  alt="revenue image"
                 />
               </div>
             </div>
@@ -56,8 +77,8 @@ const NonProfit = () => {
                   <div className={styles.leftImgInfoMobile}>
                     <img
                       className={styles.leftImgMobile}
-                      src='./heroImage.png'
-                      alt='An iPhone with an offerwall'
+                      src="./heroImage.png"
+                      alt="An iPhone with an offerwall"
                     />
                   </div>
                 </div>
@@ -70,7 +91,7 @@ const NonProfit = () => {
                   <h2 className={styles.text2Mobile}>Retain Users.</h2>
                   <div className={styles.paragMobile}>
                     <div className={styles.innerParagMobile}>
-                      {' '}
+                      {" "}
                       Metered paywalls have an average conversion rate of just
                       0.36%. Smatched builds customized ‘earn to play’
                       offerwalls that boost monetization on your mobile app or
@@ -93,7 +114,12 @@ const NonProfit = () => {
                     </div>
                   </div>
                   <div className={styles.buttonTextMobile}>
-                    <div className={styles.buttonText1Mobile}>BOOK A DEMO</div>
+                    <div
+                      className={styles.buttonText1Mobile}
+                      onClick={toggleBookingForm}
+                    >
+                      BOOK A DEMO
+                    </div>
                   </div>
                 </div>
               </div>
@@ -123,15 +149,11 @@ const NonProfit = () => {
         <div className={styles.secondNonprofitBottomContainer}>
           <div className={styles.secondNonprofitContainerBox2}>
             <div className={styles.secondBottomLeft}>
-              <img
-                className={styles.bottomEmote}
-                src='./emoteSad.svg'
-                alt=''
-              />
+              <img className={styles.bottomEmote} src="./emoteSad.svg" alt="" />
               <div className={styles.secondBottomTextContainer}>
                 <span className={styles.spanBottom}>
                   One of the reasons why potential <br />
-                  donors may not give monetarily is that they{' '}
+                  donors may not give monetarily is that they{" "}
                   <b>may not have the financial means</b> to give.
                 </span>
               </div>
@@ -139,15 +161,15 @@ const NonProfit = () => {
             <div className={styles.secondBottomRight}>
               <img
                 className={styles.bottomEmote}
-                src='./emoteHappy.svg'
-                alt=''
+                src="./emoteHappy.svg"
+                alt=""
               />
               <div className={styles.secondBottomTextContainer}>
                 <span className={styles.spanBottom}>
-                  Supporters may be willing to{' '}
+                  Supporters may be willing to{" "}
                   <b>
                     donate <br />
-                    their time, skills or knowledge{' '}
+                    their time, skills or knowledge{" "}
                   </b>
                   instead of or in addition to a monetary donation.
                 </span>
@@ -167,8 +189,8 @@ const NonProfit = () => {
                 <div className={styles.leftImgInfoSecondMobile}>
                   <img
                     className={styles.leftImgMobile}
-                    src='./secondHomeImg.png'
-                    alt='An iPhone with an offerwall'
+                    src="./secondHomeImg.png"
+                    alt="An iPhone with an offerwall"
                   />
                 </div>
               </div>
@@ -178,7 +200,7 @@ const NonProfit = () => {
                 </h2>
                 <div className={styles.paragMobile}>
                   <div className={styles.innerParagSecondMobile}>
-                    {' '}
+                    {" "}
                     Paywalls are a great revenue option for many businesses but
                     unfortunately, making users pay means your revenue potential
                     is capped. Businesses that offer more than one monetization
@@ -202,8 +224,8 @@ const NonProfit = () => {
           <div className={styles.thirdSectionLeft}>
             <div className={styles.imageThirdNonprofitContainer}>
               <img
-                src='./thirdNonprofitImg.svg'
-                alt='A laptop and a phone with offerwall rewards'
+                src="./thirdNonprofitImg.svg"
+                alt="A laptop and a phone with offerwall rewards"
               />
             </div>
           </div>
@@ -240,8 +262,8 @@ const NonProfit = () => {
               <div className={styles.mobileThirdSectionLeftBG}>
                 <div className={styles.mobileThirdHomeImage}>
                   <img
-                    src='./thirdSectionImg.png'
-                    alt='A laptop and a phone with offerwall rewards'
+                    src="./thirdSectionImg.png"
+                    alt="A laptop and a phone with offerwall rewards"
                   />
                 </div>
               </div>
@@ -272,7 +294,12 @@ const NonProfit = () => {
               </div>
 
               <div className={styles.mobileButtonTextGold}>
-                <div className={styles.mobileButtonText1Gold}>BOOK A DEMO</div>
+                <div
+                  className={styles.mobileButtonText1Gold}
+                  onClick={toggleBookingForm}
+                >
+                  BOOK A DEMO
+                </div>
               </div>
             </>
           </div>
@@ -297,22 +324,24 @@ const NonProfit = () => {
                   absolutely free.
                   <br />
                   <br />
-                  Unlock with Smatched a completely new donor audience – the{' '}
+                  Unlock with Smatched a completely new donor audience – the{" "}
                   <b>77% of supporters</b> who don’t donate monetarily. Just by
                   offering alternative ways to contribute, nonprofits can engage
                   more supporters and increase the impact of their mission.
                 </span>
               </div>
               <button className={styles.buttonText2}>
-                <div className={styles.buttonText1}>BOOK A DEMO</div>
+                <div className={styles.buttonText1} onClick={toggleBookingForm}>
+                  BOOK A DEMO
+                </div>
               </button>
             </div>
           </div>
 
           <div className={styles.fourthSectionRight}>
             <img
-              src='./fourthNonprofitImg.svg'
-              alt='women using a smart phone'
+              src="./fourthNonprofitImg.svg"
+              alt="women using a smart phone"
             />
           </div>
         </div>
@@ -333,8 +362,8 @@ const NonProfit = () => {
                   <div className={styles.mobileFourthInner12}>
                     <img
                       className={styles.mobileFourthStepOneImg}
-                      src='./one.svg'
-                      alt='A picture of a number one'
+                      src="./one.svg"
+                      alt="A picture of a number one"
                     />
                     <h1>Step 1</h1>
                     <div className={styles.mobileFourth12Integration}>
@@ -349,8 +378,8 @@ const NonProfit = () => {
                   <div className={styles.mobileFourthInner12}>
                     <img
                       className={styles.mobileFourthStepTwoImg}
-                      src='./two.svg'
-                      alt='A picture of a number two'
+                      src="./two.svg"
+                      alt="A picture of a number two"
                     />
                     <h1>Step 2</h1>
                     <div className={styles.mobileFourth12Integration}>
@@ -365,8 +394,8 @@ const NonProfit = () => {
                   <div className={styles.mobileFourthInner34}>
                     <img
                       className={styles.mobileFourthStepThreeImg}
-                      src='./three.svg'
-                      alt='A picture of a number three'
+                      src="./three.svg"
+                      alt="A picture of a number three"
                     />
                     <h1>Step 3</h1>
                     <div className={styles.mobileFourth12Integration}>
@@ -382,8 +411,8 @@ const NonProfit = () => {
                   <div className={styles.mobileFourthInner34}>
                     <img
                       className={styles.stepFourImg}
-                      src='./four.svg'
-                      alt='A picture of a number four'
+                      src="./four.svg"
+                      alt="A picture of a number four"
                     />
                     <h1>Step 4</h1>
                     <div className={styles.mobileFourth12Integration}>

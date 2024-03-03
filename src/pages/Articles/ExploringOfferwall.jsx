@@ -2,12 +2,14 @@ import React, { useState } from 'react';
 import styles from './ExploringOfferwall.module.css';
 import { db } from '../../firebase';
 import { addDoc, collection, serverTimestamp } from 'firebase/firestore';
+import Booking from '../../pages/Booking/Booking.jsx';
 
 const ExploringOfferwall = ({ setShowFormFooter }) => {
   setShowFormFooter(false);
 
   const [input, setInput] = useState('');
   const [message, setMessage] = useState('');
+  const [showBookingForm, setShowBookingForm] = useState(false);
 
   const inputHandler = (e) => {
     setInput(e.target.value);
@@ -27,6 +29,10 @@ const ExploringOfferwall = ({ setShowFormFooter }) => {
         setMessage('');
       }, 3000);
     }
+  };
+
+  const toggleBookingForm = () => {
+    setShowBookingForm(!showBookingForm);
   };
 
   return (
@@ -113,8 +119,16 @@ const ExploringOfferwall = ({ setShowFormFooter }) => {
               </div>
             </div>
             <button className={styles.buttonText}>
-              <div className={styles.buttonText1}>BOOK A DEMO</div>
+            <div className={styles.buttonText1} onClick={toggleBookingForm}>BOOK A DEMO</div>
             </button>
+                            {showBookingForm && (
+                                <div className={styles.bookingFormPopup}>
+                                    <div className={styles.bookingFormContent}>
+                                        <span className={styles.closeButton} onClick={toggleBookingForm}>&times;</span>
+                                        <Booking />
+                                    </div>
+                                </div>
+                            )}
           </div>
         </div>
       </div>
