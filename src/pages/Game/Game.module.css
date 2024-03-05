@@ -2190,4 +2190,12 @@ h2 {
         z-index: 5;
     }
 
+    .bookingFormPopup {
+        display: unset;
+    }
+
+    .closeButton {
+        top: 40px;
+        right: 20px;
+    }
 }

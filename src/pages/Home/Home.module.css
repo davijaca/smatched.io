@@ -2077,8 +2077,14 @@ h2 {
         transition: all 2s ease;
     }
 
+    .bookingFormPopup {
+        display: unset;
+    }
 
-
+    .closeButton {
+        top: 40px;
+        right: 20px;
+    }
 
 
 /*SECOND MOBILE SECTION*/
