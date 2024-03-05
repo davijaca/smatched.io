@@ -33,7 +33,7 @@ const Newspaper = () => {
                         </div>
                     </div>
                     <div className={styles.buttonText}>
-                    <div className={styles.buttonText1} onClick={toggleBookingForm}>BOOK A DEMO</div>
+                    <div className={styles.buttonText1} onClick={() => setShowBookingForm(true)}>BOOK A DEMO</div>
                     </div>
                             {showBookingForm && (
                                 <div className={styles.bookingFormPopup}>
@@ -83,9 +83,16 @@ const Newspaper = () => {
                             </div>
                           
                             <div className={styles.buttonTextMobile}>
-                                <div className={styles.buttonText1Mobile} onClick={toggleBookingForm}>BOOK A DEMO</div>
+                                <div className={styles.buttonText1Mobile} onClick={() => setShowBookingForm(true)}>BOOK A DEMO</div>
                             </div>
-
+                            {showBookingForm && (
+                                <div className={styles.bookingFormPopup}>
+                                    <div className={styles.bookingFormContent}>
+                                        <span className={styles.closeButton} onClick={toggleBookingForm}>&times;</span>
+                                        <Booking />
+                                    </div>
+                                </div>
+                            )}
                         </div>
                         </div>
                     </div>
@@ -307,8 +314,16 @@ Embracing this strategy enables online news publishers to monetize their content
                         </div>
                 
                         <div className={styles.buttonTextGold}>
-                            <div className={styles.buttonText1Gold} onClick={toggleBookingForm}>BOOK A DEMO</div>
+                            <div className={styles.buttonText1Gold} onClick={() => setShowBookingForm(true)}>BOOK A DEMO</div>
                         </div>
+                        {showBookingForm && (
+                                <div className={styles.bookingFormPopup}>
+                                    <div className={styles.bookingFormContent}>
+                                        <span className={styles.closeButton} onClick={toggleBookingForm}>&times;</span>
+                                        <Booking />
+                                    </div>
+                                </div>
+                            )}
                     </>
                 </div>
             </div>
@@ -347,8 +362,16 @@ Embracing this strategy enables online news publishers to monetize their content
                     </div>
 
                     <div className={styles.mobileButtonTextGold}>
-                        <div className={styles.mobileButtonText1Gold} onClick={toggleBookingForm}>BOOK A DEMO</div>
+                        <div className={styles.mobileButtonText1Gold} onClick={() => setShowBookingForm(true)}>BOOK A DEMO</div>
                     </div>
+                    {showBookingForm && (
+                                <div className={styles.bookingFormPopup}>
+                                    <div className={styles.bookingFormContent}>
+                                        <span className={styles.closeButton} onClick={toggleBookingForm}>&times;</span>
+                                        <Booking />
+                                    </div>
+                                </div>
+                            )}
                 </>
             </div>
         
