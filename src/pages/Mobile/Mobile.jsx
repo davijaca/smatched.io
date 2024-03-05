@@ -36,7 +36,7 @@ const Mobile = () => {
               vouchers or rewards.
             </p>
             <Link className={styles.firstMobileButton} to=''>
-            <div className={styles.firstMobileButtonText} onClick={toggleBookingForm}>BOOK A DEMO</div>
+            <div className={styles.firstMobileButtonText} onClick={() => setShowBookingForm(true)}>BOOK A DEMO</div>
             </Link>
                             {showBookingForm && (
                                 <div className={styles.bookingFormPopup}>
