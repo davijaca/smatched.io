@@ -38,7 +38,7 @@ const Website = () => {
             <Link className={styles.firstLeftButton} to="">
               <div
                 className={styles.firstLeftButtonText}
-                onClick={toggleBookingForm}
+                onClick={() => setShowBookingForm(true)}
               >
                 BOOK A DEMO{" "}
               </div>
@@ -101,11 +101,24 @@ const Website = () => {
             <Link className={styles.firstMobileButton} to="">
               <div
                 className={styles.firstMobileButtonText}
-                onClick={toggleBookingForm}
+                onClick={() => setShowBookingForm(true)}
               >
                 BOOK A DEMO
               </div>
             </Link>
+            {showBookingForm && (
+              <div className={styles.bookingFormPopup}>
+                <div className={styles.bookingFormContent}>
+                  <span
+                    className={styles.closeButton}
+                    onClick={toggleBookingForm}
+                  >
+                    &times;
+                  </span>
+                  <Booking />
+                </div>
+              </div>
+            )}
           </div>
         </div>
       </div>
@@ -251,11 +264,24 @@ const Website = () => {
             <Link className={styles.buttonSec4} to="">
               <div
                 className={styles.buttonSec4Text}
-                onClick={toggleBookingForm}
+                onClick={() => setShowBookingForm(true)}
               >
                 BOOK A DEMO{" "}
               </div>
             </Link>
+            {showBookingForm && (
+              <div className={styles.bookingFormPopup}>
+                <div className={styles.bookingFormContent}>
+                  <span
+                    className={styles.closeButton}
+                    onClick={toggleBookingForm}
+                  >
+                    &times;
+                  </span>
+                  <Booking />
+                </div>
+              </div>
+            )}
           </div>
           <div className={styles.fourthRight}>
             <img
@@ -292,11 +318,24 @@ const Website = () => {
           <Link className={styles.buttonSec4Mobile} to="">
             <div
               className={styles.buttonSec4MobileText}
-              onClick={toggleBookingForm}
+              onClick={() => setShowBookingForm(true)}
             >
               BOOK A DEMO{" "}
             </div>
           </Link>
+          {showBookingForm && (
+              <div className={styles.bookingFormPopup}>
+                <div className={styles.bookingFormContent}>
+                  <span
+                    className={styles.closeButton}
+                    onClick={toggleBookingForm}
+                  >
+                    &times;
+                  </span>
+                  <Booking />
+                </div>
+              </div>
+            )}
         </div>
       </div>
     </div>

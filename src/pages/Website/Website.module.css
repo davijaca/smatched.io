@@ -753,5 +753,13 @@
       width: 353px;
       margin-left: 10px;
     }
+    .bookingFormPopup {
+      display: unset;
+  }
+
+  .closeButton {
+      top: 40px;
+      right: 20px;
+  }
   }
   
