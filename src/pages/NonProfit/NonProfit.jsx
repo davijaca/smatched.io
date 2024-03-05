@@ -35,7 +35,7 @@ const NonProfit = () => {
                 </div>
               </div>
               <button className={styles.buttonText}>
-                <div className={styles.buttonText1} onClick={toggleBookingForm}>
+                <div className={styles.buttonText1} onClick={() => setShowBookingForm(true)}>
                   BOOK A DEMO
                 </div>
               </button>
@@ -116,11 +116,24 @@ const NonProfit = () => {
                   <div className={styles.buttonTextMobile}>
                     <div
                       className={styles.buttonText1Mobile}
-                      onClick={toggleBookingForm}
+                      onClick={() => setShowBookingForm(true)}
                     >
                       BOOK A DEMO
                     </div>
                   </div>
+                  {showBookingForm && (
+                <div className={styles.bookingFormPopup}>
+                  <div className={styles.bookingFormContent}>
+                    <span
+                      className={styles.closeButton}
+                      onClick={toggleBookingForm}
+                    >
+                      &times;
+                    </span>
+                    <Booking />
+                  </div>
+                </div>
+              )}
                 </div>
               </div>
             </div>
@@ -296,11 +309,24 @@ const NonProfit = () => {
               <div className={styles.mobileButtonTextGold}>
                 <div
                   className={styles.mobileButtonText1Gold}
-                  onClick={toggleBookingForm}
+                  onClick={() => setShowBookingForm(true)}
                 >
                   BOOK A DEMO
                 </div>
               </div>
+              {showBookingForm && (
+                <div className={styles.bookingFormPopup}>
+                  <div className={styles.bookingFormContent}>
+                    <span
+                      className={styles.closeButton}
+                      onClick={toggleBookingForm}
+                    >
+                      &times;
+                    </span>
+                    <Booking />
+                  </div>
+                </div>
+              )}
             </>
           </div>
         </div>
@@ -331,10 +357,23 @@ const NonProfit = () => {
                 </span>
               </div>
               <button className={styles.buttonText2}>
-                <div className={styles.buttonText1} onClick={toggleBookingForm}>
+                <div className={styles.buttonText1} onClick={() => setShowBookingForm(true)}>
                   BOOK A DEMO
                 </div>
               </button>
+              {showBookingForm && (
+                <div className={styles.bookingFormPopup}>
+                  <div className={styles.bookingFormContent}>
+                    <span
+                      className={styles.closeButton}
+                      onClick={toggleBookingForm}
+                    >
+                      &times;
+                    </span>
+                    <Booking />
+                  </div>
+                </div>
+              )}
             </div>
           </div>
 

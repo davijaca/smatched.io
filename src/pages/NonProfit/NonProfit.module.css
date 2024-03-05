@@ -1555,6 +1555,14 @@ h2 {
         display: flex;
 
     }
+    
+    .bookingFormPopup {
+        display: unset;
+    }
 
+    .closeButton {
+        top: 40px;
+        right: 20px;
+    }
 
 }
