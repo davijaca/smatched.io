@@ -13,12 +13,12 @@ import HowItWorks from './pages/HowItWorks/HowItWorks';
 import Contact from './pages/Contact/Contact';
 import Mobile from './pages/Mobile/Mobile';
 import BlogAllArticles from './pages/BlogAllArticles/BlogAllArticles';
-import WhatIsAnOfferwall from './pages/BlogAllArticles/Articles/WhatIsAnOfferwall/WhatIsAnOfferwall';
 import Footer from './components/Footer/Footer';
 import { Helmet } from 'react-helmet';
 import ReactGA from 'react-ga';
-import ExploringOfferwallSolutions from './pages/BlogAllArticles/Articles/ExploringOfferwallSolutions/ExploringOfferwallSolutions';
-import MaximizingOfferwall from './pages/BlogAllArticles/Articles/MaximizingOfferwall/MaximizingOfferwall';
+// import WhatIsAnOfferwall from './pages/BlogAllArticles/Articles/WhatIsAnOfferwall/WhatIsAnOfferwall';
+// import ExploringOfferwallSolutions from './pages/BlogAllArticles/Articles/ExploringOfferwallSolutions/ExploringOfferwallSolutions';
+// import MaximizingOfferwall from './pages/BlogAllArticles/Articles/MaximizingOfferwall/MaximizingOfferwall';
 import Article from './pages/BlogAllArticles/Articles/Article/Article';
 
 function App() {
