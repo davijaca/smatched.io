@@ -19,6 +19,7 @@ import { Helmet } from 'react-helmet';
 import ReactGA from 'react-ga';
 import ExploringOfferwallSolutions from './pages/BlogAllArticles/Articles/ExploringOfferwallSolutions/ExploringOfferwallSolutions';
 import MaximizingOfferwall from './pages/BlogAllArticles/Articles/MaximizingOfferwall/MaximizingOfferwall';
+import Article from './pages/BlogAllArticles/Articles/Article/Article';
 
 function App() {
   const [showFormFooter, setShowFormFooter] = useState(true);
@@ -64,12 +65,6 @@ function App() {
           },
 
           {
-            path: AppRoutes.EXPLORINGOFFERWALL,
-            element: <ExploringOfferwallSolutions />,
-            errorElement: <h1> PAGE NOT FOUND 4</h1>,
-          },
-
-          {
             path: AppRoutes.BLOGARTICLE,
             element: <BlogArticle />,
             errorElement: <h1> PAGE NOT FOUND 5</h1>,
@@ -89,7 +84,7 @@ function App() {
           {
             path: AppRoutes.HOWITWORKS,
             element: <HowItWorks />,
-            errorElement: <h1> PAGE NOT FOUND 8</h1>
+            errorElement: <h1> PAGE NOT FOUND 8</h1>,
           },
 
           {
@@ -104,15 +99,29 @@ function App() {
             errorElement: <h1>HOME PAGE NOT FOUND</h1>,
           },
 
-          {
-            path: AppRoutes.WHATISANOFFERWALL,
-            element: <WhatIsAnOfferwall />,
-            errorElement: <h1>HOME PAGE NOT FOUND</h1>,
-          },
+          // DISABLED PATHS THAT WILL BE RENDERED DYNAMICALLY BY THE 'ARTICLE' PATH
+          // {
+          //   path: AppRoutes.EXPLORINGOFFERWALL,
+          //   element: <ExploringOfferwallSolutions />,
+          //   errorElement: <h1> PAGE NOT FOUND 4</h1>,
+          // },
+
+          // {
+          //   path: AppRoutes.WHATISANOFFERWALL,
+          //   element: <WhatIsAnOfferwall />,
+          //   errorElement: <h1>HOME PAGE NOT FOUND</h1>,
+          // },
+
+          // {
+          //   path: AppRoutes.MAXIMIZINGOFFERWALL,
+          //   element: <MaximizingOfferwall />,
+          //   errorElement: <h1>HOME PAGE NOT FOUND</h1>,
+          // },
 
           {
-            path: AppRoutes.MAXIMIZINGOFFERWALL,
-            element: <MaximizingOfferwall />,
+            // path: AppRoutes.ARTICLE,
+            path: '/article',
+            element: <Article />,
             errorElement: <h1>HOME PAGE NOT FOUND</h1>,
           },
         ],
