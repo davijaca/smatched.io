@@ -24,8 +24,6 @@ import DataPrivacy from './pages/DataPrivacy/DataPrivacy';
 import Footer from './components/Footer/Footer';
 import { Helmet } from 'react-helmet';
 import ReactGA from 'react-ga';
-import ExploringOfferwallSolutions from './pages/BlogAllArticles/Articles/ExploringOfferwallSolutions/ExploringOfferwallSolutions';
-import MaximizingOfferwall from './pages/BlogAllArticles/Articles/MaximizingOfferwall/MaximizingOfferwall';
 
 function App() {
   const [showFormFooter, setShowFormFooter] = useState(true);
@@ -68,12 +66,6 @@ function App() {
             path: AppRoutes.WEBSITE,
             element: <Website />,
             errorElement: <h1> PAGE NOT FOUND 8</h1>,
-          },
-
-          {
-            path: AppRoutes.EXPLORINGOFFERWALL,
-            element: <ExploringOfferwallSolutions />,
-            errorElement: <h1> PAGE NOT FOUND 4</h1>,
           },
 
           {
@@ -131,8 +123,7 @@ function App() {
           // },
 
           {
-            // path: AppRoutes.ARTICLE,
-            path: '/article',
+            path: AppRoutes.ARTICLE,
             element: <Article />,
             errorElement: <h1>HOME PAGE NOT FOUND</h1>,
           },
