@@ -3,6 +3,7 @@ const exploringOfferWallSolutions = {
   articleId: 1,
   id: 1,
   key: 'exploringofferwall',
+  navbarBackground: true,
   title:
     'Exploring Offerwall Solutions for Monetization and Retention: a Comparative Analysis',
   heroImg: {
@@ -73,8 +74,10 @@ const exploringOfferWallSolutions = {
 
 /* What Is an Offerwall */
 const whatIsAnOfferWallArticle = {
+  articleId: 2,
   id: 2,
   key: 'whatisanofferwall',
+  navbarBackground: false,
   title: 'What is an Offerwall?\nExploring the various types and benefits',
   heroImg: {
     desktop: '/images/whatIsAnOfferwall_Hero_Img.png',
@@ -165,6 +168,7 @@ const maximizingOfferwall = {
   articleId: 3,
   id: 3,
   key: 'maximizingofferwall',
+  navbarBackground: false,
   title:
     'Maximizing Offerwall Monetization: Best Practices for Conversions and Retention',
   heroImg: {

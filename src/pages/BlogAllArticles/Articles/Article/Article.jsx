@@ -47,6 +47,7 @@ const Article = () => {
           date={article.metadata.date}
           imgdesktop={article.heroImg.desktop}
           imgmobile={article.heroImg.mobile}
+          shouldDisplayNavbarBackground={article.navbarBackground}
         />
 
         <HighlightedSection body={article.highlight.body} />
