@@ -148,4 +148,24 @@
   .info_wrapper {
     padding: 30px 0px 80px 0px;
   }
+
+  /* Extra Div (navbar background color) Desktop */
+  .extraDiv {
+    display: none;
+  }
+
+  .extraDiv_active {
+    display: block;
+    position: fixed;
+    opacity: 0.89;
+    right: 0;
+    left: 0;
+    top: 0;
+  }
+
+  .extraDiv_img {
+    height: 100px;
+    width: 100%;
+    object-fit: cover;
+  }
 }
