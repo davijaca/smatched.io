@@ -39,6 +39,7 @@ const Hero = ({
                 onClick={() => {
                   window.history.back();
                 }}
+                data-testid="btn-goBack"
               />
               <div className={styles.heroTitle_wrapper}>
                 <h1 className={styles.heroTitle}>{title}</h1>

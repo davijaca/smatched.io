@@ -39,7 +39,7 @@ const Article = () => {
   const nextArticles = getNextArticles(article.id, articlesData);
 
   return (
-    <>
+    <div data-testid={`article-wrapper`}>
       <article className={styles.articleWrapper}>
         <Hero
           title={article.title}
@@ -52,13 +52,13 @@ const Article = () => {
 
         <HighlightedSection body={article.highlight.body} />
 
-        <div className={styles.sectionsWrapper}>
-          {article.content.map((content) => {
+        <div className={styles.sectionsWrapper} data-testid="articleContent">
+          {article.content.map((content, index) => {
             switch (content.type) {
               case 'plain': {
                 return (
                   <div
-                    key={`plain-${content.title}-${content.body}`}
+                    key={`plain-${index}`}
                     className={styles.pageSize_wrapper}
                   >
                     <PlainSection title={content.title} body={content.body} />
@@ -68,7 +68,7 @@ const Article = () => {
               case 'image': {
                 return (
                   <ImageRight
-                    key={content.sources.desktop}
+                    key={`image-${index}`}
                     sources={content.sources}
                   />
                 );
@@ -76,7 +76,7 @@ const Article = () => {
               case 'list': {
                 return (
                   <div
-                    key={`list-${content.title}-${content.body}`}
+                    key={`list-${index}`}
                     className={styles.pageSize_wrapper}
                   >
                     <SectionList
@@ -90,7 +90,7 @@ const Article = () => {
               case 'listWithBulletPoints': {
                 return (
                   <div
-                    key={`plain-${content.title}-${content.body}`}
+                    key={`listWithBulletPoints-${index}`}
                     className={styles.pageSize_wrapper}
                   >
                     <SectionListWithBulletPoints
@@ -108,7 +108,12 @@ const Article = () => {
         </div>
       </article>
       <div className={styles.whatToReadNext_wrapper}>
-        <h1 className={styles.whatToReadNext_title}>What to read next</h1>
+        <h1
+          data-testid="whatToReadNext_title"
+          className={styles.whatToReadNext_title}
+        >
+          What to read next
+        </h1>
         <div className={styles.whatToReadNextCards_wrapper}>
           {nextArticles.map((article) => {
             return (
@@ -125,7 +130,7 @@ const Article = () => {
           })}
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
