@@ -118,7 +118,7 @@ describe('<Article />', () => {
     ).toBeVisible();
   });
 
-  it('User interaction with buttons', async () => {
+  it('User interaction with buttons (from page Exploring Offerwall)', async () => {
     const user = userEvent.setup();
 
     render(
