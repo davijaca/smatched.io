@@ -24,6 +24,8 @@ const NonProfit = () => {
                   converting potential supporters into paying donors. By
                   exploring creative revenue streams, you can differentiate your
                   organization and motivate people to donate in impactful ways.
+                  <br />
+                  <br />
                   Diversifying your donation options can significantly increase
                   engagement and donor acquisition rates.
                 </div>
@@ -36,8 +38,8 @@ const NonProfit = () => {
               <div className={styles.leftImgInfo}>
                 <img
                   className={styles.leftImg}
-                  src='./nonprofitHero.svg'
-                  alt='revenue image'
+                  src='./images/nonprofitHero.png'
+                  alt='Three people donating'
                 />
               </div>
             </div>
@@ -126,7 +128,7 @@ const NonProfit = () => {
               <img
                 className={styles.bottomEmote}
                 src='./emoteSad.svg'
-                alt=''
+                alt='Emoji negative smile'
               />
               <div className={styles.secondBottomTextContainer}>
                 <span className={styles.spanBottom}>
@@ -136,11 +138,16 @@ const NonProfit = () => {
                 </span>
               </div>
             </div>
+            <img
+              className={styles.arrow}
+              src='./images/nonprofit_sec2_arrow.svg'
+              alt='A arrow pointing to the right'
+            />
             <div className={styles.secondBottomRight}>
               <img
                 className={styles.bottomEmote}
                 src='./emoteHappy.svg'
-                alt=''
+                alt='Emoji positive smile'
               />
               <div className={styles.secondBottomTextContainer}>
                 <span className={styles.spanBottom}>
@@ -202,6 +209,7 @@ const NonProfit = () => {
           <div className={styles.thirdSectionLeft}>
             <div className={styles.imageThirdNonprofitContainer}>
               <img
+                //! trocar todas as imagens grandes para png
                 src='./thirdNonprofitImg.svg'
                 alt='A laptop and a phone with offerwall rewards'
               />
