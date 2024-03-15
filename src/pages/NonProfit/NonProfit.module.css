@@ -295,7 +295,6 @@ h2 {
   width: 100%;
   background-color: #ffffff;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 894px;
@@ -303,15 +302,6 @@ h2 {
 
 .mobileThirdNonprofitContainer {
   display: none;
-}
-
-.thirdNonprofitContainerBox {
-  height: 894px;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .thirdSectionLeft {
@@ -326,7 +316,7 @@ h2 {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-end;
-  margin-left: 200px;
+  margin: 86px 0 0 268px;
 }
 
 .thirdSectionRight {
@@ -383,7 +373,6 @@ h2 {
 }
 
 .fourthNonprofitContainerBox {
-  height: 1034px;
   background: #1e1e1e;
   width: 100%;
   display: flex;
@@ -404,6 +393,7 @@ h2 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin: 28px 0 0 205px;
 }
 
 .innerFourthFreeResources {
@@ -433,27 +423,13 @@ h2 {
 }
 
 .fourthSectionRight {
-  width: 755px;
-  height: 1034px;
-  display: flex;
-  justify-content: flex-start;
+  width: 50%;
 }
 
 .fourthSectionRight > img {
-  width: 755px;
-  height: 1034px;
+  width: 960px;
   flex-shrink: 0;
 }
-
-/* .fourthNonprofitImage {
-  width: 100%;
-  height: 700px;
-  display: flex;
-  justify-content: flex-end;
-  margin: auto;
-  margin-left: 150px;
-  margin-top: 100px;
-} */
 
 .buttonText2 {
   width: 210px;

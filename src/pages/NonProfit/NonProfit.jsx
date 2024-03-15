@@ -205,36 +205,31 @@ const NonProfit = () => {
       {/* THIRD NONPROFIT CONTAINER */}
 
       <div className={styles.thirdNonprofitContainer}>
-        <div className={styles.thirdNonprofitContainerBox}>
-          <div className={styles.thirdSectionLeft}>
-            <div className={styles.imageThirdNonprofitContainer}>
-              <img
-                //! trocar todas as imagens grandes para png
-                src='./thirdNonprofitImg.svg'
-                alt='A laptop and a phone with offerwall rewards'
-              />
-            </div>
+        <div className={styles.thirdSectionLeft}>
+          <div className={styles.imageThirdNonprofitContainer}>
+            <img
+              src='./images/thirdNonprofitImg.png'
+              alt='A post with arrows to different directions'
+            />
           </div>
+        </div>
 
-          <div className={styles.thirdSectionRight}>
-            <>
-              <div className={styles.innerThirdSectionRight}>
-                <div className={styles.thirdSectionRightH1}>
-                  Donor Retention
-                  <br />
-                  Strategies
-                </div>
+        <div className={styles.thirdSectionRight}>
+          <div className={styles.innerThirdSectionRight}>
+            <div className={styles.thirdSectionRightH1}>
+              Donor Retention
+              <br />
+              Strategies
+            </div>
 
-                <div className={styles.thirdSectionRightP}>
-                  Effective donor retention strategies are based on providing
-                  more choices to your supporters. To foster lasting
-                  relationships with your supporters, give them the option to
-                  earn your organization donations by carrying out surveys via
-                  your weekly or monthly newsletter – rather than just
-                  encouraging them to give with their own money.
-                </div>
-              </div>
-            </>
+            <div className={styles.thirdSectionRightP}>
+              Effective donor retention strategies are based on providing more
+              choices to your supporters. To foster lasting relationships with
+              your supporters, give them the option to earn your organization
+              donations by carrying out surveys via your weekly or monthly
+              newsletter – rather than just encouraging them to give with their
+              own money.
+            </div>
           </div>
         </div>
       </div>
@@ -319,8 +314,8 @@ const NonProfit = () => {
 
           <div className={styles.fourthSectionRight}>
             <img
-              src='./fourthNonprofitImg.svg'
-              alt='women using a smart phone'
+              src='./images/fourthNonprofitImg.png'
+              alt='Women using a smartphone'
             />
           </div>
         </div>
@@ -342,7 +337,7 @@ const NonProfit = () => {
                     <img
                       className={styles.mobileFourthStepOneImg}
                       src='./one.svg'
-                      alt='A picture of a number one'
+                      alt=''
                     />
                     <h1>Step 1</h1>
                     <div className={styles.mobileFourth12Integration}>
@@ -358,7 +353,7 @@ const NonProfit = () => {
                     <img
                       className={styles.mobileFourthStepTwoImg}
                       src='./two.svg'
-                      alt='A picture of a number two'
+                      alt=''
                     />
                     <h1>Step 2</h1>
                     <div className={styles.mobileFourth12Integration}>
@@ -374,7 +369,7 @@ const NonProfit = () => {
                     <img
                       className={styles.mobileFourthStepThreeImg}
                       src='./three.svg'
-                      alt='A picture of a number three'
+                      alt=''
                     />
                     <h1>Step 3</h1>
                     <div className={styles.mobileFourth12Integration}>
@@ -391,7 +386,7 @@ const NonProfit = () => {
                     <img
                       className={styles.stepFourImg}
                       src='./four.svg'
-                      alt='A picture of a number four'
+                      alt=''
                     />
                     <h1>Step 4</h1>
                     <div className={styles.mobileFourth12Integration}>
