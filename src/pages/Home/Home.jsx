@@ -96,71 +96,69 @@ const Home = () => {
 
       <div className={styles.mobileFirstHomeContainer}>
         <div className={styles.topFirst}>
-          <div>
-            <div className={styles.mobileTopFirstBg}>
-              <div className={styles.mainFirstMobile}>
-                <div className={styles.leftMainMobile}>
-                  <div className={styles.leftImgInfoMobile}>
-                    <img
-                      className={styles.leftImgMobile}
-                      src='./heroImage.png'
-                      alt='An iPhone with an offerwall'
-                    />
+          <div className={styles.mobileTopFirstBg}>
+            <div className={styles.mainFirstMobile}>
+              <div className={styles.leftMainMobile}>
+                <div className={styles.leftImgInfoMobile}>
+                  <img
+                    className={styles.leftImgMobile}
+                    src='./heroImage.png'
+                    alt='An iPhone with an offerwall'
+                  />
+                </div>
+              </div>
+              <div className={styles.rightMainMobile}>
+                <h1 className={styles.textMobile}>
+                  Boost
+                  <br />
+                  Monetization.
+                </h1>
+                <h2 className={styles.text2Mobile}>Retain Users.</h2>
+                <div className={styles.paragMobile}>
+                  <div className={styles.innerParagMobile}>
+                    {' '}
+                    Metered paywalls have an average conversion rate of just
+                    0.36%. Smatched builds customized ‘earn to play’ offerwalls
+                    that <span>boost monetization</span> on your mobile app or
+                    website and helps you <span>retain users</span> by offering
+                    more choice.
                   </div>
                 </div>
-                <div className={styles.rightMainMobile}>
-                  <h1 className={styles.textMobile}>
-                    <b>Boost</b>
-                    <br />
-                    Monetization.
-                  </h1>
-                  <h2 className={styles.text2Mobile}>Retain Users.</h2>
-                  <div className={styles.paragMobile}>
-                    <div className={styles.innerParagMobile}>
-                      {' '}
-                      Metered paywalls have an average conversion rate of just
-                      0.36%. Smatched builds customized ‘earn to play’
-                      offerwalls that boost monetization on your mobile app or
-                      website and helps you retain users by offering more
-                      choice.
-                    </div>
+                <div className={styles.bottomHeroMobile}>
+                  <div className={styles.bottomHeroRightMobile}>
+                    <h1 className={styles.bottomHero1Mobile}>+50%</h1>
+                    <h2>
+                      Sales increase
+                      <br />
+                      through existing users
+                    </h2>
                   </div>
-                  <div className={styles.bottomHeroMobile}>
-                    <div className={styles.bottomHeroRightMobile}>
-                      <h1 className={styles.bottomHero1Mobile}>+50%</h1>
-                      <h2>
-                        Sales increase
-                        <br />
-                        through existing users
-                      </h2>
-                    </div>
-                    <div className={styles.bottomHeroLeftMobile}>
-                      <h1 className={styles.bottomHero2Mobile}>1000+</h1>
-                      <h2>New subscriptions</h2>
-                    </div>
+                  <div className={styles.bottomHeroLeftMobile}>
+                    <h1 className={styles.bottomHero2Mobile}>1000+</h1>
+                    <h2>New subscriptions</h2>
                   </div>
-                  <div className={styles.buttonTextMobile}>
-                    <div
-                      className={styles.buttonText1Mobile}
-                      onClick={toggleBookingForm}
-                    >
-                      BOOK A DEMO
-                    </div>
-                  </div>
-                  {showBookingForm && (
-                    <div className={styles.bookingFormPopup}>
-                      <div className={styles.bookingFormContent}>
-                        <span
-                          className={styles.closeButton}
-                          onClick={toggleBookingForm}
-                        >
-                          &times;
-                        </span>
-                        <Booking />
-                      </div>
-                    </div>
-                  )}
                 </div>
+                <div className={styles.buttonTextMobile}>
+                  <div
+                    className={styles.buttonText1Mobile}
+                    onClick={toggleBookingForm}
+                  >
+                    BOOK A DEMO
+                  </div>
+                </div>
+                {showBookingForm && (
+                  <div className={styles.bookingFormPopup}>
+                    <div className={styles.bookingFormContent}>
+                      <span
+                        className={styles.closeButton}
+                        onClick={toggleBookingForm}
+                      >
+                        &times;
+                      </span>
+                      <Booking />
+                    </div>
+                  </div>
+                )}
               </div>
             </div>
           </div>
@@ -245,35 +243,30 @@ const Home = () => {
       {/*Second Home mobile responsiveness*/}
 
       <div className={styles.mobileSecondHomeContainer}>
-        <div>
-          <div className={styles.mobileTopSecondBg}>
-            <div className={styles.mainSecondMobile}>
-              <div className={styles.leftMainMobile}>
-                <div className={styles.leftImgInfoSecondMobile}>
-                  <img
-                    className={styles.leftImgMobile}
-                    src='./secondHomeImg.png'
-                    alt='An iPhone with an offerwall'
-                  />
-                </div>
-              </div>
-              <div className={styles.rightMainMobile}>
-                <h2 className={styles.textSecondMobile}>
-                  Smatched provides an alternative Subscription Model
-                </h2>
-                <div className={styles.paragMobile}>
-                  <div className={styles.innerParagSecondMobile}>
-                    {' '}
-                    Paywalls are a great revenue option for many businesses but
-                    unfortunately, making users pay means your revenue potential
-                    is capped. Businesses that offer more than one monetization
-                    model retain <b>50% more users</b>.
-                    <br />
-                    <br />
-                    What if your users could earn their way past a paywall
-                    without having to open their wallet?
-                  </div>
-                </div>
+        <div className={styles.mainSecondMobile}>
+          <div className={styles.leftMainMobile}>
+            <div className={styles.leftImgInfoSecondMobile}>
+              <img
+                src='./images/secondHomeImg.png'
+                alt='An iPhone with an offerwall'
+              />
+            </div>
+          </div>
+          <div className={styles.rightMainMobile}>
+            <h2 className={styles.textSecondMobile}>
+              Smatched provides an alternative Subscription Model
+            </h2>
+            <div className={styles.paragMobile}>
+              <div className={styles.innerParagSecondMobile}>
+                {' '}
+                Paywalls are a great revenue option for many businesses but
+                unfortunately, making users pay means your revenue potential is
+                capped. Businesses that offer more than one monetization model
+                retain <b>50% more users</b>.
+                <br />
+                <br />
+                What if your users could earn their way past a paywall without
+                having to open their wallet?
               </div>
             </div>
           </div>
@@ -366,50 +359,46 @@ const Home = () => {
           </div>
 
           <div className={styles.mobileThirdSectionRight}>
-            <>
-              <div className={styles.innerMobileThirdSectionRight}>
-                <div className={styles.mobileThirdSectionRightH1}>
-                  Why partner with Monetize?
-                </div>
-              </div>
+            <div className={styles.mobileThirdSectionRightH1}>
+              Why partner with Monetize?
+            </div>
 
-              <div className={styles.mobileThirdSectionRightH2}>
-                <ul className={styles.mobileThirdSectionRightList}>
-                  <li>Open up another revenue stream</li>
-                  <li>
-                    Our business model incentivizes us to provide better
-                    experiences for your customers
-                  </li>
-                  <li>Easy set-up: no set-up costs or integration work</li>
-                  <li>
-                    The Smatched web app is independent, GDPR-compliant and
-                    completely secure
-                  </li>
-                </ul>
-              </div>
+            <div className={styles.mobileThirdSectionRightH2}>
+              <ul className={styles.mobileThirdSectionRightList}>
+                <li>Open up another revenue stream</li>
+                <li>
+                  Our business model incentivizes us to provide better
+                  experiences for your customers
+                </li>
+                <li>Easy set-up: no set-up costs or integration work</li>
+                <li>
+                  The Smatched web app is independent, GDPR-compliant and
+                  completely secure
+                </li>
+              </ul>
+            </div>
 
-              <div className={styles.mobileButtonTextGold}>
-                <div
-                  className={styles.mobileButtonText1Gold}
-                  onClick={toggleBookingForm}
-                >
-                  BOOK A DEMO
+            <div className={styles.mobileButtonTextGold}>
+              <div
+                className={styles.mobileButtonText1Gold}
+                onClick={toggleBookingForm}
+              >
+                BOOK A DEMO
+              </div>
+            </div>
+            {showBookingForm && (
+              <div className={styles.bookingFormPopup}>
+                <div className={styles.bookingFormContent}>
+                  <span
+                    className={styles.closeButton}
+                    onClick={toggleBookingForm}
+                  >
+                    &times;
+                  </span>
+                  <Booking />
                 </div>
               </div>
-              {showBookingForm && (
-                <div className={styles.bookingFormPopup}>
-                  <div className={styles.bookingFormContent}>
-                    <span
-                      className={styles.closeButton}
-                      onClick={toggleBookingForm}
-                    >
-                      &times;
-                    </span>
-                    <Booking />
-                  </div>
-                </div>
-              )}
-            </>
+            )}
           </div>
         </div>
       </div>
