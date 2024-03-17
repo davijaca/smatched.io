@@ -16,9 +16,9 @@ import styles from './Article.module.css';
 const Article = () => {
   // Hook to navigate to other path
   const navigate = useNavigate();
-  // Hook to read URL path
+  // Hook to read URL query
   const { search } = useLocation();
-  // Hook to read only the search Params of the URL -> after the '?'
+  // Function to read only the search Params of the URL -> after the '?'
   const urlSearchParams = new URLSearchParams(search);
   // Save the search param in a logical named variable
   const articleName = urlSearchParams.get('name');
