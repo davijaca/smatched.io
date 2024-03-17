@@ -51,7 +51,8 @@
 }
 
 /* Extra Div (navbar background color)*/
-.extraDiv_active {
+.extraDiv_active,
+.extraDiv {
   display: none;
 }
 /* Extra Div (navbar background color) Desktop */
