@@ -545,7 +545,7 @@ h2 {
 .fourthHomeContainer {
   width: 100%;
   max-width: 1920px;
-  height: 950px;
+  height: 1042px;
   display: flex;
   justify-content: center;
   background-color: #f0f0f0;
@@ -560,6 +560,7 @@ h2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  gap: 50px;
 }
 
 .fourthHomeBox1 {
@@ -628,7 +629,7 @@ h2 {
 
 .innerOne {
   width: 100%;
-  height: 100px;
+  height: 307px;
   padding-left: 45px;
   display: flex;
   flex-direction: column;
@@ -643,13 +644,12 @@ h2 {
   font-style: normal;
   font-weight: 500;
   line-height: 30px;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 
 .stepOneImg {
   margin-top: -10px;
   margin-bottom: 25px;
-  height: 45px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -657,7 +657,7 @@ h2 {
 
 .innerTwo {
   width: 100%;
-  height: 100px;
+  height: 307px;
   padding-left: 45px;
   display: flex;
   flex-direction: column;
@@ -672,13 +672,12 @@ h2 {
   font-style: normal;
   font-weight: 500;
   line-height: 30px;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 
 .stepTwoImg {
   margin-top: 10px;
   margin-bottom: 25px;
-  height: 45px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -686,9 +685,8 @@ h2 {
 
 .innerThree {
   width: 100%;
-  height: 100px;
+  height: 307px;
   padding-left: 45px;
-  margin-top: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -702,13 +700,12 @@ h2 {
   font-style: normal;
   font-weight: 500;
   line-height: 30px;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 
 .stepThreeImg {
   margin-top: -30px;
   margin-bottom: 25px;
-  height: 45px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -716,9 +713,8 @@ h2 {
 
 .innerFour {
   width: 100%;
-  height: 100px;
+  height: 307px;
   padding-left: 45px;
-  margin-top: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -732,13 +728,12 @@ h2 {
   font-style: normal;
   font-weight: 500;
   line-height: 30px;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 
 .stepFourImg {
   margin-top: -60px;
   margin-bottom: 25px;
-  height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -765,11 +760,6 @@ h2 {
 .fourth24 {
   width: 100%;
   height: 560px;
-}
-
-.innerTwo {
-  width: 100%;
-  height: 100px;
 }
 
 .fourth24Two {
@@ -1282,7 +1272,7 @@ h2 {
   .mobileFourthHomeContainer {
     width: 100%;
     max-width: 1920px;
-    height: 1580px;
+    height: 1583px;
     display: flex;
     justify-content: center;
     background-color: #f0f0f0;
@@ -1345,17 +1335,10 @@ h2 {
     height: 330px;
     display: flex;
     align-items: center;
+    background-color: #f8f8f8;
     border: #f8f8f8 1px solid;
     box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.07);
   }
-
-  /* .mobileFourth12One, .mobileFourth34One {
-        margin-bottom: 50px
-    } */
-
-  /* .mobileFourth12One, .mobileFourth12Two {}
-    
-    .mobileFourth34One, .mobileFourth34Two {} */
 
   .mobileFourthInner12 {
     width: 100%;
@@ -1382,28 +1365,27 @@ h2 {
 
   .mobileFourthInner12 h1 {
     color: var(--Primary-Black-1, #1e1e1e);
-    font-family: gotham-book;
-    font-size: 22px;
+    font-family: gotham-medium;
+    font-size: 20px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 30px;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
   }
 
   .mobileFourthInner34 h1 {
     color: var(--Primary-Black-1, #1e1e1e);
-    font-family: gotham-book;
-    font-size: 22px;
+    font-family: gotham-medium;
+    font-size: 20px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 30px;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
   }
 
   .mobileFourthStepOneImg {
     margin-top: -10px;
     margin-bottom: 25px;
-    height: 45px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1432,7 +1414,6 @@ h2 {
   .mobileFourthStepTwoImg {
     margin-top: 10px;
     margin-bottom: 25px;
-    height: 45px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1462,7 +1443,6 @@ h2 {
   .mobileFourthStepThreeImg {
     margin-top: -30px;
     margin-bottom: 25px;
-    height: 45px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1492,7 +1472,6 @@ h2 {
   .mobileFourthStepFourImg {
     margin-top: -60px;
     margin-bottom: 25px;
-    height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1510,6 +1489,11 @@ h2 {
     flex-direction: column;
     margin-top: -20px;
     text-align: center;
+  }
+
+  .mobileFourth12Integration > span {
+    font-family: gotham-medium;
+    font-weight: 500;
   }
 
   .likeSmatchedWork {
@@ -1581,7 +1565,8 @@ h2 {
   }
 
   .mobileFifthHomeContainer {
-    background-color: #000000;
+    background: url(/public/images/fifthHomeBg.png) no-repeat;
+    background-size: cover;
     display: flex;
     width: 100%;
     height: 853px;
@@ -1595,9 +1580,11 @@ h2 {
     position: relative;
     display: flex;
     height: 853px;
+    width: 396px;
     background-repeat: no-repeat;
     justify-content: center;
-    background: url(/public/fifthHomeBg.svg) no-repeat right top 0;
+    background: url(/public/images/fifthHomeBg2.svg) no-repeat;
+    background-position: 0px 110px;
     object-fit: fill;
   }
 
@@ -1606,19 +1593,32 @@ h2 {
     position: relative;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: space-around;
-    margin-left: 15px;
+    justify-content: center;
+    gap: 300px;
   }
 
-  .mobileInnerFifthTop {
-    width: 226px;
-    height: 114px;
-    position: relative;
+  .mobileInnerFifthTop > ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-top: -80px;
+    flex-direction: column;
+    align-content: center;
+    gap: 14px;
+  }
+
+  .mobileInnerFifthTop > ul > li {
+    color: #c9c9c9;
+    font-family: gotham-book;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+  }
+
+  .mobileInnerFifthTop > ul > li > img {
+    width: 19px;
+    margin: 0px 8px -1px 0;
   }
 
   .mobileIcons {
@@ -1650,15 +1650,19 @@ h2 {
 
   .mobileInnerFifthTitle {
     color: var(--White, #fff);
-    font: 500 24px 'gotham-medium', normal;
+    font-family: gotham-medium;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
     line-height: 36px;
-    display: flex;
   }
 
   .mobileInnerFifthText {
     color: var(--White, #fff);
-    font: 400 14px 'gotham-book', normal;
+    font-family: gotham-book;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
     line-height: 24px;
-    display: flex;
   }
 }

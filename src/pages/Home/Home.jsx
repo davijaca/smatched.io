@@ -500,7 +500,7 @@ const Home = () => {
                     <img
                       className={styles.mobileFourthStepOneImg}
                       src='./one.svg'
-                      alt='A picture of a number one'
+                      alt='A icon to step 1'
                     />
                     <h1>Step 1</h1>
                     <div className={styles.mobileFourth12Integration}>
@@ -516,13 +516,13 @@ const Home = () => {
                     <img
                       className={styles.mobileFourthStepTwoImg}
                       src='./two.svg'
-                      alt='A picture of a number two'
+                      alt='A icon to step 2'
                     />
                     <h1>Step 2</h1>
                     <div className={styles.mobileFourth12Integration}>
                       We work with you to optimize and maximize conversions to
                       improve the overall user experience – customization
-                      increases conversions by an average of 3x
+                      increases conversions by <span>an average of 3x</span>.
                     </div>
                   </div>
                 </div>
@@ -532,7 +532,7 @@ const Home = () => {
                     <img
                       className={styles.mobileFourthStepThreeImg}
                       src='./three.svg'
-                      alt='A picture of a number three'
+                      alt='A icon to step 3'
                     />
                     <h1>Step 3</h1>
                     <div className={styles.mobileFourth12Integration}>
@@ -547,9 +547,9 @@ const Home = () => {
                 <div className={styles.mobileFourthFour}>
                   <div className={styles.mobileFourthInner34}>
                     <img
-                      className={styles.stepFourImg}
+                      className={styles.mobileFourthStepFourImg}
                       src='./four.svg'
-                      alt='A picture of a number four'
+                      alt='A icon to step 4'
                     />
                     <h1>Step 4</h1>
                     <div className={styles.mobileFourth12Integration}>
@@ -621,18 +621,24 @@ const Home = () => {
         <div className={styles.mobileFifthHomeBackground}>
           <div className={styles.mobileInnerFifthHomeContainer}>
             <div className={styles.mobileInnerFifthTop}>
-              <div className={styles.mobileIcons}>
-                <img src='./fifthIcon3.svg' alt='grafic icon' />
-                <img src='./fifthIcon2.svg' alt='eye icon' />
-                <img src='./fifthIcon3.svg' alt='grafic icon' />
-                <img src='./fifthIcon1.svg' alt='grafic icon' />
-              </div>
-              <div className={styles.mobileBenefits}>
-                <p>Increase new visitors</p>
-                <p>1,355,900 Views</p>
-                <p>Growth organic customers</p>
-                <p>Increase your revenue</p>
-              </div>
+              <ul>
+                <li>
+                  <img src='./fifthIcon3.svg' alt='A icon' />
+                  Increase new visitors
+                </li>
+                <li>
+                  <img src='./fifthIcon2.svg' alt='A icon' />
+                  1,355,900 Views
+                </li>
+                <li>
+                  <img src='./fifthIcon3.svg' alt='A icon' />
+                  Growth or customers
+                </li>
+                <li>
+                  <img src='./fifthIcon1.svg' alt='A icon' />
+                  Increase your revenue
+                </li>
+              </ul>
             </div>
 
             <div className={styles.mobileInnerFifthBottom}>
