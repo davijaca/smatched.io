@@ -41,7 +41,7 @@ const Game = () => {
                 <img
                   className={styles.gameLeftImg}
                   src='./gameHeroImage.png'
-                  alt='An iPhone with an offerwall'
+                  alt='A man using a helmet holding a flashlight'
                 />
               </div>
             </div>
@@ -51,40 +51,31 @@ const Game = () => {
 
       {/* MOBILE FIRST SECTION */}
       <div className={styles.mobileFirstGameContainer}>
-        <div className={styles.topFirst}>
-          <div>
-            <div className={styles.mobileTopFirstBg}>
-              <div className={styles.mainFirstMobile}>
-                <div className={styles.leftMainMobile}>
-                  <div className={styles.leftImgInfoMobile}>
-                    <img
-                      className={styles.leftImgMobile}
-                      src='./gameHeroImage.png'
-                      alt='An iPhone with an offerwall'
-                    />
-                  </div>
-                </div>
-                <div className={styles.rightMainMobile}>
-                  <h1 className={styles.textMobile}>
-                    <b>Enhance</b>
-                  </h1>
-                  <h2 className={styles.text2Mobile}>
-                    your game <br /> monetization <br /> model.
-                  </h2>
-                  <div className={styles.paragMobile}>
-                    <div className={styles.innerParagMobile}>
-                      Give players more choice when it comes to monetization.
-                      While gaming payment gateways are a necessary evil for
-                      many gaming companies, many gamers are not willing to pay
-                      for games upfront.
-                    </div>
-                  </div>
-                  <div className={styles.buttonTextMobile}>
-                    <div className={styles.buttonText1Mobile}>BOOK A DEMO</div>
-                  </div>
-                </div>
-              </div>
+        <div className={styles.leftMainMobile}>
+          <div className={styles.leftImgInfoMobile}>
+            <img
+              className={styles.leftImgMobile}
+              src='./gameHeroImage.png'
+              alt='A man with a helmet holding a flashlight'
+            />
+          </div>
+        </div>
+        <div className={styles.rightMainMobile}>
+          <h1 className={styles.textMobile}>
+            Enhance <span className={styles.text2Mobile}>your</span>
+          </h1>
+          <h2 className={styles.text2Mobile}>
+            game <br /> monetization <br /> model.
+          </h2>
+          <div className={styles.paragMobile}>
+            <div className={styles.innerParagFirstMobile}>
+              Give players more choice when it comes to monetization. While
+              gaming payment gateways are a necessary evil for many gaming
+              companies, many gamers are not willing to pay for games upfront.
             </div>
+          </div>
+          <div className={styles.buttonTextMobile}>
+            <div className={styles.buttonText1Mobile}>BOOK A DEMO</div>
           </div>
         </div>
       </div>
@@ -127,7 +118,7 @@ const Game = () => {
           </div>
 
           <div className={styles.secondGameContainerBox2}>
-            <img src='./secondGameImage.png' alt='Game monetization' />
+            <img src='./secondGameImage.png' alt='A laptop and a smartphone' />
           </div>
         </div>
       </div>
@@ -142,7 +133,7 @@ const Game = () => {
                 <img
                   className={styles.secondImgMobile}
                   src='./secondGameImage.png'
-                  alt='An iPhone with an offerwall'
+                  alt='A laptop and a smartphone'
                 />
               </div>
             </div>
@@ -155,8 +146,8 @@ const Game = () => {
                   {' '}
                   The gaming industry is currently facing several challenges
                   when it comes to monetization. One of the main issues is the{' '}
-                  <b>low % of people</b> who are willing to pay to play games,
-                  especially given the abundance of free options that are
+                  <span>low % of people</span> who are willing to pay to play
+                  games, especially given the abundance of free options that are
                   available. In addition to this, there are many existing game
                   monetization models that often negatively impact the user
                   experience.
@@ -171,7 +162,7 @@ const Game = () => {
       <div className={styles.thirdGameContainer}>
         <div className={styles.thirdGameContainerBox}>
           <div className={styles.thirdSectionLeft}>
-            <img src='./smartPhone.png' alt='man-using smart phone' />
+            <img src='./smartPhone.png' alt='A man using smartphone' />
           </div>
 
           <div className={styles.thirdSectionRight}>
@@ -205,10 +196,7 @@ const Game = () => {
           <div className={styles.mobileThirdSectionLeft}>
             <div className={styles.imageMobileThirdGameContainer}>
               <div className={styles.mobileThirdGameImage}>
-                <img
-                  src='./smartPhone.png'
-                  alt='A laptop and a phone with offerwall rewards'
-                />
+                <img src='./smartPhone.png' alt='A man using smartphone' />
               </div>
             </div>
           </div>
@@ -216,7 +204,7 @@ const Game = () => {
           <div className={styles.mobileThirdSectionRight}>
             <div className={styles.innerMobileThirdSectionRight}>
               <div className={styles.mobileThirdSectionRightH1}>
-                Are adwalls the answer?
+                Are addwalls the answer?
               </div>
             </div>
             <div className={styles.bottomThirdMobile}>
@@ -262,13 +250,13 @@ const Game = () => {
                   <img
                     className={styles.like}
                     src='/likeVector.png'
-                    alt='Like button'
+                    alt='A icon with a checked sign'
                   />
                   <div className={styles.verticalLike}>
                     <img
                       className={styles.vertical}
                       src='/verticalLikeVector.png'
-                      alt='Like button'
+                      alt='A vertical line with bullet points'
                     />
                   </div>
                 </div>
@@ -296,13 +284,13 @@ const Game = () => {
                   <img
                     className={styles.disLike}
                     src='/dislikeVector.png'
-                    alt='dislike button'
+                    alt='A icon with a x sign'
                   />
                   <div className={styles.verticalLike}>
                     <img
                       className={styles.vertical}
                       src='/verticalDislikeVector.png'
-                      alt='Like button'
+                      alt='A vertical line with bullet points'
                     />
                   </div>
                 </div>
@@ -345,7 +333,7 @@ const Game = () => {
                 <img
                   className={styles.fourthImgMobile}
                   src='./fourthMobileImg.png'
-                  alt='An iPhone with an offerwall'
+                  alt=''
                 />
               </div>
             </div>
@@ -357,7 +345,7 @@ const Game = () => {
       <div className={styles.fifthGameContainer}>
         <div className={styles.fifthGameBackground}>
           <div className={styles.fifthGameLeft}>
-            <img src='/MacBookPro17.png' />
+            <img src='/MacBookPro17.png' alt='A laptop' />
           </div>
           <div className={styles.fifthGameRight}>
             <div className={styles.innerFifthGameRight}>
@@ -390,10 +378,7 @@ const Game = () => {
       <div className={styles.mobileFifthGameContainer}>
         <div className={styles.mobileFifthGameContainerBox}>
           <div className={styles.mobileFifthGameImage}>
-            <img
-              src='./FifthSectionImg.png'
-              alt='A laptop and a phone with offerwall rewards'
-            />
+            <img src='./FifthSectionImg.png' alt='A laptop' />
           </div>
 
           <div className={styles.mobileFifthSectionRight}>
@@ -401,11 +386,12 @@ const Game = () => {
               Enhance your web or mobile Game Business Model
             </div>
 
-            <div className={styles.innerParagSecondMobile}>
-              Smatched has been shown to <b>increase subscription rates</b>
-              in the online news industry <b>by 3x</b>, indicating the potential
-              for significant growth and revenue generation in the gaming
-              industry as well.
+            <div className={styles.increaseSubscription}>
+              Smatched has been shown to{' '}
+              <span>increase subscription rates </span>
+              in the online news industry <span>by 3x</span>, indicating the
+              potential for significant growth and revenue generation in the
+              gaming industry as well.
               <br />
               <br />
               The gaming industry is facing significant challenges when it comes

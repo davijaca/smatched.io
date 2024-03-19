@@ -639,49 +639,32 @@ h2 {
   }
 
   .mobileFirstGameContainer {
-    background-color: #000000;
+    background: url(/public/images/mobile_sec1_bg_mobile.png) no-repeat fixed
+      right;
+      background-color: #000000;
     display: flex;
     width: 100%;
-    height: 1050px;
+    height: 1026px;
     position: relative;
     flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-  }
-
-  .mobileTopFirstBg {
-    display: flex;
-    height: 1500px;
-    width: 100%;
-    background-repeat: no-repeat;
     justify-content: center;
-    margin-top: 50px;
-    /* background: url(/public/heroBackgroundMobile.svg) no-repeat right top 0; */
-  }
-
-  .mainFirstMobile {
-    display: flex;
-    width: 352px;
-    height: 1305px;
-    flex-direction: column;
     align-items: center;
-    /* padding-top: 100px; */
   }
 
   .rightMainMobile {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    margin-top: 20px;
+    margin: 20px 0 0 10px;
   }
 
   .textMobile {
     color: var(--White, #fff);
-    font-family: gotham-book;
+    font-family: gotham-medium;
     font-size: 40px;
     font-style: normal;
-    font-weight: 700;
-    line-height: 131.5%;
+    font-weight: 500;
+    line-height: 43px;
     /* 72.325px */
     z-index: 5;
   }
@@ -692,7 +675,7 @@ h2 {
     font-size: 40px;
     font-style: normal;
     font-weight: 400;
-    line-height: 131.5%;
+    line-height: 43px;
     /* 72.325px */
     z-index: 5;
   }
@@ -704,15 +687,14 @@ h2 {
     margin-bottom: 30px;
   }
 
-  .innerParagMobile {
-    width: 352px;
-    height: 95px;
+  .innerParagFirstMobile {
+    width: 368px;
     color: var(--White, #fff);
     font-family: gotham-book;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 22px;
+    line-height: 29px;
     /* 157.143% */
   }
 
@@ -749,6 +731,7 @@ h2 {
     align-items: center;
     justify-content: center;
     z-index: 5;
+    margin-top: 80px;
   }
 
   .leftImgInfoMobile {
@@ -758,8 +741,8 @@ h2 {
   }
 
   .leftImgMobile {
-    width: 350px;
-    height: 400px;
+    width: 362px;
+    height: 416px;
     transition: all 2s ease;
   }
 
@@ -773,7 +756,7 @@ h2 {
     background: #f0f0f0;
     display: flex;
     width: 100%;
-    height: 650px;
+    height: 760px;
     position: relative;
     flex-direction: column;
     justify-content: flex-start;
@@ -791,23 +774,28 @@ h2 {
 
   .textSecondMobile {
     color: var(--White, black);
-    font-family: gotham-book;
+    font-family: gotham-medium;
     font-size: 24px;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 500;
     line-height: 36px;
   }
 
   .innerParagSecondMobile {
-    width: 352px;
+    width: 361px;
     height: 95px;
     color: var(--White, black);
     font-family: gotham-book;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 22px;
+    line-height: 24px;
     /* 157.143% */
+  }
+
+  .innerParagSecondMobile > span {
+    font-family: gotham-medium;
+    font-weight: 500;
   }
 
   .leftMainMobile {
@@ -832,12 +820,11 @@ h2 {
 
   .mobileThirdGameContainer {
     width: 100%;
-    min-height: 1000px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    height: 950px;
+    height: 1006px;
     background: #1e1e1e;
   }
 
@@ -893,28 +880,26 @@ h2 {
   }
 
   .mobileThirdSectionRight {
-    margin-top: 200px;
+    margin: 200px 0 0 41px;
     width: 393px;
     display: flex;
     flex-direction: column;
-    align-items: center;
   }
 
   .mobileThirdSectionRightH1 {
     color: #fff;
     font-feature-settings: 'clig' off, 'liga' off;
-    font-family: gotham-book;
+    font-family: gotham-medium;
     font-size: 24px;
     font-style: normal;
-    font-weight: bold;
-    line-height: 120%;
+    font-weight: 500;
+    line-height: 28px;
   }
 
   .bottomThirdMobile {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    margin-top: 20px;
   }
 
   .paragThirdMobile {
@@ -1005,12 +990,11 @@ h2 {
 
   .mobileFifthGameContainer {
     width: 100%;
-    min-height: 950px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    height: 950px;
+    height: 879px;
   }
 
   .mobileFifthGameContainerBox {
@@ -1030,7 +1014,7 @@ h2 {
     display: flex;
     justify-content: center;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 20px;
   }
 
   .mobileFifthSectionRight {
@@ -1039,7 +1023,6 @@ h2 {
     flex-direction: column;
     align-items: center;
     margin: auto;
-    margin-top: 50px;
   }
 
   .mobileFifthSectionRightH1 {
@@ -1047,11 +1030,11 @@ h2 {
     margin-bottom: 30px;
     color: #1e1e1e;
     font-feature-settings: 'clig' off, 'liga' off;
-    font-family: gotham-book;
+    font-family: gotham-medium;
     font-size: 24px;
     font-style: normal;
-    font-weight: bold;
-    line-height: 120%;
+    font-weight: 500;
+    line-height: 36px;
   }
 
   .paragMobile {
@@ -1061,38 +1044,41 @@ h2 {
     margin-bottom: 30px;
   }
 
-  .innerParagMobile {
-    width: 352px;
+  .increaseSubscription {
+    width: 353px;
     height: 95px;
-    color: var(--White, #fff);
+    color: var(--White, black);
     font-family: gotham-book;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 22px;
-    /* 157.143% */
+    line-height: 24px;
+  }
+
+  .increaseSubscription > span {
+    font-family: gotham-medium;
+    font-weight: 500;
   }
 
   .mobileButtonTextGold {
-    margin-top: 230px;
+    margin-top: 225px;
+    display: flex;
+    width: 210px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #a18129;
+    background: #a18129;
   }
 
   .mobileButtonText1Gold {
-    border: 1px solid #a18129;
-    background: #a18129;
-    width: 220px;
-    height: 46px;
-    flex-shrink: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--Modal-grey-1, #fff);
+    color: #fff;
     text-align: center;
-    font-family: gotham-book, sans-serif;
-    font-size: 18px;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: gotham-medium;
+    font-size: 14px;
     font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    z-index: 5;
+    font-weight: 500;
+    line-height: 38px;
   }
 }
