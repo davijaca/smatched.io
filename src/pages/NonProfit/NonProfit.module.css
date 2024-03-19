@@ -444,825 +444,481 @@ h2 {
 /*MOBILE RESPONSIVENESS*/
 
 @media only screen and (max-width: 1130px) and (min-width: 320px) {
-  .homeContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100vw;
-    position: relative;
-    margin-top: -150px;
+
+
+  .nonprofitContainer {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 100vw;
+      position: relative;
+      margin-top: -150px;
   }
 
-  .waves {
-    display: none;
-  }
 
   /*FIRST MOBILE SECTION*/
 
-  .firstHomeContainer {
-    display: none;
+
+  .firstNonprofitContainer {
+      display: none;
   }
 
-  .mobileFirstHomeContainer {
-    background-color: #000000;
-    display: flex;
-    width: 100%;
-    height: 1100px;
-    position: relative;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  .mobileFirstNonprofitContainer {
+      background-color: #000000;
+      display: flex;
+      width: 100%;
+      height: 1153px;
+      position: relative;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
   }
 
-  .topFirst {
-    background: none;
+
+  .mobileTopFirst {
+      display: flex;
+      width: 100vw;
+      background-repeat: no-repeat;
+      justify-content: center;
+      background: url(/public/heroBackgroundMobile.svg) no-repeat right top 0;
+      height: 1026px;
+      padding-top: 100px;
   }
 
-  .topFirstBg {
-    display: none;
+
+  .mobileMainFirst {
+      width: 352px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 42px;
   }
 
-  .mobileTopFirstBg {
-    display: flex;
-    height: 1500px;
-    width: 100vw;
-    background-repeat: no-repeat;
-    justify-content: center;
-    background: url(/public/heroBackgroundMobile.svg) no-repeat right top 0;
+  .mobileTopMain {
+      width: 341px;
+      height: 411px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
   }
 
-  .mainFirstMobile {
-    display: flex;
-    width: 352px;
-    height: 1305px;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 100px;
+
+  .mobileImgInfo {
+      display: flex;
+      align-items: flex-start;
   }
 
-  .rightMainMobile {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    margin-top: 20px;
+  .mobileImg {
+      width: 343px;
+      height: 411px;
   }
 
-  .textMobile {
-    color: var(--White, #fff);
-    font-family: gotham-light;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 131.5%;
-    z-index: 5;
+
+  .mobileBottomMain {
+      width: 100%;
+      display: flex;
+      align-items: flex-start;
+      justify-content: left;
+      height: 443px;
+      z-index: 5;
+      flex-direction: column;
+      margin-top: 20px;
   }
 
-  .text2Mobile {
-    color: var(--White, #fff);
-    font-family: gotham-light;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 131.5%;
-    z-index: 5;
+  .text {
+      color: var(--White, #FFF);
+      font-family: gotham-book;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 108.5%;
+      z-index: 5;
   }
 
-  .bottomHeroMobile {
-    margin-top: 30px;
-    margin-bottom: 30px;
+  .text2 {
+      color: var(--White, #FFF);
+      font-family: gotham-light;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 108.5%;
+      z-index: 5;
   }
 
-  .bottomHeroMobile h2 {
-    color: #fff;
-    width: 200px;
-    font-feature-settings: 'clig' off, 'liga' off;
-    font-family: gotham-light;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 26px;
+
+  .parag {
+      width: 100%;
+      padding-top: 30px;
+      padding-bottom: 60px;
   }
 
-  .bottomHeroRightMobile {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 15px;
+  .innerParag {
+      color: #FFF;
+      font-feature-settings: 'clig'off, 'liga'off;
+      font-family: gotham-book;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px;
+      width: 100%;
   }
 
-  .bottomHero1Mobile {
-    color: #fff;
-    font-family: gotham-light;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 30px;
-    letter-spacing: -2.25px;
-    margin-right: 35px;
+
+  .buttonText {
+      width: 210px;
+      height: 50px;
+      border: 1px solid #FFF;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 5;
+      margin-bottom: 30px;
   }
 
-  .bottomHeroLeftMobile {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  .buttonText1 {
+      border: 1px solid #FFF;
+      width: 220px;
+      height: 50px;
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #FFFFFF;
+      color: #1E1E1E;
+      text-align: center;
+      text-transform: uppercase;
+      font-family: gotham-medium, sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 38px;
+      z-index: 5;
+      cursor: pointer;
   }
 
-  .bottomHero2Mobile {
-    color: #fff;
-    font-family: gotham-light;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 30px;
-    letter-spacing: -2.25px;
-    margin-right: 30px;
-  }
-
-  .forMonetize {
-    display: flex;
-  }
-
-  .paragMobile {
-    width: 100%;
-    height: 90px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-  }
-
-  .innerParagMobile {
-    width: 352px;
-    height: 95px;
-    color: var(--White, #fff);
-    font-family: gotham-light;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 22px;
-  }
-
-  .buttonTextMobile {
-    display: inline-flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .buttonText1Mobile,
-  .buttonText2Mobile {
-    border: 1px solid #fff;
-    width: 220px;
-    height: 46px;
-    flex-shrink: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #ffffff;
-    color: var(--Modal-grey-1, #000000);
-    text-align: center;
-    font-family: gotham-light, sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    z-index: 5;
-  }
-
-  .buttonText2Mobile {
-    width: 320px;
-  }
-
-  .downClickImgMobile {
-    width: 99.5%;
-    height: 250px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 60px;
-  }
-
-  .downClickImgMobile > img {
-    width: 144px;
-    height: 144px;
-  }
-
-  .leftMainMobile {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 5;
-  }
-
-  .leftImgInfoMobile {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .leftImgMobile {
-    width: 350px;
-    height: 350px;
-    transition: all 2s ease;
-  }
 
   /*SECOND MOBILE SECTION*/
 
-  .secondHomeContainer {
-    display: none;
+  .secondNonprofitContainer {
+      display: none;
   }
 
-  .mobileSecondHomeContainer {
-    background: #f0f0f0;
-    display: flex;
-    width: 100%;
-    height: 950px;
-    position: relative;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
+  .mobileSecondNonprofitContainer {
+      background-color: #F0F0F0;
+      display: flex;
+      width: 100%;
+      height: 834px;
+      position: relative;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
   }
 
-  .mainFirstMobile {
-    display: flex;
-    width: 352px;
-    height: 1305px;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 100px;
+
+  .mobileSecondNonprofitTopContainer {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start
   }
 
-  .rightMainMobile {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    margin-top: 20px;
+  .mobileSecondNonprofitContainerBox1 {
+      width: 350px;
+      height: 204px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      position: relative;
+      z-index: 2;
+      align-items: flex-start;
   }
 
-  .textSecondMobile {
-    color: var(--White, black);
-    font-family: gotham-light;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: bold;
-    line-height: 36px;
+  .whatOffer {
+      width: 100%;
+      height: 108px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
   }
 
-  .bottomHeroMobile {
-    margin-top: 30px;
-    margin-bottom: 30px;
+  .secondLeft {
+      color: #1E1E1E;
+      font-feature-settings: 'clig'off, 'liga'off;
+      font-family: gotham-medium;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 36px;
   }
 
-  .bottomHeroMobile h2 {
-    color: #fff;
-    width: 200px;
-    font-feature-settings: 'clig' off, 'liga' off;
-    font-family: gotham-light;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 26px;
+  .secondRight {
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+      color: var(--Primary-Black-1, #1E1E1E);
+      font-family: gotham-book;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: left;
   }
 
-  .bottomHeroRightMobile {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 15px;
+
+  .mobileSecondNonprofitBottomContainer {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-evenly;
   }
 
-  .bottomHero1Mobile {
-    color: #fff;
-    font-family: gotham-light;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 30px;
-    letter-spacing: -2.25px;
-    margin-right: 35px;
+  .mobileSecondNonprofitContainerBox2 {
+      width: 354px;
+      height: 483px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      position: relative;
+      z-index: 2;
+      align-items: center;
   }
 
-  .bottomHeroLeftMobile {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  .mobileSecondBottomLeft {
+      width: 294px;
+      height: 121px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+
   }
 
-  .bottomHero2Mobile {
-    color: #fff;
-    font-family: gotham-light;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 30px;
-    letter-spacing: -2.25px;
-    margin-right: 30px;
+  .mobileSecondBottomMiddle {
+      width: 15px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: space-between;
   }
 
-  .forMonetize {
-    display: flex;
+  .mobileSecondBottomRight {
+      width: 294px;
+      height: 121px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
   }
 
-  .paragMobile {
-    width: 100%;
-    height: 90px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+  .bottomEmote {
+      width: 40px;
   }
 
-  .innerParagSecondMobile {
-    width: 352px;
-    height: 95px;
-    color: var(--White, black);
-    font-family: gotham-light;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 22px;
+  .mobileSecondBottomTextContainer {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
   }
 
-  .buttonTextMobile {
-    display: inline-flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  .spanBottom {
+      color: var(--Primary-Black-1, #1E1E1E);
+      font-feature-settings: 'clig'off, 'liga'off;
+      font-family: gotham-book;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 20px;
+      text-align: left;
   }
 
-  .buttonText1Mobile,
-  .buttonText2Mobile {
-    border: 1px solid #fff;
-    width: 220px;
-    height: 46px;
-    flex-shrink: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #ffffff;
-    color: var(--Modal-grey-1, #000000);
-    text-align: center;
-    font-family: gotham-light, sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    z-index: 5;
-  }
-
-  .buttonText2Mobile {
-    width: 320px;
-  }
-
-  .downClickImgMobile {
-    width: 99.5%;
-    height: 250px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 60px;
-  }
-
-  .downClickImgMobile > img {
-    width: 144px;
-    height: 144px;
-  }
-
-  .leftMainMobile {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 5;
-  }
-
-  .leftImgInfoSecondMobile {
-    margin-top: -50px;
-    margin-bottom: 100px;
-  }
-
-  .leftImgMobile {
-    width: 350px;
-    height: 350px;
-    transition: all 2s ease;
-  }
 
   /* THIRD MOBILE SECTION */
 
-  .thirdHomeContainer {
-    display: none;
+  .thirdNonprofitContainer {
+      display: none;
   }
 
-  .mobileThirdHomeContainer {
-    width: 100%;
-    min-height: 950px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    height: 950px;
+  .mobileThirdNonprofitContainer {
+      background-color: #ffffff;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      height: 797px;
   }
 
-  .mobileThirdHomeContainerBox {
-    height: 400px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    background-repeat: no-repeat;
-    background-size: cover;
-    align-items: center;
-    justify-content: flex-start;
+
+  .thirdNonprofitContainerBox {
+      height: 797px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
   }
 
-  .imageMobileThirdHomeContainer {
-    width: 100%;
-    height: 400px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    margin-right: 650px;
+  .thirdSectionLeft {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      height: 311px;
   }
 
-  .mobileThirdSectionLeft {
-    width: 100%;
-    display: flex;
-    justify-content: center;
+  .imageThirdNonprofitContainer {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-end;
   }
 
-  .mobileThirdSectionLeftBG {
-    display: block;
-    width: 1060px;
-    height: 350px;
-    margin-right: 100px;
-    border-radius: 0px 0px 120px 0px;
-    background: #1e1e1e;
-    box-shadow: -147px -139px 120px 20px rgba(0, 0, 0, 0.48) inset;
+  .imageThirdNonprofitContainer img {
+      width: 293px;
+      height: 310.26px;
   }
 
-  .mobileThirdHomeImage {
-    width: 100%;
-    height: 400px;
-    display: flex;
-    justify-content: flex-end;
-    margin: auto;
-    margin-left: 50px;
-    margin-top: 50px;
+
+  .thirdSectionRight {
+      width: 100%;
+      height: 228px;
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
   }
 
-  .mobileThirdSectionRight {
-    margin-top: 50px;
-    width: 393px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  .innerThirdSectionRight {
+      width: 350px;
+      height: 228px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
   }
 
-  .mobileThirdSectionRightH1 {
-    color: #1e1e1e;
-    font-feature-settings: 'clig' off, 'liga' off;
-    font-family: gotham-light;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: bold;
-    line-height: 120%;
+
+  .thirdSectionRightH1 {
+      color: #1E1E1E;
+      font-feature-settings: 'clig'off, 'liga'off;
+      font-family: gotham-medium;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 36px;
+
   }
 
-  .mobileThirdSectionRightH2 {
-    width: 350px;
-    display: flex;
-    margin-top: -20px;
-  }
 
-  .mobileThirdSectionRightList {
-    color: var(--White, black);
-    font-family: gotham-light, sans-serif;
-    width: 474px;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    height: 110px;
-  }
+  .thirdSectionRightP {
+      width: 350px;
+      height: 168px;
+      display: flex;
+      color: #1E1E1E;
+      font-feature-settings: 'clig'off, 'liga'off;
+      font-family: gotham-book;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 24px;
 
-  .mobileThirdSectionRightList > li {
-    display: flex;
-    height: 50px;
-    background: url(/public/bulletListIcon.svg) left;
-    background-size: 2rem;
-    background-repeat: no-repeat;
-    padding-left: 50px;
-    align-items: center;
-    margin-top: 30px;
-    margin-left: -40px;
-  }
-
-  .mobileButtonTextGold {
-    margin-top: 230px;
-  }
-
-  .mobileButtonText1Gold {
-    border: 1px solid #a18129;
-    background: #a18129;
-    width: 220px;
-    height: 46px;
-    flex-shrink: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--Modal-grey-1, #fff);
-    text-align: center;
-    font-family: gotham-light, sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    z-index: 5;
   }
 
   /* FOURTH MOBILE SECTION */
 
-  .mobileFourthHomeContainer {
-    width: 100%;
-    max-width: 1920px;
-    height: 1580px;
-    display: flex;
-    justify-content: center;
-    background-color: #f0f0f0;
+  .fourthNonprofitContainer {
+      display: none;
   }
 
-  .fourthHomeContainer {
-    display: none;
+  .mobileFourthNonprofitContainer {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      height: 1048px;
+      background: #1E1E1E;
   }
 
-  .subMobileFourthHomeContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    margin-top: 50px;
+  .mobileFourthNonprofitContainerBox {
+      height: 1048px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      background-repeat: no-repeat;
+      background-size: cover;
+      align-items: center;
+      justify-content: flex-start
   }
 
-  .mobileFourthHomeBox1 {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--Primary-Black-1, #1e1e1e);
-    text-align: center;
-    font-family: gotham-light, sans-serif;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: bold;
-    line-height: 36px;
+
+
+  .mobileFourthSectionLeft {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+
   }
 
-  .mobileFourthHomeBox2 {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  .imageMobileFourthNonprofitContainer {
+      width: 100%;
+      height: 471px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
   }
 
-  .mobileFourthBox2Container {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+  .mobileFourthNonprofitImage {
+      width: 100%;
+      height: 471px;
+      display: flex;
+      justify-content: center;
+      margin: auto;
   }
 
-  .mobileFourth1234 {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-    gap: 20px;
+  .mobileFourthNonprofitImage img {
+      width: 393px;
+      height: 471px;
+      display: flex;
+      justify-content: center;
+      margin: auto;
   }
 
-  .mobileFourthOne,
-  .mobileFourthTwo,
-  .mobileFourthThree,
-  .mobileFourthFour {
-    width: 350px;
-    height: 330px;
-    display: flex;
-    align-items: center;
-    border: #f8f8f8 1px solid;
-    box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.07);
+
+  .mobileFourthSectionRight {
+      width: 393px;
+      height: 577px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
   }
 
-  .mobileFourthInner12 {
-    width: 100%;
-    height: 100px;
-    padding-left: 25px;
-    padding-right: 25px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  .mobileFourthSectionRightH1 {
+      color: #FFF;
+      width: 350px;
+      font-feature-settings: 'clig'off, 'liga'off;
+      font-family: gotham-medium;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 36px;
   }
 
-  .mobileFourthInner34 {
-    padding-top: 50px;
-    width: 100%;
-    height: 100px;
-    padding-left: 25px;
-    padding-right: 25px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  .bottomFourthMobile {
+      font-feature-settings: 'clig'off, 'liga'off;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      width: 350px;
+      color: var(--White, #FFF);
+      font-family: gotham-light;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: left;
   }
 
-  .mobileFourthInner12 h1 {
-    color: var(--Primary-Black-1, #1e1e1e);
-    font-family: gotham-light;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 30px;
-    margin-bottom: 15px;
-  }
-
-  .mobileFourthInner34 h1 {
-    color: var(--Primary-Black-1, #1e1e1e);
-    font-family: gotham-light;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 30px;
-    margin-bottom: 15px;
-  }
-
-  .mobileFourthStepOneImg {
-    margin-top: -10px;
-    margin-bottom: 25px;
-    height: 45px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .mobileFourthInnerTwo {
-    width: 100%;
-    height: 100px;
-    padding-left: 45px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-  }
-
-  .mobileFourthInnerTwo h1 {
-    color: var(--Primary-Black-1, #1e1e1e);
-    font-family: gotham-light;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 30px;
-    margin-bottom: 15px;
-  }
-
-  .mobileFourthStepTwoImg {
-    margin-top: 10px;
-    margin-bottom: 25px;
-    height: 45px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .mobileFourthInnerThree {
-    width: 100%;
-    height: 100px;
-    padding-left: 45px;
-    margin-top: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-  }
-
-  .mobileFourthInnerThree h1 {
-    color: var(--Primary-Black-1, #1e1e1e);
-    font-family: gotham-light;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 30px;
-    margin-bottom: 15px;
-  }
-
-  .mobileFourthStepThreeImg {
-    margin-top: -30px;
-    margin-bottom: 25px;
-    height: 45px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .mobileFourthInnerFour {
-    width: 100%;
-    height: 100px;
-    padding-left: 45px;
-    margin-top: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-  }
-
-  .mobileFourthInnerFour h1 {
-    color: var(--Primary-Black-1, #1e1e1e);
-    font-family: gotham-light;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 30px;
-    margin-bottom: 15px;
-  }
-
-  .mobileFourthStepFourImg {
-    margin-top: -60px;
-    margin-bottom: 25px;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .mobileFourth12Integration {
-    padding-top: 10px;
-    color: var(--Primary-Black-1, #1e1e1e);
-    font-family: gotham-light;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-    display: flex;
-    flex-direction: column;
-    margin-top: -20px;
-    text-align: center;
-  }
-
-  .likeSmatchedWork {
-    display: flex;
-  }
-
-  .mobileFourth12Smatched {
-    color: var(--Primary-Blue-1, #2a2aff);
-    font-family: gotham-light;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 32px;
-  }
-
-  .mobileFourth12Two {
-    align-items: flex-start;
-  }
-
-  .mobileFourthImg1 {
-    width: 490px;
-    height: 580px;
-    flex-shrink: 0;
-    position: relative;
-    z-index: 1;
-    top: 13px;
-  }
-
-  .mobileFourthImg2 {
-    width: 490px;
-    height: 610px;
-    flex-shrink: 0;
-    transition: 1.5s ease;
-    position: absolute;
-    z-index: 2;
-  }
-
-  .mobileFourthImg2:hover {
-    transform: scale(1.2);
-  }
-
-  .mobileFourthHomeBox3 {
-    height: 230px;
-    width: 100%;
-    color: var(--Primary-Black-1, #1e1e1e);
-    text-align: center;
-    font-family: gotham-light, sans-serif;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-  }
-
-  .mobileFourthInnerFourthHomeBox3 {
-    height: 120px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  .buttonFourthDiv {
+      display: flex;
   }
 }
