@@ -56,8 +56,8 @@ const NonProfit = () => {
               <div className={styles.mobileImgInfo}>
                 <img
                   className={styles.mobileImg}
-                  src='./nonprofitHero.svg'
-                  alt='revenue'
+                  src='./images/nonprofitHero_mobile.png'
+                  alt='Three people donating'
                 />
               </div>
             </div>
@@ -171,11 +171,11 @@ const NonProfit = () => {
             <div className={styles.mobileSecondBottomLeft}>
               <img className={styles.bottomEmote} src='./emoteSad.svg' alt='' />
               <div className={styles.mobileSecondBottomTextContainer}>
-                <span className={styles.spanBottom}>
-                  One of the reasons why potential <br />
-                  donors may not give monetarily is that they{' '}
-                  <b>may not have the financial means</b> to give.
-                </span>
+                <p className={styles.spanBottom}>
+                  One of the reasons why potential donors may not give
+                  monetarily is that they{' '}
+                  <span>may not have the financial means</span> to give.
+                </p>
               </div>
             </div>
             <div className={styles.mobileSecondBottomMiddle}>
@@ -188,14 +188,11 @@ const NonProfit = () => {
                 alt=''
               />
               <div className={styles.mobileSecondBottomTextContainer}>
-                <span className={styles.spanBottom}>
+                <p className={styles.spanBottom}>
                   Supporters may be willing to{' '}
-                  <b>
-                    donate <br />
-                    their time, skills or knowledge{' '}
-                  </b>
-                  instead of or in addition to a monetary donation.
-                </span>
+                  <span>donate their time, skills or knowledge </span>instead of
+                  or in addition to a monetary donation.
+                </p>
               </div>
             </div>
           </div>
