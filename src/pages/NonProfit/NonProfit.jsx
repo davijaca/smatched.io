@@ -169,7 +169,11 @@ const NonProfit = () => {
         <div className={styles.mobileSecondNonprofitBottomContainer}>
           <div className={styles.mobileSecondNonprofitContainerBox2}>
             <div className={styles.mobileSecondBottomLeft}>
-              <img className={styles.bottomEmote} src='./emoteSad.svg' alt='' />
+              <img
+                className={styles.bottomEmote}
+                src='./emoteSad.svg'
+                alt='Emoji negative smile'
+              />
               <div className={styles.mobileSecondBottomTextContainer}>
                 <p className={styles.spanBottom}>
                   One of the reasons why potential donors may not give
@@ -185,7 +189,7 @@ const NonProfit = () => {
               <img
                 className={styles.bottomEmote}
                 src='./emoteHappy.svg'
-                alt=''
+                alt='Emoji positive smile'
               />
               <div className={styles.mobileSecondBottomTextContainer}>
                 <p className={styles.spanBottom}>
@@ -239,7 +243,7 @@ const NonProfit = () => {
             <div className={styles.imageThirdNonprofitContainer}>
               <img
                 src='./mobileThirdNonprofitImg.svg'
-                alt='A laptop and a phone with offerwall rewards'
+                alt='A post with arrows to different directions'
               />
             </div>
           </div>
@@ -275,7 +279,7 @@ const NonProfit = () => {
                 Unlocking free resources for Nonprofits
               </div>
               <div className={styles.innerFourthText}>
-                <span className={styles.spanText}>
+                <p>
                   Smatched provides free resources for nonprofits looking to
                   increase monetization for their organization and a
                   comprehensive offer wall web-app solution customized for each
@@ -284,10 +288,11 @@ const NonProfit = () => {
                   <br />
                   <br />
                   Unlock with Smatched a completely new donor audience – the{' '}
-                  <b>77% of supporters</b> who don’t donate monetarily. Just by
-                  offering alternative ways to contribute, nonprofits can engage
-                  more supporters and increase the impact of their mission.
-                </span>
+                  <span>77% of supporters</span> who don’t donate monetarily.
+                  Just by offering alternative ways to contribute, nonprofits
+                  can engage more supporters and increase the impact of their
+                  mission.
+                </p>
               </div>
               <button className={styles.buttonText2}>
                 <div className={styles.buttonText1}>BOOK A DEMO</div>
@@ -312,8 +317,8 @@ const NonProfit = () => {
             <div className={styles.imageMobileFourthNonprofitContainer}>
               <div className={styles.mobileFourthNonprofitImage}>
                 <img
-                  src='./fourthNonprofitImg.svg'
-                  alt='women using a smart phone'
+                  src='./images/fourthNonprofitImgMobile.png'
+                  alt='Women using a smartphone'
                 />
               </div>
             </div>
@@ -325,18 +330,18 @@ const NonProfit = () => {
             </div>
 
             <div className={styles.bottomFourthMobile}>
-              <span>
+              <p>
                 Smatched provides free resources for nonprofits looking to
                 increase monetization for their organization and a comprehensive
                 offer wall web-app solution customized for each nonprofit with a
                 simple technical integration that is absolutely free.
                 <br />
                 <br />
-                Unlock with Smatched a completely new donor audience – the{' '}
-                <b>77% of supporters</b> who don’t donate monetarily. Just by
-                offering alternative ways to contribute, nonprofits can engage
-                more supporters and increase the impact of their mission.
-              </span>
+                Unlock with Smatched a completely new donor audience – the
+                <span>77% of supporters</span> who don’t donate monetarily. Just
+                by offering alternative ways to contribute, nonprofits can
+                engage more supporters and increase the impact of their mission.
+              </p>
             </div>
             <div className={styles.buttonFourthDiv}>
               <button className={styles.buttonText}>
