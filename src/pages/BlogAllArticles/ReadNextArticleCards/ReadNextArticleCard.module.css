@@ -60,6 +60,18 @@
   display: flex;
   gap: 25px;
   line-height: 24px;
+  align-items: center;
+}
+
+.span_dot {
+  display: flex;
+  gap: 10px;
+}
+
+.articlesInfo {
+  display: flex;
+  gap: 10px;
+  line-height: 24px;
 }
 
 .readNextCardBtnReadMore {
