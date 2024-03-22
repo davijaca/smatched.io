@@ -19,10 +19,16 @@
     object-fit: cover;
   }
 }
+.heroIcon_wrapper {
+  padding-left: 15px;
+  align-self: center;
+}
 
 .icons {
   display: none;
   cursor: pointer;
+  width: 70px;
+  height: 70px;
 }
 
 .heroWhiteBackground_right {
