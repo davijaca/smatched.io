@@ -1,0 +1,36 @@
+@font-face {
+  font-family: gotham-medium;
+  src: url('/public/fonts/Gotham/Gotham-Medium.otf');
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 210px;
+  height: 60px;
+
+  font-family: gotham-medium;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 38px;
+  font-style: normal;
+  text-align: center;
+
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.btn_white {
+  border: 1px solid #fff;
+  background: #fff;
+  color: #0a0a0a;
+}
+
+.btn_gold {
+  border: 1px solid #a18129;
+  background: #a18129;
+  color: #fff;
+}
