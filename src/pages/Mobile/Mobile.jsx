@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './Mobile.module.css';
 import { Link } from 'react-router-dom';
+import Button from '../../components/Button/Button';
 
 const Mobile = () => {
   return (
@@ -30,9 +31,7 @@ const Mobile = () => {
             opportunities in exchange for access to premium content, vouchers or
             rewards.
           </p>
-          <Link className={styles.button} to=''>
-            <div className={styles.buttonText}>BOOK A DEMO</div>
-          </Link>
+          <Button />
         </div>
       </div>
 
@@ -125,9 +124,7 @@ const Mobile = () => {
               Providing valuable content or services
             </li>
           </ul>
-          <Link className={styles.button} to=''>
-            <div className={styles.buttonText}>BOOK A DEMO</div>
-          </Link>
+          <Button />
         </div>
         <div className={styles.fourthSectionImage}>
           <img

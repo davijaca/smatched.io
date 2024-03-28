@@ -1,13 +1,19 @@
 import React from 'react';
 import styles from './Button.module.css';
 
-const Button = ({ text, color, type }) => {
+const Button = ({
+  text = 'BOOK A DEMO',
+  color = 'white',
+  type = 'button',
+  onClick,
+}) => {
   return (
     <button
-      className={`${styles.btn} ${(color = 'white'
-        ? styles.btn_white
-        : styles.btn_gold)}`}
+      className={`${styles.btn} ${
+        color === 'white' ? styles.btnWhite : styles.btnGold
+      }`}
       type={type}
+      onClick={onClick}
     >
       {text}
     </button>
@@ -15,6 +21,10 @@ const Button = ({ text, color, type }) => {
 };
 
 export default Button;
+
+// Use PropTypes???
+
+// className pattern? camelCase, btn_
 
 // texts:
 // BOOK A DEMO - default
@@ -30,8 +40,8 @@ export default Button;
 // gold: font white
 
 // types:
-// submit
-// button - Link for another page - default
+// submit - just to forms submition
+// button -  - default - Link for another page (aricles) or to show form
 
 // function:
 // onChange
