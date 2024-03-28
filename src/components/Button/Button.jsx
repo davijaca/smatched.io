@@ -22,7 +22,7 @@ const Button = ({
 
 export default Button;
 
-// Use PropTypes???
+// Use PropTypes??? Maybe in the future to restrict color values
 
 // className pattern? camelCase, btn_
 
@@ -35,7 +35,7 @@ export default Button;
 // TRY FOR FREE
 // SEND
 
-// themes:
+// colors:
 // white: font black - default
 // gold: font white
 
