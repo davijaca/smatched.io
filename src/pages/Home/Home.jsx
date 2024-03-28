@@ -6,6 +6,7 @@ import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import ReactGA from 'react-ga';
 import Booking from '../../pages/Booking/Booking.jsx';
+import Button from '../../components/Button/Button.jsx';
 
 const Home = () => {
   const [showBookingForm, setShowBookingForm] = useState(false);
@@ -50,11 +51,7 @@ const Home = () => {
                   more choice.
                 </div>
               </div>
-              <div className={styles.buttonText}>
-                <div className={styles.buttonText1} onClick={toggleBookingForm}>
-                  BOOK A DEMO
-                </div>
-              </div>
+              <Button onClick={toggleBookingForm} />
               {showBookingForm && (
                 <div className={styles.bookingFormPopup}>
                   <div className={styles.bookingFormContent}>
@@ -138,14 +135,7 @@ const Home = () => {
                     <h2>New subscriptions</h2>
                   </div>
                 </div>
-                <div className={styles.buttonTextMobile}>
-                  <div
-                    className={styles.buttonText1Mobile}
-                    onClick={toggleBookingForm}
-                  >
-                    BOOK A DEMO
-                  </div>
-                </div>
+                <Button onClick={toggleBookingForm} />
                 {showBookingForm && (
                   <div className={styles.bookingFormPopup}>
                     <div className={styles.bookingFormContent}>
@@ -314,15 +304,7 @@ const Home = () => {
                   </li>
                 </ul>
               </div>
-
-              <div className={styles.buttonTextGold}>
-                <div
-                  className={styles.buttonText1Gold}
-                  onClick={toggleBookingForm}
-                >
-                  BOOK A DEMO
-                </div>
-              </div>
+              <Button color='gold' onClick={toggleBookingForm} />
               {showBookingForm && (
                 <div className={styles.bookingFormPopup}>
                   <div className={styles.bookingFormContent}>
@@ -377,15 +359,7 @@ const Home = () => {
                 </li>
               </ul>
             </div>
-
-            <div className={styles.mobileButtonTextGold}>
-              <div
-                className={styles.mobileButtonText1Gold}
-                onClick={toggleBookingForm}
-              >
-                BOOK A DEMO
-              </div>
-            </div>
+            <Button color='gold' onClick={toggleBookingForm} />
             {showBookingForm && (
               <div className={styles.bookingFormPopup}>
                 <div className={styles.bookingFormContent}>
