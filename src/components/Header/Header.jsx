@@ -45,7 +45,7 @@ const Header = () => {
                         <nav className='topMenu'>
                             <a className='topMenuItem' href="/">PRODUCT</a>
                             {/*<a className={styles.topMenuItem}>How it Works</a>*/}
-                            <a className='topMenuItem' href="/blog">OUR MISSION</a>
+                            <a className='topMenuItem' href="/aboutus">OUR MISSION</a>
                             <a className='topMenuItem'>INFLUENCER</a>
                             <a className='dropDown'>
                                     <div

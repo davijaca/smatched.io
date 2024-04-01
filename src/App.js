@@ -16,6 +16,7 @@ import BlogAllArticles from './pages/BlogAllArticles/BlogAllArticles';
 import Footer from './components/Footer/Footer';
 import { Helmet } from 'react-helmet';
 import ReactGA from 'react-ga';
+import AboutUs from './pages/AboutUs/AboutUs';
 
 function App() {
   const [showFormFooter, setShowFormFooter] = useState(true);
@@ -95,6 +96,12 @@ function App() {
             path: AppRoutes.BLOGALLARTICLES,
             element: <BlogAllArticles />,
             errorElement: <h1>HOME PAGE NOT FOUND</h1>,
+          },
+
+          {
+            path: AppRoutes.ABOUTUS,
+            element: <AboutUs />,
+            errorElement: <h1> PAGE NOT FOUND 4</h1>,
           },
         ],
       },
