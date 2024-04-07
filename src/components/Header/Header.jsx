@@ -43,10 +43,10 @@ const Header = () => {
                             <img src="./Horizontal_container.png" alt="Logo"/>
                         </a>
                         <nav className='topMenu'>
-                            <a className='topMenuItem' href="/">PRODUCT</a>
+                            {/* <a className='topMenuItem' href="/">PRODUCT</a> */}
                             {/*<a className={styles.topMenuItem}>How it Works</a>*/}
                             <a className='topMenuItem' href="/aboutus">OUR MISSION</a>
-                            <a className='topMenuItem'>INFLUENCER</a>
+                            {/* <a className='topMenuItem'>INFLUENCER</a> */}
                             <a className='dropDown'>
                                     <div
                                         ref = {businessRef}
@@ -89,7 +89,7 @@ const Header = () => {
                     </div>
 
                     <div className='contact'>
-                        <a href="/contact">
+                    <a href="/howitworks">
                         <div className='contactButton'>HOW IT WORKS</div>
                         </a>
                         <div className='hamburger' onClick={handleClick}>
@@ -98,17 +98,17 @@ const Header = () => {
 
                         </div>
                         <ul className={click ? "nav-menu active" : "nav-menu"}>
-                            <li className='nav-item'>
+                            {/* <li className='nav-item'>
                                 <a href='/' onClick={closeMenu}>PRODUCT</a>
-                            </li>
+                            </li> */}
                             <li className='nav-item'>
-                                <a href='#about' onClick={closeMenu}>OUR MISSION</a>
+                                <a href='/aboutus' onClick={closeMenu}>OUR MISSION</a>
                             </li>
-                            <li className='nav-item'>
+                            {/* <li className='nav-item'>
                                 <a href='#about' onClick={closeMenu}>INFLUENCER</a>
-                            </li>
+                            </li> */}
                             <li className='nav-item'>
-                                {/* <a href='/contact' onClick={closeMenu}>FOR BUSINESS</a> */}
+                                {/* <a href='/howitworks' onClick={closeMenu}>FOR BUSINESS</a> */}
                                 <div className='dropDown'>
                                         <div
                                             ref = {mobileBusinessRef}
@@ -149,7 +149,16 @@ const Header = () => {
                             <li className='nav-item'>
                                 <a href='/blog-all' onClick={closeMenu}>BLOG</a>
                             </li>
+                            <li className='nav-item'>
+                                <a href='/howitworks' onClick={closeMenu}>HOW IT WORKS</a>
+                            </li>
+                            
+                            {/* Easy fix to bottom of item being hard to see */}
+                            <li className='nav-item'>
+                                <a href='' onClick={closeMenu}></a>
+                            </li>
                         </ul>
+
                     </div>
 
                 </div>

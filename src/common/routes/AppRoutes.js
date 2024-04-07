@@ -9,5 +9,11 @@ export const AppRoutes = {
   CONTACT: '/contact',
   MOBILE: '/mobile',
   BLOGALLARTICLES: '/blog-all',
-  HOWITWORKS: '/howitworks'
+  // Use a query path to go to each article dynamically and not lost the images path by doing this:
+  EXPLORINGOFFERWALL: '/article?name=exploringofferwall',
+  WHATISANOFFERWALL: '/article?name=whatisanofferwall',
+  MAXIMIZINGOFFERWALL: '/article?name=maximizingofferwall',
+  HOWITWORKS: '/howitworks',
+  ARTICLE: '/article',
+  ABOUTUS: '/aboutus',
 };
