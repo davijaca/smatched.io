@@ -70,11 +70,12 @@
 }
 
 .readNextCardBtnReadMore {
+  font-family: Gotham-medium;
   background-color: #a18129;
   color: white;
   padding: 16px 43px;
   max-width: 210px;
-  font-weight: bold;
+  font-weight: 500;
   cursor: pointer;
 }
 
