@@ -16,4 +16,7 @@ export const AppRoutes = {
   HOWITWORKS: '/howitworks',
   ARTICLE: '/article',
   ABOUTUS: '/aboutus',
+  IMPRINT: '/imprint',
+  DATAPRIVACY: '/dataprivacy',
+  TOC: '/toc',
 };
