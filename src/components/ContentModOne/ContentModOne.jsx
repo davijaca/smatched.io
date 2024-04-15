@@ -11,8 +11,12 @@ const ContentModOne = ({
   text2Span,
   containerWidth,
   paragraphWidht,
+  // essa prop da margin, nao faria parte deste componente e sim do ambiente onde ele é usado, como o comp da sessao.
   containerMargin,
 }) => {
+  const findSpanText = (string) => {};
+  // retorna o texto com a tag span e a classe
+
   return (
     <div
       style={{ width: containerWidth, margin: containerMargin }}
@@ -26,8 +30,11 @@ const ContentModOne = ({
         style={{ width: paragraphWidht }}
         className={styles.containerParagraph}
       >
-        <p className={styles.containerText}>{text1}</p>
-        <p className={styles.containerText}>{text2}</p>
+        <p className={styles.containerText}>{findSpanText(text1)}</p>
+        <p className={styles.containerText}>
+          {text2}
+          {text2Span}
+        </p>
       </div>
       <Button />
     </div>

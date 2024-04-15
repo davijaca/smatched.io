@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 import styles from './Mobile.module.css';
 import { Link } from 'react-router-dom';
 import Booking from '../../pages/Booking/Booking.jsx';
@@ -22,32 +22,21 @@ const Mobile = () => {
             alt='Two smartphones'
           />
         </div>
-        {/* <div className={styles.firstSectionContent}>
-          <h1 className={styles.titleAllSections}>
-            <span>Mobile app</span>
-            <br />
-            monetization.
-          </h1>
-          <p className={styles.paragraphAllSections}>
-            Only around 10% of users remain active 1 week after installation,
-            offering users more choice is crucial for generating revenue. One
-            popular approach is leveraging mobile offerwalls, which provide
+        <ContentModOne
+          header='Mobile app'
+          headerSpan='monetization.'
+          text1='Only around 10% of users remain active 1 week after installation,
+            offering users more choice is crucial for generating revenue.'
+          text2='One popular approach is leveraging mobile offerwalls, which provide
             present users with a variety of offers, surveys or app testing
             opportunities in exchange for access to premium content, vouchers or
-            rewards.
-          </p>
-            <Link className={styles.button} to=''>
-            <div className={styles.buttonText} onClick={() => setShowBookingForm(true)}>BOOK A DEMO</div>
-            </Link>
-              {showBookingForm && (
-                  <div className={styles.bookingFormPopup}>
-                      <div className={styles.bookingFormContent}>
-                          <span className={styles.closeButton} onClick={toggleBookingForm}>&times;</span>
-                          <Booking />
-                      </div>
-                  </div>
-              )}
-        </div>
+            rewards.'
+          text2Span='mobile offerwalls'
+          containerWidth='555px'
+          paragraphWidht='437px'
+          // essa prop da margin, nao faria parte deste componente e sim do ambiente onde ele é usado, como o comp da sessao.
+          containerMargin='-15px -454px 0px 200px'
+        />
       </div>
 
       {/* Second section */}
@@ -140,16 +129,26 @@ const Mobile = () => {
             </li>
           </ul>
           <Link className={styles.button} to=''>
-            <div className={styles.buttonText} onClick={() => setShowBookingForm(true)}>BOOK A DEMO</div>
+            <div
+              className={styles.buttonText}
+              onClick={() => setShowBookingForm(true)}
+            >
+              BOOK A DEMO
+            </div>
           </Link>
-              {showBookingForm && (
-                  <div className={styles.bookingFormPopup}>
-                      <div className={styles.bookingFormContent}>
-                          <span className={styles.closeButton} onClick={toggleBookingForm}>&times;</span>
-                          <Booking />
-                      </div>
-                  </div>
-              )}
+          {showBookingForm && (
+            <div className={styles.bookingFormPopup}>
+              <div className={styles.bookingFormContent}>
+                <span
+                  className={styles.closeButton}
+                  onClick={toggleBookingForm}
+                >
+                  &times;
+                </span>
+                <Booking />
+              </div>
+            </div>
+          )}
         </div>
         <div className={styles.fourthSectionImage}>
           <img
