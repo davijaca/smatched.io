@@ -32,6 +32,10 @@ const Game = () => {
         <title>GAME</title>
         <link rel='canonical' href='https://www.smatched.io/' />
         <link rel='canonical' href='https://www.offerwallmonetization.com/' />
+        <meta charSet='utf-8' />
+        <title>GAME</title>
+        <link rel='canonical' href='https://www.smatched.io/' />
+        <link rel='canonical' href='https://www.offerwallmonetization.com/' />
       </Helmet>
 
       <div style={{display: 'none'}}>
@@ -74,6 +78,13 @@ const Game = () => {
                   your game monetization model.
                 </span>
               </h1>
+              <h1 className={styles.text}>
+                Enhance
+                <br />
+                <span className={styles.text2}>
+                  your game monetization model.
+                </span>
+              </h1>
               <div className={styles.parag}>
                 <div className={styles.innerParag}>
                   Give players more choice when it comes to monetization. While
@@ -106,6 +117,7 @@ const Game = () => {
                 <img
                   className={styles.gameLeftImg}
                   src='./gameHeroImage.png'
+                  alt='A man using a helmet holding a flashlight'
                   alt='A man using a helmet holding a flashlight'
                 />
               </div>
@@ -174,9 +186,11 @@ const Game = () => {
         <div
           style={{
             width: '1220px',
+            width: '1220px',
             display: 'flex',
             flexDirection: 'row',
             alignItems: 'flex-start',
+            marginTop: '100px',
             marginTop: '100px',
           }}
         >
@@ -198,7 +212,18 @@ const Game = () => {
                   games, especially given the abundance of free options that are
                   available.
                   <br />
+              <div className={styles.anOfferwallParag}>
+                <p>
+                  The gaming industry is currently facing several challenges
+                  when it comes to monetization. One of the main issues is the
+                  <span> low % of people</span> who are willing to pay to play
+                  games, especially given the abundance of free options that are
+                  available.
                   <br />
+                  <br />
+                  In addition to this, there are many existing game monetization
+                  models that often negatively impact the user experience.
+                </p>
                   In addition to this, there are many existing game monetization
                   models that often negatively impact the user experience.
                 </p>
@@ -208,13 +233,45 @@ const Game = () => {
 
           <div className={styles.secondGameContainerBox2}>
             <img src='./secondGameImage.png' alt='A laptop and a smartphone' />
+            <img src='./secondGameImage.png' alt='A laptop and a smartphone' />
           </div>
         </div>
       </div>
 
       {/* MOBILE SECOND SECTION */}
+      {/* MOBILE SECOND SECTION */}
 
       <div className={styles.mobileSecondGameContainer}>
+        <div className={styles.mobileTopSecondBg}>
+          <div className={styles.mainSecondMobile}>
+            <div className={styles.leftMainMobile}>
+              <div className={styles.leftImgInfoSecondMobile}>
+                <img
+                  className={styles.secondImgMobile}
+                  src='./secondGameImage.png'
+                  alt='A laptop and a smartphone'
+                />
+              </div>
+            </div>
+            <div className={styles.rightMainMobile}>
+              <h2 className={styles.textSecondMobile}>
+                Level up your in-game monetization strategy
+              </h2>
+              <div className={styles.paragMobile}>
+                <div className={styles.innerParagSecondMobile}>
+                  {' '}
+                  The gaming industry is currently facing several challenges
+                  when it comes to monetization. One of the main issues is the{' '}
+                  <span>low % of people</span> who are willing to pay to play
+                  games, especially given the abundance of free options that are
+                  available. In addition to this, there are many existing game
+                  monetization models that often negatively impact the user
+                  experience.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <div className={styles.mobileTopSecondBg}>
           <div className={styles.mainSecondMobile}>
             <div className={styles.leftMainMobile}>
@@ -252,6 +309,7 @@ const Game = () => {
         <div className={styles.thirdGameContainerBox}>
           <div className={styles.thirdSectionLeft}>
             <img src='./smartPhone.png' alt='A man using smartphone' />
+            <img src='./smartPhone.png' alt='A man using smartphone' />
           </div>
 
           <div className={styles.thirdSectionRight}>
@@ -266,7 +324,19 @@ const Game = () => {
                   <span>interrupt the user experience</span> and can negatively
                   impact gameplay.
                   <br />
+                <p>
+                  One major issue with existing in-game monetization models such
+                  as banner and video ads is that they often{' '}
+                  <span>interrupt the user experience</span> and can negatively
+                  impact gameplay.
                   <br />
+                  <br />
+                  According to a survey by AdColony,{' '}
+                  <span>70% of mobile gamers</span> said that they would rather
+                  pay for a game upfront than deal with ads, while{' '}
+                  <span>64%</span> said that they had stopped playing a game
+                  because of ads.
+                </p>
                   According to a survey by AdColony,{' '}
                   <span>70% of mobile gamers</span> said that they would rather
                   pay for a game upfront than deal with ads, while{' '}
@@ -289,7 +359,42 @@ const Game = () => {
               </div>
             </div>
           </div>
+        <div className={styles.mobileThirdGameContainerBox}>
+          <div className={styles.mobileThirdSectionLeft}>
+            <div className={styles.imageMobileThirdGameContainer}>
+              <div className={styles.mobileThirdGameImage}>
+                <img src='./smartPhone.png' alt='A man using smartphone' />
+              </div>
+            </div>
+          </div>
 
+          <div className={styles.mobileThirdSectionRight}>
+            <div className={styles.innerMobileThirdSectionRight}>
+              <div className={styles.mobileThirdSectionRightH1}>
+                Are addwalls the answer?
+              </div>
+            </div>
+            <div className={styles.bottomThirdMobile}>
+              <div className={styles.paragThirdMobile}>
+                <div className={styles.innerParagThirdMobile}>
+                  {' '}
+                  One major issue with existing in-game monetization models such
+                  as banner and video ads is that they often{' '}
+                  <b>interrupt the user experience </b>and can negatively impact
+                  gameplay.
+                  <br />
+                  <br />
+                  According to a survey by AdColony, <b>
+                    70% of mobile gamers
+                  </b>{' '}
+                  said that they would rather pay for a game upfront than deal
+                  with ads, while 64% said that they had stopped playing a game
+                  because of ads.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
           <div className={styles.mobileThirdSectionRight}>
             <div className={styles.innerMobileThirdSectionRight}>
               <div className={styles.mobileThirdSectionRightH1}>
@@ -340,11 +445,13 @@ const Game = () => {
                     className={styles.like}
                     src='/likeVector.png'
                     alt='A icon with a checked sign'
+                    alt='A icon with a checked sign'
                   />
                   <div className={styles.verticalLike}>
                     <img
                       className={styles.vertical}
                       src='/verticalLikeVector.png'
+                      alt='A vertical line with bullet points'
                       alt='A vertical line with bullet points'
                     />
                   </div>
@@ -374,11 +481,13 @@ const Game = () => {
                     className={styles.disLike}
                     src='/dislikeVector.png'
                     alt='A icon with a x sign'
+                    alt='A icon with a x sign'
                   />
                   <div className={styles.verticalLike}>
                     <img
                       className={styles.vertical}
                       src='/verticalDislikeVector.png'
+                      alt='A vertical line with bullet points'
                       alt='A vertical line with bullet points'
                     />
                   </div>
@@ -428,6 +537,30 @@ const Game = () => {
             </div>
           </div>
         </div>
+        <div className={styles.mobileTopFourthBg}>
+          <div className={styles.mainFourthMobile}>
+            <div className={styles.topFourthMobile}>
+              <h2 className={styles.textSecondMobile}>
+                Grow your revenue. <br /> Monetize your game or app.
+              </h2>
+              <div className={styles.paragMobile}>
+                <div className={styles.innerParagSecondMobile}>
+                  Smatched offers a unique solution to the monetization
+                  challenges faced by the gaming industry.
+                </div>
+              </div>
+            </div>
+            <div className={styles.bottomFourthMobile}>
+              <div className={styles.bottomImgInfoFourthMobile}>
+                <img
+                  className={styles.fourthImgMobile}
+                  src='./fourthMobileImg.png'
+                  alt=''
+                />
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
       {/* FIFTH SECTION */}
@@ -435,12 +568,20 @@ const Game = () => {
         <div className={styles.fifthGameBackground}>
           <div className={styles.fifthGameLeft}>
             <img src='/MacBookPro17.png' alt='A laptop' />
+            <img src='/MacBookPro17.png' alt='A laptop' />
           </div>
           <div className={styles.fifthGameRight}>
             <div className={styles.innerFifthGameRight}>
               <div className={styles.fifthGameRightModel}>
                 Enhance your web or mobile Game Business Model
               </div>
+              <p className={styles.increaseSubscription}>
+                Smatched has been shown to{' '}
+                <span>increase subscription rates</span> in the online news
+                industry <span>by 3x</span>, indicating the potential for
+                significant growth and revenue generation in the gaming industry
+                as well.
+                <br />
               <p className={styles.increaseSubscription}>
                 Smatched has been shown to{' '}
                 <span>increase subscription rates</span> in the online news
@@ -489,12 +630,34 @@ const Game = () => {
           <div className={styles.mobileFifthGameImage}>
             <img src='./FifthSectionImg.png' alt='A laptop' />
           </div>
+        <div className={styles.mobileFifthGameContainerBox}>
+          <div className={styles.mobileFifthGameImage}>
+            <img src='./FifthSectionImg.png' alt='A laptop' />
+          </div>
 
           <div className={styles.mobileFifthSectionRight}>
             <div className={styles.mobileFifthSectionRightH1}>
               Enhance your web or mobile Game Business Model
             </div>
+          <div className={styles.mobileFifthSectionRight}>
+            <div className={styles.mobileFifthSectionRightH1}>
+              Enhance your web or mobile Game Business Model
+            </div>
 
+            <div className={styles.increaseSubscription}>
+              Smatched has been shown to{' '}
+              <span>increase subscription rates </span>
+              in the online news industry <span>by 3x</span>, indicating the
+              potential for significant growth and revenue generation in the
+              gaming industry as well.
+              <br />
+              <br />
+              The gaming industry is facing significant challenges when it comes
+              to monetization. Smatched’s offerwall provides a promising
+              solution to this challenge and one that is likely to become
+              increasingly important as the gaming industry continues to evolve
+              and grow.
+            </div>
             <div className={styles.increaseSubscription}>
               Smatched has been shown to{' '}
               <span>increase subscription rates </span>

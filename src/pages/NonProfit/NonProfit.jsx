@@ -34,6 +34,8 @@ const NonProfit = () => {
                   organization and motivate people to donate in impactful ways.
                   <br />
                   <br />
+                  <br />
+                  <br />
                   Diversifying your donation options can significantly increase
                   engagement and donor acquisition rates.
                 </div>
@@ -61,6 +63,8 @@ const NonProfit = () => {
               <div className={styles.leftImgInfo}>
                 <img
                   className={styles.leftImg}
+                  src='./images/nonprofitHero.png'
+                  alt='Three people donating'
                   src='./images/nonprofitHero.png'
                   alt='Three people donating'
                 />
@@ -132,6 +136,9 @@ const NonProfit = () => {
                 </div>
               </div>
             </div>
+            <button className={styles.buttonText}>
+              <div className={styles.buttonText1}>BOOK A DEMO</div>
+            </button>
             <button className={styles.buttonText}>
               <div className={styles.buttonText1}>BOOK A DEMO</div>
             </button>

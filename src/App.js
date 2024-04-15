@@ -34,6 +34,7 @@ function App() {
       <div className={styles.app}>
         <Header />
         <Helmet />
+        <Helmet />
         <Outlet />
         <Footer showFormFooter={showFormFooter} />
       </div>
