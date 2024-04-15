@@ -12,6 +12,7 @@ import ReadNextArticleCard from '../../ReadNextArticleCards/ReadNextArticleCards
 import { getNextArticles } from '../../utils/getNextArticles';
 
 import styles from './Article.module.css';
+import SubscribeNews from '../../../../utilities/SubscribeNews/SubscribeNews';
 
 const Article = ({ setShowFormFooter }) => {
   setShowFormFooter(false);
@@ -130,6 +131,9 @@ const Article = ({ setShowFormFooter }) => {
             );
           })}
         </div>
+      </div>
+      <div className={styles.subscribeNews_wrapper}>
+        <SubscribeNews />
       </div>
     </div>
   );

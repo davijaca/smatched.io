@@ -4,6 +4,7 @@ import { articlesData } from './utils/articlesData';
 import { Helmet } from 'react-helmet';
 import ArticleCard from './ArticleCard/ArticleCard';
 import Pagination from './Pagination/Pagination';
+import SubscribeNews from '../../utilities/SubscribeNews/SubscribeNews';
 
 // import heroFrameColours from './../../images/blogAllArticlesIntroFrameColors.svg';
 import styles from './BlogAllArticles.module.css';
@@ -118,6 +119,9 @@ const BlogAllArticles = ({
           // onPaginationChange={handlePaginationChange}
           />
         </div>
+      </div>
+      <div className={styles.subscribeNews_wrapper}>
+        <SubscribeNews />
       </div>
     </>
   );

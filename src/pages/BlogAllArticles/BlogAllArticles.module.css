@@ -152,3 +152,9 @@ button {
   }
 }
 /* End of bodyAllArticles style */
+
+/* SubscribeNews box wrapper */
+.subscribeNews_wrapper {
+  max-width: 1365px;
+  margin: 0 auto;
+}
