@@ -30,8 +30,11 @@ const Newspaper = () => {
                   of free online news options, the fragmentation of news types
                   and channels, and the emergence of syndicated news businesses
                   like Medium and Substack all contribute to these pressing
-                  issues. What you can do to overcome these challenges and
-                  increase revenue?
+                  issues.
+                  <br />
+                  <br />
+                  What you can do to overcome these challenges and increase
+                  revenue?
                 </div>
               </div>
               <div className={styles.buttonText}>
@@ -57,13 +60,11 @@ const Newspaper = () => {
               )}
             </div>
             <div className={styles.leftMain}>
-              <div className={styles.leftImgInfo}>
-                <img
-                  className={styles.leftImg}
-                  src='./iPadMini.png'
-                  alt='An iPad with our work'
-                />
-              </div>
+              <img
+                className={styles.leftImg}
+                src='./iPadMini.png'
+                alt='An iPad with our work'
+              />
             </div>
           </div>
         </div>
@@ -73,64 +74,59 @@ const Newspaper = () => {
 
       <div className={styles.mobileFirstNewsContainer}>
         <div className={styles.topFirst}>
-          <div>
-            <div className={styles.mobileTopFirstBg}>
-              <div className={styles.mainFirstMobile}>
-                <div className={styles.leftMainMobile}>
-                  <div className={styles.leftImgInfoMobile}>
-                    <img
-                      className={styles.leftImgMobile}
-                      src='./iPadMini.png'
-                      alt='An iPhone with an offerwall'
-                    />
+          <div className={styles.mobileTopFirstBg}>
+            <div className={styles.mainFirstMobile}>
+              <div className={styles.leftMainMobile}>
+                <div className={styles.leftImgInfoMobile}>
+                  <img
+                    className={styles.leftImgMobile}
+                    src='./iPadMini.png'
+                    alt='An iPhone with an offerwall'
+                  />
+                </div>
+              </div>
+              <div className={styles.rightMainMobile}>
+                <h1 className={styles.textMobile}>Newspaper</h1>
+                <h2 className={styles.text2Mobile}>
+                  Publishing <br />
+                  Industry
+                </h2>
+                <div className={styles.paragMobile}>
+                  <div className={styles.innerParagMobile}>
+                    {' '}
+                    Nowadays the newspaper publishing industry faces numerous
+                    challenges that threaten its sustainability. The
+                    availability of free online news options, the fragmentation
+                    of news types and channels, and the emergence of syndicated
+                    news businesses like Medium and Substack all contribute to
+                    these pressing issues.
+                    <br />
+                    <br />
+                    What you can do to overcome these challenges and increase
+                    revenue?
                   </div>
                 </div>
-                <div className={styles.rightMainMobile}>
-                  <h1 className={styles.textMobile}>
-                    <b>Newspaper</b>
-                  </h1>
-                  <h2 className={styles.text2Mobile}>
-                    Publishing <br />
-                    Industry
-                  </h2>
-                  <div className={styles.paragMobile}>
-                    <div className={styles.innerParagMobile}>
-                      {' '}
-                      Nowadays the newspaper publishing industry faces numerous
-                      challenges that threaten its sustainability. The
-                      availability of free online news options, the
-                      fragmentation of news types and channels, and the
-                      emergence of syndicated news businesses like Medium and
-                      Substack all contribute to these pressing issues.
-                      <br />
-                      <br />
-                      What you can do to overcome these challenges and increase
-                      revenue?
-                    </div>
+                <div className={styles.buttonTextMobile}>
+                  <div
+                    className={styles.buttonText1Mobile}
+                    onClick={() => setShowBookingForm(true)}
+                  >
+                    BOOK A DEMO
                   </div>
-
-                  <div className={styles.buttonTextMobile}>
-                    <div
-                      className={styles.buttonText1Mobile}
-                      onClick={() => setShowBookingForm(true)}
-                    >
-                      BOOK A DEMO
-                    </div>
-                  </div>
-                  {showBookingForm && (
-                    <div className={styles.bookingFormPopup}>
-                      <div className={styles.bookingFormContent}>
-                        <span
-                          className={styles.closeButton}
-                          onClick={toggleBookingForm}
-                        >
-                          &times;
-                        </span>
-                        <Booking />
-                      </div>
-                    </div>
-                  )}
                 </div>
+                {showBookingForm && (
+                  <div className={styles.bookingFormPopup}>
+                    <div className={styles.bookingFormContent}>
+                      <span
+                        className={styles.closeButton}
+                        onClick={toggleBookingForm}
+                      >
+                        &times;
+                      </span>
+                      <Booking />
+                    </div>
+                  </div>
+                )}
               </div>
             </div>
           </div>
