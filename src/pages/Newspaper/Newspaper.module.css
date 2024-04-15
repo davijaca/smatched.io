@@ -40,7 +40,8 @@ h2 {
 /*FIRST SECTION*/
 
 .firstNewsContainer {
-  width: 1920px;
+  width: 100vw;
+  position: relative;
   left: calc(-50vw + 50%);
   overflow: visible;
   display: inline-block;
