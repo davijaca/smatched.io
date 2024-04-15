@@ -99,7 +99,7 @@ function App() {
 
           {
             path: AppRoutes.BLOGALLARTICLES,
-            element: <BlogAllArticles />,
+            element: <BlogAllArticles setShowFormFooter={setShowFormFooter} />,
             errorElement: <h1>HOME PAGE NOT FOUND</h1>,
           },
 
@@ -124,7 +124,7 @@ function App() {
 
           {
             path: AppRoutes.ARTICLE,
-            element: <Article />,
+            element: <Article setShowFormFooter={setShowFormFooter} />,
             errorElement: <h1>HOME PAGE NOT FOUND</h1>,
           },
 

@@ -21,7 +21,9 @@ const BlogAllArticles = ({
   allArticles = articlesData,
   articlesPerPage = 3,
   initialPage = 1,
+  setShowFormFooter,
 }) => {
+  setShowFormFooter(false);
   const [currentPage, setCurrentPage] = useState(initialPage);
   // Temporarely hard coded state -> to be fetch from a server in the future
   const [articlesList, setArticlesList] = useState(allArticles);

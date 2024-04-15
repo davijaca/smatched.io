@@ -13,7 +13,8 @@ import { getNextArticles } from '../../utils/getNextArticles';
 
 import styles from './Article.module.css';
 
-const Article = () => {
+const Article = ({ setShowFormFooter }) => {
+  setShowFormFooter(false);
   // Hook to navigate to other path
   const navigate = useNavigate();
   // Hook to read URL query
