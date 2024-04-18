@@ -40,7 +40,7 @@ const Header = () => {
                 <div className='headerBox'>
                     <div className='right'>
                         <a href="/" className='rightImg'>
-                            <img src="./Horizontal_container.png" alt="Logo"/>
+                            <img src="./logo.svg" alt="Logo"/>
                         </a>
                         <nav className='topMenu'>
                             {/* <a className='topMenuItem' href="/">PRODUCT</a> */}
