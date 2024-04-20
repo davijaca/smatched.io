@@ -136,103 +136,92 @@ const Newspaper = () => {
       {/* Second News */}
 
       <div className={styles.secondNewsContainer}>
-        <div className={styles.SubSecondNewsContainer}>
-          <div className={styles.secondNewsBox1}>
-            <div>Smatched can help you</div>
+        <div className={styles.secondNewsBox1}>
+          <h1>Smatched can help you</h1>
+        </div>
+        <div className={styles.secondNewsBox2}>
+          <div className={styles.secondNewsCard}>
+            <div className={styles.secondNewsCardImg}>
+              <img src='./people.svg' alt='Icon representing three people' />
+            </div>
+            <h1>
+              Empowering publishers:
+              <br />
+              unlocking new audiences
+            </h1>
+            <p>
+              Smatched presents a game-changing solution that empowers
+              publishers in the online media space to tap into an entirely new
+              audience. By integrating Smatched into their business model,
+              newspaper publishers can{' '}
+              <span>revolutionize their revenue streams</span> and drive growth.
+            </p>
           </div>
 
-          <div className={styles.secondNewsBox2}>
-            <div className={styles.secondBox2Container}>
-              <div className={styles.second13}>
-                <div className={styles.second13One}>
-                  <div className={styles.innerOne}>
-                    <img
-                      className={styles.stepOneImg}
-                      src='./people.svg'
-                      alt=' of a number one'
-                    />
-                    <h1>
-                      Empowering publishers: <br />
-                      unlocking new audiences
-                    </h1>
-                    <div className={styles.second13Integration}>
-                      Smatched presents a game-changing solution that empowers
-                      publishers in the online media space to tap into an
-                      entirely new audience. By integrating Smatched into their
-                      business model, newspaper publishers can revolutionize
-                      their revenue streams and drive growth.
-                    </div>
-                  </div>
-                </div>
-                <div className={styles.second13Two}>
-                  <div className={styles.innerThree}>
-                    <img
-                      className={styles.stepThreeImg}
-                      src='./lock_open_right.svg'
-                      alt=' of a number three'
-                    />
-                    <h1>
-                      Unlock the power of offerwalls: <br />
-                      monetize and engage
-                    </h1>
-                    <div className={styles.second13Integration}>
-                      Offerwalls are a proven strategy for monetizing online
-                      content. By leveraging Smatched’s offerwall solution,
-                      publishers can increase their revenue and attract new
-                      readers. This approach allows publishers to monetize their
-                      content in a way that is more accessible and appealing to
-                      readers, fostering increased engagement and loyalty.
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className={styles.second24}>
-                <div className={styles.second24One}>
-                  <div className={styles.innerTwo}>
-                    <img
-                      className={styles.stepTwoImg}
-                      src='./hand.svg'
-                      alt='A of a number two'
-                    />
-                    <h1>
-                      Expanding revenue streams: <br />
-                      give readers more choice
-                    </h1>
-                    <div className={styles.second13Integration}>
-                      Only around 10% of readers are willing to pay for online
-                      news subscriptions. This untapped market represents a
-                      significant opportunity for the industry, to capture this
-                      potential revenue, publishers must provide readers with
-                      alternatives to traditional subscription models. Smatched
-                      offers a compelling solution.
-                    </div>
-                  </div>
-                </div>
-                <div className={styles.second24Two}>
-                  <div className={styles.innerFour}>
-                    <img
-                      className={styles.stepFourImg}
-                      src='./grapharrow.svg'
-                      alt='A of a number four'
-                    />
-                    <h1>
-                      Boosting subscription rates <br />
-                      3x higher
-                    </h1>
-                    <div className={styles.second13Integration}>
-                      Smatched is a platform designed to increase subscription
-                      rates in the online news industry. By incorporating an
-                      offerwall into their subscription model, publishers can
-                      offer readers the opportunity to earn their subscription
-                      by completing offers or surveys. This not only provides an
-                      alternative to paying for a subscription but also fosters
-                      a sense of engagement and ownership among readers.
-                    </div>
-                  </div>
-                </div>
-              </div>
+          <div className={styles.secondNewsCard}>
+            <div className={styles.secondNewsCardImg}>
+              <img
+                src='./hand.svg'
+                alt='Icon showing index finger pointing to options'
+              />
             </div>
+            <h1>
+              Expanding revenue streams:
+              <br />
+              give readers more choice
+            </h1>
+            <p>
+              Only around <span>10% of readers</span> are willing to pay for
+              online news subscriptions. This untapped market represents a
+              significant opportunity for the industry, to capture this
+              potential revenue, publishers must provide readers with
+              alternatives to traditional subscription models. Smatched offers a
+              compelling solution.
+            </p>
+          </div>
+
+          <div className={styles.secondNewsCard}>
+            <div className={styles.secondNewsCardImg}>
+              <img
+                src='./lock_open_right.svg'
+                alt='Icon showing an unlock padlock'
+              />
+            </div>
+            <h1>
+              Unlock the power of offerwalls:
+              <br /> monetize and engage
+            </h1>
+            <p>
+              Offerwalls are a proven strategy for monetizing online content. By
+              leveraging Smatched’s offerwall solution, publishers can{' '}
+              <span>increase their revenue and attract</span> new readers. This
+              approach allows publishers to monetize their content in a way that
+              is more accessible and appealing to readers, fostering increased
+              engagement and loyalty.
+            </p>
+          </div>
+
+          <div className={styles.secondNewsCard}>
+            <div className={styles.secondNewsCardImg}>
+              <img
+                src='./grapharrow.svg'
+                alt='Icon showing an arrow pointing up'
+              />
+            </div>
+            <h1>
+              Boosting subscription rates
+              <br />
+              3x higher
+            </h1>
+            <p>
+              Smatched is a platform designed to{' '}
+              <span>increase subscription rates</span> in the online news
+              industry. By incorporating an offerwall into their subscription
+              model, publishers can offer readers the opportunity to earn their
+              subscription by completing offers or surveys. This not only
+              provides an alternative to paying for a subscription but also
+              fosters a sense of engagement and ownership among readers.
+            </p>
           </div>
         </div>
       </div>
