@@ -45,9 +45,6 @@
   font-size: 14px;
   color: #b9bcce;
   width: 325px;
-}
-
-.subscribeNews_input::placeholder {
   padding-left: 24px;
 }
 
@@ -58,7 +55,19 @@
   text-transform: uppercase;
 }
 
-.unsubscribeInfo {
+.subscribeInfos_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  justify-content: center;
+  align-items: center;
+}
+
+.subscribe_message {
+  height: 18px;
+}
+
+.subscribeInfo {
   font-family: inter;
   font-size: 15px;
   color: #b9bcce;
