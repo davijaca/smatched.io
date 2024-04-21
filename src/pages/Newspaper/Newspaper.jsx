@@ -321,74 +321,58 @@ const Newspaper = () => {
 
       {/* Third News */}
       <div className={styles.thirdNewsContainer}>
-        <div className={styles.thirdNewsContainerBox}>
-          <div className={styles.thirdSectionLeft}>
-            <img src='./Groupthird.png' alt='man-using smart phone' />
-          </div>
-
-          <div className={styles.thirdSectionRight}>
-            <div className={styles.innerThirdSectionRight}>
-              <div className={styles.innerThirdAddWalls}>
-                Seamless <br /> integration <br />
-                with Smatched <br /> Web-App
-              </div>
-              <div className={styles.parag1}>
-                <div className={styles.innerParag1}>
-                  {' '}
-                  Smatched offers a seamless and user-friendly experience for
-                  both publishers and readers. Integrating Smatched into website
-                  is effortless for publishers and readers can quickly complete
-                  offers or surveys to earn their subscription fee.
-                  <br />
-                  <br />
-                  The platform ensures that offers and surveys are relevant and
-                  tailored to each reader’s interests, maximizing completion
-                  rates and engagement.
-                </div>
-              </div>
-            </div>
-          </div>
+        <div className={styles.thirdNewsImg}>
+          <img
+            src='./Groupthird.png'
+            alt='Three screens placed on top of each other'
+          />
+        </div>
+        <div className={styles.thirdNewsContent}>
+          <h1>
+            Seamless integration <br />
+            with Smatched <br /> Web-App
+          </h1>
+          <p>
+            {' '}
+            Smatched offers a seamless and user-friendly experience for both
+            publishers and readers. Integrating Smatched into website is
+            effortless for publishers and readers can quickly complete offers or
+            surveys to earn their subscription fee.
+            <br />
+            <br />
+            The platform ensures that offers and surveys are relevant and
+            tailored to each reader’s interests, maximizing completion rates and
+            engagement.
+          </p>
         </div>
       </div>
 
       {/* {/*Third News mobile Responsiveness*/}
 
       <div className={styles.mobileThirdNewsContainer}>
-        <div className={styles.topThird}>
-          <div>
-            <div className={styles.mobileTopThirdBg}>
-              <div className={styles.mainThirdMobile}>
-                <div className={styles.leftMainMobile3}>
-                  <div className={styles.leftImgInfoMobile3}>
-                    <img
-                      className={styles.leftImgMobile3}
-                      src='./Groupthird.png'
-                      alt='An iPhone with an offerwall'
-                    />
-                  </div>
-                </div>
-                <div className={styles.rightMainMobile3}>
-                  <h1 className={styles.textMobile3}>
-                    Smatched provides an alternative Subscription Model
-                  </h1>
-
-                  <div className={styles.paragMobile3}>
-                    <div className={styles.innerParagMobile3}>
-                      {' '}
-                      Paywalls are a great revenue option for many businesses
-                      but unfortunately, making users pay means your revenue
-                      potential is capped. Businesses that offer more than one
-                      monetization model retain 50% more users.
-                      <br />
-                      <br />
-                      What if your users could earn their way past a paywall
-                      without having to open their wallet?
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+        <div className={styles.mobileThirdNewsImg}>
+          <img
+            src='./Groupthird.png'
+            alt='Three screens placed on top of each other'
+          />
+        </div>
+        <div className={styles.mobileThirdNewsContent}>
+          <h1>
+            Seamless integration <br />
+            with Smatched <br /> Web-App
+          </h1>
+          <p>
+            {' '}
+            Smatched offers a seamless and user-friendly experience for both
+            publishers and readers. Integrating Smatched into website is
+            effortless for publishers and readers can quickly complete offers or
+            surveys to earn their subscription fee.
+            <br />
+            <br />
+            The platform ensures that offers and surveys are relevant and
+            tailored to each reader’s interests, maximizing completion rates and
+            engagement.
+          </p>
         </div>
       </div>
 
