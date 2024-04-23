@@ -26,6 +26,11 @@ const HighlightedSection = ({ body }) => {
               className={styles.icons}
               alt=""
               onClick={() => window.print()}
+              onKeyDown={(e) => {
+                if (e.keyCode === 13) {
+                  window.print();
+                }
+              }}
               tabindex="0"
             />
           </div>
