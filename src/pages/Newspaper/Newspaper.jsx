@@ -379,123 +379,96 @@ const Newspaper = () => {
       {/* Fourth News */}
 
       <div className={styles.fourthNewsContainer}>
-        <div className={styles.fourthNewsContainerBox}>
-          <div className={styles.fourthSectionRight}>
-            <div className={styles.imageFourthNewsContainer}>
-              <div className={styles.fourthNewsImage}>
-                <img src='./Groupfourth.png' alt='An iPad with our work' />
-              </div>
+        <div className={styles.fourthNewsImage}>
+          <div className={styles.fourthNewsImgBg}></div>
+          <img src='./Groupfourth.png' alt='A screen showing the news' />
+        </div>
+
+        <div className={styles.fourthNewsContent}>
+          <h1>
+            Embrace change, <br /> ensure sustainability
+          </h1>
+          <p>
+            The newspaper publishing industry must provide readers with more
+            choices to drive revenue growth and sustainability. By incorporating
+            an offerwall into their subscription model using Smatched,
+            publishers can unlock new revenue streams, enhance user experiences,
+            and gain valuable data-driven insights.
+            <br />
+            <br />
+            Embracing this strategy enables online news publishers to monetize
+            their content effectively, boost engagement and loyalty, and secure
+            their position in the digital age.
+          </p>
+
+          <div className={styles.buttonGold}>
+            <div
+              className={styles.buttonTextGold}
+              onClick={() => setShowBookingForm(true)}
+            >
+              BOOK A DEMO
             </div>
           </div>
-
-          <div className={styles.fourthSectionLeft}>
-            <>
-              <div className={styles.innerFourthSectionLeft}>
-                <div className={styles.fourthSectionLeftH1}>
-                  Embrace change, <br /> ensure sustainability
-                </div>
-              </div>
-
-              <div className={styles.fourthSectionLeftH2}>
-                <div className={styles.fourthSectionLeftList}>
-                  The newspaper publishing industry must provide readers with
-                  more choices to drive revenue growth and sustainability. By
-                  incorporating an offerwall into their subscription model using
-                  Smatched, publishers can unlock new revenue streams, enhance
-                  user experiences, and gain valuable data-driven insights.
-                  <br />
-                  <br />
-                  Embracing this strategy enables online news publishers to
-                  monetize their content effectively, boost engagement and
-                  loyalty, and secure their position in the digital age.
-                </div>
-              </div>
-
-              <div className={styles.buttonTextGold}>
-                <div
-                  className={styles.buttonText1Gold}
-                  onClick={() => setShowBookingForm(true)}
+          {showBookingForm && (
+            <div className={styles.bookingFormPopup}>
+              <div className={styles.bookingFormContent}>
+                <span
+                  className={styles.closeButton}
+                  onClick={toggleBookingForm}
                 >
-                  BOOK A DEMO
-                </div>
+                  &times;
+                </span>
+                <Booking />
               </div>
-              {showBookingForm && (
-                <div className={styles.bookingFormPopup}>
-                  <div className={styles.bookingFormContent}>
-                    <span
-                      className={styles.closeButton}
-                      onClick={toggleBookingForm}
-                    >
-                      &times;
-                    </span>
-                    <Booking />
-                  </div>
-                </div>
-              )}
-            </>
-          </div>
+            </div>
+          )}
         </div>
       </div>
 
       {/* Fourth News mobile responsiveness */}
 
       <div className={styles.mobileFourthNewsContainer}>
-        <div className={styles.mobileFourthSectionLeft}>
-          <div className={styles.leftMobileFourthNewsContainer}>
-            <div className={styles.mobileFourthNewsImage}>
-              <div className={styles.fourthImageResponsive}>
-                <img src='./Groupfourth.png' alt='An iPad with our work' />
-              </div>
-            </div>
-          </div>
+        <div className={styles.mobileFourthNewsImage}>
+          <div className={styles.mobileFourthNewsImgBg}></div>
+          <img src='./Groupfourth.png' alt='A screen showing the news' />
         </div>
 
-        <div className={styles.mobileFourthSectionLeft}>
-          <>
-            <div className={styles.innerMobileFourthSectionLeft}>
-              <div className={styles.mobileFourthSectionLeftH1}>
-                Embrace change, ensure <br />
-                sustainability
-              </div>
-            </div>
+        <div className={styles.mobileFourthNewsContent}>
+          <h1>Embrace change, ensure sustainability</h1>
+          <p>
+            The newspaper publishing industry must provide readers with more
+            choices to drive revenue growth and sustainability. By incorporating
+            an offerwall into their subscription model using Smatched,
+            publishers can unlock new revenue streams, enhance user experiences,
+            and gain valuable data-driven insights.
+            <br />
+            <br />
+            Embracing this strategy enables online news publishers to monetize
+            their content effectively, boost engagement and loyalty, and secure
+            their position in the digital age.
+          </p>
 
-            <div className={styles.mobileFourthSectionLeftH2}>
-              <div className={styles.mobileFourthSectionLeftList}>
-                The newspaper publishing industry must provide readers with more
-                choices to drive revenue growth and sustainability. By
-                incorporating an offerwall into their subscription model using
-                Smatched, publishers can unlock new revenue streams, enhance
-                user experiences, and gain valuable data-driven insights.
-                <br />
-                <br />
-                Embracing this strategy enables online news publishers to
-                monetize their content effectively, boost engagement and
-                loyalty, and secure their position in the digital age.
+          <div className={styles.mobileButtonGold}>
+            <div
+              className={styles.mobileButtonTextGold}
+              onClick={() => setShowBookingForm(true)}
+            >
+              BOOK A DEMO
+            </div>
+          </div>
+          {showBookingForm && (
+            <div className={styles.bookingFormPopup}>
+              <div className={styles.bookingFormContent}>
+                <span
+                  className={styles.closeButton}
+                  onClick={toggleBookingForm}
+                >
+                  &times;
+                </span>
+                <Booking />
               </div>
             </div>
-
-            <div className={styles.mobileButtonTextGold}>
-              <div
-                className={styles.mobileButtonText1Gold}
-                onClick={() => setShowBookingForm(true)}
-              >
-                BOOK A DEMO
-              </div>
-            </div>
-            {showBookingForm && (
-              <div className={styles.bookingFormPopup}>
-                <div className={styles.bookingFormContent}>
-                  <span
-                    className={styles.closeButton}
-                    onClick={toggleBookingForm}
-                  >
-                    &times;
-                  </span>
-                  <Booking />
-                </div>
-              </div>
-            )}
-          </>
+          )}
         </div>
       </div>
     </div>
