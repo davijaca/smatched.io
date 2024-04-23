@@ -62,8 +62,8 @@ const Newspaper = () => {
             <div className={styles.leftMain}>
               <img
                 className={styles.leftImg}
-                src='./iPadMini.png'
-                alt='An iPad with our work'
+                src='./images/newspaper_sec1.png'
+                alt='Three tablets placed on top of each other'
               />
             </div>
           </div>
@@ -80,8 +80,8 @@ const Newspaper = () => {
                 <div className={styles.leftImgInfoMobile}>
                   <img
                     className={styles.leftImgMobile}
-                    src='./iPadMini.png'
-                    alt='An iPhone with an offerwall'
+                    src='./images/newspaper_sec1.png'
+                    alt='Three tablets placed on top of each other'
                   />
                 </div>
               </div>
@@ -142,7 +142,10 @@ const Newspaper = () => {
         <div className={styles.secondNewsBox2}>
           <div className={styles.secondNewsCard}>
             <div className={styles.secondNewsCardImg}>
-              <img src='./people.svg' alt='Icon representing three people' />
+              <img
+                src='./images/newspaper_sec2_icon_one.svg'
+                alt='Icon representing three people'
+              />
             </div>
             <h1>
               Empowering publishers:
@@ -161,7 +164,7 @@ const Newspaper = () => {
           <div className={styles.secondNewsCard}>
             <div className={styles.secondNewsCardImg}>
               <img
-                src='./hand.svg'
+                src='./images/newspaper_sec2_icon_two.svg'
                 alt='Icon showing index finger pointing to options'
               />
             </div>
@@ -183,7 +186,7 @@ const Newspaper = () => {
           <div className={styles.secondNewsCard}>
             <div className={styles.secondNewsCardImg}>
               <img
-                src='./lock_open_right.svg'
+                src='./images/newspaper_sec2_icon_three.svg'
                 alt='Icon showing an unlock padlock'
               />
             </div>
@@ -204,7 +207,7 @@ const Newspaper = () => {
           <div className={styles.secondNewsCard}>
             <div className={styles.secondNewsCardImg}>
               <img
-                src='./grapharrow.svg'
+                src='./images/newspaper_sec2_icon_four.svg'
                 alt='Icon showing an arrow pointing up'
               />
             </div>
@@ -235,7 +238,10 @@ const Newspaper = () => {
         <div className={styles.mobileSecondNewsBox2}>
           <div className={styles.mobileSecondNewsCard}>
             <div className={styles.mobileSecondNewsCardImg}>
-              <img src='./people.svg' alt='Icon representing three people' />
+              <img
+                src='./images/newspaper_sec2_icon_one.svg'
+                alt='Icon representing three people'
+              />
             </div>
             <h1>
               Empowering publishers:
@@ -254,7 +260,7 @@ const Newspaper = () => {
           <div className={styles.mobileSecondNewsCard}>
             <div className={styles.mobileSecondNewsCardImg}>
               <img
-                src='./hand.svg'
+                src='./images/newspaper_sec2_icon_two.svg'
                 alt='Icon showing index finger pointing to options'
               />
             </div>
@@ -276,7 +282,7 @@ const Newspaper = () => {
           <div className={styles.mobileSecondNewsCard}>
             <div className={styles.mobileSecondNewsCardImg}>
               <img
-                src='./lock_open_right.svg'
+                src='./images/newspaper_sec2_icon_three.svg'
                 alt='Icon showing an unlock padlock'
               />
             </div>
@@ -297,7 +303,7 @@ const Newspaper = () => {
           <div className={styles.mobileSecondNewsCard}>
             <div className={styles.mobileSecondNewsCardImg}>
               <img
-                src='./grapharrow.svg'
+                src='./images/newspaper_sec2_icon_four.svg'
                 alt='Icon showing an arrow pointing up'
               />
             </div>
@@ -323,7 +329,7 @@ const Newspaper = () => {
       <div className={styles.thirdNewsContainer}>
         <div className={styles.thirdNewsImg}>
           <img
-            src='./Groupthird.png'
+            src='./images/newspaper_sec3.png'
             alt='Three screens placed on top of each other'
           />
         </div>
@@ -352,7 +358,7 @@ const Newspaper = () => {
       <div className={styles.mobileThirdNewsContainer}>
         <div className={styles.mobileThirdNewsImg}>
           <img
-            src='./Groupthird.png'
+            src='./images/newspaper_sec3.png'
             alt='Three screens placed on top of each other'
           />
         </div>
@@ -381,7 +387,10 @@ const Newspaper = () => {
       <div className={styles.fourthNewsContainer}>
         <div className={styles.fourthNewsImage}>
           <div className={styles.fourthNewsImgBg}></div>
-          <img src='./Groupfourth.png' alt='A screen showing the news' />
+          <img
+            src='./images/newspaper_sec4.png'
+            alt='A screen showing the news'
+          />
         </div>
 
         <div className={styles.fourthNewsContent}>
@@ -430,7 +439,10 @@ const Newspaper = () => {
       <div className={styles.mobileFourthNewsContainer}>
         <div className={styles.mobileFourthNewsImage}>
           <div className={styles.mobileFourthNewsImgBg}></div>
-          <img src='./Groupfourth.png' alt='A screen showing the news' />
+          <img
+            src='./images/newspaper_sec4.png'
+            alt='A screen showing the news'
+          />
         </div>
 
         <div className={styles.mobileFourthNewsContent}>
