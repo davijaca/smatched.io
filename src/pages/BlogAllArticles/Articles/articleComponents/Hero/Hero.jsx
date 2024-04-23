@@ -41,6 +41,7 @@ const Hero = ({
                     window.history.back();
                   }}
                   data-testid="btn-goBack"
+                  tabindex="0"
                 />
               </div>
 
