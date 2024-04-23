@@ -53,7 +53,7 @@ h2 {
 }
 
 .topFirst {
-  background: url(/public/heroBackground.svg) no-repeat;
+  background: url(/public/images/heroBackground.svg) no-repeat;
   background-size: cover;
   width: 100vw;
   display: flex;
@@ -234,7 +234,7 @@ h2 {
 
 /*THIRD SECTION*/
 .thirdNewsContainer {
-  background: url(/public/backgthird.png) no-repeat;
+  background: url(/public/images/newspaper_sec3_bg.png) no-repeat;
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -450,7 +450,7 @@ h2 {
     width: 100%;
     background-repeat: no-repeat;
     justify-content: center;
-    background: url(/public/heroBackgroundMobile.svg) no-repeat right top 0;
+    background: url(/public/images/heroBackgroundMobile.svg) no-repeat right top 0;
   }
 
   .mainFirstMobile {
@@ -633,7 +633,7 @@ h2 {
   }
 
   .mobileThirdNewsContainer {
-    background: url(/public/backgthird.png) no-repeat;
+    background: url(/public/images/newspaper_sec3_bg.png) no-repeat;
     background-size: cover;
     display: flex;
     justify-content: center;
