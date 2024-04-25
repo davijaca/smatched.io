@@ -46,8 +46,8 @@ const ArticleCard = ({
           {/* You can change how many lines the cards will display at line=() below */}
           <TextTruncate line={3} element="p" text={text} />
         </div>
-        <Link to={readMoreUrl}>
-          <button className={styles.btnReadMore}>READ MORE</button>
+        <Link to={readMoreUrl} role="button" className={styles.btnReadMore}>
+          READ MORE
         </Link>
       </div>
     </article>
