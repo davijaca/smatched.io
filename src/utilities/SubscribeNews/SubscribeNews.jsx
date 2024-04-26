@@ -2,6 +2,7 @@ import React from 'react';
 
 import styles from './SubscribeNews.module.css';
 import { useHandleSubscriptionNewsletter } from '../../common/useHandleSubscriptionNewsletter';
+import Button from '../../components/Button/Button';
 
 const SubscribeNews = () => {
   //Subscription logic extracted from SubscribeNews component and saved on a custom hook at the folder 'common'
@@ -18,15 +19,13 @@ const SubscribeNews = () => {
           <h1 className={styles.SubscribeNews_h1}>Join Our Newsletter</h1>
           <form onSubmit={submit} className={styles.subscribeNews_form}>
             <input
-              type="email"
-              placeholder="Enter your email.."
+              type='email'
+              placeholder='Enter your email..'
               className={styles.subscribeNews_input}
               onChange={handleInputChange}
               value={inputValue}
             />
-            <button type="submit" className={styles.subscribeNews_button}>
-              Subscribe
-            </button>
+            <Button text='SUBSCRIBE' type='submit' />
           </form>
         </div>
         <div className={styles.subscribeInfos_wrapper}>

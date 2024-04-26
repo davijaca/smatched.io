@@ -38,6 +38,7 @@
 .subscribeNews_form {
   display: flex;
   justify-content: space-between;
+  gap: 22px;
   width: 556px;
 }
 
@@ -46,13 +47,8 @@
   color: #b9bcce;
   width: 325px;
   padding-left: 24px;
-}
-
-.subscribeNews_button {
-  color: black;
-  background-color: white;
-  padding: 18px 56px;
-  text-transform: uppercase;
+  border: 0.94px solid #FFFFFF;
+  background-color: transparent;
 }
 
 .subscribeInfos_wrapper {
