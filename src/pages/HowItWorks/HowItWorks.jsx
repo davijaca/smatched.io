@@ -1,5 +1,6 @@
-import styles from "./HowItWorks.module.css";
-import React, { useState } from "react";
+import Button from '../../components/Button/Button';
+import styles from './HowItWorks.module.css';
+import React, { useState } from 'react';
 
 const HowItWorks = () => {
   const [isActive1, setIsActive1] = useState(false);
@@ -49,7 +50,7 @@ const HowItWorks = () => {
               </h2>
               <div className={styles.parag1}>
                 <div className={styles.innerParag1}>
-                  {" "}
+                  {' '}
                   Smatched revolutionizes the way businesses monetize and retain
                   users. We empower businesses to generate revenue from a
                   previously untapped user base - those users with low
@@ -58,9 +59,7 @@ const HowItWorks = () => {
                   and retention within your existing user base.
                 </div>
               </div>
-              <div className={styles.buttonText}>
-                <div className={styles.buttonText1}>BOOK A DEMO</div>
-              </div>
+              <Button />
             </div>
           </div>
         </div>
@@ -77,8 +76,8 @@ const HowItWorks = () => {
                   <div className={styles.leftImgInfoMobile1}>
                     <img
                       className={styles.leftImgMobile1}
-                      src="./rafiki.svg"
-                      alt=""
+                      src='./rafiki.svg'
+                      alt=''
                     />
                   </div>
                 </div>
@@ -91,7 +90,7 @@ const HowItWorks = () => {
                   </h2>
                   <div className={styles.paragMobile1}>
                     <div className={styles.innerParagMobile1}>
-                      {" "}
+                      {' '}
                       Smatched revolutionizes the way businesses monetize and
                       retain users. We empower businesses to generate revenue
                       from a previously untapped user base - those users with
@@ -101,11 +100,7 @@ const HowItWorks = () => {
                     </div>
                   </div>
 
-                  <div className={styles.mobileButtonTextGold}>
-                    <div className={styles.mobileButtonText1Gold}>
-                      BOOK A DEMO
-                    </div>
-                  </div>
+                  <Button color='gold' />
                 </div>
               </div>
             </div>
@@ -122,7 +117,7 @@ const HowItWorks = () => {
 
         <div className={styles.secondHowContainerBox2}>
           <div className={styles.secondHowContainerBox2Content}>
-            <img className={styles.imageSec2} src="./number red 1.svg" alt="" />
+            <img className={styles.imageSec2} src='./number red 1.svg' alt='' />
             <p className={styles.textImgSec2}>
               We customise an offerwall to integrate with your current mobile or
               web-app that integrates seamlessly with your existing paywall and
@@ -132,8 +127,8 @@ const HowItWorks = () => {
           <div className={styles.secondHowContainerBox2Content}>
             <img
               className={styles.imageSec2}
-              src="./number yellow 2.svg"
-              alt=""
+              src='./number yellow 2.svg'
+              alt=''
             />
             <p className={styles.textImgSec2}>
               We work with you to optimize your conversion rates and improve the
@@ -143,8 +138,8 @@ const HowItWorks = () => {
           <div className={styles.secondHowContainerBox2Content}>
             <img
               className={styles.imageSec2}
-              src="./number blue 3.svg"
-              alt=""
+              src='./number blue 3.svg'
+              alt=''
             />
             <p className={styles.textImgSec2}>
               At the point where users decline to pay - or take actions you have
@@ -155,8 +150,8 @@ const HowItWorks = () => {
           <div className={styles.secondHowContainerBox2Content}>
             <img
               className={styles.imageSec2}
-              src="./number white 4.svg"
-              alt=""
+              src='./number white 4.svg'
+              alt=''
             />
             <p className={styles.textImgSec2}>
               The user then completes the action on the offer wall which earns
@@ -178,8 +173,8 @@ const HowItWorks = () => {
           <div className={styles.secondHowContainerBox2ContentMobile}>
             <img
               className={styles.imageSec2Mobile}
-              src="./number red 1.svg"
-              alt=""
+              src='./number red 1.svg'
+              alt=''
             />
             <p className={styles.textImgSec2Mobile}>
               We customise an offerwall to integrate with your current mobile or
@@ -191,8 +186,8 @@ const HowItWorks = () => {
           <div className={styles.secondHowContainerBox2ContentMobile}>
             <img
               className={styles.imageSec2Mobile}
-              src="./number yellow 2.svg"
-              alt=""
+              src='./number yellow 2.svg'
+              alt=''
             />
             <p className={styles.textImgSec2Mobile}>
               We work with you to optimize your conversion rates and improve the
@@ -202,8 +197,8 @@ const HowItWorks = () => {
           <div className={styles.secondHowContainerBox2ContentMobile}>
             <img
               className={styles.imageSec2Mobile}
-              src="./number blue 3.svg"
-              alt=""
+              src='./number blue 3.svg'
+              alt=''
             />
             <p className={styles.textImgSec2Mobile}>
               At the point where users decline to pay - or take actions you have
@@ -214,8 +209,8 @@ const HowItWorks = () => {
           <div className={styles.secondHowContainerBox2ContentMobile}>
             <img
               className={styles.imageSec2Mobile}
-              src="./number white 4.svg"
-              alt=""
+              src='./number white 4.svg'
+              alt=''
             />
             <p className={styles.textImgSec2Mobile}>
               The user then completes the action on the offer wall which earns
@@ -236,15 +231,12 @@ const HowItWorks = () => {
         </div>
 
         <div className={styles.imageSec2Bow3}>
-          <img src="./shortvideo.svg" alt="" />
+          <img src='./shortvideo.svg' alt='' />
         </div>
 
-        <div className={styles.button3}>
-          <div className={styles.ButtonTextGold}>
-            <div className={styles.buttonText1Gold}>BOOK A DEMO</div>
-          </div>
-        </div>
+        <Button color='gold' />
       </div>
+
       {/* {/*Third HowItWorks mobile Responsiveness*/}
 
       <div className={styles.thirdHowContainer3mobile}>
@@ -256,14 +248,10 @@ const HowItWorks = () => {
         </div>
 
         <div className={styles.imageSec2Bow3mobile}>
-          <img src="./shortvideo.svg" alt="" />
+          <img src='./shortvideo.svg' alt='' />
         </div>
 
-        <div className={styles.button3mobile}>
-          <div className={styles.buttonTextMobile}>
-            <div className={styles.buttonText1Mobile}>BOOK A DEMO</div>
-          </div>
-        </div>
+        <Button />
       </div>
 
       {/* Fourth HowItWorks */}
@@ -295,7 +283,7 @@ const HowItWorks = () => {
           </div>
 
           <div className={styles.fourthSectionRight}>
-            <img src="./Rectangle 7.svg" alt="" />
+            <img src='./Rectangle 7.svg' alt='' />
           </div>
         </div>
       </div>
@@ -308,13 +296,13 @@ const HowItWorks = () => {
         </div>
 
         <div className={styles.imageSec2Bow3mobile4}>
-          <img src="./Rectangle 7.svg" alt="" />
+          <img src='./Rectangle 7.svg' alt='' />
         </div>
 
         <div className={styles.fourthSectionLeftmobile}>
           <div className={styles.innerFourthSectionLeftmobile}>
             <div className={styles.innerFourthTitlemobile}>
-              Businesses looking to <br /> monetize more of their <br />{" "}
+              Businesses looking to <br /> monetize more of their <br />{' '}
               existing user base:
             </div>
             <div className={styles.innerFourthTextmobile}>
@@ -356,7 +344,7 @@ const HowItWorks = () => {
             A study by App Annie found that games that use a combination of
             monetization models have a 50% higher retention rate than games that
             use only one monetization model. Providing your users with more
-            choice improves the user experience.{" "}
+            choice improves the user experience.{' '}
           </p>
         </div>
       </div>
@@ -385,7 +373,7 @@ const HowItWorks = () => {
           </div>
 
           <div className={styles.SixthSectionRight6}>
-            <img src="./Rectangle 8.svg" alt="" />
+            <img src='./Rectangle 8.svg' alt='' />
           </div>
         </div>
       </div>
@@ -394,13 +382,13 @@ const HowItWorks = () => {
 
       <div className={styles.sixthHowContainer3mobile}>
         <div className={styles.imageSec2Bow3mobile46}>
-          <img src="./Rectangle 8.svg" alt="" />
+          <img src='./Rectangle 8.svg' alt='' />
         </div>
 
         <div className={styles.sixthSectionLeftmobile}>
           <div className={styles.innerSixthSectionLeftmobile}>
             <div className={styles.innerSixthTitlemobile}>
-              Businesses looking to <br /> monetize more of their <br />{" "}
+              Businesses looking to <br /> monetize more of their <br />{' '}
               existing user base:
             </div>
             <div className={styles.innerSixthTextmobile}>
@@ -420,7 +408,7 @@ const HowItWorks = () => {
       <div className={styles.seventhHowContainer}>
         <div className={styles.seventhHowBackground}>
           <div className={styles.seventhHowLeft}>
-            <img src="/Rectangle 9.svg" />
+            <img src='/Rectangle 9.svg' />
           </div>
           <div className={styles.seventhHowRight}>
             <div className={styles.innerSeventhHowRight}>
@@ -444,7 +432,7 @@ const HowItWorks = () => {
 
       <div className={styles.seventhHowContainer3mobile}>
         <div className={styles.imageSec2Bow3mobile}>
-          <img src="./Rectangle 9.svg" alt="" />
+          <img src='./Rectangle 9.svg' alt='' />
         </div>
 
         <div className={styles.seventhSectionLeftmobile}>
@@ -475,7 +463,7 @@ const HowItWorks = () => {
                 {/* Row 1 */}
                 <div
                   className={`${styles.tableRow} ${
-                    isActive1 ? styles.active : ""
+                    isActive1 ? styles.active : ''
                   }`}
                   onClick={() => setIsActive1(!isActive1)}
                 >
@@ -499,7 +487,7 @@ const HowItWorks = () => {
                 {/* Row 2 */}
                 <div
                   className={`${styles.tableRow} ${
-                    isActive2 ? styles.active : ""
+                    isActive2 ? styles.active : ''
                   }`}
                   onClick={() => setIsActive2(!isActive2)}
                 >
@@ -527,7 +515,7 @@ const HowItWorks = () => {
                 {/* Row 3 */}
                 <div
                   className={`${styles.tableRow} ${
-                    isActive3 ? styles.active : ""
+                    isActive3 ? styles.active : ''
                   }`}
                   onClick={() => setIsActive3(!isActive3)}
                 >
@@ -553,7 +541,7 @@ const HowItWorks = () => {
                 {/* Row 4 */}
                 <div
                   className={`${styles.tableRow} ${
-                    isActive4 ? styles.active : ""
+                    isActive4 ? styles.active : ''
                   }`}
                   onClick={() => setIsActive4(!isActive4)}
                 >
@@ -576,7 +564,7 @@ const HowItWorks = () => {
                 {/* Row 5 */}
                 <div
                   className={`${styles.tableRow} ${
-                    isActive5 ? styles.active : ""
+                    isActive5 ? styles.active : ''
                   }`}
                   onClick={() => setIsActive5(!isActive5)}
                 >
@@ -604,7 +592,7 @@ const HowItWorks = () => {
                 {/* Row 6 */}
                 <div
                   className={`${styles.tableRow} ${
-                    isActive6 ? styles.active : ""
+                    isActive6 ? styles.active : ''
                   }`}
                   onClick={() => setIsActive6(!isActive6)}
                 >
@@ -683,7 +671,7 @@ const HowItWorks = () => {
                 {/* Row 1 */}
                 <div
                   className={`${styles.tableRowMobile} ${
-                    isActive1 ? styles.activeMobile : ""
+                    isActive1 ? styles.activeMobile : ''
                   }`}
                   onClick={() => setIsActive1(!isActive1)}
                 >
@@ -711,7 +699,7 @@ const HowItWorks = () => {
                 {/* Row 2 */}
                 <div
                   className={`${styles.tableRowMobile} ${
-                    isActive2 ? styles.activeMobile : ""
+                    isActive2 ? styles.activeMobile : ''
                   }`}
                   onClick={() => setIsActive2(!isActive2)}
                 >
@@ -741,7 +729,7 @@ const HowItWorks = () => {
                 {/* Row 3 */}
                 <div
                   className={`${styles.tableRowMobile} ${
-                    isActive3 ? styles.activeMobile : ""
+                    isActive3 ? styles.activeMobile : ''
                   }`}
                   onClick={() => setIsActive3(!isActive3)}
                 >
@@ -769,7 +757,7 @@ const HowItWorks = () => {
                 {/* Row 4 */}
                 <div
                   className={`${styles.tableRowMobile} ${
-                    isActive4 ? styles.activeMobile : ""
+                    isActive4 ? styles.activeMobile : ''
                   }`}
                   onClick={() => setIsActive4(!isActive4)}
                 >
@@ -794,7 +782,7 @@ const HowItWorks = () => {
                 {/* Row 5 */}
                 <div
                   className={`${styles.tableRowMobile} ${
-                    isActive5 ? styles.active : ""
+                    isActive5 ? styles.active : ''
                   }`}
                   onClick={() => setIsActive5(!isActive5)}
                 >
@@ -824,7 +812,7 @@ const HowItWorks = () => {
                 {/* Row 6 */}
                 <div
                   className={`${styles.tableRowMobile} ${
-                    isActive6 ? styles.activeMobile : ""
+                    isActive6 ? styles.activeMobile : ''
                   }`}
                   onClick={() => setIsActive6(!isActive6)}
                 >
