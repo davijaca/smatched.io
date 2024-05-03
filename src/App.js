@@ -8,7 +8,6 @@ import Game from './pages/Game/Game';
 import NonProfit from './pages/NonProfit/NonProfit';
 import Website from './pages/Website/Website';
 import Newspaper from './pages/Newspaper/Newspaper';
-import BlogArticle from './pages/BlogArticle/BlogArticle';
 import HowItWorks from './pages/HowItWorks/HowItWorks';
 // import Contact from './pages/Contact/Contact';
 import Mobile from './pages/Mobile/Mobile';
@@ -65,11 +64,6 @@ function App() {
             errorElement: <h1> PAGE NOT FOUND 8</h1>,
           },
 
-          {
-            path: AppRoutes.BLOGARTICLE,
-            element: <BlogArticle />,
-            errorElement: <h1> PAGE NOT FOUND 5</h1>,
-          },
           {
             path: AppRoutes.NEWSPAPER,
             element: <Newspaper />,
