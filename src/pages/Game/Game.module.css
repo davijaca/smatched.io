@@ -597,8 +597,8 @@ h2 {
   }
 
   .mobileFirstGameContainer {
-    background: url(/public/images/mobile_sec1_bg_mobile.png) no-repeat fixed
-      right;
+    background: url(/public/images/backgroundImgs/mobile_sec1_bg_mobile.png)
+      no-repeat fixed right;
     background-color: #000000;
     display: flex;
     width: 100%;
