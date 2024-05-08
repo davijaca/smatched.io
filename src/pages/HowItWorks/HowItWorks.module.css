@@ -57,7 +57,7 @@ h2 {
 }
 
 .topFirst1 {
-  background: url(/public/heroBackground.svg) no-repeat;
+  background: url(/public/images/backgroundImgs/heroBackground.svg) no-repeat;
   background-size: cover;
   width: 100%;
   display: flex;
@@ -119,7 +119,7 @@ h2 {
 .innerParag1 {
   color: #fff;
   width: 80%;
-  font-feature-settings: "clig" off, "liga" off;
+  font-feature-settings: 'clig' off, 'liga' off;
   font-family: gotham-book;
   font-size: 18px;
   font-style: normal;
@@ -138,7 +138,7 @@ h2 {
 
 @font-face {
   font-family: gotham-light;
-  src: url("/public/fonts/Gotham/Gotham-Light.otf");
+  src: url('/public/fonts/Gotham/Gotham-Light.otf');
 }
 
 .leftMain {
@@ -191,7 +191,7 @@ h2 {
 .secondLeft {
   max-width: 711px;
   color: #1e1e1e;
-  font-feature-settings: "clig" off, "liga" off;
+  font-feature-settings: 'clig' off, 'liga' off;
   font-family: gotham-medium;
   font-size: 53px;
   font-style: normal;
@@ -203,7 +203,7 @@ h2 {
 .secondRight {
   max-width: 562px;
   color: #1e1e1e;
-  font-feature-settings: "clig" off, "liga" off;
+  font-feature-settings: 'clig' off, 'liga' off;
   font-family: gotham-book;
   font-size: 18px;
   font-style: normal;
@@ -243,7 +243,7 @@ h2 {
 .textImgSec2 {
   color: #1e1e1e;
   text-align: left;
-  font-feature-settings: "clig" off, "liga" off;
+  font-feature-settings: 'clig' off, 'liga' off;
   font-family: gotham-book;
   font-size: 16px;
   font-style: normal;
@@ -289,7 +289,7 @@ h2 {
 .thirdLeft3 {
   max-width: 711px;
   color: #ffffff;
-  font-feature-settings: "clig" off, "liga" off;
+  font-feature-settings: 'clig' off, 'liga' off;
   font-family: gotham-medium;
   font-size: 38px;
   font-style: normal;
@@ -301,7 +301,7 @@ h2 {
 .thirdRight3 {
   max-width: 562px;
   color: #ffffff;
-  font-feature-settings: "clig" off, "liga" off;
+  font-feature-settings: 'clig' off, 'liga' off;
   font-family: gotham-light;
   font-size: 16px;
   font-style: normal;
@@ -362,7 +362,7 @@ h2 {
 .innerFourthFreeResources {
   height: 192px;
   color: #000000;
-  font-feature-settings: "clig" off, "liga" off;
+  font-feature-settings: 'clig' off, 'liga' off;
   font-family: gotham-medium;
   font-size: 53px;
   font-weight: 500;
@@ -452,7 +452,7 @@ h2 {
 .fifthLeft {
   max-width: 760px;
   color: #ffffff;
-  font-feature-settings: "clig" off, "liga" off;
+  font-feature-settings: 'clig' off, 'liga' off;
   font-family: gotham-medium;
   font-size: 53px;
   font-style: normal;
@@ -465,7 +465,7 @@ h2 {
 .fifthRight {
   max-width: 760px;
   color: #ffffff;
-  font-feature-settings: "clig" off, "liga" off;
+  font-feature-settings: 'clig' off, 'liga' off;
   font-family: gotham-light;
   font-size: 16px;
   font-style: normal;
@@ -519,7 +519,7 @@ h2 {
 .innerSixthTitle {
   height: 192px;
   color: #ffffff;
-  font-feature-settings: "clig" off, "liga" off;
+  font-feature-settings: 'clig' off, 'liga' off;
   font-family: gotham-medium;
   font-size: 53px;
   font-weight: 500;
@@ -613,7 +613,7 @@ h2 {
 
 .seventhHowRightModel {
   color: #1e1e1e;
-  font-feature-settings: "clig" off, "liga" off;
+  font-feature-settings: 'clig' off, 'liga' off;
   font-family: Gotham-medium;
   font-size: 53px;
   font-style: normal;
@@ -625,12 +625,12 @@ h2 {
 
 @font-face {
   font-family: Gotham-medium;
-  src: url("/public/fonts/Gotham/Gotham-Medium.otf");
+  src: url('/public/fonts/Gotham/Gotham-Medium.otf');
 }
 
 .increase {
   color: #1e1e1e;
-  font-feature-settings: "clig" off, "liga" off;
+  font-feature-settings: 'clig' off, 'liga' off;
   font-family: Gotham-light;
   font-size: 16px;
   font-style: normal;
@@ -642,7 +642,7 @@ h2 {
 
 @font-face {
   font-family: Gotham-light;
-  src: url("/public/fonts/Gotham/Gotham-Light.otf");
+  src: url('/public/fonts/Gotham/Gotham-Light.otf');
 }
 
 .smatchIncreaseOnline {
@@ -673,7 +673,7 @@ h2 {
 
 .rowContent {
   color: white;
-  font-feature-settings: "clig" off, "liga" off;
+  font-feature-settings: 'clig' off, 'liga' off;
   font-family: gotham-book;
   font-size: 16px;
   font-style: normal;
@@ -697,7 +697,7 @@ h2 {
 }
 
 .additionalContent {
-  font-family: "Gotham", sans-serif;
+  font-family: 'Gotham', sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 24px;
@@ -713,7 +713,7 @@ h2 {
 }
 
 .additionalContent li {
-  font-family: "Gotham", sans-serif;
+  font-family: 'Gotham', sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 24px;
@@ -724,7 +724,7 @@ h2 {
 --------------- .secondLeft358 {
   max-width: 760px;
   color: #ffffff;
-  font-feature-settings: "clig" off, "liga" off;
+  font-feature-settings: 'clig' off, 'liga' off;
   font-family: gotham-medium;
   font-size: 24px;
   font-style: normal;
@@ -1010,7 +1010,7 @@ h2 {
 
   .secondLeftMobile {
     color: #07090a;
-    font-feature-settings: "clig" off, "liga" off;
+    font-feature-settings: 'clig' off, 'liga' off;
     font-family: gotham-medium;
     font-size: 24px;
     font-style: normal;
@@ -1022,7 +1022,7 @@ h2 {
   .secondRightMobile {
     width: 89%;
     color: #07090a;
-    font-feature-settings: "clig" off, "liga" off;
+    font-feature-settings: 'clig' off, 'liga' off;
     font-family: gotham-book;
     font-size: 14px;
     font-style: normal;
@@ -1059,7 +1059,7 @@ h2 {
   .textImgSec2Mobile {
     color: #1e1e1e;
     text-align: center;
-    font-feature-settings: "clig" off, "liga" off;
+    font-feature-settings: 'clig' off, 'liga' off;
     font-family: gotham-book;
     font-size: 12px;
     font-style: normal;
@@ -1112,7 +1112,7 @@ h2 {
   .thirdLeft3mobile {
     max-width: 711px;
     color: #ffffff;
-    font-feature-settings: "clig" off, "liga" off;
+    font-feature-settings: 'clig' off, 'liga' off;
     font-family: gotham-medium;
     font-size: 24px;
     font-style: normal;
@@ -1123,7 +1123,7 @@ h2 {
   .thirdRight3mobile {
     max-width: 562px;
     color: #ffffff;
-    font-feature-settings: "clig" off, "liga" off;
+    font-feature-settings: 'clig' off, 'liga' off;
     font-family: gotham-light;
     font-size: 14px;
     font-style: normal;
@@ -1146,7 +1146,6 @@ h2 {
     height: 398px;
     object-fit: cover;
   }
-
 
   /* Fourth MOBILE SECTION */
 
@@ -1186,7 +1185,7 @@ h2 {
   .fourthLeft3mobile4 {
     max-width: 711px;
     color: #000000;
-    font-feature-settings: "clig" off, "liga" off;
+    font-feature-settings: 'clig' off, 'liga' off;
     font-family: gotham-medium;
     font-size: 24px;
     font-style: normal;
@@ -1197,7 +1196,7 @@ h2 {
   .fourthRight3mobile4 {
     max-width: 562px;
     color: #000000;
-    font-feature-settings: "clig" off, "liga" off;
+    font-feature-settings: 'clig' off, 'liga' off;
     font-family: gotham-light;
     font-size: 14px;
     font-style: normal;
@@ -1231,7 +1230,7 @@ h2 {
     justify-content: center;
 
     color: #000000;
-    font-feature-settings: "clig" off, "liga" off;
+    font-feature-settings: 'clig' off, 'liga' off;
     font-family: gotham-medium;
     font-size: 24px;
     font-weight: 500;
@@ -1249,7 +1248,7 @@ h2 {
     justify-content: center;
     height: 192px;
     color: #000000;
-    font-feature-settings: "clig" off, "liga" off;
+    font-feature-settings: 'clig' off, 'liga' off;
     font-family: gotham-medium;
     font-size: 24px;
     font-weight: 500;
@@ -1326,7 +1325,7 @@ h2 {
   .fifthLeft3mobile {
     max-width: 342px;
     color: #ffffff;
-    font-feature-settings: "clig" off, "liga" off;
+    font-feature-settings: 'clig' off, 'liga' off;
     font-family: gotham-medium;
     font-size: 24px;
     font-style: normal;
@@ -1339,7 +1338,7 @@ h2 {
   .fifthRight3mobile {
     max-width: 342px;
     color: #ffffff;
-    font-feature-settings: "clig" off, "liga" off;
+    font-feature-settings: 'clig' off, 'liga' off;
     font-family: gotham-light;
     font-size: 14px;
     font-style: normal;
@@ -1386,7 +1385,7 @@ h2 {
   .sixthLeft3mobile {
     max-width: 711px;
     color: #ffffff;
-    font-feature-settings: "clig" off, "liga" off;
+    font-feature-settings: 'clig' off, 'liga' off;
     font-family: gotham-medium;
     font-size: 24px;
     font-style: normal;
@@ -1397,7 +1396,7 @@ h2 {
   .sixthRight3mobile {
     max-width: 562px;
     color: #ffffff;
-    font-feature-settings: "clig" off, "liga" off;
+    font-feature-settings: 'clig' off, 'liga' off;
     font-family: gotham-light;
     font-size: 14px;
     font-style: normal;
@@ -1431,7 +1430,7 @@ h2 {
     justify-content: center;
 
     color: #000000;
-    font-feature-settings: "clig" off, "liga" off;
+    font-feature-settings: 'clig' off, 'liga' off;
     font-family: gotham-medium;
     font-size: 24px;
     font-weight: 500;
@@ -1449,7 +1448,7 @@ h2 {
     justify-content: center;
     height: 192px;
     color: #ffffff;
-    font-feature-settings: "clig" off, "liga" off;
+    font-feature-settings: 'clig' off, 'liga' off;
     font-family: gotham-medium;
     font-size: 24px;
     font-weight: 500;
@@ -1544,7 +1543,7 @@ h2 {
     justify-content: center;
     height: 192px;
     color: black;
-    font-feature-settings: "clig" off, "liga" off;
+    font-feature-settings: 'clig' off, 'liga' off;
     font-family: gotham-medium;
     font-size: 24px;
     font-weight: 500;
@@ -1593,7 +1592,7 @@ h2 {
 
   .rowContentMobile {
     color: white;
-    font-feature-settings: "clig" off, "liga" off;
+    font-feature-settings: 'clig' off, 'liga' off;
     font-family: gotham-book;
     font-size: 14px;
     font-style: normal;
@@ -1617,7 +1616,7 @@ h2 {
   }
 
   .additionalContentMobile {
-    font-family: "Gotham", sans-serif;
+    font-family: 'Gotham', sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 24px;
@@ -1633,7 +1632,7 @@ h2 {
   }
 
   .additionalContentMobile li {
-    font-family: "Gotham", sans-serif;
+    font-family: 'Gotham', sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 24px;
@@ -1644,7 +1643,7 @@ h2 {
   --------------- .h3.secondLeft358Mobile {
     max-width: 760px;
     color: #761414;
-    font-feature-settings: "clig" off, "liga" off;
+    font-feature-settings: 'clig' off, 'liga' off;
     font-family: gotham-medium;
     font-size: 14px;
     font-style: normal;
