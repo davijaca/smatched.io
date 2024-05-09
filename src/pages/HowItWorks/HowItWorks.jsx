@@ -76,8 +76,8 @@ const HowItWorks = () => {
                   <div className={styles.leftImgInfoMobile1}>
                     <img
                       className={styles.leftImgMobile1}
-                      src='./rafiki.svg'
-                      alt=''
+                      src="/images/howitworksPage/rafiki.svg"
+                      alt="A person presenting a growing graphic"
                     />
                   </div>
                 </div>
@@ -100,7 +100,7 @@ const HowItWorks = () => {
                     </div>
                   </div>
 
-                  <Button color='gold' />
+                  <Button color="gold" />
                 </div>
               </div>
             </div>
@@ -117,7 +117,11 @@ const HowItWorks = () => {
 
         <div className={styles.secondHowContainerBox2}>
           <div className={styles.secondHowContainerBox2Content}>
-            <img className={styles.imageSec2} src='./number red 1.svg' alt='' />
+            <img
+              className={styles.imageSec2}
+              src="/images/howitworksPage/number_red_1.svg"
+              alt="1"
+            />
             <p className={styles.textImgSec2}>
               We customise an offerwall to integrate with your current mobile or
               web-app that integrates seamlessly with your existing paywall and
@@ -127,8 +131,8 @@ const HowItWorks = () => {
           <div className={styles.secondHowContainerBox2Content}>
             <img
               className={styles.imageSec2}
-              src='./number yellow 2.svg'
-              alt=''
+              src="/images/howitworksPage/number_yellow_2.svg"
+              alt="2"
             />
             <p className={styles.textImgSec2}>
               We work with you to optimize your conversion rates and improve the
@@ -138,8 +142,8 @@ const HowItWorks = () => {
           <div className={styles.secondHowContainerBox2Content}>
             <img
               className={styles.imageSec2}
-              src='./number blue 3.svg'
-              alt=''
+              src="/images/howitworksPage/number_blue_3.svg"
+              alt="3"
             />
             <p className={styles.textImgSec2}>
               At the point where users decline to pay - or take actions you have
@@ -150,8 +154,8 @@ const HowItWorks = () => {
           <div className={styles.secondHowContainerBox2Content}>
             <img
               className={styles.imageSec2}
-              src='./number white 4.svg'
-              alt=''
+              src="/images/howitworksPage/number_white_4.svg"
+              alt="4"
             />
             <p className={styles.textImgSec2}>
               The user then completes the action on the offer wall which earns
@@ -173,8 +177,8 @@ const HowItWorks = () => {
           <div className={styles.secondHowContainerBox2ContentMobile}>
             <img
               className={styles.imageSec2Mobile}
-              src='./number red 1.svg'
-              alt=''
+              src="/images/howitworksPage/number_red_1.svg"
+              alt="1"
             />
             <p className={styles.textImgSec2Mobile}>
               We customise an offerwall to integrate with your current mobile or
@@ -186,8 +190,8 @@ const HowItWorks = () => {
           <div className={styles.secondHowContainerBox2ContentMobile}>
             <img
               className={styles.imageSec2Mobile}
-              src='./number yellow 2.svg'
-              alt=''
+              src="/images/howitworksPage/number_yellow_2.svg"
+              alt="2"
             />
             <p className={styles.textImgSec2Mobile}>
               We work with you to optimize your conversion rates and improve the
@@ -197,8 +201,8 @@ const HowItWorks = () => {
           <div className={styles.secondHowContainerBox2ContentMobile}>
             <img
               className={styles.imageSec2Mobile}
-              src='./number blue 3.svg'
-              alt=''
+              src="/images/howitworksPage/number_blue_3.svg"
+              alt="3"
             />
             <p className={styles.textImgSec2Mobile}>
               At the point where users decline to pay - or take actions you have
@@ -209,8 +213,8 @@ const HowItWorks = () => {
           <div className={styles.secondHowContainerBox2ContentMobile}>
             <img
               className={styles.imageSec2Mobile}
-              src='./number white 4.svg'
-              alt=''
+              src="/images/howitworksPage/number_white_4.svg"
+              alt="4"
             />
             <p className={styles.textImgSec2Mobile}>
               The user then completes the action on the offer wall which earns
@@ -231,10 +235,10 @@ const HowItWorks = () => {
         </div>
 
         <div className={styles.imageSec2Bow3}>
-          <img src='./shortvideo.svg' alt='' />
+          <img src="/images/howitworksPage/shortvideo.svg" alt="Short Video" />
         </div>
 
-        <Button color='gold' />
+        <Button color="gold" />
       </div>
 
       {/* {/*Third HowItWorks mobile Responsiveness*/}
@@ -248,7 +252,7 @@ const HowItWorks = () => {
         </div>
 
         <div className={styles.imageSec2Bow3mobile}>
-          <img src='./shortvideo.svg' alt='' />
+          <img src="/images/howitworksPage/shortvideo.svg" alt="Short video" />
         </div>
 
         <Button />
@@ -283,7 +287,10 @@ const HowItWorks = () => {
           </div>
 
           <div className={styles.fourthSectionRight}>
-            <img src='./Rectangle 7.svg' alt='' />
+            <img
+              src="/images/howitworksPage/rectangle_7.svg"
+              alt="Group of people using notebooks"
+            />
           </div>
         </div>
       </div>
@@ -296,7 +303,10 @@ const HowItWorks = () => {
         </div>
 
         <div className={styles.imageSec2Bow3mobile4}>
-          <img src='./Rectangle 7.svg' alt='' />
+          <img
+            src="/images/howitworksPage/rectangle_7.svg"
+            alt="Group of people using notebooks"
+          />
         </div>
 
         <div className={styles.fourthSectionLeftmobile}>
@@ -373,7 +383,10 @@ const HowItWorks = () => {
           </div>
 
           <div className={styles.SixthSectionRight6}>
-            <img src='./Rectangle 8.svg' alt='' />
+            <img
+              src="/images/howitworksPage/rectangle_8.svg"
+              alt="Finger scrolling a phone"
+            />
           </div>
         </div>
       </div>
@@ -382,7 +395,10 @@ const HowItWorks = () => {
 
       <div className={styles.sixthHowContainer3mobile}>
         <div className={styles.imageSec2Bow3mobile46}>
-          <img src='./Rectangle 8.svg' alt='' />
+          <img
+            src="/images/howitworksPage/rectangle_8.svg"
+            alt="Finger scrolliing a phone"
+          />
         </div>
 
         <div className={styles.sixthSectionLeftmobile}>
@@ -408,7 +424,10 @@ const HowItWorks = () => {
       <div className={styles.seventhHowContainer}>
         <div className={styles.seventhHowBackground}>
           <div className={styles.seventhHowLeft}>
-            <img src='/Rectangle 9.svg' />
+            <img
+              src="/images/howitworksPage/rectangle_9.svg"
+              alt="A phone screen"
+            />
           </div>
           <div className={styles.seventhHowRight}>
             <div className={styles.innerSeventhHowRight}>
@@ -432,7 +451,10 @@ const HowItWorks = () => {
 
       <div className={styles.seventhHowContainer3mobile}>
         <div className={styles.imageSec2Bow3mobile}>
-          <img src='./Rectangle 9.svg' alt='' />
+          <img
+            src="/images/howitworksPage/rectangle_9.svg"
+            alt="A phone screen"
+          />
         </div>
 
         <div className={styles.seventhSectionLeftmobile}>
