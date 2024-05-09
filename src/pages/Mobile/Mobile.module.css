@@ -179,7 +179,7 @@
 
 .fourthSection {
   min-height: 1512px;
-  background: url(/public/images/mobile_sec4_bg_web.png) no-repeat;
+  background: url(/public/images/mobilePage/mobile_sec4_bg_web.png) no-repeat;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -403,7 +403,8 @@
 
   .fourthSection {
     min-height: 1212px;
-    background: url(/public/images/mobile_sec4_bg_mobile.png) no-repeat;
+    background: url(/public/images/mobilePage/mobile_sec4_bg_mobile.png)
+      no-repeat;
     background-size: cover;
   }
 
