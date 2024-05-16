@@ -397,7 +397,6 @@ h2 {
 /*FOURTH SECTION*/
 
 .fourthWebsiteContainer {
-  //width: 1512px;
   height: 887px;
   top: 3752px;
   gap: 0px;
@@ -516,7 +515,7 @@ h2 {
 
 /*Fifth Screen*/
 .fifthWebsiteContainer {
-  background: url(/public/images/Group 1000004747.png) no-repeat;
+  background: url(/public/images/aboutusPage/group_1000004747.png) no-repeat;
   background-size: cover;
   justify-content: center;
   height: 750px;
