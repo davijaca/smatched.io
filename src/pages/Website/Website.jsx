@@ -52,7 +52,7 @@ const Website = () => {
           </div>
           <div className={styles.firstRight}>
             <img
-              src="/images/websitePage/website_sec1.png"
+              src="/images/backgroundImgs/website_sec1.png"
               alt="A monitor and a laptop screen"
             />
           </div>
@@ -66,7 +66,7 @@ const Website = () => {
           <div className={styles.firstMobileTopImg}>
             <img
               className={styles.firstMobileImg}
-              src="/images/websitePage/website_sec1.png"
+              src="/images/backgroundImgs/website_sec1.png"
               alt="A monitor and a laptop screen"
             />
           </div>
