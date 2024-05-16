@@ -1195,7 +1195,7 @@ const DataPrivacy = () => {
                 <div className={styles.leftImgInfoMobile}>
                   <img
                     className={styles.leftImgMobile}
-                    src="/images/dataprivacyImgs/smatchedlogo.png"
+                    src="/images/logo/smatchedlogo.png"
                     alt="The smatched logo"
                   />
                 </div>
