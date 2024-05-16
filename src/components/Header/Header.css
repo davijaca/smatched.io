@@ -7,8 +7,8 @@
   background: transparent;
 }
 .header-bg {
-  background: url(/public/images/backgroundImgs/headerBg.svg) center center
-    no-repeat;
+  background: url(../../../public/images/backgroundImgs/headerBg.svg) center
+    center no-repeat;
   background-size: cover;
 }
 
