@@ -168,7 +168,7 @@ const maximizingOfferwall = {
   articleId: 3,
   id: 3,
   key: 'maximizingofferwall',
-  navbarBackground: false,
+  navbarBackground: true,
   title:
     'Maximizing Offerwall Monetization: Best Practices for Conversions and Retention',
   heroImg: {
