@@ -29,12 +29,12 @@ const Home = () => {
   const articleStructuredData = {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline: 'Structured data for you',
+    headline: 'SEO Test',
     description: 'This is an article that demonstrates structured data.',
     image: 'https://upload.wikimedia.org/wikipedia/commons/4/40/JSON-LD.svg',
     datePublished: new Date('2021-09-04T09:25:01.340Z').toISOString(),
     author: {
-      '@type': 'Person',
+      '@type': 'Age',
       name: 'John Reilly',
       url: 'https://johnnyreilly.com/about',
     },
