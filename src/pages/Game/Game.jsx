@@ -8,6 +8,7 @@ const Game = () => {
     <div className={styles.gameContainer}>
       <Helmet>
         <meta charSet="utf-8" />
+        <meta name="description" content="Introduction to our game monetization" />
         <title>GAME</title>
         <link rel="canonical" href="https://www.smatched.io/" />
         <link rel="canonical" href="https://www.offerwallmonetization.com/" />
